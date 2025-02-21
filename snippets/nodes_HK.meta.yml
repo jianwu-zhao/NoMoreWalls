@@ -1,46 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 9798e3c8-14cc-47c4-ac1a-edce782dc419
+  password: e0c40d8c-d75e-4d03-9874-22d7e14fb399
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 9798e3c8-14cc-47c4-ac1a-edce782dc419
+  password: e0c40d8c-d75e-4d03-9874-22d7e14fb399
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰1 |  3.4MB/s
-  password: ce49b294-08d6-409e-8fc8-aa0d0ff5df00
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 1|🇭🇰2 |  1.4MB/s
-  network: tcp
-  port: 51754
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: 4f3eb5e8-7ccf-4301-bc42-8ab91b613287
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 960eec44-c278-48ae-a32e-e6397c5af480
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 4f3eb5e8-7ccf-4301-bc42-8ab91b613287
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 960eec44-c278-48ae-a32e-e6397c5af480
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 2|🇭🇰1 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
@@ -50,7 +45,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 12,13,14|HK_speednode_0006
+  name: 12,13|香港|@ripaojiedian
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -58,7 +53,6 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
-  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港2|@ripaojiedian
