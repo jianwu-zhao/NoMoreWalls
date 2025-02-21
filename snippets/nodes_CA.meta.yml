@@ -1,29 +1,8 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 918d1ffb-16c4-4345-bec3-85c4bbf94d3c
+  password: 6200c634-d31d-448c-ad01-b41b9d320343
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 35949c41-b32f-4021-b58f-80933a9e713e
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2,14|US_speednode_0255
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b27f4d97-2562-4867-ae20-45e625eec5f5
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
-    path: /
