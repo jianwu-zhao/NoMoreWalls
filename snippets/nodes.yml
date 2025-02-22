@@ -1,282 +1,60 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇵🇭菲律宾 01 | 1x PH
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31341
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇭泰国01  | 1x TH
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31741
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚01 | 1x MY
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31721
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇳印度 01 | 1x IN
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31371
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇦🇺澳大利亚 01 | 1x AU
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31411
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇷土耳其 01 | 1x TR
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31571
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇦乌克兰 01 | 1x UA
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31611
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇻🇳越南 01 | 1x VN
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31641
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇧🇷巴西 01 | 1x BR
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31671
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: 2|🇺🇸6 |  2.5MB/s
+  name: 1|🇺🇸1 |  3.3MB/s
   password: amazonskr05
   port: 443
-  server: 54.244.0.4
+  server: 3.39.248.156
   type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸8 |  11.7MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4542854a-1622-3383-aad1-8dcebebfc580
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
 - cipher: aes-256-cfb
-  name: 2|🇺🇸12 |  2.3MB/s
+  delay: 969
+  name: 1|🇺🇸2 |  1.8MB/s
   password: amazonskr05
   port: 443
-  server: 18.236.132.239
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇺🇸13 |  7.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.245.222.80
+  server: 34.219.121.181
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1,11|🇭🇰 香港2|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
-  name: 2|🇯🇵2 |  5.2MB/s
+  name: 1|🇺🇸5 |  1.0MB/s
   password: amazonskr05
   port: 443
-  server: 43.206.216.94
+  server: 18.237.113.248
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸15 |  5.7MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4542854a-1622-3383-aad1-8dcebebfc580
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
+- cipher: aes-256-gcm
+  name: 1,11|🇭🇰 香港4|@ripaojiedian
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
-  name: 2|🇺🇸16 |  5.7MB/s
+  name: 1|🇺🇸7 |  4.4MB/s
   obfs: plain
   password: amazonskr05
   port: 443
   protocol: origin
   server: 35.87.206.35
   type: ssr
-- name: 12,13|香港|@ripaojiedian
+- cipher: aes-256-cfb
+  name: 1|🇺🇸11 |  1.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 44.243.45.146
+  type: ss
+- cipher: aes-256-cfb
+  name: 1,11|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.38.214.76
+  tfo: false
+  type: ss
+- name: 11,12|香港|@ripaojiedian
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -284,56 +62,42 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇭🇰 香港2|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf
-  name: 12|🇭🇰 香港3|@ripaojiedian
+  name: 11|🇭🇰 香港3|@ripaojiedian
   password: asd123456
   port: 8388
   server: 154.197.26.120
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港4|@ripaojiedian
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 12|🇭🇰 香港5|@ripaojiedian
+  name: 11|🇭🇰 香港5|@ripaojiedian
   password: 2H98UZT9LT1TE3X9
   port: 15008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港6|@ripaojiedian
+  name: 11|🇭🇰 香港6|@ripaojiedian
   password: RBN1UNGVPF1BQXPK
   port: 15006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港7|@ripaojiedian
+  name: 11|🇭🇰 香港7|@ripaojiedian
   password: TCEL1H0XD7TWAKI0
   port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港8|@ripaojiedian
+  name: 11|🇭🇰 香港8|@ripaojiedian
   password: FCEUOASRQJC0LN0K
   port: 15009
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: 12,13|台湾|@ripaojiedian
+- name: 11,12|台湾|@ripaojiedian
   network: tcp
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
   port: 13035
@@ -342,27 +106,27 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - cipher: aes-256-gcm
-  name: 12|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   password: QF377GGQ00RATCMK
   port: 21004
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇹🇼 台湾3|@ripaojiedian
+  name: 11|🇹🇼 台湾3|@ripaojiedian
   password: Y2U58S90E3GST1AQ
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇹🇼 台湾4|@ripaojiedian
+  name: 11|🇹🇼 台湾4|@ripaojiedian
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: 12,13|日本|@ripaojiedian
+- name: 11,12|日本|@ripaojiedian
   network: tcp
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
   port: 13012
@@ -370,7 +134,7 @@ proxies:
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- name: 12,13|韩国|@ripaojiedian
+- name: 11,12|韩国|@ripaojiedian
   network: tcp
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
   port: 13036
@@ -379,20 +143,20 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
 - cipher: aes-256-gcm
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   password: 8WDLSCVIFB4I26GB
   port: 16011
   server: 154.196.244.21
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇸🇬 新加坡5|@ripaojiedian
+  name: 11|🇸🇬 新加坡5|@ripaojiedian
   password: YHK82TR73114VN9O
   port: 16016
   server: 154.196.244.26
   tfo: false
   type: ss
-- name: 12,13|美国|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
   port: 13019
@@ -402,7 +166,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   port: 13447
   server: 23.236.68.213
   skip-cert-verify: false
@@ -412,7 +176,7 @@ proxies:
   uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   port: 31909
   server: 23.224.152.62
   skip-cert-verify: false
@@ -421,36 +185,29 @@ proxies:
   type: vmess
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
 - cipher: aes-256-gcm
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   password: LKG8G8VL60RSB59P
   port: 17003
   server: 23.185.248.13
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.183.242.147
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.203.240.54
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.38.214.76
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|美国2|@ripaojiedian
+  name: 12|美国2|@ripaojiedian
   network: tcp
   port: '13447'
   server: 23.236.68.213
@@ -460,7 +217,7 @@ proxies:
   uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
 - alterId: 0
   cipher: auto
-  name: 13|美国3|@ripaojiedian
+  name: 12|美国3|@ripaojiedian
   network: tcp
   port: '31909'
   server: 23.224.152.62
@@ -468,3 +225,213 @@ proxies:
   tls: false
   type: vmess
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰香港 02 | 1x HK
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰香港家宽 03 | 1x HK
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 01 | 1x TW
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 02 | 1x TW
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 03 | 1x TW
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 01 | 1x JP
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 02 | 1x JP
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 03 | 1x JP
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷韩国 01 | 1x KR
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷韩国 02 | 1x KR
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇵🇭菲律宾 01 | 1x PH
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31341
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇭泰国01  | 1x TH
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31741
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇲🇾马来西亚01 | 1x MY
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31721
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇮🇳印度 01 | 1x IN
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31371
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇦🇺澳大利亚 01 | 1x AU
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31411
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦加拿大 01 | 1x CA
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇷土耳其 01 | 1x TR
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31571
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇦乌克兰 01 | 1x UA
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31611
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇻🇳越南 01 | 1x VN
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31641
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇧🇷巴西 01 | 1x BR
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31671
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

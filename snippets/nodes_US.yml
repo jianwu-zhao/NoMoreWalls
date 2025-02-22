@@ -1,90 +1,49 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: 2|🇺🇸6 |  2.5MB/s
+  name: 1|🇺🇸1 |  3.3MB/s
   password: amazonskr05
   port: 443
-  server: 54.244.0.4
+  server: 3.39.248.156
+  type: ss
+- cipher: aes-256-cfb
+  delay: 969
+  name: 1|🇺🇸2 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.219.121.181
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸8 |  11.7MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4542854a-1622-3383-aad1-8dcebebfc580
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇺🇸12 |  2.3MB/s
+  name: 1|🇺🇸5 |  1.0MB/s
   password: amazonskr05
   port: 443
-  server: 18.236.132.239
+  server: 18.237.113.248
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸13 |  7.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.245.222.80
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸15 |  5.7MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4542854a-1622-3383-aad1-8dcebebfc580
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: 2|🇺🇸16 |  5.7MB/s
+  name: 1|🇺🇸7 |  4.4MB/s
   obfs: plain
   password: amazonskr05
   port: 443
   protocol: origin
   server: 35.87.206.35
   type: ssr
+- cipher: aes-256-cfb
+  name: 1|🇺🇸11 |  1.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 44.243.45.146
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1,11|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.38.214.76
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 65f14831-5c67-483f-9e85-f3aa73f21187
   port: 13019
@@ -95,7 +54,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   port: 13447
   server: 23.236.68.213
   skip-cert-verify: false
@@ -106,7 +65,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   port: 31909
   server: 23.224.152.62
   skip-cert-verify: false
@@ -116,7 +75,7 @@ proxies:
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   password: LKG8G8VL60RSB59P
   port: 17003
   server: 23.185.248.13
@@ -124,7 +83,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|美国2|@ripaojiedian
+  name: 12|美国2|@ripaojiedian
   network: tcp
   port: '13447'
   server: 23.236.68.213
@@ -134,7 +93,7 @@ proxies:
   uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
 - alterId: 0
   cipher: auto
-  name: 13|美国3|@ripaojiedian
+  name: 12|美国3|@ripaojiedian
   network: tcp
   port: '31909'
   server: 23.224.152.62
@@ -142,3 +101,24 @@ proxies:
   tls: false
   type: vmess
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
