@@ -1,12 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺俄罗斯 01 | 1x RU
-  password: 28519301-6814-4acd-85ca-4230057dd322
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 14|RU_speednode_0082
+- name: 13|RU_speednode_0082
   network: ws
   port: 80
   server: 185.174.138.194
@@ -20,7 +13,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|RU_speednode_0083
+- name: 13|RU_speednode_0083
   network: ws
   port: 80
   server: 185.174.138.194
@@ -34,7 +27,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|RU_speednode_0084
+- name: 13|RU_speednode_0084
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -48,3 +41,10 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: a069f65d-2163-458d-afb9-ac5935bd3608
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
