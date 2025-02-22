@@ -1,21 +1,35 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 1|🇹🇼1 |  5.3MB/s
+  password: 7b218398-f93d-41aa-907e-97c6e45f6d4c
+  port: 12033
+  server: mdss-tw.04z3susick.download
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 1|🇹🇼2 |  2.8MB/s
+  password: 7b218398-f93d-41aa-907e-97c6e45f6d4c
+  port: 12031
+  server: mdss-tw.04z3susick.download
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: ce432a92-f768-4d5e-aaee-054b018ee9ea
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 28519301-6814-4acd-85ca-4230057dd322
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: ce432a92-f768-4d5e-aaee-054b018ee9ea
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 28519301-6814-4acd-85ca-4230057dd322
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: ce432a92-f768-4d5e-aaee-054b018ee9ea
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 28519301-6814-4acd-85ca-4230057dd322
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
