@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: a069f65d-2163-458d-afb9-ac5935bd3608
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+proxies: []
