@@ -1,5 +1,21 @@
 proxies:
-- name: 13|RU_speednode_0082
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 1|🇷🇺1 |  1.5MB/s
+  password: dongtaiwang.com
+  port: 51224
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇷🇺俄罗斯 01 | 1x RU
+  password: 26a92afa-a89b-44f7-820d-61f63d5b66dc
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 14|RU_speednode_0082
   network: ws
   port: 80
   server: 185.174.138.194
@@ -13,7 +29,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|RU_speednode_0083
+- name: 14|RU_speednode_0083
   network: ws
   port: 80
   server: 185.174.138.194
@@ -27,7 +43,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|RU_speednode_0084
+- name: 14|RU_speednode_0084
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -41,10 +57,3 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: 6ebcdb37-1e9b-4784-8c70-7bc536806458
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
