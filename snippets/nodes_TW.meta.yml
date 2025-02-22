@@ -1,25 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 26a92afa-a89b-44f7-820d-61f63d5b66dc
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: ce432a92-f768-4d5e-aaee-054b018ee9ea
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 26a92afa-a89b-44f7-820d-61f63d5b66dc
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: ce432a92-f768-4d5e-aaee-054b018ee9ea
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 26a92afa-a89b-44f7-820d-61f63d5b66dc
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: ce432a92-f768-4d5e-aaee-054b018ee9ea
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇹🇼1 |  3.6MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - client-fingerprint: chrome
   name: 12,13|台湾|@ripaojiedian
   network: tcp
