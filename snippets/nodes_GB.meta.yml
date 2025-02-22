@@ -1,15 +1,24 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: a8ee4a88-19a7-40ef-8caf-aafaaba06a1d
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: a8ee4a88-19a7-40ef-8caf-aafaaba06a1d
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 048dd1bb-9237-4c38-9138-4dbcee48ec83
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 2|🇬🇧1 |  3.0MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24102
+  server: fr3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr3.xiaoliyu.cyou
+  type: hysteria2
