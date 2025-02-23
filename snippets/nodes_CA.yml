@@ -1,14 +1,14 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 1|🇨🇦1 |  5.2MB/s
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: e7306795-0861-49df-9279-67cfffea319e
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 2|🇨🇦1 |  5.2MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss

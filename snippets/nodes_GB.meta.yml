@@ -1,7 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 1,11|🇭🇰 香港2|@ripaojiedian
+  name: 2,12|🇭🇰 香港2|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
@@ -9,24 +16,66 @@ proxies:
   type: ss
 - auth: 334c4713-73ea-4e71-b827-21a22d31736b
   client-fingerprint: chrome
-  name: 1|🇬🇧3 |  3.4MB/s
+  name: 2|🇬🇧3 |  3.4MB/s
   password: 334c4713-73ea-4e71-b827-21a22d31736b
   port: 24102
   server: fr3.xiaoliyu.cyou
   skip-cert-verify: true
   sni: fr3.xiaoliyu.cyou
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: e7306795-0861-49df-9279-67cfffea319e
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 14|GB_speednode_0062
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: fond-moth.treefrog761.one
+  skip-cert-verify: false
+  sni: fond-moth.treefrog761.one
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: e7306795-0861-49df-9279-67cfffea319e
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 14|GB_speednode_0063
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: cuddly-slug.treefrog761.one
+  skip-cert-verify: false
+  sni: cuddly-slug.treefrog761.one
+  type: trojan
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|GB_speednode_0065
+  port: 443
+  server: lon5.vpntype.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e60f8f43-b64b-4cb2-941c-0ecde0cf2177
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|GB_speednode_0066
+  port: 443
+  server: lon5.vpntype.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e6d9b35-8f40-48d5-9d65-024cf3b89751
+- name: 14|GB_speednode_0067
+  network: ws
+  port: 443
+  server: 31.22.116.38
+  servername: usd.kobtty.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
+  ws-opts:
+    headers:
+      Host: usd.kobtty.me
+    path: /bing

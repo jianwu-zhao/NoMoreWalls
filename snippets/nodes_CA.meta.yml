@@ -1,14 +1,28 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 1|🇨🇦1 |  5.2MB/s
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: e7306795-0861-49df-9279-67cfffea319e
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 2|🇨🇦1 |  5.2MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CA_speednode_0004
+  port: 42557
+  reality-opts:
+    public-key: 9pG_yCinyMylCDQVtADAZELH1vlb5PGz_MZw8dmYZxY
+    short-id: 3139a260
+  server: 40.233.88.228
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b

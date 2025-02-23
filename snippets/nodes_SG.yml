@@ -1,7 +1,28 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: 8WDLSCVIFB4I26GB
   port: 16011
   server: 154.196.244.21
@@ -9,7 +30,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡5|@ripaojiedian
+  name: 12|🇸🇬 新加坡5|@ripaojiedian
   password: YHK82TR73114VN9O
   port: 16016
   server: 154.196.244.26
@@ -17,30 +38,35 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.169.104.136
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: e7306795-0861-49df-9279-67cfffea319e
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 14|SG_speednode_0210
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: false
+  sni: hsdgbuys.pages.dev
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: e7306795-0861-49df-9279-67cfffea319e
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: /
+- name: 14|SG_speednode_0214
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 206.238.237.81
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: e7306795-0861-49df-9279-67cfffea319e
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
