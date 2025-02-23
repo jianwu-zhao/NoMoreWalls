@@ -1,17 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  name: 14|SE_speednode_0184
-  network: ws
-  port: 2087
-  server: 185.146.173.37
-  servername: tP946155Ou.NEWdOM-DIdi2.InFo
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  ws-opts:
-    headers:
-      Host: tP946155Ou.NEWdOM-DIdi2.InFo
-    path: /
+proxies: []

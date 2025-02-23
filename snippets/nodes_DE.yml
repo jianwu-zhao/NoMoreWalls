@@ -1,8 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 003dd3d1-4b91-4f41-b0c7-4c8fdc07de01
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- name: 14|DE_speednode_0015
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: composed-mustang.treefrog761.one
+  skip-cert-verify: true
+  sni: composed-mustang.treefrog761.one
+  type: trojan
   udp: true

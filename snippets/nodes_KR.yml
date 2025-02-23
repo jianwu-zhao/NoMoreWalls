@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 003dd3d1-4b91-4f41-b0c7-4c8fdc07de01
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 003dd3d1-4b91-4f41-b0c7-4c8fdc07de01
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -21,23 +21,10 @@ proxies:
   server: 18.143.149.127
   tfo: false
   type: ss
-- name: 14|KR_speednode_0111
+- name: 14|KR_speednode_0076
   password: '!!str 3782591447421952000'
   port: 443
   server: equipped-mouse.treefrog761.one
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 14|KR_speednode_0112
-  network: ws
-  password: Aimer
-  port: 37722
-  server: 59.2.75.64
-  skip-cert-verify: true
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560

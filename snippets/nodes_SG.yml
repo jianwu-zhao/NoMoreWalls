@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 003dd3d1-4b91-4f41-b0c7-4c8fdc07de01
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 003dd3d1-4b91-4f41-b0c7-4c8fdc07de01
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: cc4be8bc-4a4d-4599-aeb8-7d6351f3ad89
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 003dd3d1-4b91-4f41-b0c7-4c8fdc07de01
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -44,20 +44,7 @@ proxies:
   server: 54.169.104.136
   tfo: false
   type: ss
-- name: 14|SG_speednode_0210
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
-- name: 14|SG_speednode_0214
+- name: 14|SG_speednode_0133
   network: ws
   password: Aimer
   port: 2087
