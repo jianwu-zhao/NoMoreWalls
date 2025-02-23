@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 8605ff01-502b-4ccd-8e39-2fdc069cb5d7
+  password: a4c7d995-372e-4116-9fbc-5e7740de162c
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 8605ff01-502b-4ccd-8e39-2fdc069cb5d7
+  password: a4c7d995-372e-4116-9fbc-5e7740de162c
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
@@ -51,14 +51,6 @@ proxies:
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 12|🇭🇰 香港5|@ripaojiedian
   password: 2H98UZT9LT1TE3X9
   port: 15008
@@ -81,6 +73,18 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港8|@ripaojiedian
+  password: 777bc05be0dd624959fb
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45905
+  server: console.03.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|香港3|@ripaojiedian
@@ -91,7 +95,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- name: 14|HK_speednode_0038
+- name: 14|HK_speednode_0017
   network: ws
   port: 1935
   server: 43.154.34.74
@@ -105,7 +109,7 @@ proxies:
     headers:
       Host: agedu.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 14|HK_speednode_0041
+- name: 14|HK_speednode_0018
   network: ws
   port: 443
   server: 162.247.5.91
@@ -119,7 +123,7 @@ proxies:
     headers:
       Host: sga.costs.asia
     path: /bing
-- name: 14|HK_speednode_0042
+- name: 14|HK_speednode_0020
   network: ws
   port: 443
   server: 8.218.105.88
@@ -133,7 +137,7 @@ proxies:
     headers:
       Host: vn.cazlelmhpn.group
     path: /bing
-- name: 14|HK_speednode_0043
+- name: 14|HK_speednode_0021
   network: ws
   port: 443
   server: 58.176.95.46
@@ -149,7 +153,7 @@ proxies:
     path: /?ed=2560
 - alpn:
   - http/1.1
-  name: 14|HK_speednode_0044
+  name: 14|HK_speednode_0022
   network: ws
   port: 2083
   server: 154.218.15.250

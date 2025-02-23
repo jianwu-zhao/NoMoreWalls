@@ -1,32 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 8605ff01-502b-4ccd-8e39-2fdc069cb5d7
+  password: a4c7d995-372e-4116-9fbc-5e7740de162c
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇬🇧3 |  2.7MB/s
-  password: 5ffcb530-1f7b-3f23-b368-8690903c358f
-  port: 20309
-  server: gyl.58n.net
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇬🇧1 |  1.2MB/s
+  port: 14100
+  server: dxv4.pai50288.uk
   skip-cert-verify: true
-  sni: z309.hongkongnode.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 14|GB_speednode_0033
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: fond-moth.treefrog761.one
-  skip-cert-verify: false
-  sni: fond-moth.treefrog761.one
-  type: trojan
-  udp: true
-- name: 14|GB_speednode_0034
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: cuddly-slug.treefrog761.one
-  skip-cert-verify: false
-  sni: cuddly-slug.treefrog761.one
-  type: trojan
-  udp: true
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
