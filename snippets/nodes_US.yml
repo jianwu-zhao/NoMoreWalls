@@ -1,91 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 32640554-946b-41c0-bec9-9a9b0f591886
+  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 32640554-946b-41c0-bec9-9a9b0f591886
+  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 32640554-946b-41c0-bec9-9a9b0f591886
+  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇺🇸2 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.237.113.248
-  type: ss
-- cipher: aes-256-gcm
-  country: 🏁ZZ
-  delay: 1522
-  name: 2|🇺🇸6 |  1.0MB/s
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 23.154.136.106
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸10 |  4.3MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3e16f0a-4a8c-31e0-8f1c-39115ad029f0
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸11 |  4.2MB/s
-  network: ws
-  port: 23605
-  server: 5.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3e16f0a-4a8c-31e0-8f1c-39115ad029f0
-  ws-opts:
-    headers:
-      Host: 5.mamamajd.site
-    path: /
-- cipher: aes-256-gcm
-  name: 2|🇺🇸12 |  1.0MB/s
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 69.50.95.203
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸13 |  1.3MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c3e16f0a-4a8c-31e0-8f1c-39115ad029f0
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
 - client-fingerprint: chrome
   name: 12,13|美国|@ripaojiedian
   network: tcp
