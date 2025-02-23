@@ -1,16 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 3a38cf75-c66e-421c-8e43-de69d816a54e
-  port: 31271
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 32640554-946b-41c0-bec9-9a9b0f591886
+  port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧1 |  4.0MB/s
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 32640554-946b-41c0-bec9-9a9b0f591886
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 2|🇬🇧1 |  3.7MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 22099
+  server: fr3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr3.xiaoliyu.cyou
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2,12|🇭🇰 香港2|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52613
-  server: hk03.x.quickcht3.club
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
   type: ss
 - name: 14|GB_speednode_0016
   network: ws
