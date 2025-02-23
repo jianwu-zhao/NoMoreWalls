@@ -1,42 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: 61aaf90c-9986-4640-a6f0-b0368f7f8726
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: 61aaf90c-9986-4640-a6f0-b0368f7f8726
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: 61aaf90c-9986-4640-a6f0-b0368f7f8726
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 534
-  name: 2|🇸🇬1 |  5.5MB/s
+  delay: 370
+  name: 2|🇸🇬1 |  10.9MB/s
   password: amazonskr05
   port: 443
-  server: 54.169.215.32
+  server: 13.212.32.201
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 411
-  name: 2|🇸🇬2 |  3.6MB/s
+  client-fingerprint: chrome
+  name: 2|🇸🇬2 |  5.7MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.82.37
+  server: 54.254.236.133
   type: ss
-- name: 2|🇸🇬3 |  6.1MB/s
+- name: 2|🇸🇬3 |  4.5MB/s
   password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
   port: 30712
   server: gy.58n.net
@@ -45,36 +44,35 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇸🇬4 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.111.3
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   country: 🇸🇬SG
-  delay: 492
-  name: 2|🇸🇬5 |  6.5MB/s
+  delay: 534
+  name: 2|🇸🇬4 |  3.5MB/s
   password: amazonskr05
   port: 443
-  server: 54.254.169.121
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  country: 🇸🇬SG
-  delay: 388
-  name: 2|🇸🇬6 |  10.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.55.109
+  server: 54.169.215.32
   type: ss
 - cipher: aes-256-cfb
   delay: 267
-  name: 2|🇸🇬7 |  6.1MB/s
+  name: 2|🇸🇬5 |  4.9MB/s
   password: amazonskr05
   port: 443
   server: 52.77.249.55
+  type: ss
+  udp: true
+- name: 2|🇸🇬6 |  6.0MB/s
+  password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
+  port: 17806
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x65.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬7 |  4.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.111.3
   type: ss
   udp: true
 - cipher: aes-128-gcm

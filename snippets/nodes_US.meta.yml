@@ -1,64 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: 61aaf90c-9986-4640-a6f0-b0368f7f8726
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: 61aaf90c-9986-4640-a6f0-b0368f7f8726
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: b20bca51-fc75-4a5c-a5a9-5e72c8683926
+  password: 61aaf90c-9986-4640-a6f0-b0368f7f8726
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2,14|US_speednode_0091
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- name: 2|🇺🇸1 |  2.0MB/s
+  password: fd85b7f4-3cba-392a-bb81-4b4d5789007a
+  port: 56783
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z266.hongkongnode.top
+  type: trojan
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- client-fingerprint: chrome
-  name: 2,10|@GrizzlyVPN
-  password: 78e4c7ea92fed6d40792424990b6e793
-  port: 4443
-  server: a.grizzzlyyyy.ir
-  skip-cert-verify: false
-  sni: a.grizzzlyyyy.ir
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 2|🇺🇸3 |  1.0MB/s
-  network: ws
+- name: 2|🇺🇸2 |  9.0MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 8.216.130.173
-  servername: sga.kddhs.asia
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
-  uuid: c4ade83b-a52f-48fd-ca5b-d03035b21239
-  ws-opts:
-    headers:
-      Host: sga.kddhs.asia
-    path: /bing
-- client-fingerprint: chrome
-  name: 2|🇺🇸4 |  10.2MB/s
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: '0'
+  cipher: auto
+  name: 2|🇺🇸3 |  1.4MB/s
+  network: tcp
+  port: 40165
+  server: 120.232.153.63
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 2|🇺🇸4 |  2.1MB/s
   network: ws
   port: 80
   server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
@@ -69,7 +56,48 @@ proxies:
   ws-opts:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?edfp
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸5 |  1.3MB/s
+  port: 40172
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+- name: 2|🇺🇸6 |  1.1MB/s
+  password: '!!str 3787016351714123776'
+  port: 443
+  server: golden-krill.treefrog761.one
+  skip-cert-verify: true
+  sni: golden-krill.treefrog761.one
+  type: trojan
+- cipher: aes-256-cfb
+  name: 2|🇺🇸7 |  1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.211.62
+  type: ss
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 2|🇺🇸8 |  4.1MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 23588
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 2|🇺🇸9 |  1.4MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 24359
+  server: kr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -95,6 +123,20 @@ proxies:
   skip-cert-verify: false
   sni: fluent-bat.treefrog761.one
   type: trojan
+- name: 14|US_speednode_0091
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 14|US_speednode_0092
   network: ws
   port: 80
