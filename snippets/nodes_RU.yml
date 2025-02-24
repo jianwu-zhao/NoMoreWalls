@@ -1,17 +1,8 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 36a117c1-edf9-42a9-b23c-23e45ede07e7
+  password: bd8a5557-3d9a-448c-91a1-e8979f826e0e
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇷🇺1 |  5.3MB/s
-  network: tcp
-  port: 31101
-  server: 910281.chasel.sbs
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD

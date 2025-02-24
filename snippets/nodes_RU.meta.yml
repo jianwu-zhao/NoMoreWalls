@@ -1,36 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 36a117c1-edf9-42a9-b23c-23e45ede07e7
+  password: bd8a5557-3d9a-448c-91a1-e8979f826e0e
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇷🇺1 |  5.3MB/s
-  network: tcp
-  port: 31101
-  server: 910281.chasel.sbs
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- auth: dongtaiwang.com
-  client-fingerprint: chrome
-  name: 2|🇷🇺2 |  2.1MB/s
-  password: dongtaiwang.com
-  port: 51224
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 2|🇷🇺3 |  3.1MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
 - name: 14|RU_speednode_0058
   network: ws
   port: 80
