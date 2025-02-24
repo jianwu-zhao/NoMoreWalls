@@ -1,26 +1,436 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇵🇭菲律宾 01 | 1x PH
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31341
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇭泰国01  | 1x TH
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31741
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇲🇾马来西亚01 | 1x MY
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31721
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇮🇳印度 01 | 1x IN
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31371
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇦🇺澳大利亚 01 | 1x AU
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31411
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇷土耳其 01 | 1x TR
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31571
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇦乌克兰 01 | 1x UA
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31611
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇻🇳越南 01 | 1x VN
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31641
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇧🇷巴西 01 | 1x BR
+  password: 6f128cd0-c502-4d80-9b20-f6c14e4519b5
+  port: 31671
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  name: 2|🇺🇸1 |  3.1MB/s
+  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  port: 30102
+  server: ca12.bethebest.eu.org
+  skip-cert-verify: true
+  sni: du.wish.ml
+  type: hysteria2
+- name: 2,11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
+  port: 443
+  server: 143.198.235.49
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  name: 1|🇦🇺1 |  1.8MB/s
+  name: 2|🇺🇸3 |  3.6MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 23449
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 2|🇨🇦1 |  20.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.7.198
+  type: ss
+- name: 2|🇯🇵1 |  1.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  name: 2|🇺🇸4 |  5.3MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 25444
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- name: 2|🇺🇸5 |  3.6MB/s
+  password: 64044f5a-7249-30ba-8767-c31eb5dc54ad
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰1 |  5.8MB/s
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52613
+  server: 111.29.57.125
+  type: ss
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  name: 2|🇦🇺1 |  5.0MB/s
   password: bcf89582-072f-4e16-97e2-5d1258e0100d
   port: 22650
   server: de1.xiaoliyu.cyou
   skip-cert-verify: true
   sni: de1.xiaoliyu.cyou
   type: hysteria2
+- cipher: aes-256-cfb
+  name: 2|🇨🇦2 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.63
+  type: ss
+- name: 2|🇰🇷1 |  6.2MB/s
+  password: 64044f5a-7249-30ba-8767-c31eb5dc54ad
+  port: 50355
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z264.hongkongnode.top
+  type: trojan
+  udp: true
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  name: 2|🇺🇸6 |  2.0MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 23756
+  server: br1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: br1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇦1 |  1.5MB/s
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  type: ss
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  name: 2|🇦🇺2 |  4.7MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 25684
+  server: de1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 2|🇺🇸7 |  7.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.87.185.129
+  type: ss
+- name: 2|🇺🇸8 |  5.2MB/s
+  network: ws
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  name: 2|🇬🇧1 |  1.6MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 24936
+  server: fr3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr3.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 2|🇸🇬1 |  4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.169.121
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇺🇸9 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.212.9.157
+  type: ss
 - auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
-  name: 1|🌀1- |  1.2MB/s
+  name: 2|🇨🇦3 |  2.0MB/s
   password: d839f04d-3879-46f5-82fa-feb8b4162f9f
   port: 30102
-  server: in4.bethebest.eu.org
+  server: br.bethebest.eu.org
   skip-cert-verify: true
-  sni: in4.bethebest.eu.org
+  sni: br.bethebest.eu.org
   type: hysteria2
+- name: 2|🇹🇼1 |  2.0MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 2|🇹🇼2 |  3.1MB/s
+  password: 64044f5a-7249-30ba-8767-c31eb5dc54ad
+  port: 36821
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z262.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸10 |  1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.32.166.45
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇯🇵2 |  5.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.197.84.70
+  type: ss
+- name: 2|🇯🇵3 |  1.3MB/s
+  password: 64044f5a-7249-30ba-8767-c31eb5dc54ad
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2,14|SG_speednode_0064
+  network: ws
+  port: 443
+  server: 8.219.202.145
+  servername: dob.fenmila.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 038562dc-6958-4ce7-eae2-887d8a1bee2a
+  ws-opts:
+    headers:
+      Host: dob.fenmila.me
+    path: /bing
+- name: 2|🇺🇸12 |  2.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-cfb
+  name: 2|🇷🇺1 |  1.8MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸1 |  1.3MB/s
+  name: 2|🇺🇸13 |  2.0MB/s
   network: ws
-  port: 23613
-  server: 13.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -28,421 +438,20 @@ proxies:
   uuid: 41fcdfba-b5c4-3ad5-9f41-1aa49a3e959d
   ws-opts:
     headers:
-      Host: 13.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
-- name: 1|🇺🇸2 |  4.8MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- name: 1|🇹🇼1 |  5.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
-  name: 1|🇺🇸3 |  1.5MB/s
-  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
-  port: 30102
-  server: ca12.bethebest.eu.org
-  skip-cert-verify: true
-  sni: du.wish.ml
-  type: hysteria2
-- name: 1|🇺🇸4 |  7.3MB/s
-  password: 6186974d-fb55-379e-bc71-9104a2fa867b
-  port: 20306
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z306.hongkongnode.top
-  type: trojan
-  udp: true
-- auth: dongtaiwang.com
-  name: 1|🇷🇺1 |  5.6MB/s
-  password: dongtaiwang.com
-  port: 51224
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 1|🇷🇺2 |  27.4MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
-  type: ss
-- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
-  name: 1|🇨🇦1 |  1.2MB/s
-  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
-  port: 30102
-  server: br.bethebest.eu.org
-  skip-cert-verify: true
-  sni: br.bethebest.eu.org
-  type: hysteria2
-- name: 1|🇸🇬1 |  3.6MB/s
-  password: 6186974d-fb55-379e-bc71-9104a2fa867b
-  port: 30712
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x83.flybar.work
-  type: trojan
-  udp: true
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  name: 1|🌀2- |  5.2MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 24772
-  server: es1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: es1.xiaoliyu.cyou
-  type: hysteria2
-- cipher: chacha20-ietf
-  name: 1|🌀3- |  1.1MB/s
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 1|🇺🇸5 |  6.1MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 1,14|US_speednode_0069
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 1|🌀4- |  5.0MB/s
-  network: ws
-  port: 80
-  server: 104.24.207.192
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 5b75d93d-1e40-43a4-af3d-d6cb11fbafe8
-  ws-opts:
-    headers:
-      Host: gozargah2.validbv7996.ir
-    path: /3Bc2FravWgXBrnlN?ed=2560
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  name: 1|🇺🇸7 |  3.2MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 23198
-  server: ln4.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ln4.xiaoliyu.cyou
-  type: hysteria2
-- name: 1,14|US_speednode_0102
-  network: ws
-  port: 80
-  server: 66.235.200.30
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  name: 1|🇺🇸9 |  4.2MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 24531
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
-  type: hysteria2
-- name: 1,14|SC_speednode_0062
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: aes-256-cfb
-  name: 1|🇺🇸11 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.174.155
-  type: ss
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  name: 1|🇺🇸12 |  1.8MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 22187
-  server: au1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: au1.xiaoliyu.cyou
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 1|🇭🇰1 |  1.6MB/s
-  network: http
-  port: 30704
-  server: 43.247.135.63
-  skip-cert-verify: false
+  name: 2|🌀1- |  1.2MB/s
+  network: ws
+  port: 20330
+  server: 45.144.174.12
   tls: false
   type: vmess
   udp: true
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- name: 1|🌀5- |  4.9MB/s
-  network: ws
-  port: 2086
-  server: 104.18.14.19
-  skip-cert-verify: false
-  type: vless
-  uuid: 12b6fb4e-91a5-4b9c-b23f-aaf7917488fd
+  uuid: beaad91b-40cb-4aa5-9bc8-b412a023f1ca
   ws-opts:
-    headers:
-      Host: 0108.9ro3grfw.workers.dev
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 01 | 1x JP
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 02 | 1x JP
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 03 | 1x JP
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇵🇭菲律宾 01 | 1x PH
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31341
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇭泰国01  | 1x TH
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31741
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇲🇾马来西亚01 | 1x MY
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31721
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇮🇳印度 01 | 1x IN
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31371
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇦🇺澳大利亚 01 | 1x AU
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31411
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺俄罗斯 01 | 1x RU
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇷土耳其 01 | 1x TR
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31571
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇦乌克兰 01 | 1x UA
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31611
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇻🇳越南 01 | 1x VN
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31641
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇧🇷巴西 01 | 1x BR
-  password: 8c29064a-5f93-4418-9c09-cecb569cc115
-  port: 31671
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+    path: /
 - name: '9,11|⚡️ @vipv2rey(Hysteria) #1'
   obfs: salamander
   obfs-password: bd7f765e
@@ -835,13 +844,6 @@ proxies:
   server: 66.135.28.59
   skip-cert-verify: true
   sni: ELiV2RAY.eliv2.top
-  tls: false
-  type: hysteria2
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-  password: iMqY3uG_5pgEj3hCfyHB-0vB
-  port: 443
-  server: 143.198.235.49
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 12|tg频道:@ripaojiedian
@@ -1318,6 +1320,20 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 14|SC_speednode_0062
+  network: ws
+  port: 8880
+  server: 154.83.2.230
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - name: 14|SC_speednode_0063
   network: ws
   port: 8880
@@ -1332,20 +1348,20 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 14|SG_speednode_0064
+- name: 14|US_speednode_0069
   network: ws
-  port: 443
-  server: 8.219.202.145
-  servername: dob.fenmila.me
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 038562dc-6958-4ce7-eae2-887d8a1bee2a
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: dob.fenmila.me
-    path: /bing
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 14|US_speednode_0077
   network: ws
   port: 80
@@ -1476,6 +1492,20 @@ proxies:
   network: ws
   port: 80
   server: 66.235.200.149
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- name: 14|US_speednode_0102
+  network: ws
+  port: 80
+  server: 66.235.200.30
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false
