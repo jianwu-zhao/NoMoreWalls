@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 3286980e-661e-466b-a72b-dbc457957ec0
+  password: 36a117c1-edf9-42a9-b23c-23e45ede07e7
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 3286980e-661e-466b-a72b-dbc457957ec0
+  password: 36a117c1-edf9-42a9-b23c-23e45ede07e7
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -16,18 +16,12 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2|🇰🇷1 |  4.0MB/s
+  name: 2|🇰🇷1 |  2.3MB/s
   network: tcp
   port: 31154
   server: 510613.frederica.xyz
   type: vmess
   uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷2 |  1.0MB/s
-  password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4
-  port: 40032
-  server: kr.fastsoonlink.com
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
