@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 76b93d38-3b0d-4c9e-b99e-9c21d2d4d97a
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: c473ea2d-e70c-4fb1-bcae-872b32fed8c5
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
