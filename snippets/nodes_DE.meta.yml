@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: bd8a5557-3d9a-448c-91a1-e8979f826e0e
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 8c29064a-5f93-4418-9c09-cecb569cc115
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -126,5 +126,13 @@ proxies:
   server: sanyuandian-nl.sanguayun.com
   skip-cert-verify: false
   sni: sanyuandian-nl.sanguayun.com
+  tls: false
+  type: hysteria2
+- name: '10|(@VmessProtocol)برای خرید و ات... #13'
+  password: f0ae7bec-c14c-4447-91e5-d636265092d4
+  port: 31651
+  server: 213.189.54.126
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
