@@ -1,71 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 3d206e76-25c3-409d-9aca-21fcc85cb42a
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 3d206e76-25c3-409d-9aca-21fcc85cb42a
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 3d206e76-25c3-409d-9aca-21fcc85cb42a
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇺🇸2 |  5.8MB/s
-  password: dc60df50-8c99-3d27-aa81-cd93e16de9fe
-  port: 56783
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z266.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸5 |  2.3MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 67125128-66e5-34ec-a0b7-231aadbfeb76
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- name: 2|🇺🇸7 |  3.3MB/s
-  password: dc60df50-8c99-3d27-aa81-cd93e16de9fe
-  port: 20307
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z307.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸10 |  3.6MB/s
+  name: 2|🇺🇸10 |  6.0MB/s
   password: amazonskr05
   port: 443
-  server: 54.244.204.173
+  server: 18.143.165.183
   type: ss
-- cipher: aes-256-cfb
-  name: 2|🇺🇸12 |  1.7MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 52.33.5.226
-  type: ssr
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
