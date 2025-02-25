@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: b448f170-1724-49b2-9685-48c94038eb17
+  password: 3d206e76-25c3-409d-9aca-21fcc85cb42a
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: b448f170-1724-49b2-9685-48c94038eb17
+  password: 3d206e76-25c3-409d-9aca-21fcc85cb42a
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: b448f170-1724-49b2-9685-48c94038eb17
+  password: 3d206e76-25c3-409d-9aca-21fcc85cb42a
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -76,17 +76,3 @@ proxies:
   server: 47.129.201.221
   tfo: false
   type: ss
-- name: 14|SG_speednode_0060
-  network: ws
-  port: 443
-  server: 8.219.202.145
-  servername: dob.fenmila.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 038562dc-6958-4ce7-eae2-887d8a1bee2a
-  ws-opts:
-    headers:
-      Host: dob.fenmila.me
-    path: /bing
