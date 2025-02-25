@@ -1,24 +1,17 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: a0ee7ee3-56ac-4700-8354-45230b6514c0
+  password: 46a64e73-3f18-4279-a466-cfc5b1158271
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  5.8MB/s
-  password: c4e04a71-f597-37e5-b07a-0fcd048a2f84
-  port: 20295
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z295.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
+- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
   client-fingerprint: chrome
-  name: 2,12|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.128.150.63
-  tfo: false
-  type: ss
+  name: 2|🇨🇦1 |  2.2MB/s
+  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  port: 30102
+  server: br.bethebest.eu.org
+  skip-cert-verify: true
+  sni: br.bethebest.eu.org
+  type: hysteria2
