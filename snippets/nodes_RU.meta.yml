@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 28d1ba55-0941-4e5a-b516-b505f3816fec
+  password: 40b68698-78dc-4e1c-948a-13b8143b85e1
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - auth: dongtaiwang.com
   client-fingerprint: chrome
-  name: 2|🇷🇺1 |  5.7MB/s
+  name: 2|🇷🇺1 |  3.6MB/s
   password: dongtaiwang.com
   port: 51224
   server: 46.17.41.189
@@ -16,7 +16,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - client-fingerprint: chrome
-  name: 2|🇷🇺2 |  4.2MB/s
+  name: 2|🇷🇺2 |  5.1MB/s
   network: ws
   port: 80
   server: 151.101.2.216
@@ -28,33 +28,19 @@ proxies:
     headers:
       Host: MaHxRaYT.aI.
     path: /?ed=2048
-- client-fingerprint: chrome
-  name: 2|🇷🇺3 |  3.4MB/s
-  network: ws
-  port: 80
-  server: 151.101.128.155
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065
-  ws-opts:
-    headers:
-      Host: MaHxRaYT.aI.
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  name: 2|🇷🇺4 |  24.8MB/s
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 217.30.10.18
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 2|🇷🇺5 |  2.1MB/s
-  port: 22946
-  server: 188.130.154.56
-  tls: false
+  country: 🇮🇷IR
+  delay: 1001
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇷🇺3 |  2.0MB/s
+  network: raw
+  port: 100
+  server: 91.107.183.68
+  skip-cert-verify: true
   type: vmess
-  uuid: 7ed1d138-37f7-41f7-843d-d4f2bdbba913
+  uuid: 3f650cc4-39d3-4eb5-82f1-149cca0c342b
 - name: 14|RU_speednode_0050
   network: ws
   port: 80
