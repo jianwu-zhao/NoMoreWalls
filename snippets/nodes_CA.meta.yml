@@ -1,8 +1,17 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  password: 28d1ba55-0941-4e5a-b516-b505f3816fec
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  client-fingerprint: chrome
+  name: 2|🇨🇦1 |  1.9MB/s
+  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  port: 30102
+  server: br3.bethebest.eu.org
+  skip-cert-verify: true
+  sni: br3.bethebest.eu.org
+  type: hysteria2
