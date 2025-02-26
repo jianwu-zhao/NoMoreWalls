@@ -1,29 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 40b68698-78dc-4e1c-948a-13b8143b85e1
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: c71bab11-f56b-4589-a869-d5860df0652a
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 40b68698-78dc-4e1c-948a-13b8143b85e1
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: c71bab11-f56b-4589-a869-d5860df0652a
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 14|GB_speednode_0012
-  network: ws
-  port: 443
-  server: 31.22.116.38
-  servername: usd.kobtty.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
-  ws-opts:
-    headers:
-      Host: usd.kobtty.me
-    path: /bing
