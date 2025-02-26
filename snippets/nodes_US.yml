@@ -1,40 +1,46 @@
 proxies:
-- name: 1|🇺🇸4 |  5.7MB/s
-  password: fa693e86-151e-3f46-95f5-49bb45c4ef8e
-  port: 20294
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 1|🇺🇸5 |  3.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.174.155
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: eb5cff1f-4f14-4afe-9943-b8055369d834
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 19fda5a0-12f2-4faa-985e-5972e8656141
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: eb5cff1f-4f14-4afe-9943-b8055369d834
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 19fda5a0-12f2-4faa-985e-5972e8656141
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: eb5cff1f-4f14-4afe-9943-b8055369d834
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 19fda5a0-12f2-4faa-985e-5972e8656141
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸2 |  4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.203.99.21
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇺🇸4 |  5.6MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.212.0.149
+  type: ssr
+- name: 2|🇺🇸5 |  1.9MB/s
+  password: 825654a8-5332-31d0-8096-72469a2a0690
+  port: 20304
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z304.hongkongnode.top
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto

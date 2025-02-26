@@ -1,20 +1,20 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: 19fda5a0-12f2-4faa-985e-5972e8656141
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - auth: dongtaiwang.com
   client-fingerprint: chrome
-  name: 1|🇷🇺1 |  2.6MB/s
+  name: 2|🇷🇺1 |  3.9MB/s
   password: dongtaiwang.com
   port: 51224
   server: 46.17.41.189
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺俄罗斯 01 | 1x RU
-  password: eb5cff1f-4f14-4afe-9943-b8055369d834
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 14|RU_speednode_0046
   network: ws
   port: 80

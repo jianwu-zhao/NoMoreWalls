@@ -1,29 +1,21 @@
 proxies:
-- name: 1|🇯🇵1 |  4.0MB/s
-  password: fa693e86-151e-3f46-95f5-49bb45c4ef8e
-  port: 41767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x114.flybar.work
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 01 | 1x JP
-  password: eb5cff1f-4f14-4afe-9943-b8055369d834
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 19fda5a0-12f2-4faa-985e-5972e8656141
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 02 | 1x JP
-  password: eb5cff1f-4f14-4afe-9943-b8055369d834
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 19fda5a0-12f2-4faa-985e-5972e8656141
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 03 | 1x JP
-  password: eb5cff1f-4f14-4afe-9943-b8055369d834
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 19fda5a0-12f2-4faa-985e-5972e8656141
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
