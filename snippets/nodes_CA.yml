@@ -1,7 +1,15 @@
 proxies:
+- name: 1|🇨🇦1 |  5.6MB/s
+  password: fa693e86-151e-3f46-95f5-49bb45c4ef8e
+  port: 20295
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z295.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: ab3f63fd-f717-49f0-a683-732178a36974
+  name: 14|🇨🇦加拿大 01 | 1x CA
+  password: ce98b02e-6056-4ff0-9258-5dd864a82879
   port: 31441
   server: free.2apzhfa.xyz
   type: ss

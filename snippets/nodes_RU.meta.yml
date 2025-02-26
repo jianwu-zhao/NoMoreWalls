@@ -1,42 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - dir.mirza-film.ir
-    path:
-    - /ZHRUeZLCZMQKiL3vNkc8r2oJ0
-  name: 1|🇷🇺1 |  2.0MB/s
-  network: http
-  port: 80
-  server: 91.107.171.73
-  tls: false
-  type: vmess
-  uuid: 5d904885-74c5-4c07-95cf-e0989d287c37
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺俄罗斯 01 | 1x RU
-  password: ab3f63fd-f717-49f0-a683-732178a36974
-  port: 31511
-  server: free.2apzhfa.xyz
+- cipher: aes-256-cfb
+  name: 1|🇷🇺1 |  6.5MB/s
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 217.30.10.18
   type: ss
-  udp: true
-- name: 14|RU_speednode_0046
-  network: ws
-  port: 80
-  server: 185.174.138.194
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- name: 14|RU_speednode_0047
+- name: 13|RU_speednode_0047
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -50,7 +19,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 14|RU_speednode_0048
+- name: 13|RU_speednode_0048
   network: ws
   port: 80
   server: 185.174.138.194
@@ -64,3 +33,10 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: ce98b02e-6056-4ff0-9258-5dd864a82879
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

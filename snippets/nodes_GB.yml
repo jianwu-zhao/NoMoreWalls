@@ -1,22 +1,7 @@
 proxies:
-- name: 1|🇬🇧1 |  6.2MB/s
-  password: 9c655012-b730-37d9-ae36-999b24ca3d0c
-  port: 20309
-  server: gyl.58n.net
-  skip-cert-verify: true
-  sni: z309.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: ab3f63fd-f717-49f0-a683-732178a36974
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: ab3f63fd-f717-49f0-a683-732178a36974
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: ce98b02e-6056-4ff0-9258-5dd864a82879
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
