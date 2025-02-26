@@ -1,14 +1,22 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: 1|🇭🇰1 |  2.7MB/s
+  network: tcp
+  port: 50095
+  server: 120.198.71.219
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 435b5e1d-d852-4870-9dc1-0e99e368ecb9
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: ab3f63fd-f717-49f0-a683-732178a36974
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 435b5e1d-d852-4870-9dc1-0e99e368ecb9
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: ab3f63fd-f717-49f0-a683-732178a36974
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
