@@ -1,41 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: a27fa09c-1a9c-4cf0-a5f2-055d3a439b15
+  password: 435b5e1d-d852-4870-9dc1-0e99e368ecb9
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: a27fa09c-1a9c-4cf0-a5f2-055d3a439b15
+  password: 435b5e1d-d852-4870-9dc1-0e99e368ecb9
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: a27fa09c-1a9c-4cf0-a5f2-055d3a439b15
+  password: 435b5e1d-d852-4870-9dc1-0e99e368ecb9
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  2.7MB/s
-  password: ab29fd16-e7bd-3b20-9583-dd82a1d2cccc
-  port: 20129
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x129.flybar.work
-  type: trojan
-  udp: true
-- alterId: '64'
-  cipher: auto
-  name: 2|🇸🇬2 |  1.7MB/s
-  network: tcp
-  port: 53902
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
