@@ -1,145 +1,90 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 1|🇺🇸1 |  5.8MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 1|🇺🇸2 |  1.1MB/s
-  password: 7c76770a-f9f7-3485-9500-2f19181ccbca
-  port: 20294
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1,14|US_speednode_0084
-  network: ws
-  port: 80
-  server: 66.235.200.58
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- client-fingerprint: chrome
-  name: 1|🇺🇸4 |  14.4MB/s
-  network: tcp
-  port: 443
-  server: 15.204.151.43
-  servername: 147135001195.sec22org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: 1|🇺🇸5 |  2.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 1,14|US_speednode_0086
-  network: ws
-  port: 80
-  server: 66.235.200.5
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- auth: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  client-fingerprint: chrome
-  name: 1|🇺🇸7 |  2.3MB/s
-  password: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  port: 10002
-  server: 50.114.152.111
-  skip-cert-verify: true
-  type: hysteria2
 - auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  name: 1|🇺🇸8 |  2.7MB/s
+  name: 1|🇺🇸1 |  1.6MB/s
   password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   port: 8899
-  server: yingguo2.su8.lol
+  server: fh5.su8.lol
   skip-cert-verify: false
-  sni: yingguo2.su8.lol
+  sni: fh5.su8.lol
   type: hysteria2
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: 1|🇺🇸9 |  1.5MB/s
+  name: 1|🇺🇸2 |  3.2MB/s
   password: amazonskr05
   port: 443
-  server: 34.220.174.155
-  tls: false
+  server: 34.212.0.149
   type: ss
+- name: 1|🇺🇸3 |  5.9MB/s
+  password: 367d189c-dccf-38be-833a-70ea50bf2b47
+  port: 43337
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z102.hongkongnode.top
+  type: trojan
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸10 |  6.1MB/s
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  client-fingerprint: chrome
-  name: 1|🇺🇸11 |  5.0MB/s
-  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  port: 8899
-  server: shenghesai1.su8.lol
-  skip-cert-verify: false
-  sni: shenghesai1.su8.lol
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: e6439d48-bcf7-41cd-9e20-1978b83fab5a
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: e6439d48-bcf7-41cd-9e20-1978b83fab5a
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: e6439d48-bcf7-41cd-9e20-1978b83fab5a
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+- client-fingerprint: chrome
+  name: 1,10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
   server: 143.198.235.49
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|US_speednode_0056
+- cipher: aes-256-gcm
+  name: 1|🇺🇸5 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.143.66.99
+  type: ss
+- name: 1,13|RU_speednode_0046
+  network: ws
+  port: 80
+  server: 185.174.138.194
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- cipher: aes-256-gcm
+  name: 1|🇺🇸7 |  1.0MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 69.50.95.115
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 1|🇺🇸8 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸9 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.185.211.74
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸10 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.211.97.239
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇺🇸11 |  4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.33.5.226
+  type: ss
+- client-fingerprint: chrome
+  name: 1,13|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -153,7 +98,45 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 14|US_speednode_0064
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 1|🇺🇸13 |  3.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 1|🇺🇸15 |  5.2MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: fenghuang1.su8.lol
+  skip-cert-verify: false
+  sni: fenghuang1.su8.lol
+  type: hysteria2
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 1|🇺🇸16 |  4.1MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: dg1.su8.lol
+  skip-cert-verify: false
+  sni: dg1.su8.lol
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 1|🇺🇸17 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 69.50.95.115
+  type: ss
+  udp: true
+- name: 13|US_speednode_0064
   network: ws
   port: 80
   server: 104.26.14.85
@@ -167,7 +150,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 14|US_speednode_0065
+- name: 13|US_speednode_0065
   network: ws
   port: 80
   server: 104.26.14.85
@@ -181,7 +164,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@V2ray_Alpha/?ed=2560
-- name: 14|US_speednode_0069
+- name: 13|US_speednode_0069
   network: ws
   port: 80
   server: 172.67.73.163
@@ -195,7 +178,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 14|US_speednode_0071
+- name: 13|US_speednode_0071
   network: ws
   port: 80
   server: 172.67.73.163
@@ -209,7 +192,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN?ed=2560
-- name: 14|US_speednode_0072
+- name: 13|US_speednode_0072
   network: ws
   port: 80
   server: 104.26.14.85
@@ -223,7 +206,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560
-- name: 14|US_speednode_0077
+- name: 13|US_speednode_0077
   network: ws
   port: 80
   server: 104.26.14.85
@@ -237,7 +220,21 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 14|US_speednode_0085
+- name: 13|US_speednode_0084
+  network: ws
+  port: 80
+  server: 66.235.200.58
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0085
   network: ws
   port: 80
   server: 172.67.73.163
@@ -251,7 +248,21 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
-- name: 14|US_speednode_0088
+- name: 13|US_speednode_0086
+  network: ws
+  port: 80
+  server: 66.235.200.5
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0088
   network: ws
   port: 80
   server: 66.235.200.149
@@ -265,7 +276,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|US_speednode_0089
+- name: 13|US_speednode_0089
   network: ws
   port: 80
   server: 66.235.200.30
@@ -279,7 +290,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|US_speednode_0091
+- name: 13|US_speednode_0091
   network: ws
   port: 80
   server: 66.235.200.5
@@ -293,7 +304,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|US_speednode_0092
+- name: 13|US_speednode_0092
   network: ws
   port: 80
   server: 66.235.200.149
@@ -307,7 +318,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0093
+- name: 13|US_speednode_0093
   network: ws
   port: 80
   server: 66.235.200.222
@@ -321,7 +332,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0094
+- name: 13|US_speednode_0094
   network: ws
   port: 80
   server: 66.235.200.30
@@ -335,7 +346,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0096
+- name: 13|US_speednode_0096
   network: ws
   port: 80
   server: 66.235.200.191
@@ -349,7 +360,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0097
+- name: 13|US_speednode_0097
   network: ws
   port: 80
   server: 172.67.73.163
@@ -363,7 +374,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 14|US_speednode_0099
+- name: 13|US_speednode_0099
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -377,7 +388,7 @@ proxies:
     headers:
       Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
     path: /?ed=1080
-- name: 14|US_speednode_0100
+- name: 13|US_speednode_0100
   network: ws
   port: 443
   server: 45.62.114.221
@@ -391,3 +402,24 @@ proxies:
     headers:
       Host: usb.sevco.me
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 8d8c30e7-abac-4320-b167-2e24711cd4d7
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 8d8c30e7-abac-4320-b167-2e24711cd4d7
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 8d8c30e7-abac-4320-b167-2e24711cd4d7
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
