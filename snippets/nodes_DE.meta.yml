@@ -1,21 +1,25 @@
 proxies:
-- auth: 8b3db529-47d5-41ae-b00d-008517110fce
-  client-fingerprint: chrome
-  name: 1|🇩🇪1 |  1.6MB/s
-  password: 8b3db529-47d5-41ae-b00d-008517110fce
-  port: 35801
-  server: xjp.sytcloud.top
-  skip-cert-verify: true
-  sni: xjp.sytcloud.top
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 564e0778-46f5-4c02-85ae-f249ea6046c9
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪1 |  1.3MB/s
+  network: tcp
+  port: 21313
+  reality-opts:
+    public-key: AlUKGYa7aLWaZ2AGBHmt9pcqT8uNYMmByNrIN_bwfwI
+    short-id: db99da70
+  server: 195.201.25.40
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 59275d0a-c803-4d85-ce13-ba14edc710e8
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
@@ -106,28 +110,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #9'
-  password: be758973-186d-46fe-8aa4-e017134fa291
-  port: 4029
-  server: 31.186.87.211
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '10|(@VmessProtocol)برای خرید و ات... #10'
   password: c31b23ea-bf3c-476e-8b6b-6f2cc3fc958e
   port: 8899
   server: bx1.su8.lol
   skip-cert-verify: false
   sni: bx1.su8.lol
-  tls: false
-  type: hysteria2
-- name: 10|Mtn-@V2ray_Raha-11
-  password: dongtaiwang.com
-  port: 13861
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '10|(@VmessProtocol)برای خرید و ات... #12'

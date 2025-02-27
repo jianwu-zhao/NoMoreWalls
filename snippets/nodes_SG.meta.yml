@@ -1,37 +1,21 @@
 proxies:
-- name: 1|🇸🇬1 |  5.9MB/s
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20130
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x130.flybar.work
-  type: trojan
-  udp: true
-- name: 1|🇸🇬2 |  3.5MB/s
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20299
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x299.flybar.work
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 564e0778-46f5-4c02-85ae-f249ea6046c9
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 564e0778-46f5-4c02-85ae-f249ea6046c9
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 564e0778-46f5-4c02-85ae-f249ea6046c9
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -52,12 +36,12 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡3|@ripaojiedian
-  password: WNW5MZJX57ZJUNQU
-  port: 16009
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  password: b7e92acc-70e2-4945-9625-c909251ca5ee
+  port: 30001
+  server: gdgs.tarioblink.me
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -68,31 +52,11 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡5|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 6606
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡6|@ripaojiedian
+  name: 12|🇸🇬 新加坡5|@ripaojiedian
   password: 0407WKIEIXMTLGC6
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.129.8.153
   tfo: false
   type: ss
