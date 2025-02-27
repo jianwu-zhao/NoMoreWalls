@@ -1,8 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 0e09e01d-9b4a-4c24-8db9-e17a36f431ab
+  password: 9f6dab77-1456-47ec-9734-928632ceb261
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇨🇦1 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.243.171
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇨🇦2 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.48.255
+  type: ss
+- name: 2|🇨🇦3 |  5.6MB/s
+  password: b2b23650-7141-31b9-9480-9f71d5439010
+  port: 20295
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z295.hongkongnode.top
+  type: trojan
   udp: true
