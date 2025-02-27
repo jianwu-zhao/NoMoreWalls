@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 2|🇫🇷2 |  2.3MB/s
+  name: 1|🇫🇷2 |  2.3MB/s
   network: ws
   port: 80
   server: 151.101.128.155
