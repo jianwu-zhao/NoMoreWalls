@@ -1,18 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 976ff445-b9ff-49d6-9849-ddb90f1485e8
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 20496ccf-8b4e-4173-a02a-2edbae79bda5
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 976ff445-b9ff-49d6-9849-ddb90f1485e8
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 20496ccf-8b4e-4173-a02a-2edbae79bda5
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 2|🇬🇧1 |  1.5MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: dg3.su8.lol
+  skip-cert-verify: false
+  sni: dg3.su8.lol
+  type: hysteria2
 - name: 14|GB_speednode_0009
   network: ws
   port: 443

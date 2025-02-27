@@ -1,21 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|🇩🇪1 |  1.3MB/s
-  network: tcp
-  port: 21313
-  reality-opts:
-    public-key: AlUKGYa7aLWaZ2AGBHmt9pcqT8uNYMmByNrIN_bwfwI
-    short-id: db99da70
-  server: 195.201.25.40
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 59275d0a-c803-4d85-ce13-ba14edc710e8
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 976ff445-b9ff-49d6-9849-ddb90f1485e8
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 20496ccf-8b4e-4173-a02a-2edbae79bda5
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -108,6 +94,14 @@ proxies:
   port: 9999
   server: 3.123.253.70
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|(@VmessProtocol)برای خرید و ات... #9'
+  password: be758973-186d-46fe-8aa4-e017134fa291
+  port: 4029
+  server: 31.186.87.211
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '10|(@VmessProtocol)برای خرید و ات... #10'
