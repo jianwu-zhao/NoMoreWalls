@@ -1,11 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 9f6dab77-1456-47ec-9734-928632ceb261
+  password: 1013d36f-0b13-4fdc-a142-2f8bd05c1b77
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 14|RU_speednode_0046
+  network: ws
+  port: 80
+  server: 185.174.138.194
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
 - name: 14|RU_speednode_0047
   network: ws
   port: 8080
