@@ -1,27 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 57298ea4-779c-47f5-ab34-24e98f53857e
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: 0d8dbfac-12c5-4126-baf5-1302cd62ae00
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: 3a4e3229-caee-45de-a865-2519a9e4ba84
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: '2,10|@filterking1(500G) #1'
-  password: f2812c88-f678-4c64-98c9-ac42d8dab6ca
-  port: 29015
-  server: 45.147.200.61
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 1|🇷🇺1 |  2.8MB/s
+  obfs: dongtaiwang.com
+  port: 63717
+  ports: 40000-50000
+  server: 185.22.155.71
   skip-cert-verify: true
-  sni: anten.ir
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇷🇺俄罗斯 01 | 1x RU
+  password: c9abc625-cce4-446f-aeb6-464e415ec5e4
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 14|RU_speednode_0046
+  network: ws
+  port: 80
+  server: 185.174.138.194
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
 - name: 14|RU_speednode_0047
   network: ws
   port: 8080
