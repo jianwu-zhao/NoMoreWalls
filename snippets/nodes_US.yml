@@ -1,80 +1,68 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d49fab94-5eba-4c62-8565-7411e37d147e
+  password: 0bcb8ff0-992c-400a-b34f-a86a753c2455
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d49fab94-5eba-4c62-8565-7411e37d147e
+  password: 0bcb8ff0-992c-400a-b34f-a86a753c2455
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d49fab94-5eba-4c62-8565-7411e37d147e
+  password: 0bcb8ff0-992c-400a-b34f-a86a753c2455
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇺🇸1 |  5.5MB/s
-  port: 15508
-  server: la-detour-08.grabgo.pro
-  tls: false
-  type: vmess
-  uuid: f837b510-7050-4dec-b182-a777dc358469
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 1|🇺🇸4 |  2.3MB/s
-  password: f4cd0a554e9d0558c581
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45917
-  server: console.03.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸5 |  1.7MB/s
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 69.50.93.111
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 357db10a-725f-4dc8-9f22-644cf4651848
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 0e54e50f-76bf-4cb1-86e4-4ff81b1d4ef3
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 357db10a-725f-4dc8-9f22-644cf4651848
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 0e54e50f-76bf-4cb1-86e4-4ff81b1d4ef3
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 03 | 1x US Washington
-  password: 357db10a-725f-4dc8-9f22-644cf4651848
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 0e54e50f-76bf-4cb1-86e4-4ff81b1d4ef3
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇺🇸8 |  5.1MB/s
+  port: 15508
+  server: la-detour-08.grabgo.pro
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+- name: 2|🇺🇸10 |  27.5MB/s
+  password: c3084fa7-1eba-3823-9674-b66abdf071d1
+  port: 43337
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z102.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国|@ripaojiedian
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 69.50.93.111
+  tfo: false
+  type: ss
