@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: 0d725da2-c35f-44ba-9512-b090d62394c6
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇷🇺 俄罗斯 01 | 1x RU
+  password: 9da07d04-ee99-470b-8444-fed6f933629c
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

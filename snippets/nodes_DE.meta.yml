@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 0d725da2-c35f-44ba-9512-b090d62394c6
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 9da07d04-ee99-470b-8444-fed6f933629c
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
@@ -87,14 +101,6 @@ proxies:
   port: 9999
   server: 3.123.253.70
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #9'
-  password: be758973-186d-46fe-8aa4-e017134fa291
-  port: 4029
-  server: 31.186.87.211
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '10|(@VmessProtocol)برای خرید و ات... #10'
