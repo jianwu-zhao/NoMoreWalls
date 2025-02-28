@@ -1,28 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 1013d36f-0b13-4fdc-a142-2f8bd05c1b77
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 1013d36f-0b13-4fdc-a142-2f8bd05c1b77
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   delay: 1036
   h2-opts: {}
   http-opts: {}
-  name: 2|🇭🇰1 |  2.3MB/s
+  name: 2,13|香港9|@ripaojiedian
   network: tcp
-  port: 48889
+  port: '48889'
   server: gy.youaremygod.top
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
 - name: 11|香港🇭🇰 HY2
@@ -103,20 +106,10 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 12|🇭🇰 香港9|@ripaojiedian
-  port: 33311
-  server: bg.guangsu888.cc
+  port: 48889
+  server: gy.youaremygod.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
-- alterId: 0
-  cipher: auto
-  name: 13|香港9|@ripaojiedian
-  network: tcp
-  port: '33311'
-  server: bg.guangsu888.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
+  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a

@@ -1,32 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: 1013d36f-0b13-4fdc-a142-2f8bd05c1b77
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: 1013d36f-0b13-4fdc-a142-2f8bd05c1b77
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: 1013d36f-0b13-4fdc-a142-2f8bd05c1b77
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇯🇵2 |  9.7MB/s
+  name: 2|🇯🇵1 |  4.6MB/s
   password: amazonskr05
   port: 443
-  server: 35.72.9.98
+  server: 3.112.216.127
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇯🇵2 |  5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.64.124.92
+  type: ss
+- name: 2|🇯🇵3 |  8.8MB/s
+  password: 74296433-e708-3d2a-a2c1-4517de85b93d
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- name: 2|🇯🇵4 |  5.4MB/s
+  password: 74296433-e708-3d2a-a2c1-4517de85b93d
+  port: 20071
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x71.flybar.work
+  tfo: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
@@ -49,13 +73,5 @@ proxies:
   password: 84HMRAWILKB49QUZ
   port: 18002
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.129.225.199
   tfo: false
   type: ss
