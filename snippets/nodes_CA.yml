@@ -1,15 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: d49fab94-5eba-4c62-8565-7411e37d147e
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇨🇦1 |  6.1MB/s
+  name: 1|🇨🇦1 |  4.4MB/s
   password: amazonskr05
   port: 443
-  server: 47.128.243.171
+  server: 47.129.58.69
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 1|🇨🇦2 |  1.1MB/s
+  password: c3e6387d-ba91-42bb-858c-e1caa337f689
+  port: 12035
+  server: mdss-other.04z3susick.download
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 1|🇨🇦3 |  2.8MB/s
+  password: c3e6387d-ba91-42bb-858c-e1caa337f689
+  port: 12036
+  server: mdss-other.04z3susick.download
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 357db10a-725f-4dc8-9f22-644cf4651848
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

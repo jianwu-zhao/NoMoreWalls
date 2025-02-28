@@ -1,356 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: d49fab94-5eba-4c62-8565-7411e37d147e
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: d49fab94-5eba-4c62-8565-7411e37d147e
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 50afdf40-8e58-4842-bd81-290a3f1dd59b
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: d49fab94-5eba-4c62-8565-7411e37d147e
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 2|🇺🇸1 |  1.2MB/s
-  network: tcp
-  port: 48919
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 2|🇺🇸2 |  4.9MB/s
-  password: 74296433-e708-3d2a-a2c1-4517de85b93d
-  port: 16895
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x40.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 2|🇺🇸3 |  1.6MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 2724
-  name: 2|🇺🇸4 |  1.0MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 38.91.107.66
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇺🇸5 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.185.211.74
-  type: ss
-- client-fingerprint: chrome
-  name: 2|🇺🇸6 |  6.8MB/s
-  network: tcp
-  port: 443
-  server: 135.148.74.155
-  servername: 147135004002.sec20org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 2|🇺🇸7 |  2.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.32.166.45
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 2|🇺🇸8 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.174.155
-  tls: false
-  type: ss
-  udp: true
-- name: 2|🇺🇸9 |  2.9MB/s
-  password: 74296433-e708-3d2a-a2c1-4517de85b93d
-  port: 20306
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z306.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
-- name: 2|🇺🇸10 |  4.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-  password: iMqY3uG_5pgEj3hCfyHB-0vB
-  port: 443
-  server: 143.198.235.49
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 69.50.93.111
-  tfo: false
-  type: ss
-- name: 14|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
+  name: 1|🇺🇸1 |  5.5MB/s
+  port: 15508
+  server: la-detour-08.grabgo.pro
   tls: false
-  type: vless
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+- name: 1|🇺🇸2 |  1.1MB/s
+  obfs: salamander
+  obfs-password: cd29099d
+  password: 9bb452b106ffc217
+  port: 443
+  server: 207.148.22.93
+  skip-cert-verify: true
+  sni: vkvd127.mycdn.me
+  type: hysteria2
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 14|US_speednode_0064
-  network: ws
-  port: 80
-  server: 104.26.14.85
-  servername: a.xn--i-sx6a60i.us.kg.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg.
-    path: /?ed=2560
-- name: 14|US_speednode_0065
-  network: ws
-  port: 80
-  server: 104.26.14.85
-  servername: a.xn--i-sx6a60i.us.kg.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg.
-    path: /@V2ray_Alpha/?ed=2560
-- name: 14|US_speednode_0069
-  network: ws
-  port: 80
-  server: 172.67.73.163
-  servername: a.xn--i-sx6a60i.us.kg.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg.
-    path: /?ed=2560
-- name: 14|US_speednode_0071
-  network: ws
-  port: 80
-  server: 172.67.73.163
-  servername: a.xn--i-sx6a60i.us.kg.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg.
-    path: /MTMVPN?ed=2560
-- name: 14|US_speednode_0072
-  network: ws
-  port: 80
-  server: 104.26.14.85
-  servername: a.xn--i-sx6a60i.us.kg.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg.
-    path: /MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560
-- name: 14|US_speednode_0077
-  network: ws
-  port: 80
-  server: 104.26.14.85
-  servername: a.xn--i-sx6a60i.us.kg.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg.
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 14|US_speednode_0084
-  network: ws
-  port: 80
-  server: 66.235.200.58
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0085
-  network: ws
-  port: 80
-  server: 172.67.73.163
-  servername: a.xn--i-sx6a60i.us.kg.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg.
-    path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
-- name: 14|US_speednode_0086
-  network: ws
-  port: 80
-  server: 66.235.200.5
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0088
-  network: ws
-  port: 80
-  server: 66.235.200.149
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- name: 14|US_speednode_0089
-  network: ws
-  port: 80
-  server: 66.235.200.30
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- name: 14|US_speednode_0091
-  network: ws
-  port: 80
-  server: 66.235.200.5
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- name: 14|US_speednode_0092
-  network: ws
-  port: 80
-  server: 66.235.200.149
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0093
-  network: ws
-  port: 80
-  server: 66.235.200.222
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0094
-  network: ws
-  port: 80
-  server: 66.235.200.30
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0096
+- name: 1,13|US_speednode_0096
   network: ws
   port: 80
   server: 66.235.200.191
@@ -364,7 +53,287 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0097
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 1|🇺🇸4 |  2.3MB/s
+  password: f4cd0a554e9d0558c581
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45917
+  server: console.03.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸5 |  1.7MB/s
+  network: tcp
+  port: 44014
+  server: 120.198.71.219
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 1|🇺🇸6 |  3.4MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- name: 1,13|US_speednode_0056
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+- client-fingerprint: chrome
+  delay: 2559
+  name: 1|🇺🇸8 |  5.0MB/s
+  network: ws
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- name: 10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
+  port: 443
+  server: 143.198.235.49
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国|@ripaojiedian
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 69.50.93.111
+  tfo: false
+  type: ss
+- name: 13|US_speednode_0064
+  network: ws
+  port: 80
+  server: 104.26.14.85
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /?ed=2560
+- name: 13|US_speednode_0065
+  network: ws
+  port: 80
+  server: 104.26.14.85
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /@V2ray_Alpha/?ed=2560
+- name: 13|US_speednode_0069
+  network: ws
+  port: 80
+  server: 172.67.73.163
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /?ed=2560
+- name: 13|US_speednode_0071
+  network: ws
+  port: 80
+  server: 172.67.73.163
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /MTMVPN?ed=2560
+- name: 13|US_speednode_0072
+  network: ws
+  port: 80
+  server: 104.26.14.85
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560
+- name: 13|US_speednode_0077
+  network: ws
+  port: 80
+  server: 104.26.14.85
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 13|US_speednode_0084
+  network: ws
+  port: 80
+  server: 66.235.200.58
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0085
+  network: ws
+  port: 80
+  server: 172.67.73.163
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
+- name: 13|US_speednode_0086
+  network: ws
+  port: 80
+  server: 66.235.200.5
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0088
+  network: ws
+  port: 80
+  server: 66.235.200.149
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- name: 13|US_speednode_0089
+  network: ws
+  port: 80
+  server: 66.235.200.30
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- name: 13|US_speednode_0091
+  network: ws
+  port: 80
+  server: 66.235.200.5
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- name: 13|US_speednode_0092
+  network: ws
+  port: 80
+  server: 66.235.200.149
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0093
+  network: ws
+  port: 80
+  server: 66.235.200.222
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0094
+  network: ws
+  port: 80
+  server: 66.235.200.30
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0097
   network: ws
   port: 80
   server: 172.67.73.163
@@ -378,7 +347,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 14|US_speednode_0099
+- name: 13|US_speednode_0099
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -392,7 +361,7 @@ proxies:
     headers:
       Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
     path: /?ed=1080
-- name: 14|US_speednode_0100
+- name: 13|US_speednode_0100
   network: ws
   port: 443
   server: 45.62.114.221
@@ -406,3 +375,24 @@ proxies:
     headers:
       Host: usb.sevco.me
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 357db10a-725f-4dc8-9f22-644cf4651848
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 357db10a-725f-4dc8-9f22-644cf4651848
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 357db10a-725f-4dc8-9f22-644cf4651848
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
