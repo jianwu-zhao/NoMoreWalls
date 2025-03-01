@@ -1,69 +1,77 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 01 | 1x JP
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: 4fc32814-481b-48bc-b9cb-db70eec82206
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 02 | 1x JP
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: 4fc32814-481b-48bc-b9cb-db70eec82206
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 03 | 1x JP
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: 4fc32814-481b-48bc-b9cb-db70eec82206
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇯🇵1 |  6.0MB/s
-  password: b2f95c69-59cd-3da9-8977-d8474b0e12d8
-  port: 20139
+- name: 1|🇯🇵1 |  2.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-cfb
+  name: 1|🇯🇵2 |  7.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.181.198.147
+  type: ss
+- name: 1|🇯🇵3 |  4.9MB/s
+  password: 3d0d39a7-7d0c-3e2c-a96e-74128b9db265
+  port: 20071
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z139.hongkongnode.top
+  sni: x71.flybar.work
   type: trojan
   udp: true
-- name: 2|🇯🇵2 |  6.0MB/s
-  password: b2f95c69-59cd-3da9-8977-d8474b0e12d8
-  port: 20140
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z140.hongkongnode.top
-  type: trojan
+- name: 1|🇯🇵4 |  2.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo101-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo101-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 01 | 1x JP
+  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- name: 2|🇯🇵3 |  3.1MB/s
-  password: b2f95c69-59cd-3da9-8977-d8474b0e12d8
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 02 | 1x JP
+  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 03 | 1x JP
+  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome

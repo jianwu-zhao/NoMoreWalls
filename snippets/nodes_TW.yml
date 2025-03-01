@@ -1,56 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 87a80f35-79bc-43f2-8f0f-1da51361850e
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 4fc32814-481b-48bc-b9cb-db70eec82206
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 4fc32814-481b-48bc-b9cb-db70eec82206
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 4f034bf4-a9e4-4050-bda1-ac5151194571
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 4fc32814-481b-48bc-b9cb-db70eec82206
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼1 |  2.0MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 84858fa.vpnhat.t.me:73643
-    mode: tls
-  port: 2377
-  server: 84858fa.m3.gladns.com
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  port: 31241
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾2|@ripaojiedian
