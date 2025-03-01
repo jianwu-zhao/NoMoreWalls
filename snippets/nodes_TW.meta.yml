@@ -1,58 +1,42 @@
 proxies:
+- name: 0|🇹🇼1 |  5.5MB/s
+  password: ea333f6c-3fe0-3a59-b23e-5383fb48fc73
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 4fc32814-481b-48bc-b9cb-db70eec82206
+  name: 0|🇹🇼2 |  1.5MB/s
+  password: b9934be6-6184-4b85-a629-9815b8ae5660
   port: 36241
   server: free.2weradf.xyz
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 4fc32814-481b-48bc-b9cb-db70eec82206
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 4fc32814-481b-48bc-b9cb-db70eec82206
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1|🇹🇼1 |  5.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 8a55adc5-f594-48b3-a52e-d5c85b32a2d9
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: cd227bee-40fb-4032-86a8-5842fe2508c7
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   password: QF377GGQ00RATCMK
   port: 21004
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -60,7 +44,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾3|@ripaojiedian
+  name: 11|🇹🇼 台湾3|@ripaojiedian
   password: Y2U58S90E3GST1AQ
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -68,9 +52,30 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾4|@ripaojiedian
+  name: 11|🇹🇼 台湾4|@ripaojiedian
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 01 | 1x TW
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 02 | 1x TW
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 03 | 1x TW
+  password: e9a0753a-36fe-4b76-8e35-bb5ed4026099
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
