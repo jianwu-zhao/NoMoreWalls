@@ -1,68 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼1 |  2.1MB/s
-  password: 5f7faba7-3b48-4fd4-83f8-0497236b37e3
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-- name: 1|🇹🇼2 |  1.7MB/s
-  password: c7fc812c-7c57-3386-8140-07935d060404
-  port: 36821
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z262.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼1 |  1.0MB/s
+  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
+  name: 2,12|🇹🇼 台湾2|@ripaojiedian
   password: QF377GGQ00RATCMK
   port: 21004
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+  udp: true
+- name: 2|🇹🇼3 |  3.6MB/s
+  password: c7fc812c-7c57-3386-8140-07935d060404
+  port: 59021
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x100.flybar.work
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾3|@ripaojiedian

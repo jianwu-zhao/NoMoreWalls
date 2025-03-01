@@ -1,58 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.254.62.242
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇸🇬2 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.140.3.253
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬1 |  1.3MB/s
+  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2,12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.31.115
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇸🇬3 |  8.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.55.109
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian

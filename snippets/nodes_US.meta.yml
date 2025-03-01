@@ -1,42 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: ecd832f3-d574-4bde-bd89-1ae4660c9446
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 21da1e6a-c4fb-4b6c-87f9-403c52760544
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇺🇸1 |  4.4MB/s
-  obfs: salamander
-  obfs-password: cd29099d
-  password: 9bb452b106ffc217
-  port: 443
-  server: 207.148.22.93
-  skip-cert-verify: true
-  sni: vkvd127.mycdn.me
-  type: hysteria2
-  udp: true
-- cipher: aes-128-cfb
-  name: 1|🇺🇸2 |  1.6MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- name: 1|🇺🇸3 |  5.5MB/s
+- client-fingerprint: chrome
+  name: 2|🇺🇸1 |  4.1MB/s
+  network: ws
+  port: 80
+  server: 104.21.58.212
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 5a4e040a-8de6-4222-bd6f-9f535b8772fd
+  ws-opts:
+    headers:
+      Host: calm-violet-0e47.pomofoc222.workers.dev
+    path: /lrJO6NEVRGHecfbo?ed=2560
+- name: 2|🇺🇸2 |  2.9MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: usgp3-cdn-route.couldflare-cdn.com
@@ -45,23 +42,50 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 1|🇺🇸4 |  5.6MB/s
+- cipher: aes-256-cfb
+  name: 2|🇺🇸4 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.212.0.149
+  type: ss
+- name: 2|🇺🇸5 |  2.4MB/s
+  password: c7fc812c-7c57-3386-8140-07935d060404
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
+  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 2|🇺🇸6 |  4.3MB/s
+  network: tcp
+  port: 7733
+  reality-opts:
+    public-key: bdVahzcZN694ebmTLvPE0nymHucaFWw6_h6cV5hvTlI
+    short-id: 335bfdfb
+  server: ort.gecs.top
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
+- name: 2|🇺🇸7 |  1.8MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: usgp2-cdn-route.couldflare-cdn.com
+  server: ustx004-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: usgp2-cdn-route.couldflare-cdn.com
+  sni: ustx004-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸5 |  4.4MB/s
-  password: 5f7faba7-3b48-4fd4-83f8-0497236b37e3
-  port: 36741
-  server: free.2weradf.xyz
+- cipher: aes-128-cfb
+  name: 2|🇺🇸8 |  4.7MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   type: ss
 - client-fingerprint: chrome
-  name: 1|🇺🇸6 |  5.7MB/s
+  name: 2|🇺🇸9 |  4.8MB/s
   network: ws
   port: 80
   server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
@@ -73,50 +97,6 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 1,14|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 1|🇺🇸8 |  1.9MB/s
-  obfs: salamander
-  obfs-password: 13f7ba5f
-  password: 4e9ee29b39a28277
-  port: 443
-  server: 66.135.11.68
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 2c2fa377-2e05-45a0-ade3-35e3daa27697
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -135,6 +115,20 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- name: 14|US_speednode_0056
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 14|US_speednode_0064
   network: ws
   port: 80
