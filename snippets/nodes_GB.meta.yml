@@ -1,45 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 45e7bf92-efab-4cbe-910f-667ed6ec1c75
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: 59d299c7-3696-4ea4-8948-a86dba7ebcf9
+  password: cecb9af3-fdd4-4aee-bc47-b5c74bb4afe0
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 59d299c7-3696-4ea4-8948-a86dba7ebcf9
+  password: cecb9af3-fdd4-4aee-bc47-b5c74bb4afe0
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2,12,13|新加坡5|@ripaojiedian
-  network: tcp
-  password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
-  port: 48291
-  server: wb.kaiqsz.com
-  skip-cert-verify: true
-  sni: mmbiz1.redapricotcloud.com
-  type: trojan
-- name: 14|GB_speednode_0009
-  network: ws
-  port: 443
-  server: 31.22.116.38
-  servername: usd.kobtty.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
-  ws-opts:
-    headers:
-      Host: usd.kobtty.me
-    path: /bing
