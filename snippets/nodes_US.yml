@@ -1,71 +1,59 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: bc1e4dbc-f2db-4077-9b56-5f1bd35fcbfc
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: bc1e4dbc-f2db-4077-9b56-5f1bd35fcbfc
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: bc1e4dbc-f2db-4077-9b56-5f1bd35fcbfc
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 757e21c1-9276-4c3b-b8a5-148bc790192c
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: e2f3be9e-274e-4d4f-a29d-36f3f3afa3e3
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 757e21c1-9276-4c3b-b8a5-148bc790192c
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: e2f3be9e-274e-4d4f-a29d-36f3f3afa3e3
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 757e21c1-9276-4c3b-b8a5-148bc790192c
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: e2f3be9e-274e-4d4f-a29d-36f3f3afa3e3
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 425aa562-dedf-4f5e-8157-60671e8aeb67
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 425aa562-dedf-4f5e-8157-60671e8aeb67
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 425aa562-dedf-4f5e-8157-60671e8aeb67
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇺🇸1 |  4.8MB/s
-  network: ws
+  name: 2|🇺🇸1 |  5.9MB/s
+  password: amazonskr05
   port: 443
-  server: mix1.998998.best
-  servername: jp1-2.zfork.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-  ws-opts:
-    headers:
-      HOST: jp1-2.zfork.com
-    path: /wpmckfpajfng?ed=2560
+  server: 18.143.186.182
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 2|🇺🇸4 |  1.4MB/s
+  name: 2|🇺🇸3 |  5.8MB/s
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -79,13 +67,47 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇺🇸4 |  4.9MB/s
+  network: ws
+  port: 443
+  server: mix1.998998.best
+  servername: jp1-2.zfork.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
+  ws-opts:
+    headers:
+      HOST: jp1-2.zfork.com
+    path: /wpmckfpajfng?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇺🇸5 |  4.4MB/s
+  name: 2|🇺🇸6 |  1.5MB/s
   password: amazonskr05
   port: 443
-  server: 18.143.186.182
+  server: 52.195.185.114
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇺🇸11 |  5.3MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian

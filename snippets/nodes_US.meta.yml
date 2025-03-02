@@ -1,93 +1,74 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: bc1e4dbc-f2db-4077-9b56-5f1bd35fcbfc
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: bc1e4dbc-f2db-4077-9b56-5f1bd35fcbfc
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: bc1e4dbc-f2db-4077-9b56-5f1bd35fcbfc
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 757e21c1-9276-4c3b-b8a5-148bc790192c
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: e2f3be9e-274e-4d4f-a29d-36f3f3afa3e3
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 757e21c1-9276-4c3b-b8a5-148bc790192c
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: e2f3be9e-274e-4d4f-a29d-36f3f3afa3e3
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 757e21c1-9276-4c3b-b8a5-148bc790192c
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: e2f3be9e-274e-4d4f-a29d-36f3f3afa3e3
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 425aa562-dedf-4f5e-8157-60671e8aeb67
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 425aa562-dedf-4f5e-8157-60671e8aeb67
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 425aa562-dedf-4f5e-8157-60671e8aeb67
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇺🇸1 |  4.8MB/s
-  network: ws
+  name: 2|🇺🇸1 |  5.9MB/s
+  password: amazonskr05
   port: 443
-  server: mix1.998998.best
-  servername: jp1-2.zfork.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-  ws-opts:
-    headers:
-      HOST: jp1-2.zfork.com
-    path: /wpmckfpajfng?ed=2560
+  server: 18.143.186.182
+  type: ss
 - client-fingerprint: chrome
-  name: 2|🇺🇸2 |  4.7MB/s
+  name: 2,14|US_speednode_0056
   network: ws
   port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
   servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
   tls: false
   type: vless
+  udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 2|🇺🇸3 |  6.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 2|🇺🇸4 |  1.4MB/s
+  name: 2|🇺🇸3 |  5.8MB/s
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -101,26 +82,78 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 2|🇺🇸5 |  4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.143.186.182
-  type: ss
-- client-fingerprint: chrome
-  name: 2|🇺🇸7 |  3.4MB/s
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇺🇸4 |  4.9MB/s
   network: ws
   port: 443
-  server: 8.219.202.145
-  servername: dob.fenmila.me
+  server: mix1.998998.best
+  servername: jp1-2.zfork.com
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 038562dc-6958-4ce7-eae2-887d8a1bee2a
+  type: vmess
+  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
   ws-opts:
     headers:
-      Host: dob.fenmila.me
-    path: /bing
+      HOST: jp1-2.zfork.com
+    path: /wpmckfpajfng?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸6 |  1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.185.114
+  type: ss
+- name: 2|🇺🇸8 |  3.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp3-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: usgp3-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 2|🇺🇸9 |  1.7MB/s
+  network: ws
+  port: 2052
+  server: 156.238.18.165
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- name: 2|🇺🇸10 |  5.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 2
+  cipher: auto
+  name: 2|🇺🇸11 |  5.3MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: tk.hzlt.tkddns.xyz
+    path: /
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -160,20 +193,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 14|US_speednode_0064
   network: ws
   port: 80
