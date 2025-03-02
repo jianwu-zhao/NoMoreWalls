@@ -1,32 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 7a0e7904-cfe5-428f-a500-d36a9ebe38f7
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 45e7bf92-efab-4cbe-910f-667ed6ec1c75
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 59d299c7-3696-4ea4-8948-a86dba7ebcf9
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 7a0e7904-cfe5-428f-a500-d36a9ebe38f7
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 59d299c7-3696-4ea4-8948-a86dba7ebcf9
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: fdf798ca-bd1c-4c0b-a137-065e0b61b4bb
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: fdf798ca-bd1c-4c0b-a137-065e0b61b4bb
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- client-fingerprint: chrome
+  name: 2,12,13|新加坡5|@ripaojiedian
+  network: tcp
+  password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
+  port: 48291
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
 - name: 14|GB_speednode_0009
   network: ws
   port: 443
