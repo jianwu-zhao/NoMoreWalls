@@ -1,52 +1,73 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 5df53ddb-d2ad-4836-9cb0-53d7d380701d
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 5df53ddb-d2ad-4836-9cb0-53d7d380701d
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 5df53ddb-d2ad-4836-9cb0-53d7d380701d
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: b5df1f95-e5fa-4405-b03b-63a628dd921e
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 43d8a548-c103-41a9-bfb2-7b4ca91cedd5
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: b5df1f95-e5fa-4405-b03b-63a628dd921e
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 43d8a548-c103-41a9-bfb2-7b4ca91cedd5
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: b5df1f95-e5fa-4405-b03b-63a628dd921e
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 43d8a548-c103-41a9-bfb2-7b4ca91cedd5
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼1 |  5.5MB/s
-  password: c27d6767-6562-4a3a-b012-3fdb5d91842d
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: e48120e1-ef46-4488-a33a-ab48389c0602
   port: 36241
   server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: e48120e1-ef46-4488-a33a-ab48389c0602
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: e48120e1-ef46-4488-a33a-ab48389c0602
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇹🇼1 |  1.8MB/s
+  port: 63018
+  server: in06.xxxoooxxxooo.net
+  type: vmess
+  udp: true
+  uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇹🇼2 |  1.6MB/s
+  port: 63099
+  server: in06.xxxoooxxxooo.net
+  type: vmess
+  udp: true
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇹🇼3 |  5.9MB/s
+  port: 63010
+  server: in06.xxxoooxxxooo.net
+  type: vmess
+  udp: true
+  uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾2|@ripaojiedian
