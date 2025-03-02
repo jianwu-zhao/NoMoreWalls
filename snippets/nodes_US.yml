@@ -1,78 +1,67 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: bc46c221-b307-454e-91c3-934fbb711ed9
+  password: 5df53ddb-d2ad-4836-9cb0-53d7d380701d
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: bc46c221-b307-454e-91c3-934fbb711ed9
+  password: 5df53ddb-d2ad-4836-9cb0-53d7d380701d
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: bc46c221-b307-454e-91c3-934fbb711ed9
+  password: 5df53ddb-d2ad-4836-9cb0-53d7d380701d
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 2195e866-fc76-4a0d-8586-56e1dffbfc43
+  password: b5df1f95-e5fa-4405-b03b-63a628dd921e
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 2195e866-fc76-4a0d-8586-56e1dffbfc43
+  password: b5df1f95-e5fa-4405-b03b-63a628dd921e
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 2195e866-fc76-4a0d-8586-56e1dffbfc43
+  password: b5df1f95-e5fa-4405-b03b-63a628dd921e
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇺🇸1 |  2.9MB/s
-  password: ec619d15-c0a3-3e81-9494-a80671371471
-  port: 20294
-  server: gy.58n.net
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸1 |  9.2MB/s
+  password: c27d6767-6562-4a3a-b012-3fdb5d91842d
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇺🇸3 |  5.7MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
   skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 2|🇺🇸2 |  4.9MB/s
-  password: ec619d15-c0a3-3e81-9494-a80671371471
-  port: 22741
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: dufu.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇺🇸4 |  5.9MB/s
-  password: ec619d15-c0a3-3e81-9494-a80671371471
-  port: 43337
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z102.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇺🇸5 |  5.8MB/s
-  password: ec619d15-c0a3-3e81-9494-a80671371471
-  port: 28678
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z143.hongkongnode.top
-  type: trojan
-  udp: true
+  uuid: 7634791a-727a-3ccd-ab08-71df858f756e
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
