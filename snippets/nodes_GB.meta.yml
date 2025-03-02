@@ -1,47 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: f554f619-34b2-4dc9-83a1-f5b0053cd709
+  password: 7a0e7904-cfe5-428f-a500-d36a9ebe38f7
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: f554f619-34b2-4dc9-83a1-f5b0053cd709
+  password: 7a0e7904-cfe5-428f-a500-d36a9ebe38f7
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: f937b7fc-664f-4c17-8577-dd7144f85311
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: fdf798ca-bd1c-4c0b-a137-065e0b61b4bb
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: f937b7fc-664f-4c17-8577-dd7144f85311
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: fdf798ca-bd1c-4c0b-a137-065e0b61b4bb
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
-  udp: true
-- name: 2|🇬🇧1 |  5.3MB/s
-  password: e36034d8-1f0c-3721-bca4-2d9d98352fd2
-  port: 11215
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z268.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇬🇧2 |  4.6MB/s
-  password: e36034d8-1f0c-3721-bca4-2d9d98352fd2
-  port: 20309
-  server: gyl.58n.net
-  skip-cert-verify: true
-  sni: z309.hongkongnode.top
-  type: trojan
   udp: true
 - name: 14|GB_speednode_0009
   network: ws

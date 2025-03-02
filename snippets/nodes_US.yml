@@ -1,106 +1,79 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: f554f619-34b2-4dc9-83a1-f5b0053cd709
+  password: 7a0e7904-cfe5-428f-a500-d36a9ebe38f7
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: f554f619-34b2-4dc9-83a1-f5b0053cd709
+  password: 7a0e7904-cfe5-428f-a500-d36a9ebe38f7
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: f554f619-34b2-4dc9-83a1-f5b0053cd709
+  password: 7a0e7904-cfe5-428f-a500-d36a9ebe38f7
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 1|🇺🇸1 |  1.0MB/s
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.68.135.208
+  type: ss
+  udp: true
+- name: 1|🇺🇸2 |  4.5MB/s
+  password: a0464e28-a1eb-3615-b9dd-37b9b84bb5ea
+  port: 20304
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z304.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- name: 1|🇺🇸4 |  2.3MB/s
+  password: a0464e28-a1eb-3615-b9dd-37b9b84bb5ea
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- name: 1|🇺🇸5 |  1.4MB/s
+  password: a0464e28-a1eb-3615-b9dd-37b9b84bb5ea
+  port: 16895
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x40.flybar.work
+  tfo: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: f937b7fc-664f-4c17-8577-dd7144f85311
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: fdf798ca-bd1c-4c0b-a137-065e0b61b4bb
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: f937b7fc-664f-4c17-8577-dd7144f85311
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: fdf798ca-bd1c-4c0b-a137-065e0b61b4bb
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: f937b7fc-664f-4c17-8577-dd7144f85311
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: fdf798ca-bd1c-4c0b-a137-065e0b61b4bb
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸4 |  3.3MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸7 |  1.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸9 |  3.7MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- name: 2|🇺🇸10 |  5.9MB/s
-  password: e36034d8-1f0c-3721-bca4-2d9d98352fd2
-  port: 20296
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z296.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇺🇸11 |  4.0MB/s
-  password: e36034d8-1f0c-3721-bca4-2d9d98352fd2
-  port: 28678
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z143.hongkongnode.top
-  type: trojan
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -113,3 +86,24 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  port: 44014
+  server: 120.198.71.219
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|美国2|@ripaojiedian
+  network: tcp
+  port: '44014'
+  server: 120.198.71.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
