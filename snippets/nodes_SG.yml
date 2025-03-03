@@ -1,48 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 3dee532c-262e-4599-bdf3-1ef8a735b17a
+  password: 2bfd0091-70e6-4213-a870-d78563d6c68f
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 3dee532c-262e-4599-bdf3-1ef8a735b17a
+  password: 2bfd0091-70e6-4213-a870-d78563d6c68f
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 3dee532c-262e-4599-bdf3-1ef8a735b17a
+  password: 2bfd0091-70e6-4213-a870-d78563d6c68f
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  4.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.63.223
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 33a4496a-64e0-4360-af96-f1a0309b491b
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 16b7e882-e077-4edc-aab0-53daa872157c
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 33a4496a-64e0-4360-af96-f1a0309b491b
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 16b7e882-e077-4edc-aab0-53daa872157c
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 33a4496a-64e0-4360-af96-f1a0309b491b
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 16b7e882-e077-4edc-aab0-53daa872157c
   port: 36175
   server: free.2weradf.xyz
   type: ss
