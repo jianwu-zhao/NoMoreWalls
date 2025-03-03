@@ -1,12 +1,57 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 2|🇯🇵1 |  5.3MB/s
-  port: 63051
-  server: in06.xxxoooxxxooo.net
-  tls: false
-  type: vmess
-  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: 0108f55f-f7ff-4c82-b8d3-7b4f19edcbf1
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: 0108f55f-f7ff-4c82-b8d3-7b4f19edcbf1
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: 0108f55f-f7ff-4c82-b8d3-7b4f19edcbf1
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 2|🇯🇵1 |  1.9MB/s
+  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
+  port: 28029
+  server: js.wnwwv.cn
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇯🇵2 |  11.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.30.167
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇯🇵3 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.162.239
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇯🇵4 |  2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.183.164.43
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian

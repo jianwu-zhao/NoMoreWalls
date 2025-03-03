@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 0108f55f-f7ff-4c82-b8d3-7b4f19edcbf1
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
