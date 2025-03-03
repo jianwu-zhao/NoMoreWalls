@@ -1,45 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 43d8a548-c103-41a9-bfb2-7b4ca91cedd5
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 43d8a548-c103-41a9-bfb2-7b4ca91cedd5
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: e48120e1-ef46-4488-a33a-ab48389c0602
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: aeb0fd14-807b-4333-a069-fb1b9076f44a
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: e48120e1-ef46-4488-a33a-ab48389c0602
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: aeb0fd14-807b-4333-a069-fb1b9076f44a
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇰🇷1 |  5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.180.133.38
-  tfo: false
+- name: 1|🇰🇷1 |  1.0MB/s
+  password: 4e0c3a4b-bdac-3950-b736-2c90b76ee530
+  port: 45168
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z263.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 88705b09-0518-4007-801d-af06bd53e6ab
+  port: 31311
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 88705b09-0518-4007-801d-af06bd53e6ab
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.255.230.67
+  server: 47.129.168.96
   tfo: false
   type: ss
