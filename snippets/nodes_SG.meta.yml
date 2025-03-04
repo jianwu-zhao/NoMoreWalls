@@ -1,52 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: bf76e2c0-145b-4910-b277-1f16f4a301da
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: bf76e2c0-145b-4910-b277-1f16f4a301da
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: bf76e2c0-145b-4910-b277-1f16f4a301da
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬1 |  1.1MB/s
-  password: 56bdcee6-d0a4-4dde-9fa3-9652c6251d8d
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: c4168a67-1290-4d8a-9462-04705999594a
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: c4168a67-1290-4d8a-9462-04705999594a
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: c4168a67-1290-4d8a-9462-04705999594a
   port: 36175
   server: free.2weradf.xyz
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡2|@ripaojiedian

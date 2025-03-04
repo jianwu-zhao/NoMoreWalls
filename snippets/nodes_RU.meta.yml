@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
-  port: 36511
-  server: free.2weradf.xyz
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: bf76e2c0-145b-4910-b277-1f16f4a301da
+  port: 31511
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 1|🇷🇺 俄罗斯 01 | 1x RU
+  password: c4168a67-1290-4d8a-9462-04705999594a
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 14|RU_speednode_0046
