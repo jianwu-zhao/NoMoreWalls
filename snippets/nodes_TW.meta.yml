@@ -1,59 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 6733f813-3da1-4e16-b143-63374b66483e
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 6733f813-3da1-4e16-b143-63374b66483e
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 6733f813-3da1-4e16-b143-63374b66483e
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 21d3e57d-34fb-4383-a93a-d5ecce05658f
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 0af6354b-ae16-41e2-8d14-c24c7a3c4b9d
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 21d3e57d-34fb-4383-a93a-d5ecce05658f
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 0af6354b-ae16-41e2-8d14-c24c7a3c4b9d
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 21d3e57d-34fb-4383-a93a-d5ecce05658f
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 0af6354b-ae16-41e2-8d14-c24c7a3c4b9d
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼1 |  5.1MB/s
-  password: e95ccd8e-b370-4ba8-9e35-621d9fe5a3f3
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: a90edbae-d731-40ab-840d-c6bbfe7557a1
   port: 36241
   server: free.2weradf.xyz
   type: ss
-- name: 2|🇹🇼2 |  5.7MB/s
-  password: 6b109348-74db-3633-a70c-10eb16079bf3
-  port: 36821
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z262.hongkongnode.top
-  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: a90edbae-d731-40ab-840d-c6bbfe7557a1
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: a90edbae-d731-40ab-840d-c6bbfe7557a1
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
