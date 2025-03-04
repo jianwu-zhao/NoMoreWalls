@@ -1,12 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 7e96263b-106b-4f0b-89ac-5034a21f7ebf
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: b5cb1383-7085-41ea-9a0e-82b26813cc3d
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: b5cb1383-7085-41ea-9a0e-82b26813cc3d
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: a54bf9b1-eed3-4aba-9808-1bd4d3b4e8c1
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: a54bf9b1-eed3-4aba-9808-1bd4d3b4e8c1
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 13|GB_speednode_0009
+- name: 14|GB_speednode_0009
   network: ws
   port: 443
   server: 31.22.116.38
@@ -20,17 +41,3 @@ proxies:
     headers:
       Host: usd.kobtty.me
     path: /bing
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: c53aee47-ae92-4960-83fd-d4361b3ad9a2
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c53aee47-ae92-4960-83fd-d4361b3ad9a2
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
