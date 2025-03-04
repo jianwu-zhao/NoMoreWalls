@@ -1,28 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: e2a42240-f4b6-4614-a780-fe10ca32bfac
+  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: e2a42240-f4b6-4614-a780-fe10ca32bfac
+  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: e2a42240-f4b6-4614-a780-fe10ca32bfac
+  password: 8502ff45-9486-48ff-a40d-ef5f916642bd
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 68b4faba-ebc9-4f70-a171-0439406b2a32
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬1 |  1.1MB/s
+  password: 56bdcee6-d0a4-4dde-9fa3-9652c6251d8d
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: BFYCOKHTC8HIWWRB
   port: 16006
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -30,7 +57,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   password: 0407WKIEIXMTLGC6
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -38,7 +65,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
   password: IHWLYZSSSX4GSKLA
   port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -46,7 +73,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡4|@ripaojiedian
+  name: 12|🇸🇬 新加坡4|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.106.229.219
@@ -54,30 +81,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.143.186.182
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: dd8ec50f-3b37-416b-8dc2-7e8a4f89dd49
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: dd8ec50f-3b37-416b-8dc2-7e8a4f89dd49
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: dd8ec50f-3b37-416b-8dc2-7e8a4f89dd49
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
