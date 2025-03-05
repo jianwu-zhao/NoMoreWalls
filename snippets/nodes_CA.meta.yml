@@ -1,14 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: d865e5b8-5b2a-4512-96b9-a74961ec57bf
+  password: 21ec9e97-a2c6-4397-95db-14d4938263b6
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  down: 100
+  name: 1|🇨🇦1 |  6.3MB/s
+  password: 4a48871d49c3f20fd93d365c49e45f78
+  port: 443
+  server: v.ccs.vaala.cat
+  sni: v.ccs.vaala.cat
+  type: hysteria2
+  up: 100
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: f360090e-ef15-4621-8e96-0e98f9df7e5d
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: 077b93bb-d99c-4b39-af6e-fef02e8baa7e
   port: 36441
   server: free.2weradf.xyz
   type: ss
