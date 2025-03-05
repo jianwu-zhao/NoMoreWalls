@@ -1,58 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 468d9181-66c6-4b90-bce0-262ec4e45e21
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 468d9181-66c6-4b90-bce0-262ec4e45e21
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 468d9181-66c6-4b90-bce0-262ec4e45e21
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  6.3MB/s
-  password: be979cbf-3ea8-34cf-bdbc-99f3fafb0b83
-  port: 20130
+- name: 1|🇸🇬1 |  5.5MB/s
+  password: 55aa5891-d1f9-3b75-9d3f-4ff3b8741e27
+  port: 20129
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x130.flybar.work
+  sni: x129.flybar.work
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1,12|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.179.221.27
-  tfo: false
-  type: ss
+- name: 1|🇸🇬2 |  5.3MB/s
+  password: 55aa5891-d1f9-3b75-9d3f-4ff3b8741e27
+  port: 20299
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x299.flybar.work
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 713582e2-bb6c-4a3d-96dc-bb128cd87b86
+  password: 09a54b4d-bb7c-4dc5-8df2-a72f0b7ab249
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 713582e2-bb6c-4a3d-96dc-bb128cd87b86
+  password: 09a54b4d-bb7c-4dc5-8df2-a72f0b7ab249
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 713582e2-bb6c-4a3d-96dc-bb128cd87b86
+  password: 09a54b4d-bb7c-4dc5-8df2-a72f0b7ab249
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
