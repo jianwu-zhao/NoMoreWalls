@@ -1,33 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 42627803-919b-4d1d-9a45-6434b8717a60
+  password: 78f610fb-666e-4329-8c38-848139a744db
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2187
-  h2-opts: {}
-  http-opts: {}
-  name: 1|🇩🇪1 |  5.2MB/s
-  network: ws
-  port: 443
-  server: eu9.998998.best
-  servername: server54-4.998877.best
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-  ws-opts:
-    headers:
-      HOST: server54-4.998877.best
-    path: /jsedr6deersed6h?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: c4eb1fb6-21c3-4136-9cec-8174e62fb6ed
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: c2b589b2-901c-4c4d-9916-c04690222f11
   port: 36471
   server: free.2weradf.xyz
   type: ss
