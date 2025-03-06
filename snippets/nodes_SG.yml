@@ -1,60 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 859553af-b15c-4c75-9a05-9d46a70b6513
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 859553af-b15c-4c75-9a05-9d46a70b6513
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 859553af-b15c-4c75-9a05-9d46a70b6513
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 2e2e3880-3b61-4b1d-bc0a-55ebe118620b
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: ce7c07d4-21db-4d5d-9962-fda912b059e3
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 2e2e3880-3b61-4b1d-bc0a-55ebe118620b
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: ce7c07d4-21db-4d5d-9962-fda912b059e3
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 2e2e3880-3b61-4b1d-bc0a-55ebe118620b
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: ce7c07d4-21db-4d5d-9962-fda912b059e3
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
-  password: BFYCOKHTC8HIWWRB
-  port: 16006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 3e7032f0-e0d5-4f83-b7f3-229603dcfdee
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 3e7032f0-e0d5-4f83-b7f3-229603dcfdee
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 3e7032f0-e0d5-4f83-b7f3-229603dcfdee
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
   password: 0407WKIEIXMTLGC6
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: BFYCOKHTC8HIWWRB
+  port: 16006
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -78,6 +78,6 @@ proxies:
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.255.179.37
+  server: 13.250.31.57
   tfo: false
   type: ss
