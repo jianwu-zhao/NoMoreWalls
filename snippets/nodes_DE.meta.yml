@@ -1,18 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
+  password: 1dc675f1-5800-456e-9a27-1a38d468117b
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  password: 53997698-4a1d-4ea1-ace0-88e9fa1920e5
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 2|🇩🇪1 |  1.4MB/s
+  network: ws
+  port: 80
+  server: 151.101.194.168
+  type: vmess
+  udp: true
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇩🇪2 |  2.0MB/s
+  network: ws
+  port: 80
+  server: www.aetv.com
+  servername: amd.al
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      HOST: amd.al
+      Host: www.aetv.com
+    path: /XESALISTHEBEST?ed=2048
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443

@@ -1,18 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
+  password: 1dc675f1-5800-456e-9a27-1a38d468117b
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  password: 53997698-4a1d-4ea1-ace0-88e9fa1920e5
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 2|🇷🇺1 |  1.2MB/s
+  password: dongtaiwang.com
+  port: 51224
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 2|🇷🇺2 |  1.4MB/s
+  network: ws
+  port: 2087
+  server: 192.200.160.188
+  servername: crm.iranigamebaz.ir
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41212369-3747-4444-9589-4417f250427a
+  ws-opts:
+    headers:
+      Host: crm.iranigamebaz.ir
+    path: /Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban--------Vpnmizban
 - name: 14|RU_speednode_0046
   network: ws
   port: 80

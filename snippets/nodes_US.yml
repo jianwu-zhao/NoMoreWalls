@@ -1,70 +1,73 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
+  password: 1dc675f1-5800-456e-9a27-1a38d468117b
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
+  password: 1dc675f1-5800-456e-9a27-1a38d468117b
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
+  password: 1dc675f1-5800-456e-9a27-1a38d468117b
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  password: 53997698-4a1d-4ea1-ace0-88e9fa1920e5
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  password: 53997698-4a1d-4ea1-ace0-88e9fa1920e5
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  password: 53997698-4a1d-4ea1-ace0-88e9fa1920e5
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 2|🇺🇸4 |  4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.91.198.93
+  type: ss
+- cipher: aes-256-cfb
   ip-version: dual
-  name: 2|🇺🇸2 |  2.5MB/s
+  name: 2|🇺🇸7 |  3.0MB/s
   password: amazonskr05
   port: 443
   server: 35.86.89.247
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 2|🇺🇸3 |  1.0MB/s
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 23.154.136.132
-  type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 2|🇺🇸9 |  1.2MB/s
-  password: amazonskr05
+- name: 2|🇺🇸11 |  5.0MB/s
+  network: ws
+  password: Pooria
   port: 443
-  server: 52.13.119.156
-  tls: false
-  type: ss
-  udp: true
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
