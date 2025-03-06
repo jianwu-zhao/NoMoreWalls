@@ -1,53 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: ce7c07d4-21db-4d5d-9962-fda912b059e3
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: ce7c07d4-21db-4d5d-9962-fda912b059e3
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: ce7c07d4-21db-4d5d-9962-fda912b059e3
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 3e7032f0-e0d5-4f83-b7f3-229603dcfdee
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 3e7032f0-e0d5-4f83-b7f3-229603dcfdee
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 3e7032f0-e0d5-4f83-b7f3-229603dcfdee
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: d062bf43-ebad-4ad2-9aeb-bc9824cc4981
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  6.0MB/s
-  password: ce4d9355-973f-36a0-96a0-ced7719d20ea
-  port: 59021
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x100.flybar.work
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 84f14f5e-7199-4d45-aaf4-20d4b56473fa
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
