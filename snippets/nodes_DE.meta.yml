@@ -1,12 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0,1|🇺🇦1 |  5.4MB/s
-  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: c28bd05a-877f-4620-9409-15a0c86e79d0
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 34014378-1513-4c35-a7cc-f28eb7f10b6e
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
   server: weilai-nl.sanguayun.com
@@ -14,14 +21,14 @@ proxies:
   sni: weilai-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #1'
+- name: '10|(@VmessProtocol)برای خرید و ات... #1'
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #2'
+- name: '10|(@VmessProtocol)برای خرید و ات... #2'
   password: 3f9b3419-29d5-4fbf-a96c-62c001705a04
   port: 443
   server: saibo-nl.sanguayun.com
@@ -29,39 +36,7 @@ proxies:
   sni: saibo-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #3'
-  password: 444dae72-ea43-4ff8-a77e-c2786a443bbd
-  port: 443
-  server: hk04hktix126h.whiteemperor.top
-  skip-cert-verify: true
-  sni: hk04hktix126h.whiteemperor.top
-  tls: false
-  type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #4'
-  password: 444dae72-ea43-4ff8-a77e-c2786a443bbd
-  port: 443
-  server: hk06hktix160.whiteemperor.top
-  skip-cert-verify: true
-  sni: hk06hktix160.whiteemperor.top
-  tls: false
-  type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #5'
-  password: 444dae72-ea43-4ff8-a77e-c2786a443bbd
-  port: 443
-  server: hk09hktix101.whiteemperor.top
-  skip-cert-verify: true
-  sni: hk09hktix101.whiteemperor.top
-  tls: false
-  type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #6'
-  password: 444dae72-ea43-4ff8-a77e-c2786a443bbd
-  port: 443
-  server: hk19hktix245.whiteemperor.top
-  skip-cert-verify: true
-  sni: hk19hktix245.whiteemperor.top
-  tls: false
-  type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #7'
+- name: '10|(@VmessProtocol)برای خرید و ات... #3'
   password: 90a20d93-5625-4689-b7e8-ac362db7fd2d
   port: 443
   server: weilai-nl.sanguayun.com
@@ -69,7 +44,7 @@ proxies:
   sni: weilai-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -79,7 +54,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: '10|Channel id: @ShadowProxy66 🇩🇪'
+  obfs: salamander
+  obfs-password: hsdirhrrkskdhebdjdj
+  password: MICPT1LLn6
+  port: 44140
+  server: 161.97.108.42
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -88,7 +72,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #8'
+- name: '10|(@VmessProtocol)برای خرید و ات... #4'
   password: c31b23ea-bf3c-476e-8b6b-6f2cc3fc958e
   port: 8899
   server: bx1.su8.lol
@@ -96,7 +80,7 @@ proxies:
   sni: bx1.su8.lol
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #9'
+- name: '10|(@VmessProtocol)برای خرید و ات... #5'
   password: ee837f32-4f5c-4920-9980-b55982f69414
   port: 443
   server: sanyuandian-nl.sanguayun.com
@@ -104,7 +88,7 @@ proxies:
   sni: sanyuandian-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #10'
+- name: '10|(@VmessProtocol)برای خرید و ات... #6'
   password: f0ae7bec-c14c-4447-91e5-d636265092d4
   port: 31651
   server: 213.189.54.126
@@ -112,10 +96,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 7209948f-3cd7-492b-a7ea-0956f1ed89e5
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
