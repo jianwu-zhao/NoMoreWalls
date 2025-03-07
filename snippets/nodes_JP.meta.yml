@@ -1,26 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: c28bd05a-877f-4620-9409-15a0c86e79d0
+  password: 35d5786e-abb1-4454-b2b2-8d3bd9b37ec3
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: c28bd05a-877f-4620-9409-15a0c86e79d0
+  password: 35d5786e-abb1-4454-b2b2-8d3bd9b37ec3
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: c28bd05a-877f-4620-9409-15a0c86e79d0
+  password: 35d5786e-abb1-4454-b2b2-8d3bd9b37ec3
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇯🇵1 |  3.4MB/s
+- client-fingerprint: chrome
+  name: 1|🇯🇵1 |  1.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jpgmo101-cdn-route.couldflare-cdn.com
@@ -29,7 +30,8 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 1|🇯🇵2 |  6.5MB/s
+- client-fingerprint: chrome
+  name: 1|🇯🇵2 |  2.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jpgmo102-cdn-route.couldflare-cdn.com
@@ -40,21 +42,21 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵日本 01 | 1x JP
-  password: 34014378-1513-4c35-a7cc-f28eb7f10b6e
+  password: 6543fb01-b0e7-4d5b-8c7e-1c769bf815ee
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵日本 02 | 1x JP
-  password: 34014378-1513-4c35-a7cc-f28eb7f10b6e
+  password: 6543fb01-b0e7-4d5b-8c7e-1c769bf815ee
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵日本 03 | 1x JP
-  password: 34014378-1513-4c35-a7cc-f28eb7f10b6e
+  password: 6543fb01-b0e7-4d5b-8c7e-1c769bf815ee
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
