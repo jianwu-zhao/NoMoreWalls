@@ -1,68 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: a740d840-8962-4a54-b657-4bde50f03d78
+  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: a740d840-8962-4a54-b657-4bde50f03d78
+  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: a740d840-8962-4a54-b657-4bde50f03d78
+  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 1|🇺🇸7 |  1.2MB/s
+  name: 1|🇺🇸2 |  1.1MB/s
   password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 69.50.93.47
+  port: 8888
+  server: 139.64.165.123
   type: ss
-- name: 1|🇺🇸9 |  5.0MB/s
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸4 |  3.9MB/s
   network: ws
-  password: Pooria
   port: 443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: 301.pOORiAm.ir
-  type: trojan
+  server: afrhms16v.bestxray.buzz
+  servername: afrhms16v.bestxray.buzz
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: 301.pOORiAm.ir
-    path: /trPyOrWMfkHd15oxiI?ed=1520
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+      Host: afrhms16v.bestxray.buzz
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸8 |  1.5MB/s
+  network: ws
+  port: 80
+  server: 151.101.194.168
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   port: 44014
   server: 120.198.71.219
   skip-cert-verify: false
@@ -72,7 +65,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|美国2|@ripaojiedian
+  name: 12|美国2|@ripaojiedian
   network: tcp
   port: '44014'
   server: 120.198.71.219
@@ -80,3 +73,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 7209948f-3cd7-492b-a7ea-0956f1ed89e5
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 7209948f-3cd7-492b-a7ea-0956f1ed89e5
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 7209948f-3cd7-492b-a7ea-0956f1ed89e5
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
