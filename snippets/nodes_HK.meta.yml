@@ -1,38 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
+  password: a740d840-8962-4a54-b657-4bde50f03d78
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
+  password: a740d840-8962-4a54-b657-4bde50f03d78
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 1|🇭🇰1 |  6.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 1|🇭🇰2 |  2.8MB/s
+  network: ws
+  port: 443
+  server: 162.159.152.196
+  servername: cc1.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: cc1.ylks.us.kg
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰1 |  1.1MB/s
-  password: 4257b671-ad95-443f-aadb-79634b16db6e
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443

@@ -1,47 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
+  password: a740d840-8962-4a54-b657-4bde50f03d78
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
+  password: a740d840-8962-4a54-b657-4bde50f03d78
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
+  password: a740d840-8962-4a54-b657-4bde50f03d78
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 970c4ec7-fedf-4357-b200-fb603966f58e
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 1,14|NL_speednode_0029
+  network: ws
+  port: 2052
+  server: 45.149.12.183
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 970c4ec7-fedf-4357-b200-fb603966f58e
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 970c4ec7-fedf-4357-b200-fb603966f58e
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 2,14|SC_speednode_0050
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 1|🇺🇸2 |  3.7MB/s
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- name: 1,14|SC_speednode_0050
   network: ws
   port: 8880
   server: 154.83.2.230
@@ -55,18 +60,124 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 2|🇺🇸2 |  4.0MB/s
+- name: 1|🇺🇸4 |  1.4MB/s
   network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
+  port: 443
+  server: braden.ns.cloudflare.com
+  servername: v5.dbbn2024.us.kg
+  skip-cert-verify: true
+  tls: true
   type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: v5.dbbn2024.us.kg
+    path: /?ed=2560
+- name: 1,14|SC_speednode_0051
+  network: ws
+  port: 8880
+  server: 154.83.2.228
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 1|🇺🇸6 |  1.0MB/s
+  network: ws
+  port: 443
+  server: 104.16.153.254
+  servername: v5.dbbn2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: v5.dbbn2024.us.kg
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  name: 1|🇺🇸7 |  1.2MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 69.50.93.47
+  type: ss
+- name: 1|🇺🇸8 |  11.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 1|🇺🇸9 |  5.0MB/s
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
+- name: 1|🇺🇸10 |  1.9MB/s
+  network: ws
+  port: 443
+  server: 212.183.88.136
+  servername: v5.dbbn2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: v5.dbbn2024.us.kg
+    path: /?ed=2560
+- name: 1|🇺🇸11 |  3.8MB/s
+  network: ws
+  port: 443
+  server: www.okcupid.com
+  servername: cc1.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: cc1.ylks.us.kg
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: 5099a579-b513-49f9-8372-d7ff60a8e3cf
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
