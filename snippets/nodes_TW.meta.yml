@@ -1,56 +1,65 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: fdd93a3c-0067-40d7-9a76-d72770e0c30c
+  password: d89082cc-8e21-4678-a120-5e4326c439e9
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: fdd93a3c-0067-40d7-9a76-d72770e0c30c
+  password: d89082cc-8e21-4678-a120-5e4326c439e9
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: fdd93a3c-0067-40d7-9a76-d72770e0c30c
+  password: d89082cc-8e21-4678-a120-5e4326c439e9
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: c231cb75-1bf0-4980-941a-61cd068823f9
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: c231cb75-1bf0-4980-941a-61cd068823f9
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: c231cb75-1bf0-4980-941a-61cd068823f9
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 2|🇹🇼1 |  2.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 86e8c33.dl.microsoft.eu:61496
+    host: a1e5cc7:108142
     mode: tls
   port: 2377
-  server: 125.227.86.44
+  server: 125.227.86.46
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -75,17 +84,5 @@ proxies:
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾5|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 1741abe87f.m.ctrip.com
-    mode: http
-  port: 11041
-  server: gzdata1.fc-sigma.xyz
   tfo: false
   type: ss
