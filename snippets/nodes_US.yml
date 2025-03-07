@@ -1,68 +1,69 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: cf9a14f8-e02a-46f5-885f-492858a85eb2
+  password: 48475310-5459-4a8c-bded-85300324158e
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: cf9a14f8-e02a-46f5-885f-492858a85eb2
+  password: 48475310-5459-4a8c-bded-85300324158e
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: cf9a14f8-e02a-46f5-885f-492858a85eb2
+  password: 48475310-5459-4a8c-bded-85300324158e
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 460
-  name: 1|🇺🇸1 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.170.255
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸2 |  1.9MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 594c76bd-847f-3569-a82c-2dd90e4b9bf2
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 39f8afa3-bc36-4d19-b72c-7f9ea61ef9f3
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 74c7e732-3ba5-4dca-8e66-7434f85b5129
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 39f8afa3-bc36-4d19-b72c-7f9ea61ef9f3
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 74c7e732-3ba5-4dca-8e66-7434f85b5129
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 39f8afa3-bc36-4d19-b72c-7f9ea61ef9f3
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 74c7e732-3ba5-4dca-8e66-7434f85b5129
   port: 36215
   server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸1 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.38.97.249
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 2|🇺🇸3 |  3.9MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  tls: false
+  type: ss
+- name: 2|🇺🇸6 |  1.7MB/s
+  password: e06739e1-5c25-32de-8fb7-95ce8e8f9576
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
