@@ -1,454 +1,441 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇵🇭菲律宾 01 | 1x PH
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31341
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇭泰国01  | 1x TH
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31741
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇲🇾马来西亚01 | 1x MY
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31721
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇮🇳印度 01 | 1x IN
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31371
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇦🇺澳大利亚 01 | 1x AU
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31411
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇷土耳其 01 | 1x TR
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31571
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇦乌克兰 01 | 1x UA
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31611
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇻🇳越南 01 | 1x VN
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31641
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇧🇷巴西 01 | 1x BR
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31671
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 01 | 1x JP
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 02 | 1x JP
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 03 | 1x JP
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇵🇭 菲律宾 01 | 1x PH
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇵🇭 菲律宾 01 | 1x PH
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36341
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚 01 | 1x MY
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇲🇾马来西亚 01 | 1x MY
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36721
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇳西班牙 01 | 1x ES
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇮🇳西班牙 01 | 1x ES
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36741
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇭泰国 01 | 1x TH
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇹🇭泰国 01 | 1x TH
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36731
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇳 印度 01 | 1x IN
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇮🇳 印度 01 | 1x IN
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36371
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇦🇺 澳大利亚 01 | 1x AU
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇦🇺 澳大利亚 01 | 1x AU
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36411
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇷 土耳其 01 | 1x TR
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇹🇷 土耳其 01 | 1x TR
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36571
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇦 乌克兰 01 | 1x UA
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇺🇦 乌克兰 01 | 1x UA
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36611
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇻🇳 越南 01 | 1x VN
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇻🇳 越南 01 | 1x VN
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36641
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇧🇷 巴西 01 | 1x BR
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇧🇷 巴西 01 | 1x BR
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36671
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇵🇭菲律宾 01 | 1x PH
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31341
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇭泰国01  | 1x TH
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31741
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇲🇾马来西亚01 | 1x MY
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31721
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇮🇳印度 01 | 1x IN
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31371
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇦🇺澳大利亚 01 | 1x AU
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31411
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺俄罗斯 01 | 1x RU
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇷土耳其 01 | 1x TR
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31571
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇦乌克兰 01 | 1x UA
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31611
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇻🇳越南 01 | 1x VN
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31641
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇧🇷巴西 01 | 1x BR
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31671
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 2|🇯🇵1 |  4.5MB/s
+  name: 2|🇯🇵1 |  6.2MB/s
   password: amazonskr05
   port: 443
   server: 43.201.0.67
   type: ss
-  udp: true
-- name: 2|🇺🇸1 |  3.8MB/s
-  network: ws
-  port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 2,14|SC_speednode_0051
+- name: 2,14|SC_speednode_0050
   network: ws
   port: 8880
-  server: 154.83.2.228
+  server: 154.83.2.230
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false
@@ -459,144 +446,7 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 2|🇺🇸3 |  3.4MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.153
-  servername: usb.sevco.me
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dd0d29f2-c6fd-4518-bed6-618ef8b12e86
-  ws-opts:
-    headers:
-      Host: usb.sevco.me
-    path: /bing
-- name: 2|🇹🇼1 |  2.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 2|🇺🇸4 |  3.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 2|🇺🇸5 |  3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.190.30
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸7 |  6.2MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: dada7e94-1844-301d-890b-a3fd40595137
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- name: 2|🇷🇺1 |  5.7MB/s
-  password: dongtaiwang.com
-  port: 51224
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tfo: false
-  type: hysteria2
-- name: 2|🇺🇸8 |  1.9MB/s
-  network: ws
-  port: 8880
-  server: 185.146.173.112
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- name: 2|🌀1- |  2.3MB/s
-  network: ws
-  port: 80
-  server: 104.17.148.22
-  servername: redw.pooriam.ir
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /LwW5jwrnymnOdqki?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2,12|🇭🇰 香港8|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 2|🌀2- |  6.1MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: dada7e94-1844-301d-890b-a3fd40595137
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
-- name: 2,14|SC_speednode_0049
-  network: ws
-  port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: aes-256-cfb
-  name: 2|🇺🇸10 |  5.7MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- name: 2|🇯🇵2 |  6.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 2|🇺🇸11 |  2.5MB/s
+- name: 2|🇺🇸2 |  4.0MB/s
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -607,21 +457,13 @@ proxies:
   ws-opts:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?edfp
-- name: 2|🇺🇸12 |  26.1MB/s
-  network: ws
-  port: 443
-  server: 45.130.22.18
-  servername: eub.kobtty.me
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8820b7dd-b826-4dc1-baab-d941143bb05f
-  ws-opts:
-    headers:
-      Host: eub.kobtty.me
-    path: /bing
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰1 |  1.1MB/s
+  password: 4257b671-ad95-443f-aadb-79634b16db6e
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
 - name: '9,11|⚡️ @vipv2rey(Hysteria) #1'
   obfs: salamander
   obfs-password: bd7f765e
@@ -1047,6 +889,13 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇭🇰 香港8|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
+  type: ss
 - name: 12,13|香港9|@ripaojiedian
   network: tcp
   password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
@@ -1372,10 +1221,24 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|SC_speednode_0050
+- name: 14|SC_speednode_0049
   network: ws
   port: 8880
-  server: 154.83.2.230
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 14|SC_speednode_0051
+  network: ws
+  port: 8880
+  server: 154.83.2.228
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false

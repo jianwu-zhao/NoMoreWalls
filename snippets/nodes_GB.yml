@@ -1,30 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: d89082cc-8e21-4678-a120-5e4326c439e9
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 5322c3ef-d47d-46b6-9448-ffa698c35b8e
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: a5b0a3cd-2714-4d78-ac56-cc53e568c0e9
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 2,12|🇭🇰 香港8|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 970c4ec7-fedf-4357-b200-fb603966f58e
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
