@@ -1,74 +1,67 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 35d5786e-abb1-4454-b2b2-8d3bd9b37ec3
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 35d5786e-abb1-4454-b2b2-8d3bd9b37ec3
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 35d5786e-abb1-4454-b2b2-8d3bd9b37ec3
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1|🇺🇸5 |  4.9MB/s
-  network: ws
-  password: Pooria
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: 301.pOORiAm.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 301.pOORiAm.ir
-    path: /trPyOrWMfkHd15oxiI?ed=1520
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇺🇸8 |  3.2MB/s
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 6543fb01-b0e7-4d5b-8c7e-1c769bf815ee
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: cf9a14f8-e02a-46f5-885f-492858a85eb2
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 6543fb01-b0e7-4d5b-8c7e-1c769bf815ee
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: cf9a14f8-e02a-46f5-885f-492858a85eb2
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 6543fb01-b0e7-4d5b-8c7e-1c769bf815ee
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: cf9a14f8-e02a-46f5-885f-492858a85eb2
   port: 31215
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  delay: 460
+  name: 1|🇺🇸1 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.170.255
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸2 |  1.9MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 594c76bd-847f-3569-a82c-2dd90e4b9bf2
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 39f8afa3-bc36-4d19-b72c-7f9ea61ef9f3
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 39f8afa3-bc36-4d19-b72c-7f9ea61ef9f3
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 39f8afa3-bc36-4d19-b72c-7f9ea61ef9f3
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
