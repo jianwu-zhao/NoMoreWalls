@@ -1,60 +1,60 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.255.174.199
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇸🇬2 |  2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.110.23
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 2b75ad49-fcac-409b-bfb9-b5393835fdd1
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 7ec3ace5-d3bf-459f-b4cf-21be97cc281f
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 2b75ad49-fcac-409b-bfb9-b5393835fdd1
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 7ec3ace5-d3bf-459f-b4cf-21be97cc281f
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 2b75ad49-fcac-409b-bfb9-b5393835fdd1
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 7ec3ace5-d3bf-459f-b4cf-21be97cc281f
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 7bd4636d-a9a2-4c53-bd90-1b8dfaf3451f
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 5d44b0dc-590b-4525-8c99-2c531e803ac1
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 7bd4636d-a9a2-4c53-bd90-1b8dfaf3451f
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 5d44b0dc-590b-4525-8c99-2c531e803ac1
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 7bd4636d-a9a2-4c53-bd90-1b8dfaf3451f
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 5d44b0dc-590b-4525-8c99-2c531e803ac1
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  6.2MB/s
-  password: cf08f99f-dbd2-3abb-8922-4586e503ead6
-  port: 20299
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x299.flybar.work
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 2|🇸🇬2 |  1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.110.23
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
