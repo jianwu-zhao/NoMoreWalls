@@ -1,6 +1,34 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 2c11b380-93e2-4c76-812a-1ce3196ddc2b
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 2c11b380-93e2-4c76-812a-1ce3196ddc2b
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 98a41241-dacc-4eef-8495-28819383fe54
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 98a41241-dacc-4eef-8495-28819383fe54
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 11,12|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: tcp
   password: 63083ab4-5ef8-46d7-a3a0-1588a2b01b0a
   port: 51075
@@ -9,7 +37,7 @@ proxies:
   sni: mmbiz10.redapricotcloud.com
   type: trojan
 - client-fingerprint: chrome
-  name: 11,12|韩国2|@ripaojiedian
+  name: 12,13|韩国2|@ripaojiedian
   network: tcp
   password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
   port: 10510
@@ -19,7 +47,7 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.199.255.69
