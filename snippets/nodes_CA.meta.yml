@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 18463d49-a6ee-4386-ad74-47900f9e0f71
-  port: 31441
-  server: free.2apzhfa.xyz
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 4995be32-477a-4847-9923-e3ad3d5c07ba
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alpn:
@@ -11,7 +11,7 @@ proxies:
   auth-str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 1|🇨🇦1 |  5.5MB/s
+  name: 1|🇨🇦1 |  2.4MB/s
   port: 11512
   ports: 20000-30000
   protocol: udp
@@ -21,9 +21,9 @@ proxies:
   type: hysteria
   up: 11 Mbps
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 1b903bb1-1714-4ae5-9f51-e825ec649188
-  port: 36441
-  server: free.2weradf.xyz
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: 4a8dd5a9-9611-440a-bbbb-7ef5cd0cb2b9
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

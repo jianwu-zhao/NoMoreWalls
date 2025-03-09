@@ -1,21 +1,69 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 18463d49-a6ee-4386-ad74-47900f9e0f71
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 4995be32-477a-4847-9923-e3ad3d5c07ba
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 4995be32-477a-4847-9923-e3ad3d5c07ba
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 4995be32-477a-4847-9923-e3ad3d5c07ba
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇺🇸3 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.95.37.205
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸6 |  2.2MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab8df154-c0e1-3add-b0e1-574bd0152d5e
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: 1|🇺🇸7 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.38.97.249
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: 4a8dd5a9-9611-440a-bbbb-7ef5cd0cb2b9
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 18463d49-a6ee-4386-ad74-47900f9e0f71
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 4a8dd5a9-9611-440a-bbbb-7ef5cd0cb2b9
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 18463d49-a6ee-4386-ad74-47900f9e0f71
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: 4a8dd5a9-9611-440a-bbbb-7ef5cd0cb2b9
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
@@ -23,26 +71,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1|🇺🇸9 |  2.0MB/s
-  network: ws
-  port: 443
-  server: mix1.998998.best
-  servername: jp1-2.zfork.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-  ws-opts:
-    headers:
-      HOST: jp1-2.zfork.com
-    path: /wpmckfpajfng?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   port: 44014
   server: 120.198.71.219
   skip-cert-verify: false
@@ -52,7 +81,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|美国2|@ripaojiedian
+  name: 13|美国2|@ripaojiedian
   network: tcp
   port: '44014'
   server: 120.198.71.219
@@ -60,24 +89,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 1b903bb1-1714-4ae5-9f51-e825ec649188
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 1b903bb1-1714-4ae5-9f51-e825ec649188
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 03 | 1x US Washington
-  password: 1b903bb1-1714-4ae5-9f51-e825ec649188
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
