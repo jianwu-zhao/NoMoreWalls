@@ -1,81 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 1beb3c61-f8fd-4ebe-88a6-900a81c90076
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0,2|🇹🇼1 |  5.5MB/s
-  password: 1beb3c61-f8fd-4ebe-88a6-900a81c90076
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 1beb3c61-f8fd-4ebe-88a6-900a81c90076
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 1c700ac5-8571-48c5-ab6f-0f34453f1095
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 6374864b-df65-4491-b1ce-1852f364059c
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 1c700ac5-8571-48c5-ab6f-0f34453f1095
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 6374864b-df65-4491-b1ce-1852f364059c
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 1c700ac5-8571-48c5-ab6f-0f34453f1095
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 6374864b-df65-4491-b1ce-1852f364059c
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇹🇼2 |  3.9MB/s
-  network: ws
-  port: 23619
-  server: 19.mamamajd.site
+- name: 1|🇹🇼1 |  2.0MB/s
+  password: 06931654-e99d-3668-856f-eb01b9a3d200
+  port: 33323
+  server: gy.58n.net
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 15845548-6305-37cd-8ced-f1ade85ac3b1
-  ws-opts:
-    headers:
-      Host: 19.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  name: 12,13|台湾|@ripaojiedian
-  network: tcp
-  password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
-  port: 10310
-  server: dest01.to.userver01.cc
-  skip-cert-verify: true
-  sni: www.tmall.com
+  sni: z261.hongkongnode.top
   type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾|@ripaojiedian
+  obfs: http_simple
+  obfs-param: b4ff5202018.microsoft.com
+  password: lbNVOz
+  port: 7051
+  protocol: auth_aes128_md5
+  protocol-param: 202018:1FstQvihnBRscXZP
+  server: cname02b-a56xgycr7j4km32e.bestgosht.com
+  type: ssr
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
-  password: QF377GGQ00RATCMK
-  port: 21004
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾3|@ripaojiedian
+  name: 11|🇹🇼 台湾3|@ripaojiedian
   password: Y2U58S90E3GST1AQ
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -83,9 +49,30 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾4|@ripaojiedian
+  name: 11|🇹🇼 台湾4|@ripaojiedian
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 01 | 1x TW
+  password: a6d22632-10d5-447f-b530-0bb42c44ddd3
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 02 | 1x TW
+  password: a6d22632-10d5-447f-b530-0bb42c44ddd3
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 03 | 1x TW
+  password: a6d22632-10d5-447f-b530-0bb42c44ddd3
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
