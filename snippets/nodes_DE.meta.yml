@@ -1,12 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: ad87568e-4047-4c45-9c8d-90bf8544c987
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 6cd8e08d-a1b1-4f3a-ac7c-68fdf5bdd6c7
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: b107e9fe-d4e4-4d17-93f9-66d1239fd9d4
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
   server: weilai-nl.sanguayun.com
@@ -14,14 +21,14 @@ proxies:
   sni: weilai-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #1'
+- name: '10|(@VmessProtocol)برای خرید و ات... #1'
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #2'
+- name: '10|(@VmessProtocol)برای خرید و ات... #2'
   password: 3f9b3419-29d5-4fbf-a96c-62c001705a04
   port: 443
   server: saibo-nl.sanguayun.com
@@ -29,7 +36,7 @@ proxies:
   sni: saibo-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #3'
+- name: '10|(@VmessProtocol)برای خرید و ات... #3'
   password: 90a20d93-5625-4689-b7e8-ac362db7fd2d
   port: 443
   server: weilai-nl.sanguayun.com
@@ -37,7 +44,7 @@ proxies:
   sni: weilai-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -47,16 +54,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 🇩🇪 ...'
-  obfs: salamander
-  obfs-password: hsdirhrrkskdhebdjdj
-  password: MICPT1LLn6
-  port: 44140
-  server: 161.97.108.42
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -65,7 +63,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #4'
+- name: '10|(@VmessProtocol)برای خرید و ات... #4'
   password: c31b23ea-bf3c-476e-8b6b-6f2cc3fc958e
   port: 8899
   server: bx1.su8.lol
@@ -73,7 +71,7 @@ proxies:
   sni: bx1.su8.lol
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #5'
+- name: '10|(@VmessProtocol)برای خرید و ات... #5'
   password: ee837f32-4f5c-4920-9980-b55982f69414
   port: 443
   server: sanyuandian-nl.sanguayun.com
@@ -81,7 +79,7 @@ proxies:
   sni: sanyuandian-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #6'
+- name: '10|(@VmessProtocol)برای خرید و ات... #6'
   password: f0ae7bec-c14c-4447-91e5-d636265092d4
   port: 31651
   server: 213.189.54.126
@@ -89,10 +87,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: f2e8f9f3-a1ec-4807-b01d-be7cd27c23da
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
