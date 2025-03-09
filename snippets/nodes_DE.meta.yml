@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 6cd8e08d-a1b1-4f3a-ac7c-68fdf5bdd6c7
+  password: 256ee695-c8fb-462b-9c95-e5eb0b928a79
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: b107e9fe-d4e4-4d17-93f9-66d1239fd9d4
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: a2d337bc-0584-4669-bbc1-2d65826c5c14
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -52,6 +52,15 @@ proxies:
   server: 202.78.166.190
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|Channel id: @ShadowProxy66 🇩🇪 ...'
+  obfs: salamander
+  obfs-password: hsdirhrrkskdhebdjdj
+  password: MICPT1LLn6
+  port: 44140
+  server: 161.97.108.42
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
