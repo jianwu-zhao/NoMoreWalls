@@ -1,18 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 78f7b673-83a4-4395-9ae6-51239f0505e2
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 5aaa2df6-e98e-49f9-97ab-2a1819f6f516
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 6ed70601-5b29-433e-a0b0-9004c5e95a27
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: f4db0a40-d30d-463e-87a3-3ccfb60893ab
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇩🇪1 |  3.5MB/s
+  obfs: salamander
+  obfs_password: PlNYjSECZNqpSCX9
+  password: 264136cf-2212-4668-ad6e-6807e7de04c6
+  port: 40000
+  server: onevpshosting-5.solook.uk
+  skip-cert-verify: true
+  sni: onevpshosting-5.solook.uk
+  type: hysteria2
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
@@ -52,6 +62,15 @@ proxies:
   server: 202.78.166.190
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|Channel id: @ShadowProxy66 🇩🇪 ...'
+  obfs: salamander
+  obfs-password: hsdirhrrkskdhebdjdj
+  password: MICPT1LLn6
+  port: 44140
+  server: 161.97.108.42
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
