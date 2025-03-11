@@ -1,36 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
+  password: adbda395-5eaa-407c-980e-5446ba6c7df1
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
+  password: adbda395-5eaa-407c-980e-5446ba6c7df1
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.140.1.105
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 01 | 1x KR
-  password: 10e6132b-b416-4cb3-ae60-826c158f578e
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: eafd727e-8f1b-469a-b026-588ffe0ef234
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 02 | 1x KR
-  password: 10e6132b-b416-4cb3-ae60-826c158f578e
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: eafd727e-8f1b-469a-b026-588ffe0ef234
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

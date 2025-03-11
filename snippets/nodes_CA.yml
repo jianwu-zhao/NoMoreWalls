@@ -1,22 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: b27d6ba3-552b-4255-9f85-c29a20806191
+  password: adbda395-5eaa-407c-980e-5446ba6c7df1
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇨🇦1 |  6.0MB/s
-  password: 777c099b-f437-390a-bfb0-185d4e9dcaf9
-  port: 21970
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x41.flybar.work
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 10e6132b-b416-4cb3-ae60-826c158f578e
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: eafd727e-8f1b-469a-b026-588ffe0ef234
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
