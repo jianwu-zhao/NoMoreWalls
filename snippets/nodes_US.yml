@@ -1,49 +1,74 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 6ed70601-5b29-433e-a0b0-9004c5e95a27
+  password: 4a1f5564-7386-44af-b023-b627f002c3e7
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 6ed70601-5b29-433e-a0b0-9004c5e95a27
+  password: 4a1f5564-7386-44af-b023-b627f002c3e7
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 6ed70601-5b29-433e-a0b0-9004c5e95a27
+  password: 4a1f5564-7386-44af-b023-b627f002c3e7
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: f4db0a40-d30d-463e-87a3-3ccfb60893ab
+  password: cd3204f0-9413-4a89-ab43-a65013b2bd89
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: f4db0a40-d30d-463e-87a3-3ccfb60893ab
+  password: cd3204f0-9413-4a89-ab43-a65013b2bd89
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: f4db0a40-d30d-463e-87a3-3ccfb60893ab
+  password: cd3204f0-9413-4a89-ab43-a65013b2bd89
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇺🇸5 |  5.9MB/s
+  client-fingerprint: chrome
+  name: 2|🇺🇸1 |  5.5MB/s
   password: amazonskr05
   port: 443
-  server: 13.215.141.135
+  server: 13.215.178.168
   type: ss
+  udp: true
+- name: 2|🇺🇸2 |  5.6MB/s
+  password: e99d80b1-517b-3764-8076-525834222454
+  port: 20308
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z308.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 2|🇺🇸3 |  5.5MB/s
+  network: ws
+  port: 23605
+  server: 5.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a0d03891-4a6b-35f6-a35d-db1ed152774c
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
