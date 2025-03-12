@@ -1,74 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇺🇸1 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.237.73.216
-  type: ss
-- name: 1|🇺🇸2 |  5.8MB/s
-  password: 67b32c28-cecb-3ab0-bff5-8b4a4f2ab51c
-  port: 24603
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z259.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
   country: 🇺🇸US
-  delay: 1485
-  name: 1|🇺🇸3 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.217.100.159
+  delay: 1239
+  name: 0|🇺🇸3 |  1.7MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 38.165.233.18
   type: ss
-- name: 1|🇺🇸7 |  5.5MB/s
-  password: 67b32c28-cecb-3ab0-bff5-8b4a4f2ab51c
-  port: 20304
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z304.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
   port: 36215
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

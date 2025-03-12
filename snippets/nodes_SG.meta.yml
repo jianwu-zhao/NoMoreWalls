@@ -1,55 +1,33 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
-  port: 31171
-  server: free.2apzhfa.xyz
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.255.43
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1|🇸🇬1 |  6.1MB/s
-  password: 67b32c28-cecb-3ab0-bff5-8b4a4f2ab51c
-  port: 17806
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x65.flybar.work
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 11|Hysteria 🇸🇬 @v2meowcf
+- name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -57,7 +35,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|[Hy2]新加坡v1(x2)
+- name: 10|[Hy2]新加坡v1(x2)
   password: 8ec9bcb6-328c-4182-bcfa-52d89881a523
   port: 443
   server: sgv1.tigrdn1.xyz
@@ -65,7 +43,7 @@ proxies:
   sni: sgv1.tigrdn1.xyz
   tls: false
   type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -75,7 +53,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian
+  name: 11|🇸🇬 新加坡|@ripaojiedian
   password: 0407WKIEIXMTLGC6
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -83,7 +61,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   password: BFYCOKHTC8HIWWRB
   port: 16006
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -91,7 +69,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: IHWLYZSSSX4GSKLA
   port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -99,7 +77,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡4|@ripaojiedian
+  name: 11|🇸🇬 新加坡4|@ripaojiedian
   password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
   port: 8388
   server: 5.223.55.99
@@ -107,9 +85,30 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.78.120.105
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
