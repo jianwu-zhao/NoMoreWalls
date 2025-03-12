@@ -1,31 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 13a87832-8471-4496-81db-25288e7c1b9d
+  password: ea63a152-534e-4251-9dd7-270e3a8477d3
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0,1|🇸🇬2 |  5.3MB/s
-  password: 13a87832-8471-4496-81db-25288e7c1b9d
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: ea63a152-534e-4251-9dd7-270e3a8477d3
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 13a87832-8471-4496-81db-25288e7c1b9d
+  password: ea63a152-534e-4251-9dd7-270e3a8477d3
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.183.172
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 0a057dc5-7c5c-4a85-bcbd-6aec62b73648
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 0a057dc5-7c5c-4a85-bcbd-6aec62b73648
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 0a057dc5-7c5c-4a85-bcbd-6aec62b73648
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
@@ -50,25 +65,19 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 12|🇸🇬 新加坡4|@ripaojiedian
-  password: '!!str 74260714362785500'
-  port: 443
-  server: driving-rhino.shiner427.skin
-  skip-cert-verify: false
-  sni: driving-rhino.shiner427.skin
-  type: trojan
+  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
+  port: 8388
+  server: 5.223.55.99
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.230.60.121
+  server: 52.78.120.105
   tfo: false
   type: ss
-- name: 13|新加坡4|@ripaojiedian
-  network: tcp
-  password: '!!str 74260714362785500'
-  port: 443
-  server: driving-rhino.shiner427.skin
-  type: trojan
