@@ -1,19 +1,111 @@
 proxies:
-- name: 1,14|NL_speednode_0029
-  network: ws
-  port: 2052
-  server: 45.149.12.183
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: d7e1ece0-62a1-4400-95fc-f9224c8d53cc
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸1 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.237.73.216
+  type: ss
+- name: 1|🇺🇸2 |  5.8MB/s
+  password: 67b32c28-cecb-3ab0-bff5-8b4a4f2ab51c
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 1485
+  name: 1|🇺🇸3 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.217.100.159
+  type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 1|🇺🇸4 |  3.7MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- client-fingerprint: chrome
+  name: 1|🇺🇸5 |  1.8MB/s
+  network: ws
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  type: vless
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 1,14|US_speednode_0056
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- name: 1|🇺🇸7 |  5.5MB/s
+  password: 67b32c28-cecb-3ab0-bff5-8b4a4f2ab51c
+  port: 20304
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z304.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 5da5f38a-a670-4987-9b98-f1c2fcd8c014
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
+  port: 443
+  server: 143.198.235.49
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 14|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -27,34 +119,6 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: bb6a2b9e-2952-45ff-87d6-3d646f1697d6
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: bb6a2b9e-2952-45ff-87d6-3d646f1697d6
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: bb6a2b9e-2952-45ff-87d6-3d646f1697d6
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-  password: iMqY3uG_5pgEj3hCfyHB-0vB
-  port: 443
-  server: 143.198.235.49
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 14|US_speednode_0064
   network: ws
   port: 80
