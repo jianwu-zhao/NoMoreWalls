@@ -1,46 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺2 |  5.6MB/s
-  network: ws
-  port: 23010
-  server: 185.22.152.236
-  tls: false
-  type: vmess
-  uuid: e25247c6-9adb-41b7-84aa-5fdc5fd28572
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺3 |  4.1MB/s
-  network: ws
-  port: 23010
-  server: 212.192.13.68
-  tls: false
-  type: vmess
-  uuid: e25247c6-9adb-41b7-84aa-5fdc5fd28572
-  ws-opts:
-    headers: {}
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: b9bc70b4-8825-4b0a-a6a1-2314a5f45f79
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: 080f75b4-2f31-4b3f-b675-0f18e96305b7
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇷🇺 俄罗斯|@ripaojiedian
-  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
-  port: 8388
-  server: 185.158.155.33
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: 59e5bfca-7e2f-4b60-b885-f46225d51044
+  name: 2|🇷🇺俄罗斯 01 | 1x RU
+  password: f507780f-8d47-4f8b-b387-13c1415c89f5
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
