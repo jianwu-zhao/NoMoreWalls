@@ -1,63 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1|🇯🇵1 |  6.3MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1,12|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.196.181.68
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 01 | 1x JP
-  password: 050a8282-513a-4918-a843-57381d9281e4
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 02 | 1x JP
-  password: 050a8282-513a-4918-a843-57381d9281e4
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 03 | 1x JP
-  password: 050a8282-513a-4918-a843-57381d9281e4
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8764
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本2|@ripaojiedian
@@ -68,6 +63,14 @@ proxies:
     mode: http
   port: 8761
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本3|@ripaojiedian
+  password: 6Z15O92K5OSTCQUD
+  port: 18008
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-cfb

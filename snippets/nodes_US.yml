@@ -1,61 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸3 |  1.8MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cf21325c-a1e0-3d7d-8911-b52c2200f960
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 050a8282-513a-4918-a843-57381d9281e4
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 050a8282-513a-4918-a843-57381d9281e4
+  name: 0,2|🌀4- |  1.3MB/s
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 050a8282-513a-4918-a843-57381d9281e4
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 2|🇺🇸5 |  2.7MB/s
+  password: ZZ742AZT1DKLRDIF
+  port: 19005
+  server: 206.245.211.15
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -65,6 +57,18 @@ proxies:
     host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
     mode: http
   port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss

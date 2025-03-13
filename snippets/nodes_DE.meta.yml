@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 050a8282-513a-4918-a843-57381d9281e4
-  port: 36471
-  server: free.2weradf.xyz
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 10|(@VmessProtocol)برای خرید و ات...
@@ -18,22 +18,6 @@ proxies:
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #1'
-  password: 3f9b3419-29d5-4fbf-a96c-62c001705a04
-  port: 443
-  server: saibo-nl.sanguayun.com
-  skip-cert-verify: false
-  sni: saibo-nl.sanguayun.com
-  tls: false
-  type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #2'
-  password: 90a20d93-5625-4689-b7e8-ac362db7fd2d
-  port: 443
-  server: weilai-nl.sanguayun.com
-  skip-cert-verify: false
-  sni: weilai-nl.sanguayun.com
   tls: false
   type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
@@ -62,21 +46,5 @@ proxies:
   port: 9999
   server: 3.123.253.70
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #3'
-  password: c31b23ea-bf3c-476e-8b6b-6f2cc3fc958e
-  port: 8899
-  server: bx1.su8.lol
-  skip-cert-verify: false
-  sni: bx1.su8.lol
-  tls: false
-  type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #4'
-  password: ee837f32-4f5c-4920-9980-b55982f69414
-  port: 443
-  server: sanyuandian-nl.sanguayun.com
-  skip-cert-verify: false
-  sni: sanyuandian-nl.sanguayun.com
   tls: false
   type: hysteria2

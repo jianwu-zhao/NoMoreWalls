@@ -1,26 +1,66 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0,2|🌀4- |  1.3MB/s
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 5c4e96af-c5a5-4833-836b-5f733adc240e
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 632a88b2-38c4-4497-a361-9079d2e6723e
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇺🇸1 |  12.3MB/s
+- name: 2|🇺🇸2 |  3.2MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1fp
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 2|🇺🇸5 |  2.7MB/s
+  password: ZZ742AZT1DKLRDIF
+  port: 19005
+  server: 206.245.211.15
+  type: ss
+- client-fingerprint: chrome
+  name: 2|🇺🇸6 |  1.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -29,81 +69,20 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 1|🇺🇸2 |  5.6MB/s
+- name: 2|🇺🇸7 |  4.5MB/s
   network: ws
-  port: 2086
-  server: 212.183.88.84
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸3 |  1.8MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
+  port: 2053
+  server: 162.159.129.11
+  servername: cc1.ylkszy.eu.org
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cf21325c-a1e0-3d7d-8911-b52c2200f960
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  name: 1|🇺🇸4 |  2.2MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- name: 1,14|NL_speednode_0029
-  network: ws
-  port: 2052
-  server: 45.149.12.183
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 050a8282-513a-4918-a843-57381d9281e4
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 050a8282-513a-4918-a843-57381d9281e4
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 050a8282-513a-4918-a843-57381d9281e4
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+      Host: cc1.ylkszy.eu.org
+    path: /?ed=2560
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -120,6 +99,18 @@ proxies:
     host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
     mode: http
   port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    mode: http
+  port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
