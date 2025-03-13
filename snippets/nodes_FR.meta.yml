@@ -4,10 +4,17 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇫🇷1 |  2.6MB/s
+  name: 2|🇫🇷1 |  2.4MB/s
   port: 44557
   server: 195.154.200.178
   servername: apple.com
   skip-cert-verify: true
   type: hysteria
   up: 1000 Mbps
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇫🇷2 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 57.180.25.228
+  type: ss
