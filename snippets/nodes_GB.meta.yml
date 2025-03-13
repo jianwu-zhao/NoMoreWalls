@@ -1,33 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0,2|🇺🇸1 |  5.1MB/s
-  password: a6d80e66-7fcf-4f29-a936-b9b5390d8d67
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 632a88b2-38c4-4497-a361-9079d2e6723e
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 632a88b2-38c4-4497-a361-9079d2e6723e
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 8117c584-cd05-493a-962d-43396c681de5
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 11|英国伦敦-1
+- name: 10|英国伦敦-1
   password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   port: 8899
   server: yingguo1.su8.lol
   sni: yingguo1.su8.lol
   tls: false
   type: hysteria2
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -35,7 +21,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0009
+- name: 13|GB_speednode_0009
   network: ws
   port: 443
   server: 31.22.116.38
@@ -49,3 +35,10 @@ proxies:
     headers:
       Host: usd.kobtty.me
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 5ae057b7-9994-44a2-9d40-7b845e1dbbf7
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
