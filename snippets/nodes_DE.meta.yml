@@ -1,11 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 8117c584-cd05-493a-962d-43396c681de5
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: fb21d25d-f58f-4140-a11a-c3743978e9bd
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,11|🇭🇰 香港8|@ripaojiedian
+  port: 34011
+  server: 183.2.194.141
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 59383c9f-700c-4767-9e5a-6c6e87669c3c
 - name: 9|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
@@ -42,9 +53,9 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 5ae057b7-9994-44a2-9d40-7b845e1dbbf7
-  port: 36471
-  server: free.2weradf.xyz
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 9292e68e-9bc9-43ed-a448-0a25122ed0a5
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

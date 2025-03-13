@@ -1,11 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 8117c584-cd05-493a-962d-43396c681de5
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: fb21d25d-f58f-4140-a11a-c3743978e9bd
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 1|🇷🇺1 |  2.9MB/s
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- alterId: 0
+  cipher: auto
+  name: 1|🇷🇺2 |  2.7MB/s
+  network: ws
+  port: 23011
+  server: 185.22.152.236
+  tls: false
+  type: vmess
+  uuid: 0b873d2f-41db-4f30-b1ac-6b315252bd6b
+  ws-opts:
+    headers: {}
+    path: /
 - name: 13|RU_speednode_0046
   network: ws
   port: 80
@@ -49,9 +73,9 @@ proxies:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺 俄罗斯 01 | 1x RU
-  password: 5ae057b7-9994-44a2-9d40-7b845e1dbbf7
-  port: 36511
-  server: free.2weradf.xyz
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: 9292e68e-9bc9-43ed-a448-0a25122ed0a5
+  port: 31511
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
