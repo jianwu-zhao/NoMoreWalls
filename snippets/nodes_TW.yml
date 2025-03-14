@@ -1,96 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  password: 968ee96c-ff71-48cc-95fc-69700a4a2443
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  password: 968ee96c-ff71-48cc-95fc-69700a4a2443
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  password: 968ee96c-ff71-48cc-95fc-69700a4a2443
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼台湾 01 | 1x TW
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  password: 82b2a730-ee72-420c-b339-527ae909bfc4
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼台湾 02 | 1x TW
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  password: 82b2a730-ee72-420c-b339-527ae909bfc4
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼台湾 03 | 1x TW
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  password: 82b2a730-ee72-420c-b339-527ae909bfc4
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  1.2MB/s
-  password: 7d308b62-a124-34c0-861c-e5a4319b9814
-  port: 36821
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z262.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇹🇼3 |  2.5MB/s
-  password: 7d308b62-a124-34c0-861c-e5a4319b9814
-  port: 33323
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z261.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇹🇼4 |  5.8MB/s
-  password: 7d308b62-a124-34c0-861c-e5a4319b9814
-  port: 59021
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x100.flybar.work
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾1|@ripaojiedian
-  password: WLSD09O6DA2JN3NJ
-  port: 21001
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: BB9BXCELPCYBVJMY
+  port: 21006
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
-  password: FXFYRVMMA5BPC7HJ
-  port: 21004
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾4|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-    mode: http
-  port: 8745
-  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -102,6 +58,18 @@ proxies:
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
     mode: http
   port: 8746
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    mode: http
+  port: 8745
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss

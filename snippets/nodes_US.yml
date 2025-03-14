@@ -1,61 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  password: 968ee96c-ff71-48cc-95fc-69700a4a2443
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  password: 968ee96c-ff71-48cc-95fc-69700a4a2443
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 01a86b3b-f899-475e-b436-6439a69ba386
+  password: 968ee96c-ff71-48cc-95fc-69700a4a2443
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  password: 82b2a730-ee72-420c-b339-527ae909bfc4
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  password: 82b2a730-ee72-420c-b339-527ae909bfc4
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 43636740-22b0-47f2-b8ec-79bb7d7fcfd9
+  password: 82b2a730-ee72-420c-b339-527ae909bfc4
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸1 |  5.2MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d51094f1-dc03-360d-bab5-d4e5a78e8f5d
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -68,19 +53,23 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    mode: http
+  port: 8773
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇺🇸 美国3|@ripaojiedian
   password: FKCY4YH4V4EKLDLC
   port: 17002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国5|@ripaojiedian
-  password: 3D5E3GR6BW1N99NI
-  port: 17006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
