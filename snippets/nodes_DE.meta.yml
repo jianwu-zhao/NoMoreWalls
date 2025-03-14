@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 5f62245f-9f5f-45fc-a12c-1aa853160dea
-  port: 36471
-  server: free.2weradf.xyz
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 5e23d158-b2e6-4fdb-b55c-13dd6eaebe07
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 9|(@VmessProtocol)برای خرید و ات...
@@ -42,9 +42,9 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: b6cd947e-ec8b-43c4-958e-03ba290ff1f8
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 5570e59c-05d4-427b-bd4e-1ef35ad955ef
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
