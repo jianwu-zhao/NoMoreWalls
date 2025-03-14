@@ -1,28 +1,64 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|🇸🇬1 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.131.232
+  type: ss
+- name: 0|🇸🇬2 |  1.9MB/s
+  password: bbf0989e-ac34-3ae8-a911-e5c362d8b2a3
+  port: 20130
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x130.flybar.work
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 5e23d158-b2e6-4fdb-b55c-13dd6eaebe07
+  password: 0ae46b78-61a3-412b-a1cb-26a640173d9c
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 5e23d158-b2e6-4fdb-b55c-13dd6eaebe07
+  password: 0ae46b78-61a3-412b-a1cb-26a640173d9c
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 5e23d158-b2e6-4fdb-b55c-13dd6eaebe07
+  password: 0ae46b78-61a3-412b-a1cb-26a640173d9c
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 0691a8a6-29b5-4a3f-87f1-93fe929bfcce
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 0691a8a6-29b5-4a3f-87f1-93fe929bfcce
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 0691a8a6-29b5-4a3f-87f1-93fe929bfcce
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -34,7 +70,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -46,30 +82,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 47.128.154.164
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 5570e59c-05d4-427b-bd4e-1ef35ad955ef
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 5570e59c-05d4-427b-bd4e-1ef35ad955ef
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 5570e59c-05d4-427b-bd4e-1ef35ad955ef
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
