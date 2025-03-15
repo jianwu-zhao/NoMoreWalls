@@ -1,87 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: a2da603a-1c42-4924-aeff-7240ab62e438
+  password: a20702a7-eba0-4da4-abbe-8ce4fa72c806
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: a2da603a-1c42-4924-aeff-7240ab62e438
+  password: a20702a7-eba0-4da4-abbe-8ce4fa72c806
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: a2da603a-1c42-4924-aeff-7240ab62e438
+  password: a20702a7-eba0-4da4-abbe-8ce4fa72c806
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇺🇸1 |  2.5MB/s
-  password: ed6a3d1a-6b4a-33c6-81d5-8ffb85d6024a
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 940a4f1a-28e6-40d5-bef7-b8b1d0ac2daa
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- name: 1|🇺🇸3 |  1.8MB/s
-  password: ed6a3d1a-6b4a-33c6-81d5-8ffb85d6024a
-  port: 20294
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 940a4f1a-28e6-40d5-bef7-b8b1d0ac2daa
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸4 |  5.8MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 726504ee-a555-3ffd-9f63-47ac6035ff99
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- name: 1|🇺🇸5 |  3.9MB/s
-  password: ed6a3d1a-6b4a-33c6-81d5-8ffb85d6024a
-  port: 20302
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z302.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇺🇸6 |  1.5MB/s
-  password: ed6a3d1a-6b4a-33c6-81d5-8ffb85d6024a
-  port: 20296
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z296.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇺🇸7 |  2.8MB/s
-  password: ed6a3d1a-6b4a-33c6-81d5-8ffb85d6024a
-  port: 22741
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: dufu.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 940a4f1a-28e6-40d5-bef7-b8b1d0ac2daa
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -89,11 +55,11 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
@@ -101,30 +67,17 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
-  password: FKCY4YH4V4EKLDLC
-  port: 17002
+  name: 12|🇺🇸 美国4|@ripaojiedian
+  password: 253KPG5GKU6EXJQB
+  port: 17007
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 094f0607-6fd4-42ba-9489-edf9f87784b2
-  port: 31211
-  server: free.2apzhfa.xyz
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国5|@ripaojiedian
+  password: UUBUEJ1DLDQVJG7D
+  port: 17003
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 094f0607-6fd4-42ba-9489-edf9f87784b2
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 094f0607-6fd4-42ba-9489-edf9f87784b2
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
