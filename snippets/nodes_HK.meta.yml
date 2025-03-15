@@ -1,52 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: a159cf0c-7e2e-4b55-8fe2-5023e9fed870
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: a159cf0c-7e2e-4b55-8fe2-5023e9fed870
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,12|🇭🇰 香港8|@ripaojiedian
-  port: 49876
-  server: xxxlsopyyds.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2f0a6a99-af56-4119-bd11-04bccd6b74b7
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 1|🇭🇰2 |  5.6MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 0e6a15d1-d98e-463d-aa34-9b784d94d548
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: b42c6346-5062-4e22-9480-c00cbd74f10a
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 0e6a15d1-d98e-463d-aa34-9b784d94d548
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: b42c6346-5062-4e22-9480-c00cbd74f10a
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 11|香港🇭🇰 HY2
+- name: 10|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
   server: fast.yxmm.xyz
@@ -55,7 +22,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -69,7 +36,7 @@ proxies:
     path: /dl_media
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 11|🇭🇰 香港2|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
@@ -77,7 +44,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港3|@ripaojiedian
+  name: 11|🇭🇰 香港3|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -89,7 +56,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
+  name: 11|🇭🇰 香港4|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -100,7 +67,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|香港5|@ripaojiedian
+  name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: ea2QsO
   port: 22745
@@ -110,7 +77,7 @@ proxies:
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港6|@ripaojiedian
+  name: 11|🇭🇰 香港6|@ripaojiedian
   password: XJPAS0N4BEP15G19
   port: 15010
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -118,13 +85,24 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港7|@ripaojiedian
+  name: 11|🇭🇰 香港7|@ripaojiedian
   password: 2T5W8KZ3SXC3B0GJ
   port: 15014
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: 13|香港|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港8|@ripaojiedian
+  port: 49876
+  server: xxxlsopyyds.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2f0a6a99-af56-4119-bd11-04bccd6b74b7
+- name: 12|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -137,7 +115,7 @@ proxies:
     path: '%2Fdl_media'
 - alterId: 0
   cipher: auto
-  name: 13|香港8|@ripaojiedian
+  name: 12|香港8|@ripaojiedian
   network: tcp
   port: '49876'
   server: xxxlsopyyds.com
@@ -145,3 +123,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 2f0a6a99-af56-4119-bd11-04bccd6b74b7
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 02 | 1x HK
+  password: f484cf1b-dc9b-4436-be97-578bc4399461
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
+  password: f484cf1b-dc9b-4436-be97-578bc4399461
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
