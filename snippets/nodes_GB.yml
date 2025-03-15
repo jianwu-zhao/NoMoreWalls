@@ -13,14 +13,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 1|🇬🇧1 |  4.0MB/s
-  network: tcp
-  port: 30302
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港 01 | 1x HK
   password: 35938693-157d-43ca-af72-4254141afe05
