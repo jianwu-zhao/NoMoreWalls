@@ -1,59 +1,59 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 1960f1cd-959d-49d4-928c-acd38bdab11a
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 1960f1cd-959d-49d4-928c-acd38bdab11a
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇰🇷1 |  2.5MB/s
+  name: 1|🇰🇷1 |  2.5MB/s
   password: amazonskr05
   port: 443
   server: 43.201.33.107
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇰🇷2 |  13.1MB/s
+  name: 1|🇰🇷2 |  13.1MB/s
   password: amazonskr05
   port: 443
   server: 52.78.98.141
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇰🇷3 |  1.7MB/s
+  name: 1|🇰🇷3 |  1.7MB/s
   password: amazonskr05
   port: 443
   server: 3.34.253.95
   type: ss
 - cipher: aes-128-gcm
-  name: 2|🇰🇷4 |  6.2MB/s
+  name: 1|🇰🇷4 |  6.2MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24535
   server: wy.76681f9610f175c6.com
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: bf9abf53-0b80-4bc7-aa24-3efa43e49c83
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: bf9abf53-0b80-4bc7-aa24-3efa43e49c83
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
