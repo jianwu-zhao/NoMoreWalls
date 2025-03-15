@@ -1,27 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 1|🇺🇸1 |  4.5MB/s
+  name: 2|🇺🇸1 |  4.5MB/s
   network: ws
   port: 8880
   server: 154.83.2.228
@@ -34,13 +55,13 @@ proxies:
       Host: redw.pooriam.ir
     path: /
 - cipher: aes-128-gcm
-  name: 1|🇺🇸2 |  13.8MB/s
+  name: 2|🇺🇸2 |  13.8MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24536
   server: wy.76681f9610f175c6.com
   type: ss
 - client-fingerprint: chrome
-  name: 1|🇺🇸3 |  3.4MB/s
+  name: 2|🇺🇸3 |  3.4MB/s
   network: ws
   port: 443
   server: 31.22.116.16
@@ -53,14 +74,14 @@ proxies:
       Host: usa.xzncr.asia
     path: /bing
 - cipher: aes-128-gcm
-  name: 1|🇺🇸4 |  3.4MB/s
+  name: 2|🇺🇸4 |  3.4MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24528
   server: wy.76681f9610f175c6.com
   type: ss
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸5 |  1.5MB/s
+  name: 2|🇺🇸5 |  1.5MB/s
   network: tcp
   port: 40102
   server: 120.232.153.63
@@ -68,26 +89,26 @@ proxies:
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇺🇸6 |  3.0MB/s
+  name: 2|🇺🇸6 |  3.0MB/s
   password: amazonskr05
   port: 443
   server: 18.236.137.219
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇺🇸7 |  1.9MB/s
+  name: 2|🇺🇸7 |  1.9MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24526
   server: wy.76681f9610f175c6.com
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇺🇸8 |  11.6MB/s
+  name: 2|🇺🇸8 |  11.6MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24529
   server: wy.76681f9610f175c6.com
   type: ss
 - client-fingerprint: chrome
   ip-version: dual
-  name: 1|🇺🇸9 |  7.4MB/s
+  name: 2|🇺🇸9 |  7.4MB/s
   network: tcp
   port: 443
   server: 51.81.18.62
@@ -95,27 +116,6 @@ proxies:
   tls: true
   type: vless
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 35938693-157d-43ca-af72-4254141afe05
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 35938693-157d-43ca-af72-4254141afe05
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 35938693-157d-43ca-af72-4254141afe05
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443

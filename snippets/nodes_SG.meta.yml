@@ -1,71 +1,92 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇸🇬1 |  4.3MB/s
+  name: 2|🇸🇬1 |  4.3MB/s
   password: amazonskr05
   port: 443
   server: 47.128.154.164
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇸🇬2 |  1.8MB/s
+  name: 2|🇸🇬2 |  1.8MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24514
   server: wy.76681f9610f175c6.com
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇸🇬3 |  14.8MB/s
+  name: 2|🇸🇬3 |  14.8MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24516
   server: wy.76681f9610f175c6.com
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇸🇬4 |  14.5MB/s
+  name: 2|🇸🇬4 |  14.5MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24514
   server: onlycloud.76681f9610f175c6.com
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇸🇬5 |  2.0MB/s
+  name: 2|🇸🇬5 |  2.0MB/s
   password: amazonskr05
   port: 443
   server: 54.255.141.129
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇸🇬6 |  1.7MB/s
+  name: 2|🇸🇬6 |  1.7MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24515
   server: wy.76681f9610f175c6.com
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇸🇬7 |  2.4MB/s
+  name: 2|🇸🇬7 |  2.4MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24518
   server: wy.76681f9610f175c6.com
   type: ss
 - client-fingerprint: chrome
-  name: 1|🇸🇬8 |  2.9MB/s
+  name: 2|🇸🇬8 |  2.9MB/s
   network: ws
   port: 443
   server: 52.230.19.50
@@ -79,52 +100,31 @@ proxies:
     path: /bing
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇸🇬9 |  3.0MB/s
+  name: 2|🇸🇬9 |  3.0MB/s
   password: amazonskr05
   port: 443
   server: 54.255.183.245
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇸🇬10 |  7.6MB/s
+  name: 2|🇸🇬10 |  7.6MB/s
   password: amazonskr05
   port: 443
   server: 54.169.15.9
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇸🇬11 |  3.3MB/s
+  name: 2|🇸🇬11 |  3.3MB/s
   password: amazonskr05
   port: 443
   server: 13.229.89.243
   type: ss
 - cipher: aes-128-gcm
-  name: 1|🇸🇬12 |  2.0MB/s
+  name: 2|🇸🇬12 |  2.0MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24541
   server: wy.76681f9610f175c6.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 35938693-157d-43ca-af72-4254141afe05
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 35938693-157d-43ca-af72-4254141afe05
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 35938693-157d-43ca-af72-4254141afe05
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

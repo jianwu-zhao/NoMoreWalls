@@ -1,82 +1,82 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1|🇯🇵2 |  1.2MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24523
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇯🇵3 |  12.4MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24520
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇯🇵6 |  15.0MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24547
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇯🇵7 |  1.2MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24522
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇯🇵8 |  13.6MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24548
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇯🇵9 |  15.3MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24521
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 01 | 1x JP
-  password: 35938693-157d-43ca-af72-4254141afe05
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 02 | 1x JP
-  password: 35938693-157d-43ca-af72-4254141afe05
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 03 | 1x JP
-  password: 35938693-157d-43ca-af72-4254141afe05
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 2|🇯🇵2 |  1.2MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24523
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇯🇵3 |  12.4MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24520
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇯🇵6 |  15.0MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24547
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇯🇵7 |  1.2MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24522
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇯🇵8 |  13.6MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24548
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇯🇵9 |  15.3MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24521
+  server: wy.76681f9610f175c6.com
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian

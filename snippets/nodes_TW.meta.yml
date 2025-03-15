@@ -1,70 +1,70 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1|🇹🇼1 |  4.4MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24510
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇹🇼2 |  5.2MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24549
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇹🇼3 |  13.1MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24510
-  server: onlycloud.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇹🇼4 |  10.0MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24513
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 35938693-157d-43ca-af72-4254141afe05
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 35938693-157d-43ca-af72-4254141afe05
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 35938693-157d-43ca-af72-4254141afe05
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 27037fb6-7691-40fb-973c-d46b1c7ff2cf
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 3f97bf6f-beed-426b-8a3e-8b49ac5dbe71
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 2|🇹🇼1 |  4.4MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24510
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇹🇼2 |  5.2MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24549
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇹🇼3 |  13.1MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24510
+  server: onlycloud.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 2|🇹🇼4 |  10.0MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24513
+  server: wy.76681f9610f175c6.com
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

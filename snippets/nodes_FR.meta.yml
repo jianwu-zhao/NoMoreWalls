@@ -4,7 +4,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 1|🇫🇷1 |  4.2MB/s
+  name: 2|🇫🇷1 |  4.2MB/s
   port: 44557
   server: 195.154.200.178
   servername: apple.com
@@ -12,14 +12,14 @@ proxies:
   type: hysteria
   up: 1000 Mbps
 - cipher: aes-128-gcm
-  name: 1|🇫🇷2 |  11.3MB/s
+  name: 2|🇫🇷2 |  11.3MB/s
   password: ec588545-292e-4a11-ada2-d62e599af928
   port: 24564
   server: sg.76681f9610f175c6.com
   type: ss
 - auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
   client-fingerprint: chrome
-  name: 1|🇫🇷3 |  1.6MB/s
+  name: 2|🇫🇷3 |  1.6MB/s
   password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
   port: 37732
   server: 207.180.248.7

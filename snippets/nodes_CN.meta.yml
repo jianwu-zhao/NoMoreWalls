@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|🌀6-CN |  2.0MB/s
+  name: 2|🌀6-CN |  2.0MB/s
   network: ws
   port: 23013
   server: 212.192.13.68
