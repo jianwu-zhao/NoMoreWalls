@@ -1,68 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
+  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
+  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
+  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇹🇼1 |  2.2MB/s
-  password: 699ceb45-ab95-4838-a534-dd914a936eb4
-  port: 50026
-  server: gnpid1111.ndycom.com
-  sni: v2tw01.fuqiangren.com
+- name: 2|🇹🇼1 |  1.3MB/s
+  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+  port: 21247
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x91.flybar.work
   type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 2|🇹🇼3 |  5.9MB/s
-  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
-  port: 12033
-  server: mdss-tw.04z3susick.download
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 2|🇹🇼4 |  5.8MB/s
-  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
-  port: 19019
-  server: yy1.vyunyunnode.top
-  type: ss
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome

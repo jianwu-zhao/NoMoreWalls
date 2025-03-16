@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
+  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -16,14 +16,29 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   delay: 1316
-  name: 2|🇩🇪1 |  3.1MB/s
+  name: 2|🇩🇪1 |  2.0MB/s
   password: 7cbfe78195fbf19c
   port: 11738
   server: 100.42.182.73
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇩🇪2 |  1.7MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1b9719ae-8c39-36c5-af06-9ef62248530d
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
 - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
   delay: 2064
-  name: 2|🇩🇪2 |  2.5MB/s
+  name: 2|🇩🇪3 |  1.5MB/s
   password: 88925c12-4222-4ed3-84bd-6bfac300360f
   port: 8443
   server: dg1.gywanglug.xyz

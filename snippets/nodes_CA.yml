@@ -1,22 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
+  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 2|🇨🇦1 |  5.3MB/s
-  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
-  port: 12045
-  server: mdss-other.04z3susick.download
-  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇨🇦1 |  1.2MB/s
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 79.127.200.162
+  type: ssr
+- cipher: aes-128-cfb
+  country: 🇦🇿AZ
+  delay: 2152
+  name: 2|🇨🇦3 |  4.9MB/s
+  obfs: http_post
+  password: $$Turb0VPN$$
+  port: 443
+  protocol: auth_aes128_md5
+  server: ssca.irundns.net
+  type: ssr
