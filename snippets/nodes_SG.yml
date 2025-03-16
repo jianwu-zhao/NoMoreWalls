@@ -1,78 +1,86 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: faae816e-5a44-4bd6-9411-5f5d6e88af79
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: faae816e-5a44-4bd6-9411-5f5d6e88af79
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: faae816e-5a44-4bd6-9411-5f5d6e88af79
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian
+  name: 1,12|🇸🇬 新加坡2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
-    mode: http
-  port: 8722
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
+    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
     mode: http
   port: 8724
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
-  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
-  port: 12022
-  server: mdss-sg.04z3susick.download
+  name: 1,12|🇸🇬 新加坡|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    mode: http
+  port: 8722
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 19595550-ee5c-45b7-a1f5-2e8820b1e623
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 19595550-ee5c-45b7-a1f5-2e8820b1e623
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 19595550-ee5c-45b7-a1f5-2e8820b1e623
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  network: ws
+  port: 46019
+  server: fadawtawd.zhangwei.li
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: fadawtawd.zhangwei.li
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
@@ -81,3 +89,17 @@ proxies:
   server: 54.169.134.156
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡3|@ripaojiedian
+  network: ws
+  port: '46019'
+  server: fadawtawd.zhangwei.li
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
