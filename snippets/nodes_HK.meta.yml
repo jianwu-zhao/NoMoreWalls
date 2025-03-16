@@ -1,42 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 1|🇭🇰1 |  2.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇭🇰1 |  4.5MB/s
+  network: ws
+  port: 443
+  server: 162.247.5.92
+  servername: hk.bkn.asia
+  tls: true
+  type: vless
+  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
+  ws-opts:
+    headers:
+      Host: hk.bkn.asia
+    path: /bing
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443

@@ -1,79 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇹🇼1 |  1.6MB/s
-  network: ws
-  port: 23619
-  server: 19.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 96bbef31-5f63-3d0b-bb90-7626b78b057e
-  ws-opts:
-    headers:
-      Host: 19.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  name: 1|🇹🇼2 |  4.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 1|🇹🇼3 |  5.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
   port: 36245
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm

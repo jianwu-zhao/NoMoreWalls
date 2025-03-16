@@ -1,27 +1,84 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: db13fd09-dbf9-4561-a3da-20f41d954752
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 1000 Mbps
+  name: 2|🇺🇸1 |  2.2MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 2|🇺🇸2 |  1.5MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸3 |  4.4MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 54.202.63.169
+  type: ssr
 - client-fingerprint: chrome
-  name: 1|🇺🇸1 |  1.8MB/s
+  name: 2|🇺🇸4 |  4.9MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: ustx004-cdn-route.couldflare-cdn.com
@@ -30,116 +87,39 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2453
-  name: 1|🇺🇸2 |  5.0MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg5.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg5.gywanglug.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 1|🇺🇸3 |  2.5MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.28
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 1942
-  name: 1|🇺🇸4 |  2.8MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg4.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg4.gywanglug.xyz
-  type: hysteria2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸5 |  1.2MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 35.91.216.191
+  type: ssr
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸5 |  1.8MB/s
+  name: 2|🇺🇸6 |  4.1MB/s
   network: tcp
-  port: 40105
-  server: 120.232.153.63
+  port: 31998
+  server: 120.234.102.229
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 1,14|NL_speednode_0029
-  network: ws
-  port: 2052
-  server: 45.149.12.183
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2798
-  name: 1|🇺🇸7 |  2.3MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg7.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg7.gywanglug.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 1|🇺🇸8 |  2.1MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.48
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 1|🇺🇸9 |  5.4MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
-  port: 36211
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸7 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.219.71.252
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- cipher: aes-128-cfb
+  name: 2|🇺🇸8 |  4.2MB/s
+  obfs: plain
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  server: 184.170.241.194
+  type: ssr
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
