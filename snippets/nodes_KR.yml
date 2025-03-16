@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

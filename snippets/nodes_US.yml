@@ -1,60 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
+  password: 65231d78-7721-44c4-ae10-542fb4ea1c19
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇺🇸1 |  2.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.211.230.161
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇺🇸3 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.184.74.88
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 387a7d95-39ab-46c6-b434-0cc0c07e254b
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸1 |  2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.221.169.63
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
