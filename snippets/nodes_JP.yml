@@ -1,68 +1,75 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
+  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
+  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: ca3cf30e-ff18-40d6-b0fd-9bbd337cc207
+  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 01 | 1x JP
-  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
+  password: 94bef836-5610-4536-844a-a35fcac9fb5f
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 02 | 1x JP
-  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
+  password: 94bef836-5610-4536-844a-a35fcac9fb5f
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 03 | 1x JP
-  password: 1cb63334-18b6-4765-a4cd-a8d3887ac2dc
+  password: 94bef836-5610-4536-844a-a35fcac9fb5f
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇯🇵3 |  1.5MB/s
-  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
-  port: 20298
+- name: 2|🇯🇵1 |  6.0MB/s
+  password: b48cb0d2-4dbf-3256-a12e-0e22ce8b076f
+  port: 54178
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z298.hongkongnode.top
+  sni: x115.flybar.work
   type: trojan
   udp: true
-- name: 2|🇯🇵5 |  4.3MB/s
-  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
+- name: 2|🇯🇵3 |  6.1MB/s
+  password: b48cb0d2-4dbf-3256-a12e-0e22ce8b076f
   port: 20141
   server: gy.58n.net
   skip-cert-verify: true
   sni: z141.hongkongnode.top
   type: trojan
   udp: true
-- name: 2|🇯🇵7 |  5.3MB/s
-  password: a68a2cf7-ee43-3e39-9963-542a0fbed5cb
-  port: 20059
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇯🇵4 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.179.8.12
+  type: ss
+- name: 2|🇯🇵6 |  6.1MB/s
+  password: b48cb0d2-4dbf-3256-a12e-0e22ce8b076f
+  port: 20142
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x59.flybar.work
+  sni: z142.hongkongnode.top
   type: trojan
   udp: true
 - cipher: rc4-md5
