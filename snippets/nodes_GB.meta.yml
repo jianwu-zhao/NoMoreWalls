@@ -1,50 +1,54 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: faae816e-5a44-4bd6-9411-5f5d6e88af79
+  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: faae816e-5a44-4bd6-9411-5f5d6e88af79
+  password: 756fe0f7-fec4-4d6f-a53c-7e00ba9b06c9
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1|🇬🇧1 |  5.3MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
   delay: 2357
-  name: 1|🇬🇧2 |  4.3MB/s
+  name: 1|🇬🇧1 |  3.6MB/s
   password: 88925c12-4222-4ed3-84bd-6bfac300360f
   port: 8443
   server: yg1.gywanglug.xyz
   skip-cert-verify: false
   sni: yg1.gywanglug.xyz
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1360
+  name: 1|🇬🇧2 |  1.5MB/s
+  network: ws
+  port: 443
+  server: 172.67.169.40
+  servername: hms03.dongfeng.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: hms03.dongfeng.cfd
+    path: /linkws
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰 香港 01 | 1x HK
-  password: 19595550-ee5c-45b7-a1f5-2e8820b1e623
+  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 19595550-ee5c-45b7-a1f5-2e8820b1e623
+  password: c4af6a78-92b2-4524-ad54-6b09ba3f94fe
   port: 36271
   server: free.2weradf.xyz
   type: ss
