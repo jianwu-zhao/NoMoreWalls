@@ -1,53 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  6.1MB/s
-  password: b48cb0d2-4dbf-3256-a12e-0e22ce8b076f
-  port: 21247
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x91.flybar.work
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome

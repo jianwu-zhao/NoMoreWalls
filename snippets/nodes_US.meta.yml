@@ -1,94 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 7a973c52-ce58-426d-9505-21fe0f5d0c22
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 94bef836-5610-4536-844a-a35fcac9fb5f
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: ef6382ee-6fdf-4712-b28d-e9f2393a46c4
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 1942
-  name: 2|🇺🇸1 |  5.2MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg4.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg4.gywanglug.xyz
-  type: hysteria2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇺🇸2 |  3.8MB/s
+  name: 1|🇺🇸1 |  2.4MB/s
   password: amazonskr05
   port: 443
-  server: 35.86.111.233
+  server: 34.211.230.161
   type: ss
-  udp: true
-- delay: 2847
-  name: 2|🇺🇸3 |  5.7MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- client-fingerprint: chrome
-  name: 2|🇺🇸4 |  2.2MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.16
-  servername: usa.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 433f4c30-7b28-4d4e-b573-a6624231700a
-  ws-opts:
-    headers:
-      Host: usa.xzncr.asia
-    path: /bing
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 2|🇺🇸5 |  1.4MB/s
+  name: 1|🇺🇸2 |  1.7MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -96,21 +40,18 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  delay: 2458
-  name: 2|🇺🇸6 |  5.2MB/s
-  password: 88925c12-4222-4ed3-84bd-6bfac300360f
-  port: 8443
-  server: mg2.gywanglug.xyz
-  skip-cert-verify: false
-  sni: mg2.gywanglug.xyz
-  type: hysteria2
-- fingerprint: chrome
-  ip-version: dual
-  name: 2,14|SC_speednode_0049
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸3 |  1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.184.74.88
+  type: ss
+- client-fingerprint: chrome
+  name: 1,14|NL_speednode_0029
   network: ws
-  port: 8880
-  server: 154.83.2.156
+  port: 2052
+  server: 45.149.12.183
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false
@@ -120,27 +61,41 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸8 |  5.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.184.74.88
-  type: ss
+    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - client-fingerprint: chrome
-  name: 2|🇺🇸9 |  4.4MB/s
+  name: 1|🇺🇸5 |  4.9MB/s
   network: ws
   port: 443
-  server: 31.22.116.196
-  servername: usd.xzncr.asia
+  server: 31.22.116.18
+  servername: usc.xzncr.asia
   tls: true
   type: vless
-  uuid: 034b7109-a45a-46d7-afde-3eec1af72322
+  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
   ws-opts:
     headers:
-      Host: usd.xzncr.asia
+      Host: usc.xzncr.asia
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: 5060daee-3b14-4afb-ad91-e9d2d1ae1bec
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
