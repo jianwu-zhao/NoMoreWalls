@@ -1,30 +1,110 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 1960f1cd-959d-49d4-928c-acd38bdab11a
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 1960f1cd-959d-49d4-928c-acd38bdab11a
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 1960f1cd-959d-49d4-928c-acd38bdab11a
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1|🇺🇸1 |  4.5MB/s
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 1942
+  name: 2|🇺🇸1 |  5.1MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg4.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg4.gywanglug.xyz
+  type: hysteria2
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 2|🇺🇸2 |  5.0MB/s
+  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
+  port: 12028
+  server: mdss-us.04z3susick.download
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸3 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.137.219
+  type: ss
+- delay: 2847
+  name: 2|🇺🇸4 |  5.4MB/s
   network: ws
   port: 8880
-  server: 154.83.2.228
+  server: 195.85.59.155
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
+- client-fingerprint: chrome
+  name: 2|🇺🇸5 |  4.4MB/s
+  network: ws
+  port: 2086
+  server: 104.21.4.189
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
+  ws-opts:
+    headers:
+      Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /DdAtLiofda1FCcda?ed=2560
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2453
+  name: 2|🇺🇸6 |  2.3MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg5.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg5.gywanglug.xyz
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 2|🇺🇸7 |  4.3MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
   skip-cert-verify: false
   tls: false
   type: vless
@@ -32,15 +112,17 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /
-- cipher: aes-128-gcm
-  name: 1|🇺🇸2 |  13.8MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24536
-  server: wy.76681f9610f175c6.com
-  type: ss
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- cipher: aes-128-cfb
+  name: 2|🇺🇸8 |  4.0MB/s
+  obfs: plain
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  server: 184.170.241.194
+  type: ssr
 - client-fingerprint: chrome
-  name: 1|🇺🇸3 |  3.4MB/s
+  name: 2|🇺🇸9 |  2.5MB/s
   network: ws
   port: 443
   server: 31.22.116.16
@@ -52,70 +134,6 @@ proxies:
     headers:
       Host: usa.xzncr.asia
     path: /bing
-- cipher: aes-128-gcm
-  name: 1|🇺🇸4 |  3.4MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24528
-  server: wy.76681f9610f175c6.com
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸5 |  1.5MB/s
-  network: tcp
-  port: 40102
-  server: 120.232.153.63
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇺🇸6 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.236.137.219
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇺🇸7 |  1.9MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24526
-  server: wy.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇺🇸8 |  11.6MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24529
-  server: wy.76681f9610f175c6.com
-  type: ss
-- client-fingerprint: chrome
-  ip-version: dual
-  name: 1|🇺🇸9 |  7.4MB/s
-  network: tcp
-  port: 443
-  server: 51.81.18.62
-  servername: 147135011033.sec21org.com
-  tls: true
-  type: vless
-  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: bf9abf53-0b80-4bc7-aa24-3efa43e49c83
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: bf9abf53-0b80-4bc7-aa24-3efa43e49c83
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: bf9abf53-0b80-4bc7-aa24-3efa43e49c83
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -129,7 +147,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -141,26 +159,10 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  password: 253KPG5GKU6EXJQB
-  port: 17007
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国5|@ripaojiedian
-  password: UUBUEJ1DLDQVJG7D
-  port: 17003
-  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - name: 14|US_speednode_0056

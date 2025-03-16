@@ -1,25 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 1960f1cd-959d-49d4-928c-acd38bdab11a
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: ce8b497a-e76c-4faf-8522-3aa099b2e95f
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 1960f1cd-959d-49d4-928c-acd38bdab11a
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 5c948d62-94b3-4c1b-ab7d-c2d787d80cc5
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: bf9abf53-0b80-4bc7-aa24-3efa43e49c83
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  delay: 2357
+  name: 2|🇬🇧1 |  4.1MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: yg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: yg1.gywanglug.xyz
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  delay: 2125
+  name: 2|🇬🇧2 |  1.4MB/s
+  port: 41699
+  server: 183.236.51.38
+  tls: false
+  type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 2|🇬🇧3 |  2.5MB/s
+  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
+  port: 12044
+  server: mdss-other.04z3susick.download
+  type: ss
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
@@ -28,6 +61,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇬🇧 英国|@ripaojiedian
+  password: 99eedf8e9170c8a4
+  port: 48977
+  server: 57.128.190.214
+  tfo: false
+  type: ss
 - name: 14|GB_speednode_0009
   network: ws
   port: 443
