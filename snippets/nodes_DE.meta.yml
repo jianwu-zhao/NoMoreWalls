@@ -1,41 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: e154e3ec-34ea-4152-84f9-e1cf05f6dfaf
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - balad.ir
-    path:
-    - /
-  name: 1|🇩🇪1 |  1.2MB/s
-  network: http
-  port: 10683
-  server: 91.107.241.36
-  tls: false
-  type: vmess
-  uuid: 42a6b3ff-9f36-4b1c-a0ea-82f2fd1472f9
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 40dc014c-8ba0-46c4-ac88-d880037d1c0a
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 6ca7d0cd-4fab-487f-87a8-ed65780adfd0
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 10|(@VmessProtocol)برای خرید و ات...
+- client-fingerprint: chrome
+  name: 1|🇩🇪1 |  2.0MB/s
+  network: ws
+  port: 8880
+  server: 185.146.173.112
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
+- name: 9|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -45,7 +36,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @shokhmiplus 🇩🇪'
+- name: '9|Channel id: @shokhmiplus 🇩🇪'
   obfs: salamander
   obfs-password: hsdirhrrkskdhebdjdj
   password: MICPT1LLn6
@@ -54,7 +45,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -63,3 +54,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 293f852b-f850-48ed-a334-8d45958deacb
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
