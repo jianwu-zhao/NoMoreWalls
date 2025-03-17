@@ -1,19 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: f8a5dfeb-e3e6-4b8d-bc5f-e4bebffe4516
+  password: e154e3ec-34ea-4152-84f9-e1cf05f6dfaf
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - balad.ir
+    path:
+    - /
+  name: 1|🇩🇪1 |  1.2MB/s
+  network: http
+  port: 10683
+  server: 91.107.241.36
+  tls: false
+  type: vmess
+  uuid: 42a6b3ff-9f36-4b1c-a0ea-82f2fd1472f9
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 40dc014c-8ba0-46c4-ac88-d880037d1c0a
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -23,7 +45,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @shokhmiplus 🇩🇪'
+- name: '10|Channel id: @shokhmiplus 🇩🇪'
   obfs: salamander
   obfs-password: hsdirhrrkskdhebdjdj
   password: MICPT1LLn6
@@ -32,7 +54,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -41,10 +63,3 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 3c507612-41ea-4ff4-a6d0-83c07480a53a
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

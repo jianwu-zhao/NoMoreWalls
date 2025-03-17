@@ -1,44 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: f8a5dfeb-e3e6-4b8d-bc5f-e4bebffe4516
+  password: e154e3ec-34ea-4152-84f9-e1cf05f6dfaf
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: f8a5dfeb-e3e6-4b8d-bc5f-e4bebffe4516
+  password: e154e3ec-34ea-4152-84f9-e1cf05f6dfaf
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: f8a5dfeb-e3e6-4b8d-bc5f-e4bebffe4516
+  password: e154e3ec-34ea-4152-84f9-e1cf05f6dfaf
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  4.3MB/s
-  password: DEzpFlNpZCTT7RyZzuAYSnDxA33SyClFpyY3RYaS3O2q8gEXA8lO90xDaAw2YjpBC7cx0
-  port: 18331
-  server: orlang.protocolbuffer.com
-  sni: orlang.protocolbuffer.com
-  type: trojan
 - cipher: aes-256-cfb
-  name: 1|🇸🇬2 |  5.4MB/s
+  name: 1|🇸🇬1 |  4.9MB/s
   password: amazonskr05
   port: 443
   server: 47.129.37.231
   type: ss
-- cipher: aes-256-cfb
-  name: 1|🇸🇬3 |  1.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.142.182.250
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 40dc014c-8ba0-46c4-ac88-d880037d1c0a
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 40dc014c-8ba0-46c4-ac88-d880037d1c0a
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 40dc014c-8ba0-46c4-ac88-d880037d1c0a
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -46,7 +55,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -56,7 +65,7 @@ proxies:
   type: hysteria2
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
   port: 12022
   server: mdss-sg.04z3susick.download
@@ -65,7 +74,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 11003
   server: bgp1.bgp1.miaomiaowu114514.org
   skip-cert-verify: false
@@ -75,7 +84,7 @@ proxies:
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.0.54.96
@@ -83,7 +92,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '11003'
   server: bgp1.bgp1.miaomiaowu114514.org
@@ -91,24 +100,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 3c507612-41ea-4ff4-a6d0-83c07480a53a
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 3c507612-41ea-4ff4-a6d0-83c07480a53a
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 3c507612-41ea-4ff4-a6d0-83c07480a53a
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
