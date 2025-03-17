@@ -1,28 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: db13fd09-dbf9-4561-a3da-20f41d954752
+  password: c2fc2269-6da7-4bea-94cb-254aed437479
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: db13fd09-dbf9-4561-a3da-20f41d954752
+  password: c2fc2269-6da7-4bea-94cb-254aed437479
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 1|🇰🇷1 |  2.7MB/s
+  password: SECCzF5l3xeFN6z76DyuKZ83wTS4gBClpOARp83glBnqXjaI78nZp2eReSXxCY9SlDDFa
+  port: 443
+  server: spirit.koreanbbq.link
+  sni: spirit.koreanbbq.link
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 312574d4-5110-4002-9e59-6b84222261fd
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 312574d4-5110-4002-9e59-6b84222261fd
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -32,6 +39,6 @@ proxies:
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.240.249
+  server: 18.136.193.92
   tfo: false
   type: ss

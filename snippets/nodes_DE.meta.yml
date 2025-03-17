@@ -1,31 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: db13fd09-dbf9-4561-a3da-20f41d954752
+  password: c2fc2269-6da7-4bea-94cb-254aed437479
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: d12477e2-c1fc-4705-ab11-91cfc222f39c
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 312574d4-5110-4002-9e59-6b84222261fd
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇩🇪1 |  5.0MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.28
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
