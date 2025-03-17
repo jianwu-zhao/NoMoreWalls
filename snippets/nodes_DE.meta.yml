@@ -1,61 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 2428d580-5064-4a07-a425-a8205fe7b960
+  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  password: 59027208-1d66-4604-bcce-eb7308439506
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- delay: 2505
-  name: 2|🇩🇪1 |  4.9MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- alterId: 0
-  cipher: auto
-  country: 🇮🇷IR
-  delay: 750
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 2|🇩🇪2 |  1.9MB/s
-  network: http
-  port: 10683
-  server: 91.107.241.36
-  skip-cert-verify: true
-  type: vmess
-  uuid: 42a6b3ff-9f36-4b1c-a0ea-82f2fd1472f9
-- alterId: 2
-  cipher: auto
-  name: 2|🇩🇪3 |  2.4MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c10a0e2f-3b88-3f96-bbc5-8941b97b4995
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
 - name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'

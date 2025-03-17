@@ -1,140 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 2428d580-5064-4a07-a425-a8205fe7b960
+  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 2428d580-5064-4a07-a425-a8205fe7b960
+  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 2428d580-5064-4a07-a425-a8205fe7b960
+  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  password: 59027208-1d66-4604-bcce-eb7308439506
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  password: 59027208-1d66-4604-bcce-eb7308439506
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  password: 59027208-1d66-4604-bcce-eb7308439506
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇺🇸2 |  3.4MB/s
-  password: 9FC33glcaEeYYTnOqOS9DOZgBZ5CDazy33SCS2j4Cz36A7AIN88uaKRx5xDyR8pxu3x4D
-  port: 28332
-  server: closet.homeofbrave.net
-  sni: closet.homeofbrave.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 2|🇺🇸4 |  3.9MB/s
-  password: gyDw5KSa9D4ReNSYxnI8Z6zO8llAA53CFRKpCjpx6YjRDlwF3aeX3Oa2DCA37BeTzygaI
-  port: 443
-  server: product.wireshop.net
-  sni: product.wireshop.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 2|🇺🇸6 |  3.8MB/s
-  password: DRcZI69gOAAZF8AeeAle2FSpRXFCSppOBu3RSqT0Z74O6NuOy3CcwCyDSa3aYxxwypDEY
-  port: 28339
-  server: walrus.missionsec.io
-  sni: walrus.missionsec.io
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸7 |  5.1MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c10a0e2f-3b88-3f96-bbc5-8941b97b4995
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- delay: 839
-  name: 2|🇺🇸8 |  1.9MB/s
-  password: lBSSFOalI3yXZDOAwADg9a8zTCexE6pjxeX4D3a0FgSSYRqlCyCOYcz83w3aYR3cTZDF8
-  port: 443
-  server: length.wireshop.net
-  sni: length.wireshop.net
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  country: 🏁ZZ
-  delay: 1307
-  name: 2|🇺🇸9 |  2.0MB/s
-  password: 56b18aab-9e83-4791-ab57-b349704fc176
-  port: 443
-  server: us.tsapps.ru
-  type: ss
-- delay: 1673
-  name: 2|🇺🇸11 |  5.3MB/s
-  password: SwYDRyTDX4z3ISXaazFOcSSY3nA8EAlCqOD9lyTDeZCx2wxeZYNO3aS20FpRCR6nly3AF
-  port: 443
-  server: barring.taiwanesefood.link
-  sni: barring.taiwanesefood.link
-  type: trojan
-- name: 2|🇺🇸12 |  5.5MB/s
-  password: e485fc3b-ad89-3b97-ae33-80ce8fc64e39
-  port: 16895
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x40.flybar.work
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 2|🇺🇸14 |  4.4MB/s
-  password: CAlpl3ZOpDFaS9E6Se0plFxu2x3I4eACOcqZSaY3ReS6CjZSCTNKDgEF73TDZ2aB9D3nD
-  port: 443
-  server: soldier.homeofbrave.net
-  sni: soldier.homeofbrave.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 2|🇺🇸15 |  2.5MB/s
-  password: ZS9yA0YxpC6X3aDj88YAy5l3KS4FwCcy3DCDR3F322DOS3BRO7N3nFOxEKxSY6Ky3aXCNSxAEAaNnl4
-  port: 443
-  server: dilmun.starspace.link
-  sni: dilmun.starspace.link
-  type: trojan
-- client-fingerprint: chrome
-  name: 2|🇺🇸16 |  1.9MB/s
-  password: ZI3OeTA9Clx3AFS78DejwENjaZAa3FSwSluxY3EOClyycDqyzpYD0a6DI2eS28q7X3NpC
-  port: 28334
-  server: aluminum.wireshop.net
-  sni: aluminum.wireshop.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 2|🇺🇸17 |  5.6MB/s
-  password: F7aCRp5cSNRqynagAa8IaX09TFRycpxllaXZeYzzpDeOa3CpXwwCS9awB7BNNeaqYY8aY9ASz8pZAZS
-  port: 443
-  server: tubular.wireshop.net
-  sni: tubular.wireshop.net
-  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian

@@ -1,80 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 2428d580-5064-4a07-a425-a8205fe7b960
+  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 2428d580-5064-4a07-a425-a8205fe7b960
+  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 59027208-1d66-4604-bcce-eb7308439506
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  password: 59027208-1d66-4604-bcce-eb7308439506
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  delay: 868
-  name: 2|🇬🇧1 |  2.6MB/s
-  password: RHPSJSEFLHGOWCB6
-  port: 19004
-  server: 206.245.211.14
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 879
-  name: 2|🇬🇧2 |  1.9MB/s
-  password: 7PKV15Z9PTBNEJCI
-  port: 19014
-  server: 206.245.211.24
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 661
-  name: 2|🇬🇧3 |  2.6MB/s
-  password: HRRWFFSBJM9JY8Q8
-  port: 19006
-  server: 206.245.211.16
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 874
-  name: 2|🇬🇧4 |  2.7MB/s
-  password: 1MD7Y1HE8FFHAB0N
-  port: 19008
-  server: 206.245.211.18
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 867
-  name: 2|🇬🇧5 |  2.7MB/s
-  password: E8CM3R3BWXQQNYMM
-  port: 19012
-  server: 206.245.211.22
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 872
-  name: 2|🇬🇧6 |  1.3MB/s
-  password: M7PVVHSKARO74MWK
-  port: 19013
-  server: 206.245.211.23
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 733
-  name: 2|🇬🇧7 |  2.4MB/s
-  password: 55N09NCXWEH7GQMF
-  port: 19015
-  server: 206.245.211.25
+  delay: 731
+  name: 2|🇬🇧1 |  1.4MB/s
+  password: FS37F61GBAIXJF6E
+  port: 19003
+  server: 206.245.211.13
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
