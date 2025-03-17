@@ -1,202 +1,75 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 6ca7d0cd-4fab-487f-87a8-ed65780adfd0
+  password: 97dce476-5b8d-48a4-a921-82ae62d15375
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 6ca7d0cd-4fab-487f-87a8-ed65780adfd0
+  password: 97dce476-5b8d-48a4-a921-82ae62d15375
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 6ca7d0cd-4fab-487f-87a8-ed65780adfd0
+  password: 97dce476-5b8d-48a4-a921-82ae62d15375
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸1 |  1.7MB/s
-  network: ws
-  port: 443
-  server: la02.818185.XyZ
-  servername: la02.818185.XyZ
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la02.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸2 |  2.9MB/s
-  network: ws
-  port: 443
-  server: lA01.818185.xyZ
-  servername: lA01.818185.xyZ
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la01.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸3 |  1.0MB/s
-  network: ws
-  port: 443
-  server: LA03.818185.Xyz
-  servername: LA03.818185.Xyz
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la03.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸5 |  4.2MB/s
-  network: ws
-  port: 443
-  server: la02.852224.GGfF.NET
-  servername: la02.852224.GGfF.NET
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la02.852224.ggff.net
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸6 |  2.6MB/s
-  network: ws
-  port: 443
-  server: la04.818185.XyZ
-  servername: la04.818185.XyZ
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la04.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸9 |  3.3MB/s
-  network: ws
-  port: 443
-  server: la01.890604.FILEgEAR-sG.me
-  servername: la01.890604.FILEgEAR-sG.me
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la01.890604.filegear-sg.me
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸10 |  4.8MB/s
-  network: ws
-  port: 443
-  server: La04.818185.xYZ
-  servername: La04.818185.xYZ
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la04.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- name: 1|🇺🇸12 |  5.5MB/s
-  password: 7AZzxwaCl5caZaBnASIYOCS28eEF036BelDXED6ZKK3u3COXSe3SSqYZ5C43DOqySTRuR
-  port: 28333
-  server: grater.homeofbrave.net
-  sni: grater.homeofbrave.net
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 30ef2dc2-092d-42be-a006-efbf9da4ea24
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 30ef2dc2-092d-42be-a006-efbf9da4ea24
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 30ef2dc2-092d-42be-a006-efbf9da4ea24
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇺🇸1 |  5.7MB/s
+  password: FIYCZp9AT33jDRS73awc8lIB3ORXC2FRCaF90wZOKzDRaSxC4j8Kn3yeY6n2qZDezYeSB
+  port: 28332
+  server: pressure.wireshop.net
+  sni: pressure.wireshop.net
   type: trojan
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸14 |  5.1MB/s
-  network: ws
+- cipher: aes-128-cfb
+  name: 2|🇺🇸2 |  5.2MB/s
+  password: shadowsocks
   port: 443
-  server: lA04.818185.Xyz
-  servername: lA04.818185.Xyz
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la04.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸16 |  4.5MB/s
-  network: ws
+  server: 184.170.241.194
+  type: ss
+- client-fingerprint: chrome
+  name: 2|🇺🇸3 |  2.9MB/s
+  password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
   port: 443
-  server: LA02.818185.xYz
-  servername: LA02.818185.xYz
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la02.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸17 |  3.4MB/s
-  network: ws
+  server: bedsheet.homeofbrave.net
+  sni: bedsheet.homeofbrave.net
+  type: trojan
+- name: 2|🇺🇸6 |  2.8MB/s
+  password: YCz0uZ484pjDCFyKqRZ3823SqxDXEBSwNnNYlay3yeuDaA0aISDR533eFglaaOTO3lF8A
   port: 443
-  server: LA04.890603.XYz
-  servername: LA04.890603.XYz
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la04.890603.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸18 |  2.1MB/s
-  network: ws
-  port: 443
-  server: La02.890604.filEGEAr-sG.me
-  servername: La02.890604.filEGEAr-sG.me
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la02.890604.filegear-sg.me
-    path: /gyCVORfjoXYyHHcJBuLd
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸20 |  1.7MB/s
-  network: ws
-  port: 443
-  server: La01.818185.XYZ
-  servername: La01.818185.XYZ
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: la01.818185.xyz
-    path: /gyCVORfjoXYyHHcJBuLd
+  server: 45.42.142.100
+  sni: garland.taiwanesefood.link
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -208,7 +81,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -220,7 +93,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
+  name: 12|🇺🇸 美国3|@ripaojiedian
   password: E1SCB7Q1P7HFR8K8
   port: 17005
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -228,30 +101,9 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
+  name: 12|🇺🇸 美国4|@ripaojiedian
   password: 54SY1SP5HU73E00Z
   port: 17001
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 293f852b-f850-48ed-a334-8d45958deacb
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 293f852b-f850-48ed-a334-8d45958deacb
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 293f852b-f850-48ed-a334-8d45958deacb
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
