@@ -1,28 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 97dce476-5b8d-48a4-a921-82ae62d15375
+  password: 09db0c0c-e47f-4f30-b16a-1d47500249bc
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 1|🇩🇪2 |  1.3MB/s
+  password: 7pyl3CuOCqZATRTKXeAOwS89lBz0a9S3CX6CDYae4Dg33j5D023FSIFRKYOaeAxEInB86
+  port: 443
+  server: siwtno.coffeekit.net
+  sni: siwtno.coffeekit.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 1|🇩🇪4 |  2.1MB/s
+  password: l9S4ONBOZT236Dx9Ap7ScDnYCwAp0IASDDY3F2FyCCyRl8qeeu8layZ3KCZEazjOa65N3
+  port: 28334
+  server: yecea.coffeekit.net
+  sni: yecea.coffeekit.net
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 30ef2dc2-092d-42be-a006-efbf9da4ea24
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 30dfe42f-4227-4853-aff2-9eaad1965bd3
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 2|🇩🇪1 |  4.4MB/s
-  network: http
-  port: 10683
-  server: 91.107.241.36
-  tls: false
-  type: vmess
-  uuid: 42a6b3ff-9f36-4b1c-a0ea-82f2fd1472f9
