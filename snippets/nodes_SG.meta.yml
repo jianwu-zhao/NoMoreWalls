@@ -1,42 +1,70 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 09db0c0c-e47f-4f30-b16a-1d47500249bc
+  password: 2428d580-5064-4a07-a425-a8205fe7b960
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 09db0c0c-e47f-4f30-b16a-1d47500249bc
+  password: 2428d580-5064-4a07-a425-a8205fe7b960
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 09db0c0c-e47f-4f30-b16a-1d47500249bc
+  password: 2428d580-5064-4a07-a425-a8205fe7b960
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  5.4MB/s
-  password: 9361e8b8-1caf-30c1-b544-3bdf78b394de
-  port: 17806
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x65.flybar.work
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1|🇸🇬2 |  6.1MB/s
-  password: N5T0K3aYpYFSO4O3gnD73OcFwp6BCqCyCa3jlIxDXyZRDE282ljCASADaTN4CzZZYllFI
-  port: 18333
-  server: pricing.protocolbuffer.com
-  sni: pricing.protocolbuffer.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 2283
+  name: 2|🇸🇬1 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.215.252.57
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 573
+  name: 2|🇸🇬2 |  4.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.251.193.0
+  type: ss
+- delay: 692
+  name: 2|🇸🇬3 |  1.2MB/s
+  password: 3gSFTSaSFB29S37DD3D6ne6q93nOCZz4FxYYpRacjp0ITRyRSc24AZypZCll88DXuaCDl
+  port: 28332
+  server: morlin.protocolbuffer.com
+  sni: morlin.protocolbuffer.com
   type: trojan
 - client-fingerprint: chrome
-  name: 1|🇸🇬3 |  2.8MB/s
+  name: 2|🇸🇬4 |  3.7MB/s
   network: ws
   port: 443
   server: 47.74.20.72
@@ -49,75 +77,120 @@ proxies:
       Host: sgb.bkn.asia
     path: /bing
 - client-fingerprint: chrome
-  name: 1|🇸🇬4 |  4.3MB/s
-  password: Dx3RaSxl5gaN3z8YOTyS0FeKYFaRxXS39ZnnDN0c73O3SCCDuAljC34pXKayaZFBO8ea8
-  port: 18332
-  server: diagram.protocolbuffer.com
-  sni: diagram.protocolbuffer.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 1|🇸🇬5 |  5.7MB/s
+  name: 2|🇸🇬5 |  3.8MB/s
   password: ZYYSlSORYq6KXDCpCS3XC4zRnK73BDzIp0FaNynya9Dg5AEAeOgDaaFFO3e8w5NZ3Bexw
   port: 443
   server: handgun.protocolbuffer.com
   sni: handgun.protocolbuffer.com
   type: trojan
 - cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 554
+  name: 2|🇸🇬6 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.233.60
+  type: ss
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇸🇬6 |  4.7MB/s
+  name: 2|🇸🇬7 |  2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.39.129
+  type: ss
+- client-fingerprint: chrome
+  name: 2|🇸🇬8 |  2.0MB/s
+  network: ws
+  port: 443
+  server: 47.245.101.23
+  servername: sgb.bkn.asia
+  tls: true
+  type: vless
+  uuid: 183ebae2-4d43-4026-c7c4-c336b6cef2a2
+  ws-opts:
+    headers:
+      Host: sgb.bkn.asia
+    path: /bing
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 647
+  name: 2|🇸🇬9 |  4.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.213.69.248
+  type: ss
+- delay: 507
+  name: 2|🇸🇬10 |  1.5MB/s
+  password: Dx3RaSxl5gaN3z8YOTyS0FeKYFaRxXS39ZnnDN0c73O3SCCDuAljC34pXKayaZFBO8ea8
+  port: 18332
+  server: diagram.protocolbuffer.com
+  sni: diagram.protocolbuffer.com
+  type: trojan
+- country: 🇨🇳CN
+  delay: 557
+  name: 2|🇸🇬11 |  2.7MB/s
+  password: f43d30ee-7a5d-408f-a32e-b74935eeb7d7
+  port: 50311
+  server: zz.sghkg.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.xjpsghkg.yuiuingkig.icu
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 263
+  name: 2|🇸🇬12 |  2.0MB/s
   password: amazonskr05
   port: 443
   server: 13.215.250.172
   type: ss
-- client-fingerprint: chrome
-  name: 1|🇸🇬7 |  1.1MB/s
-  password: 3gSFTSaSFB29S37DD3D6ne6q93nOCZz4FxYYpRacjp0ITRyRSc24AZypZCll88DXuaCDl
-  port: 28332
-  server: morlin.protocolbuffer.com
-  sni: morlin.protocolbuffer.com
-  type: trojan
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇸🇬8 |  5.2MB/s
+  country: 🇸🇬SG
+  delay: 657
+  name: 2|🇸🇬13 |  2.3MB/s
   password: amazonskr05
   port: 443
-  server: 13.215.252.57
+  server: 54.179.179.201
+  type: ss
+- country: 🇨🇳CN
+  delay: 1412
+  name: 2|🇸🇬14 |  1.3MB/s
+  password: f43d30ee-7a5d-408f-a32e-b74935eeb7d7
+  port: 40013
+  server: zz.xinjp01.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.xinjp01.yuiuingkig.icu
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 270
+  name: 2|🇸🇬15 |  1.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.209.178
   type: ss
 - client-fingerprint: chrome
-  name: 1|🇸🇬9 |  1.6MB/s
-  password: 8jqRgpyc5lEe34TzC9A8DuFD23aS3ZyCleIFuCxp3xOYnZRCeA3Oc3yCga8C2DKYBDaRp
-  port: 443
-  server: mention.protocolbuffer.com
-  sni: mention.protocolbuffer.com
+  name: 2|🇸🇬16 |  1.3MB/s
+  password: AYA7NTRlglF7qI9qF83a33aZugxSl34OSDcCZDSepF5eOK8OSlACCnxX9ZxBpzBD8T26w
+  port: 28337
+  server: pevoy.protocolbuffer.com
+  sni: pevoy.protocolbuffer.com
   type: trojan
-- client-fingerprint: chrome
-  name: 1|🇸🇬10 |  1.8MB/s
-  password: OCxO7za3SXnwpEacKD7AZxujyISD840CZgSCSFFp6Z3eXFeOZDyzlTy3lA8AgBea3SDEC
-  port: 443
-  server: luber.protocolbuffer.com
-  sni: luber.protocolbuffer.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 30dfe42f-4227-4853-aff2-9eaad1965bd3
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇸🇬17 |  2.7MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 30dfe42f-4227-4853-aff2-9eaad1965bd3
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 30dfe42f-4227-4853-aff2-9eaad1965bd3
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  uuid: c10a0e2f-3b88-3f96-bbc5-8941b97b4995
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

@@ -1,64 +1,65 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 09db0c0c-e47f-4f30-b16a-1d47500249bc
+  password: 2428d580-5064-4a07-a425-a8205fe7b960
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 09db0c0c-e47f-4f30-b16a-1d47500249bc
+  password: 2428d580-5064-4a07-a425-a8205fe7b960
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇭🇰1 |  1.5MB/s
-  password: 9361e8b8-1caf-30c1-b544-3bdf78b394de
-  port: 24603
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z259.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇭🇰2 |  1.1MB/s
-  password: 9361e8b8-1caf-30c1-b544-3bdf78b394de
-  port: 20309
-  server: gyl.58n.net
-  skip-cert-verify: true
-  sni: z309.hongkongnode.top
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 1|🇭🇰3 |  5.9MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- name: 1|🇭🇰4 |  3.7MB/s
-  password: 9361e8b8-1caf-30c1-b544-3bdf78b394de
-  port: 43337
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z102.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 30dfe42f-4227-4853-aff2-9eaad1965bd3
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 30dfe42f-4227-4853-aff2-9eaad1965bd3
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- country: 🇨🇳CN
+  delay: 584
+  name: 2|🇭🇰1 |  3.0MB/s
+  password: f43d30ee-7a5d-408f-a32e-b74935eeb7d7
+  port: 40052
+  server: zz.xgys.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.xgys01.yuiuingkig.icu
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇭🇰2 |  1.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 2|🇭🇰3 |  5.3MB/s
+  network: ws
+  port: 443
+  server: 162.247.5.92
+  servername: hk.bkn.asia
+  tls: true
+  type: vless
+  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
+  ws-opts:
+    headers:
+      Host: hk.bkn.asia
+    path: /bing
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443

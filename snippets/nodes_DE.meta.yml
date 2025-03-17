@@ -1,66 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 09db0c0c-e47f-4f30-b16a-1d47500249bc
+  password: 2428d580-5064-4a07-a425-a8205fe7b960
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 1|🇩🇪1 |  3.4MB/s
-  network: ws
-  port: 2052
-  server: 156.238.18.165
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- client-fingerprint: chrome
-  name: 1|🇩🇪2 |  1.3MB/s
-  password: 7pyl3CuOCqZATRTKXeAOwS89lBz0a9S3CX6CDYae4Dg33j5D023FSIFRKYOaeAxEInB86
-  port: 443
-  server: siwtno.coffeekit.net
-  sni: siwtno.coffeekit.net
-  type: trojan
-- name: 1|🇩🇪3 |  1.6MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: LkRkDrAl16.mOvEtIx.iNfO
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
-  ws-opts:
-    headers:
-      Host: LkRkDrAl16.mOvEtIx.iNfO
-    path: /
-- client-fingerprint: chrome
-  name: 1|🇩🇪4 |  2.1MB/s
-  password: l9S4ONBOZT236Dx9Ap7ScDnYCwAp0IASDDY3F2FyCCyRl8qeeu8layZ3KCZEazjOa65N3
-  port: 28334
-  server: yecea.coffeekit.net
-  sni: yecea.coffeekit.net
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 30dfe42f-4227-4853-aff2-9eaad1965bd3
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: be5be78f-bcc2-4802-bed1-0f4417fb0426
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 10|(@VmessProtocol)برای خرید و ات...
-  password: 15261735-2168-42f8-b3ad-91ec82a58b5a
-  port: 21050
-  server: yiyuankuailian-jp.jiumaojiu.org
-  skip-cert-verify: false
+- delay: 2505
+  name: 2|🇩🇪1 |  4.9MB/s
+  network: ws
+  port: 8880
+  server: 195.85.59.155
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 750
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 2|🇩🇪2 |  1.9MB/s
+  network: http
+  port: 10683
+  server: 91.107.241.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: 42a6b3ff-9f36-4b1c-a0ea-82f2fd1472f9
+- alterId: 2
+  cipher: auto
+  name: 2|🇩🇪3 |  2.4MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c10a0e2f-3b88-3f96-bbc5-8941b97b4995
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
 - name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
