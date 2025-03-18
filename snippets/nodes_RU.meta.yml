@@ -1,28 +1,10 @@
 proxies:
-- fast-open: true
-  name: 2|🇷🇺1 |  1.8MB/s
-  password: dongtaiwang.com
-  port: 37481
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  fast-open: true
-  name: 2|🇷🇺2 |  2.5MB/s
-  password: dongtaiwang.com
-  port: 18626
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 2|🇷🇺3 |  1.7MB/s
+  name: 2|🇷🇺1 |  5.8MB/s
   port: 10469
   server: 46.17.41.174
   skip-cert-verify: true
@@ -30,6 +12,39 @@ proxies:
   type: hysteria
   udp: true
   up: 100 Mbps
+- alterId: 0
+  cipher: auto
+  name: 2|🇷🇺2 |  5.2MB/s
+  network: ws
+  port: 21013
+  server: 176.32.35.148
+  tls: false
+  type: vmess
+  uuid: 9a586b99-98ac-40e0-a00d-3aa7ed742f43
+  ws-opts:
+    headers: {}
+    path: /
+- fast-open: true
+  name: 2|🇷🇺3 |  1.9MB/s
+  password: dongtaiwang.com
+  port: 18626
+  server: 46.29.163.171
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 2|🇷🇺4 |  5.9MB/s
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
 - name: 14|RU_speednode_0046
   network: ws
   port: 80

@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 2|🇭🇰1 |  6.0MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24502
+  server: algz.76681f9610f175c6.com
+  type: ss
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
