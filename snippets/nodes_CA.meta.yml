@@ -1,24 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: e228474b-4edb-449a-a5c5-0d6e3dd92b62
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: e36a1e23-473b-4d16-8df5-4d352f77cf67
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: 🇧🇪BE
-  delay: 1766
-  name: 2|🇨🇦1 |  2.6MB/s
-  password: 9D5I26TE85SP928W
-  port: 20026
-  server: 185.213.22.93
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇮FI
-  delay: 1046
-  name: 2|🇨🇦2 |  1.9MB/s
-  password: 8GBEJR2RUW3EWQYK
-  port: 20031
-  server: 37.143.129.127
+  country: 🇿🇦ZA
+  delay: 1628
+  name: 2|🇨🇦1 |  2.5MB/s
+  password: I9O5HXAOZP77VUXW
+  port: 20015
+  server: 129.232.133.62
   type: ss

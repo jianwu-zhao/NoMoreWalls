@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: e228474b-4edb-449a-a5c5-0d6e3dd92b62
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: e36a1e23-473b-4d16-8df5-4d352f77cf67
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪1 |  3.1MB/s
+  name: 2|🇩🇪1 |  1.2MB/s
   network: ws
   port: 2095
-  server: 156.238.18.28
+  server: 156.238.18.163
   skip-cert-verify: false
   tls: false
   type: vless
@@ -18,7 +18,7 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
