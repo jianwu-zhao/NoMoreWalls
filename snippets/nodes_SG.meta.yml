@@ -1,54 +1,76 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
+  password: e228474b-4edb-449a-a5c5-0d6e3dd92b62
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
+  password: e228474b-4edb-449a-a5c5-0d6e3dd92b62
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
+  password: e228474b-4edb-449a-a5c5-0d6e3dd92b62
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 59027208-1d66-4604-bcce-eb7308439506
-  port: 31171
-  server: free.2apzhfa.xyz
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 2|🇸🇬1 |  2.7MB/s
+  password: BWC8KTIWQG0CO9IO
+  port: 16007
+  server: ti3hyra4.slashdevslashnetslashtun.net
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 59027208-1d66-4604-bcce-eb7308439506
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 59027208-1d66-4604-bcce-eb7308439506
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
+  client-fingerprint: chrome
   country: 🇸🇬SG
-  delay: 270
-  name: 2|🇸🇬1 |  6.0MB/s
+  delay: 598
+  name: 2,12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.229.209.178
+  server: 54.151.230.240
+  tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬3 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.179.179.201
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬4 |  1.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.213.69.248
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬5 |  2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.215.252.57
+  type: ss
+- client-fingerprint: chrome
+  name: 2|🇸🇬6 |  5.2MB/s
+  network: ws
+  port: 443
+  server: 47.245.101.23
+  servername: sgb.bkn.asia
+  tls: true
+  type: vless
+  uuid: 183ebae2-4d43-4026-c7c4-c336b6cef2a2
+  ws-opts:
+    headers:
+      Host: sgb.bkn.asia
+    path: /bing
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -65,12 +87,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-128-gcm
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12022
-  server: mdss-sg.04z3susick.download
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
   tfo: false
   type: ss
 - alterId: 0
@@ -84,14 +106,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.0.54.96
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 12,13|新加坡3|@ripaojiedian
+  network: tcp
+  password: 3gSFTSaSFB29S37DD3D6ne6q93nOCZz4FxYYpRacjp0ITRyRSc24AZypZCll88DXuaCDl
+  port: 28332
+  server: morlin.protocolbuffer.com
+  skip-cert-verify: false
+  sni: morlin.protocolbuffer.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|新加坡4|@ripaojiedian
+  network: tcp
+  password: N5T0K3aYpYFSO4O3gnD73OcFwp6BCqCyCa3jlIxDXyZRDE282ljCASADaTN4CzZZYllFI
+  port: 18333
+  server: pricing.protocolbuffer.com
+  skip-cert-verify: false
+  sni: pricing.protocolbuffer.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|新加坡2|@ripaojiedian

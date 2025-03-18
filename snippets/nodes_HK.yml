@@ -1,30 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
+  password: e228474b-4edb-449a-a5c5-0d6e3dd92b62
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 2dde428b-8c36-4ca0-86ec-a9f735808999
+  password: e228474b-4edb-449a-a5c5-0d6e3dd92b62
   port: 36145
   server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 59027208-1d66-4604-bcce-eb7308439506
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 59027208-1d66-4604-bcce-eb7308439506
-  port: 31145
-  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -62,27 +48,28 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港4|@ripaojiedian
-  password: R3FYI7545URTZITK
-  port: 15013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  password: JYQ50GXLKV2F6ZXT
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港6|@ripaojiedian
-  password: ILY5LWDRY57J5T1O
-  port: 15004
+  name: 12|🇭🇰 香港5|@ripaojiedian
+  password: BHWTK3YM3CURADBR
+  port: 15008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港7|@ripaojiedian
-  password: 33LNT1PHVSKR8DZ8
-  port: 15010
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 12,13|香港6|@ripaojiedian
+  network: tcp
+  password: 607a2b12-058d-4fb8-826f-2489df00d062
+  port: 27102
+  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - name: 13|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
