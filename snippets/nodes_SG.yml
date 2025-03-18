@@ -1,16 +1,14 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 263
-  name: 1,11|tg频道:@ripaojiedian
+  name: 2|🇸🇬3 |  4.4MB/s
   password: amazonskr05
   port: 443
-  server: 13.215.250.172
-  tfo: false
+  server: 47.129.39.129
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
   port: 21115
   server: okanc.node-is.green
@@ -19,7 +17,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 11003
   server: bgp1.bgp1.miaomiaowu114514.org
   skip-cert-verify: false
@@ -28,7 +26,7 @@ proxies:
   type: vmess
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
 - client-fingerprint: chrome
-  name: 11,12|新加坡3|@ripaojiedian
+  name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: 3gSFTSaSFB29S37DD3D6ne6q93nOCZz4FxYYpRacjp0ITRyRSc24AZypZCll88DXuaCDl
   port: 28332
@@ -37,7 +35,7 @@ proxies:
   sni: morlin.protocolbuffer.com
   type: trojan
 - client-fingerprint: chrome
-  name: 11,12|新加坡4|@ripaojiedian
+  name: 12,13|新加坡4|@ripaojiedian
   network: tcp
   password: N5T0K3aYpYFSO4O3gnD73OcFwp6BCqCyCa3jlIxDXyZRDE282ljCASADaTN4CzZZYllFI
   port: 18333
@@ -47,7 +45,7 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.151.230.240
@@ -55,7 +53,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '11003'
   server: bgp1.bgp1.miaomiaowu114514.org
@@ -63,24 +61,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 58a7ae3c-ddaf-4d73-9966-2ff47435805e
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 58a7ae3c-ddaf-4d73-9966-2ff47435805e
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 58a7ae3c-ddaf-4d73-9966-2ff47435805e
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

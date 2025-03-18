@@ -1,6 +1,29 @@
 proxies:
+- name: 2|🇹🇼1 |  5.7MB/s
+  network: ws
+  port: 12157
+  server: 183.108.91.204
+  servername: edfgk.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgk.aimercc.filegear-sg.me
+    path: /?ed
 - client-fingerprint: chrome
-  name: 1|🇹🇼1 |  2.7MB/s
+  name: 2|🇹🇼2 |  3.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 2|🇹🇼3 |  2.9MB/s
   network: ws
   port: 8443
   server: 92.243.74.3
@@ -14,68 +37,7 @@ proxies:
     headers:
       Host: edfgl.aimercc.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇹🇼2 |  1.7MB/s
-  network: ws
-  port: 12157
-  server: 183.108.91.204
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇹🇼3 |  5.8MB/s
-  network: ws
-  port: 443
-  server: 47.242.11.244
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇹🇼4 |  1.5MB/s
-  network: ws
-  port: 44300
-  server: 154.17.31.123
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇹🇼5 |  5.5MB/s
-  network: ws
-  port: 443
-  server: 154.29.145.110
-  servername: edfgl.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇹🇼6 |  1.5MB/s
+- name: 2|🇹🇼4 |  1.9MB/s
   network: ws
   port: 443
   server: arvind.ns.cloudflare.com
@@ -83,46 +45,55 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
       Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇹🇼7 |  5.0MB/s
-  network: ws
-  port: 46741
-  server: 45.66.129.147
-  servername: edfgl.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- name: 1|🇹🇼8 |  5.3MB/s
-  network: ws
-  port: 2096
-  server: 27.50.49.188
-  servername: edfgl.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇹🇼9 |  5.1MB/s
+    path: /?ed
+- name: 2|🇹🇼5 |  1.2MB/s
   network: ws
   port: 443
   server: 129.154.207.203
+  servername: edfgk.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgk.aimercc.filegear-sg.me
+    path: /?ed
+- name: 2|🇹🇼6 |  2.8MB/s
+  network: ws
+  port: 443
+  server: 154.29.145.110
+  servername: edfgl.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgl.aimercc.filegear-sg.me
+    path: /?ed
+- name: 2|🇹🇼7 |  5.7MB/s
+  network: ws
+  port: 44300
+  server: 154.17.31.123
+  servername: edfgk.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgk.aimercc.filegear-sg.me
+    path: /?ed
+- client-fingerprint: chrome
+  name: 2|🇹🇼8 |  3.5MB/s
+  network: ws
+  port: 443
+  server: 154.26.186.86
   servername: edfgk.aimercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -135,7 +106,7 @@ proxies:
     path: /?ed=2560
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   password: KM16ID6XDW3XRC7K
   port: 21006
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -144,7 +115,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
+  name: 12|🇹🇼 台湾2|@ripaojiedian
   port: 11112
   server: bgp1.bgp1.miaomiaowu114514.org
   skip-cert-verify: false
@@ -154,7 +125,7 @@ proxies:
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
 - alterId: 0
   cipher: auto
-  name: 12|台湾2|@ripaojiedian
+  name: 13|台湾2|@ripaojiedian
   network: tcp
   port: '11112'
   server: bgp1.bgp1.miaomiaowu114514.org
@@ -162,24 +133,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 58a7ae3c-ddaf-4d73-9966-2ff47435805e
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 58a7ae3c-ddaf-4d73-9966-2ff47435805e
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 58a7ae3c-ddaf-4d73-9966-2ff47435805e
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
