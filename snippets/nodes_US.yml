@@ -1,54 +1,64 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 2512b452-7cf6-4a71-8b1e-d6d21c16639c
+  password: 62aa96d4-fb83-4ff2-9aba-7df55b4c816a
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 2512b452-7cf6-4a71-8b1e-d6d21c16639c
+  password: 62aa96d4-fb83-4ff2-9aba-7df55b4c816a
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 2512b452-7cf6-4a71-8b1e-d6d21c16639c
+  password: 62aa96d4-fb83-4ff2-9aba-7df55b4c816a
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 1,12|🇺🇸 美国3|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: bda18736-92c0-41b4-bd85-393179dd0d4d
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 68617b1d-c770-4b70-bea0-f256c5bb9b29
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: bda18736-92c0-41b4-bd85-393179dd0d4d
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 68617b1d-c770-4b70-bea0-f256c5bb9b29
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: bda18736-92c0-41b4-bd85-393179dd0d4d
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 68617b1d-c770-4b70-bea0-f256c5bb9b29
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- grpc-opts:
+    grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  ip-version: dual
+  name: 2|🇺🇸1 |  4.0MB/s
+  network: grpc
+  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  port: 443
+  server: 192.3.130.103
+  skip-cert-verify: false
+  sni: us10-01zl.huangshang.filegear-sg.me
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸2 |  4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.137.219
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -71,6 +81,14 @@ proxies:
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   tfo: false
   type: ss
 - cipher: aes-256-gcm

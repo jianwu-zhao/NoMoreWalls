@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 2512b452-7cf6-4a71-8b1e-d6d21c16639c
+  password: 62aa96d4-fb83-4ff2-9aba-7df55b4c816a
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: bda18736-92c0-41b4-bd85-393179dd0d4d
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 68617b1d-c770-4b70-bea0-f256c5bb9b29
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -21,15 +21,6 @@ proxies:
   server: 202.78.166.190
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|Channel id: @shokhmiplus 🇩🇪'
-  obfs: salamander
-  obfs-password: hsdirhrrkskdhebdjdj
-  password: MICPT1LLn6
-  port: 44140
-  server: 161.97.108.42
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
