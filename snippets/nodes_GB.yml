@@ -1,9 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇬🇧 英国|@ripaojiedian
-  password: 99eedf8e9170c8a4
-  port: 48977
-  server: 57.128.190.214
-  tfo: false
-  type: ss
+proxies: []
