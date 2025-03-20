@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: a4ba3ba9-a8e0-4afe-91a2-a6439746f0af
+  password: 6204fd3f-3bf3-46a9-926a-7e1e45422b50
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -16,7 +16,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
