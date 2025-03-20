@@ -1,5 +1,13 @@
 proxies:
-- name: 13|CH_speednode_0002
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 1|🇨🇭1 |  5.6MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  tls: false
+  type: ss
+- name: 14|CH_speednode_0002
   network: ws
   port: 443
   server: 144.24.243.207

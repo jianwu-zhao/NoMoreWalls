@@ -1,34 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 76b81dd6-f471-4e75-bf76-7c616600ea75
+  password: a2f2b767-cc57-4d25-b2c9-fffc740ba13a
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 76b81dd6-f471-4e75-bf76-7c616600ea75
+  password: a2f2b767-cc57-4d25-b2c9-fffc740ba13a
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 76b81dd6-f471-4e75-bf76-7c616600ea75
+  password: a2f2b767-cc57-4d25-b2c9-fffc740ba13a
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 1|🇺🇸1 |  1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.219.71.252
-  tls: false
+- cipher: chacha20-ietf-poly1305
+  name: 1,2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 57220f3f-8fa2-41bb-9554-98cde52605ed
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
-- name: 10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1,2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 57220f3f-8fa2-41bb-9554-98cde52605ed
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- grpc-opts:
+    grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  ip-version: dual
+  name: 1|🇺🇸3 |  1.4MB/s
+  network: grpc
+  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  port: 443
+  server: 192.3.130.103
+  skip-cert-verify: false
+  sni: us10-01zl.huangshang.filegear-sg.me
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 57220f3f-8fa2-41bb-9554-98cde52605ed
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
   server: 143.198.235.49
@@ -37,7 +61,7 @@ proxies:
   type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -49,7 +73,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -61,14 +85,14 @@ proxies:
   type: ss
 - cipher: aes-128-cfb
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
+  name: 12|🇺🇸 美国3|@ripaojiedian
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
+  name: 12|🇺🇸 美国4|@ripaojiedian
   password: '!!str 74260708004220600'
   port: 443
   server: capital-hyena.shiner427.skin
@@ -76,7 +100,7 @@ proxies:
   sni: capital-hyena.shiner427.skin
   type: trojan
 - client-fingerprint: chrome
-  name: 11,12|美国5|@ripaojiedian
+  name: 12,13|美国5|@ripaojiedian
   network: tcp
   password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
   port: 28333
@@ -84,13 +108,13 @@ proxies:
   skip-cert-verify: false
   sni: rolling.homeofbrave.net
   type: trojan
-- name: 12|美国4|@ripaojiedian
+- name: 13|美国4|@ripaojiedian
   network: tcp
   password: '!!str 74260708004220600'
   port: 443
   server: capital-hyena.shiner427.skin
   type: trojan
-- name: 13|US_speednode_0056
+- name: 14|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -104,7 +128,7 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 13|US_speednode_0064
+- name: 14|US_speednode_0064
   network: ws
   port: 80
   server: 104.26.14.85
@@ -118,7 +142,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 13|US_speednode_0065
+- name: 14|US_speednode_0065
   network: ws
   port: 80
   server: 104.26.14.85
@@ -132,7 +156,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@V2ray_Alpha/?ed=2560
-- name: 13|US_speednode_0069
+- name: 14|US_speednode_0069
   network: ws
   port: 80
   server: 172.67.73.163
@@ -146,7 +170,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 13|US_speednode_0071
+- name: 14|US_speednode_0071
   network: ws
   port: 80
   server: 172.67.73.163
@@ -160,7 +184,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN?ed=2560
-- name: 13|US_speednode_0072
+- name: 14|US_speednode_0072
   network: ws
   port: 80
   server: 104.26.14.85
@@ -174,7 +198,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560
-- name: 13|US_speednode_0077
+- name: 14|US_speednode_0077
   network: ws
   port: 80
   server: 104.26.14.85
@@ -188,7 +212,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 13|US_speednode_0084
+- name: 14|US_speednode_0084
   network: ws
   port: 80
   server: 66.235.200.58
@@ -202,7 +226,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0085
+- name: 14|US_speednode_0085
   network: ws
   port: 80
   server: 172.67.73.163
@@ -216,7 +240,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
-- name: 13|US_speednode_0086
+- name: 14|US_speednode_0086
   network: ws
   port: 80
   server: 66.235.200.5
@@ -230,7 +254,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0088
+- name: 14|US_speednode_0088
   network: ws
   port: 80
   server: 66.235.200.149
@@ -244,7 +268,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|US_speednode_0089
+- name: 14|US_speednode_0089
   network: ws
   port: 80
   server: 66.235.200.30
@@ -258,7 +282,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|US_speednode_0091
+- name: 14|US_speednode_0091
   network: ws
   port: 80
   server: 66.235.200.5
@@ -272,7 +296,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|US_speednode_0092
+- name: 14|US_speednode_0092
   network: ws
   port: 80
   server: 66.235.200.149
@@ -286,7 +310,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0093
+- name: 14|US_speednode_0093
   network: ws
   port: 80
   server: 66.235.200.222
@@ -300,7 +324,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0094
+- name: 14|US_speednode_0094
   network: ws
   port: 80
   server: 66.235.200.30
@@ -314,7 +338,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0096
+- name: 14|US_speednode_0096
   network: ws
   port: 80
   server: 66.235.200.191
@@ -328,7 +352,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0097
+- name: 14|US_speednode_0097
   network: ws
   port: 80
   server: 172.67.73.163
@@ -342,7 +366,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 13|US_speednode_0099
+- name: 14|US_speednode_0099
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -356,7 +380,7 @@ proxies:
     headers:
       Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
     path: /?ed=1080
-- name: 13|US_speednode_0100
+- name: 14|US_speednode_0100
   network: ws
   port: 443
   server: 45.62.114.221
@@ -370,24 +394,3 @@ proxies:
     headers:
       Host: usb.sevco.me
     path: /bing
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 8462a43a-ae89-4a9a-a545-915fa1c53d43
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 8462a43a-ae89-4a9a-a545-915fa1c53d43
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 03 | 1x US Washington
-  password: 8462a43a-ae89-4a9a-a545-915fa1c53d43
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
