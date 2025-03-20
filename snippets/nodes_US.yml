@@ -1,34 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d5944352-10be-4c7f-9b8c-e4a218d6249c
+  password: 76b81dd6-f471-4e75-bf76-7c616600ea75
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d5944352-10be-4c7f-9b8c-e4a218d6249c
+  password: 76b81dd6-f471-4e75-bf76-7c616600ea75
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d5944352-10be-4c7f-9b8c-e4a218d6249c
+  password: 76b81dd6-f471-4e75-bf76-7c616600ea75
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 2|🇺🇸1 |  1.4MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 1|🇺🇸1 |  1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.219.71.252
+  tls: false
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -40,7 +42,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -52,14 +54,14 @@ proxies:
   type: ss
 - cipher: aes-128-cfb
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   password: '!!str 74260708004220600'
   port: 443
   server: capital-hyena.shiner427.skin
@@ -67,7 +69,7 @@ proxies:
   sni: capital-hyena.shiner427.skin
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
+  name: 11,12|美国5|@ripaojiedian
   network: tcp
   password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
   port: 28333
@@ -75,9 +77,30 @@ proxies:
   skip-cert-verify: false
   sni: rolling.homeofbrave.net
   type: trojan
-- name: 13|美国4|@ripaojiedian
+- name: 12|美国4|@ripaojiedian
   network: tcp
   password: '!!str 74260708004220600'
   port: 443
   server: capital-hyena.shiner427.skin
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 8462a43a-ae89-4a9a-a545-915fa1c53d43
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 8462a43a-ae89-4a9a-a545-915fa1c53d43
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 8462a43a-ae89-4a9a-a545-915fa1c53d43
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
