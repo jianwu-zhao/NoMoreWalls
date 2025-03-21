@@ -1,48 +1,60 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 0|🇭🇰1 |  6.1MB/s
+  password: e338dac0-36d3-3700-8675-7fb501a7e57f
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰2 |  2.1MB/s
+  password: e338dac0-36d3-3700-8675-7fb501a7e57f
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 0|🇭🇰3 |  5.7MB/s
+  password: e338dac0-36d3-3700-8675-7fb501a7e57f
+  port: 20294
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z294.hongkongnode.top
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
-  port: 31145
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰4 |  4.6MB/s
+  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+  port: 19240
+  server: ss.miloli.cc
   type: ss
-  udp: true
-- name: 1|🇭🇰1 |  6.0MB/s
-  password: 0597af27-0972-45de-a32f-d320348cb765
-  port: 27101
-  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- name: 1|🇭🇰2 |  6.2MB/s
-  password: 0597af27-0972-45de-a32f-d320348cb765
-  port: 10465
-  server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- name: 1|🇭🇰6 |  2.7MB/s
-  password: 0597af27-0972-45de-a32f-d320348cb765
-  port: 27103
-  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 9796e911-9bde-4d9d-9367-76be11e1d774
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 9796e911-9bde-4d9d-9367-76be11e1d774
   port: 36145
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: 13355112-4353-4809-9eca-8d9782aac18b
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: 13355112-4353-4809-9eca-8d9782aac18b
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm

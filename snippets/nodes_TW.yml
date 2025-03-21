@@ -1,62 +1,58 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: 1|🇹🇼2 |  3.5MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇹🇼7 |  1.8MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 15375
-  server: bsuqian01.dynu.net
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|🇹🇼11 |  1.2MB/s
+  name: 0|🇹🇼4 |  6.0MB/s
   password: VMhGp5wEIyCDf90T
   port: 27918
   server: bsuqian01.dynu.net
   type: ss
+- name: 0|🇹🇼5 |  6.3MB/s
+  password: e338dac0-36d3-3700-8675-7fb501a7e57f
+  port: 36821
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z262.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 9796e911-9bde-4d9d-9367-76be11e1d774
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 9796e911-9bde-4d9d-9367-76be11e1d774
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 9796e911-9bde-4d9d-9367-76be11e1d774
   port: 36245
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 13355112-4353-4809-9eca-8d9782aac18b
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 13355112-4353-4809-9eca-8d9782aac18b
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 13355112-4353-4809-9eca-8d9782aac18b
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 64
