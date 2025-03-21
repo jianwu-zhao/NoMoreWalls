@@ -1,38 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  password: 2a80d016-280e-4603-83ab-bc627f169448
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
+  password: 95564c13-16dd-4448-8162-2e2deaad7f6b
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪1 |  5.9MB/s
-  network: ws
-  port: 443
-  server: ip.v2masters.ru
-  servername: tr.ps4link.ru
-  tls: true
-  type: vless
-  udp: false
-  uuid: 42111477-885f-4d6a-b51e-cbd24c0607fd
-  ws-opts:
-    headers:
-      Host: tr.ps4link.ru
-    path: /investors.spotify.com?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.6MB/s
+  name: 2|🇩🇪1 |  5.5MB/s
   network: ws
   port: 2096
   server: 104.17.147.22
@@ -45,38 +29,31 @@ proxies:
     headers:
       Host: BagoriB1.PersonApps.info
     path: /
+- auth: 520657f8-8b23-46da-974e-0a04ac5ceede
+  client-fingerprint: chrome
+  down: 15
+  name: 2|🇩🇪2 |  1.5MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 520657f8-8b23-46da-974e-0a04ac5ceede
+  port: 32008
+  server: 5.39.252.72
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 15
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪3 |  1.4MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.246
+  name: 2|🇩🇪3 |  5.0MB/s
+  network: tcp
+  port: 2096
+  server: 64.225.108.157
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  4.9MB/s
-  network: ws
-  port: 2087
-  server: 192.200.160.188
-  servername: crm.iranigamebaz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 0aef3f78-ddd1-46ce-9526-2a033d20dcf4
-  ws-opts:
-    headers:
-      Host: crm.iranigamebaz.ir
-    path: /V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban
+  uuid: c2ef0d95-8c91-4ecd-943f-191c6223b6ad
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT

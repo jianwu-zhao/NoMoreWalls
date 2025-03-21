@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  password: 2a80d016-280e-4603-83ab-bc627f169448
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
+  password: 95564c13-16dd-4448-8162-2e2deaad7f6b
   port: 36511
   server: free.2weradf.xyz
   type: ss
@@ -18,7 +18,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 2|🇷🇺1 |  2.0MB/s
+  name: 2|🇷🇺1 |  5.6MB/s
   port: 10469
   protocol: udp
   server: 46.17.41.174
@@ -26,28 +26,41 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 100
-- cipher: aes-128-gcm
-  name: 2|🇷🇺2 |  5.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 56226
-  server: bsuqian01.dynu.net
-  type: ss
 - fast-open: true
-  name: 2|🇷🇺3 |  1.2MB/s
-  password: dongtaiwang.com
-  port: 18626
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- fast-open: true
-  name: 2|🇷🇺4 |  4.7MB/s
+  name: 2|🇷🇺2 |  5.3MB/s
   password: dongtaiwang.com
   port: 37481
   server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- cipher: aes-128-gcm
+  name: 2|🇷🇺3 |  6.5MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
+- fast-open: true
+  name: 2|🇷🇺4 |  4.4MB/s
+  password: dongtaiwang.com
+  port: 18626
+  server: 46.29.163.171
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 2|🇷🇺5 |  4.7MB/s
+  port: 10803
+  protocol: udp
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000
 - name: 14|RU_speednode_0046
   network: ws
   port: 80

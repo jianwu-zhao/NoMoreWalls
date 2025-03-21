@@ -1,32 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  password: 2a80d016-280e-4603-83ab-bc627f169448
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  password: 2a80d016-280e-4603-83ab-bc627f169448
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
+  password: 95564c13-16dd-4448-8162-2e2deaad7f6b
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
+  password: 95564c13-16dd-4448-8162-2e2deaad7f6b
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf
+  name: 2|🇭🇰1 |  1.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰2 |  5.7MB/s
+  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+  port: 19240
+  server: ss.miloli.cc
+  type: ss
+- name: 2|🇭🇰3 |  5.4MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 42303
+  server: csuzhou01.1cooldns.com
+  sni: hk06.run.place
+  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
