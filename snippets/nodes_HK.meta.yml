@@ -1,62 +1,48 @@
 proxies:
-- name: 0|🇭🇰1 |  6.1MB/s
-  password: e338dac0-36d3-3700-8675-7fb501a7e57f
-  port: 22741
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: dufu.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇭🇰2 |  2.1MB/s
-  password: e338dac0-36d3-3700-8675-7fb501a7e57f
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇭🇰3 |  5.7MB/s
-  password: e338dac0-36d3-3700-8675-7fb501a7e57f
-  port: 20294
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰4 |  4.6MB/s
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 19240
-  server: ss.miloli.cc
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: 9796e911-9bde-4d9d-9367-76be11e1d774
+  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 9796e911-9bde-4d9d-9367-76be11e1d774
+  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 13355112-4353-4809-9eca-8d9782aac18b
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 2|🇭🇰1 |  6.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 2|🇭🇰2 |  6.1MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 13355112-4353-4809-9eca-8d9782aac18b
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  username: myszy
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443

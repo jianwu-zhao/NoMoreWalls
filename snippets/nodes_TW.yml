@@ -1,58 +1,52 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 0|🇹🇼4 |  6.0MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 27918
-  server: bsuqian01.dynu.net
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  port: 31241
+  server: free.2apzhfa.xyz
   type: ss
-- name: 0|🇹🇼5 |  6.3MB/s
-  password: e338dac0-36d3-3700-8675-7fb501a7e57f
-  port: 36821
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z262.hongkongnode.top
-  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 9796e911-9bde-4d9d-9367-76be11e1d774
+  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 9796e911-9bde-4d9d-9367-76be11e1d774
+  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 9796e911-9bde-4d9d-9367-76be11e1d774
+  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 13355112-4353-4809-9eca-8d9782aac18b
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 13355112-4353-4809-9eca-8d9782aac18b
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 13355112-4353-4809-9eca-8d9782aac18b
-  port: 31245
-  server: free.2apzhfa.xyz
+  name: 2|🇹🇼1 |  6.2MB/s
+  password: 6df9d9f0-c5db-4e66-be0c-c967c0d6588e
+  port: 39029
+  server: office-62006aa4ff.f9umiigcm1awo6p.qytnode.com
+  tfo: false
   type: ss
   udp: true
 - alterId: 64

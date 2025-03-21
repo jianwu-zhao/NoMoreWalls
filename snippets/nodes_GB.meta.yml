@@ -1,23 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 0d12759d-1543-43ef-90e2-80e153d1ad12
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: 9796e911-9bde-4d9d-9367-76be11e1d774
+  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 9796e911-9bde-4d9d-9367-76be11e1d774
+  password: a01183bc-51e0-4eb1-9c1d-c392bb7ab793
   port: 36271
   server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 13355112-4353-4809-9eca-8d9782aac18b
-  port: 31271
-  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
