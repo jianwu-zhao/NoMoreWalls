@@ -1,97 +1,132 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 71707016-8758-4550-8f39-b328a4d96384
-  port: 36111
-  server: free.2weradf.xyz
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 71707016-8758-4550-8f39-b328a4d96384
-  port: 36113
-  server: free.2weradf.xyz
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
+  port: 31113
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 71707016-8758-4550-8f39-b328a4d96384
-  port: 36115
-  server: free.2weradf.xyz
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
-  udp: true
-- name: 1|🇯🇵4 |  6.2MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
-  port: 20076
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x76.flybar.work
-  type: trojan
-  udp: true
-- name: 1|🇯🇵5 |  5.8MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
-  port: 20059
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x59.flybar.work
-  type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 1|🇯🇵6 |  1.1MB/s
+  name: 1|🇯🇵1 |  5.9MB/s
   password: amazonskr05
   port: 443
-  server: 13.114.76.143
+  server: 43.206.221.137
   type: ss
-- name: 1|🇯🇵7 |  1.8MB/s
-  password: TTcyAOIqSCCZSO7XNCyzcS2Azlp3Yujw0j4uaR39DAeYw38Ye9F3eplxxg63FaCxC8R3S
-  port: 28332
-  server: country.meijireform.com
-  skip-cert-verify: true
-  sni: country.meijireform.com
+- name: 1|🇯🇵2 |  5.5MB/s
+  password: 0597af27-0972-45de-a32f-d320348cb765
+  port: 22271
+  server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: 1|🇯🇵8 |  5.9MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
-  port: 20071
+- cipher: aes-256-cfb
+  name: 1|🇯🇵3 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.18.99
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇯🇵4 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.248.227
+  type: ss
+- name: 1|🇯🇵5 |  6.2MB/s
+  password: 0597af27-0972-45de-a32f-d320348cb765
+  port: 22269
+  server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 1|🇯🇵7 |  5.9MB/s
+  password: f2f9c2e2-384e-395b-8c77-600a41472792
+  port: 54178
   server: gy.58n.net
   skip-cert-verify: true
-  sni: x71.flybar.work
+  sni: x115.flybar.work
   type: trojan
   udp: true
-- name: 1|🇯🇵9 |  6.1MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
+- name: 1|🇯🇵8 |  2.4MB/s
+  password: f2f9c2e2-384e-395b-8c77-600a41472792
   port: 20141
   server: gy.58n.net
   skip-cert-verify: true
   sni: z141.hongkongnode.top
   type: trojan
   udp: true
-- name: 1|🇯🇵10 |  3.5MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
-  port: 20142
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z142.hongkongnode.top
+- cipher: aes-256-cfb
+  name: 1|🇯🇵9 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.172.152
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇯🇵11 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.196.75.153
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇯🇵12 |  3.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.168.245.98
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇯🇵13 |  4.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 57.180.35.64
+  type: ss
+- name: 1|🇯🇵14 |  3.5MB/s
+  password: 0597af27-0972-45de-a32f-d320348cb765
+  port: 27002
+  server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇯🇵16 |  4.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.199.239.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇯🇵17 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.150.238
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 01 | 1x JP
-  password: 49eac356-f88c-47d3-a7b5-d6094754451f
-  port: 31111
-  server: free.2apzhfa.xyz
+  name: 2|🇯🇵 日本 01 | 1x JP
+  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  port: 36111
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 02 | 1x JP
-  password: 49eac356-f88c-47d3-a7b5-d6094754451f
-  port: 31113
-  server: free.2apzhfa.xyz
+  name: 2|🇯🇵 日本 02 | 1x JP
+  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  port: 36113
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 03 | 1x JP
-  password: 49eac356-f88c-47d3-a7b5-d6094754451f
-  port: 31115
-  server: free.2apzhfa.xyz
+  name: 2|🇯🇵 日本 03 | 1x JP
+  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  port: 36115
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: rc4-md5

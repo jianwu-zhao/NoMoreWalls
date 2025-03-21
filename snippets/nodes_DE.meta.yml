@@ -1,27 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 71707016-8758-4550-8f39-b328a4d96384
-  port: 36471
-  server: free.2weradf.xyz
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 8df7ba5c-ed86-4d06-a55e-ffb7a7be4b4d
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- delay: 2680
-  name: 1|🇩🇪1 |  4.7MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.48
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- auth: 8f8d3e5a-edb3-4826-8449-3d860082ac59
+  client-fingerprint: chrome
+  down: 100
+  name: 1|🇩🇪1 |  2.5MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 8f8d3e5a-edb3-4826-8449-3d860082ac59
+  port: 32008
+  server: 5.39.252.72
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪2 |  5.8MB/s
+  name: 1|🇩🇪2 |  4.2MB/s
   network: ws
   port: 2087
   server: 192.200.160.188
@@ -34,111 +35,17 @@ proxies:
     headers:
       Host: crm.iranigamebaz.ir
     path: /V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet
-  mode: ''
-  name: 1|🇩🇪3 |  2.4MB/s
-  network: grpc
-  port: 12685
-  server: 142.132.185.23
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: af6107be-c535-4a8e-bf09-340febd52c3d
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪4 |  1.5MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.82
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: 301.pooriam.ir
-    path: ''
-- auth: 8f8d3e5a-edb3-4826-8449-3d860082ac59
-  client-fingerprint: chrome
-  down: 100
-  name: 1|🇩🇪5 |  4.6MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: 8f8d3e5a-edb3-4826-8449-3d860082ac59
-  port: 32008
-  server: 5.39.252.72
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪6 |  4.0MB/s
-  network: ws
-  port: 8880
-  server: 185.146.173.112
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram@V2ray_Alpha
-- client-fingerprint: chrome
-  name: 1|🇩🇪7 |  5.3MB/s
-  network: ws
-  port: 2053
-  server: 172.67.204.84
-  servername: all32.kikforwindows.com
-  tls: true
-  type: vless
-  uuid: d154eff1-379b-4f8b-9bd8-887018f64611
-  ws-opts:
-    headers:
-      Host: all32.kikforwindows.com
-    path: /containers/de
-- name: 1,14|SC_speednode_0050
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 1,14|SC_speednode_0049
-  network: ws
-  port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 1|🇩🇪3 |  5.6MB/s
+  password: 0597af27-0972-45de-a32f-d320348cb765
+  port: 43583
+  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 49eac356-f88c-47d3-a7b5-d6094754451f
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 4be0e4fd-f3cf-4708-ad10-e019cd0778b4
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
