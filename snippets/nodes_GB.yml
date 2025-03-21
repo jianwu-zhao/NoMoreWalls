@@ -1,36 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 2b749355-25f1-47df-b282-df50b480af26
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 2b749355-25f1-47df-b282-df50b480af26
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1|🇬🇧2 |  5.1MB/s
-  password: C2BDSDZgnA7zxXFwEB3Dc8aaZ5SnRlAZaN3eSSIaFyY03NTR0l382Yce3OTS93Rp4jS6Z
-  port: 443
-  server: scarily.golfland.club
-  skip-cert-verify: true
-  sni: scarily.golfland.club
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: c63a4002-441f-4302-a70b-9ef1581d3a53
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 71707016-8758-4550-8f39-b328a4d96384
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c63a4002-441f-4302-a70b-9ef1581d3a53
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 71707016-8758-4550-8f39-b328a4d96384
   port: 36271
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 49eac356-f88c-47d3-a7b5-d6094754451f
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 49eac356-f88c-47d3-a7b5-d6094754451f
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
