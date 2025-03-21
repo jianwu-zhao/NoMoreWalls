@@ -1,40 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: a2f2b767-cc57-4d25-b2c9-fffc740ba13a
+  password: ed279f25-b5ca-4155-85d8-5d36b5b6f064
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: a2f2b767-cc57-4d25-b2c9-fffc740ba13a
+  password: ed279f25-b5ca-4155-85d8-5d36b5b6f064
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: 57220f3f-8fa2-41bb-9554-98cde52605ed
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 6c6dabee-e5ed-45ff-9656-563321c5681f
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 02 | 1x KR
-  password: 57220f3f-8fa2-41bb-9554-98cde52605ed
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 6c6dabee-e5ed-45ff-9656-563321c5681f
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 31778
-  server: xm.miloli.cc
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
