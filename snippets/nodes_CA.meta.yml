@@ -1,23 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 09a9cf28-a696-4de5-811c-cdc368e06d06
+  password: 2b749355-25f1-47df-b282-df50b480af26
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- auth: ccc74489-2ec3-480b-9ac7-2c875df7de82
-  name: 1|🇨🇦1 |  1.6MB/s
-  password: ccc74489-2ec3-480b-9ac7-2c875df7de82
-  port: 8443
-  server: jnd1.gywanglug.xyz
+- auth: 60609cca-82bf-40b9-aad2-4526712708c6
+  client-fingerprint: chrome
+  down: 100
+  name: 1|🇨🇦1 |  2.4MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 60609cca-82bf-40b9-aad2-4526712708c6
+  port: 30009
+  server: 141.195.112.53
   skip-cert-verify: true
-  sni: jnd1.gywanglug.xyz
   type: hysteria2
+  udp: true
+  up: 100
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇨🇦2 |  4.5MB/s
+  name: 1|🇨🇦2 |  3.0MB/s
   network: ws
   port: 20022
   server: 141.195.112.53
@@ -27,9 +32,17 @@ proxies:
   uuid: cfb611bf-c93e-413b-b04c-3090f4f7cbbb
   ws-opts:
     path: /
+- auth: ccc74489-2ec3-480b-9ac7-2c875df7de82
+  name: 1|🇨🇦3 |  5.1MB/s
+  password: ccc74489-2ec3-480b-9ac7-2c875df7de82
+  port: 8443
+  server: jnd1.gywanglug.xyz
+  skip-cert-verify: true
+  sni: jnd1.gywanglug.xyz
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 5db5d17d-86e6-4014-92b6-6b59d04f6363
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: c63a4002-441f-4302-a70b-9ef1581d3a53
   port: 36441
   server: free.2weradf.xyz
   type: ss
