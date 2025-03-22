@@ -1,59 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 2a80d016-280e-4603-83ab-bc627f169448
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 2a80d016-280e-4603-83ab-bc627f169448
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 2a80d016-280e-4603-83ab-bc627f169448
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 95564c13-16dd-4448-8162-2e2deaad7f6b
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: eb0806a1-c70d-414b-ae96-7ea32a02c673
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 95564c13-16dd-4448-8162-2e2deaad7f6b
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: eb0806a1-c70d-414b-ae96-7ea32a02c673
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 95564c13-16dd-4448-8162-2e2deaad7f6b
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: eb0806a1-c70d-414b-ae96-7ea32a02c673
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇸🇬1 |  6.2MB/s
+  name: 1|🇸🇬1 |  5.8MB/s
   password: amazonskr05
   port: 443
   server: 54.179.179.201
   type: ss
-- cipher: aes-256-cfb
-  name: 2|🇸🇬2 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.37.231
-  type: ss
-- name: 11|Hysteria 🇸🇬 @v2meowcf
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇸🇬2 |  3.1MB/s
+  network: ws
+  port: 8880
+  server: www.speedtest.net
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: banagh.vipnufilter.online
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8880
+- name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -61,7 +50,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -70,7 +59,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: 0979046d-90cc-4f58-9595-75ba19550d1c
   port: 42881
@@ -80,25 +69,47 @@ proxies:
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
   port: 21115
   server: okanc.node-is.green
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 11,12|新加坡3|@ripaojiedian
+  network: tcp
+  password: 0597af27-0972-45de-a32f-d320348cb765
+  port: 42881
+  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.203.196.43
+  server: 18.183.126.95
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 2b9829e3-ac9c-485e-9405-0940167e5bc2
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 2b9829e3-ac9c-485e-9405-0940167e5bc2
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 2b9829e3-ac9c-485e-9405-0940167e5bc2
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
