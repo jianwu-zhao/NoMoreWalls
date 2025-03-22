@@ -1,87 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: b78bd4dd-e0c2-436d-9931-bd897a147233
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: b78bd4dd-e0c2-436d-9931-bd897a147233
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: b78bd4dd-e0c2-436d-9931-bd897a147233
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 0438e881-4bc5-43a2-abc3-830b8370fb86
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 4d1eb626-4c14-4a2f-b06b-229164fe4f46
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 0438e881-4bc5-43a2-abc3-830b8370fb86
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 4d1eb626-4c14-4a2f-b06b-229164fe4f46
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 0438e881-4bc5-43a2-abc3-830b8370fb86
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 4d1eb626-4c14-4a2f-b06b-229164fe4f46
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  1.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: 2|🇹🇼2 |  1.2MB/s
-  network: ws
-  port: 23619
-  server: 19.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: eb3ca24e-968b-4cb2-921d-cec5541533b3
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: e28834b8-3b57-3cc8-b084-7c5d08c6af57
-  ws-opts:
-    headers:
-      Host: 19.mamamajd.site
-    path: /
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 2|🇹🇼3 |  1.1MB/s
-  network: ws
-  port: 2052
-  server: 104.26.13.228
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 282533b1-cbf1-40a6-b399-a1116163fcc5
-  ws-opts:
-    headers:
-      Host: throbbing-haze-ac69.guoronghuang180.workers.dev
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: eb3ca24e-968b-4cb2-921d-cec5541533b3
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: eb3ca24e-968b-4cb2-921d-cec5541533b3
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
