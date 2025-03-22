@@ -1,62 +1,91 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 7eddc3fa-ed7f-488d-a273-388eb435f8d3
+  password: 23f5e2c3-d68c-41c8-8f21-fab3504ee2db
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 7eddc3fa-ed7f-488d-a273-388eb435f8d3
+  password: 23f5e2c3-d68c-41c8-8f21-fab3504ee2db
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 7eddc3fa-ed7f-488d-a273-388eb435f8d3
+  password: 23f5e2c3-d68c-41c8-8f21-fab3504ee2db
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇸🇬1 |  5.6MB/s
-  network: ws
-  port: 8880
-  server: www.speedtest.net
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: banagh.vipnufilter.online
-    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8880
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 3e1c88df-43f8-4b5f-b176-3623b9114942
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 3e1c88df-43f8-4b5f-b176-3623b9114942
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 3e1c88df-43f8-4b5f-b176-3623b9114942
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 2|🇸🇬1 |  5.9MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 12f982df-dbb3-3288-b784-0a86c8f0706f
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- name: 2|🇸🇬2 |  2.9MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20130
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x130.flybar.work
+  type: trojan
+  udp: true
+- name: 2|🇸🇬3 |  6.3MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 17806
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x65.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 425
+  name: 2|🇸🇬4 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.99.127
+  type: ss
+- cipher: aes-256-cfb
+  delay: 684
+  name: 2|🇸🇬5 |  1.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.251.193.0
+  type: ss
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -82,14 +111,6 @@ proxies:
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 12,13|新加坡3|@ripaojiedian
   network: tcp

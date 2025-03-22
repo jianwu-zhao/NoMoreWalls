@@ -1,129 +1,148 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 7eddc3fa-ed7f-488d-a273-388eb435f8d3
+  password: 23f5e2c3-d68c-41c8-8f21-fab3504ee2db
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 7eddc3fa-ed7f-488d-a273-388eb435f8d3
+  password: 23f5e2c3-d68c-41c8-8f21-fab3504ee2db
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 7eddc3fa-ed7f-488d-a273-388eb435f8d3
+  password: 23f5e2c3-d68c-41c8-8f21-fab3504ee2db
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇺🇸3 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.246.28.217
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸4 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.40.170.193
-  type: ss
-- name: 1|🇺🇸5 |  2.4MB/s
-  password: 8cO87DFa34aCpD3CxlZ3uTxSSXnAlj6jYRCwl8FApRaFeAzX3D06CACRZESOyYYcyO3ON
-  port: 443
-  server: kitchen.taiwanesefood.link
-  type: trojan
-- cipher: aes-256-cfb
-  name: 1|🇺🇸7 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.93.21.189
-  type: ss
-- alpn:
-  - http%2F1.1
-  client-fingerprint: chrome
-  name: 1|🇺🇸8 |  1.3MB/s
-  network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 172.67.159.56
-  sni: Fgh9JkR5.890617.xYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Fgh9JkR5.890617.xYz
-    path: /lWljHWvIMOj85lz42MdhsCLV
-- cipher: aes-256-cfb
-  name: 1|🇺🇸12 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.94.124.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸14 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.242.208.211
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸20 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.236.187.71
-  type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇺🇸26 |  1.2MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: 1|🇺🇸28 |  2.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.87.37.159
-  type: ss
-- cipher: chacha20-ietf
-  name: 1|🇺🇸31 |  4.1MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.193
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 3e1c88df-43f8-4b5f-b176-3623b9114942
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 3e1c88df-43f8-4b5f-b176-3623b9114942
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 3e1c88df-43f8-4b5f-b176-3623b9114942
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 9a53a881-3073-447f-ae3d-a2cbb6299b0d
   port: 36215
   server: free.2weradf.xyz
   type: ss
+  udp: true
+- name: 2|🇺🇸1 |  5.9MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 21970
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x41.flybar.work
+  type: trojan
+  udp: true
+- name: 2|🇺🇸4 |  5.4MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20303
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z303.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇺🇸5 |  2.2MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20308
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z308.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇺🇸9 |  5.8MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 16895
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x40.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸10 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.94.124.230
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇺🇸12 |  1.1MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 12f982df-dbb3-3288-b784-0a86c8f0706f
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- name: 2|🇺🇸13 |  5.6MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20304
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z304.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸15 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.209.89.4
+  type: ss
+- name: 2|🇺🇸17 |  5.5MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20306
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z306.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸18 |  5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.187.221.114
+  type: ss
+- name: 2|🇺🇸19 |  5.6MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20305
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z305.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸20 |  5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.187.71
+  type: ss
+- name: 2|🇺🇸21 |  4.5MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 11215
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z268.hongkongnode.top
+  type: trojan
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
