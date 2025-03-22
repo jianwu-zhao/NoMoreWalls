@@ -1,55 +1,63 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: cd8732c8-fe30-425d-a9f6-2c52d7330d63
+  password: 7c493c21-b1cb-438b-ad59-ba13064dd5b3
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: cd8732c8-fe30-425d-a9f6-2c52d7330d63
+  password: 7c493c21-b1cb-438b-ad59-ba13064dd5b3
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰1 |  5.4MB/s
-  network: tcp
-  port: 11555
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: bac6f863-3347-4af7-acf0-83e8fba746a6
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: bac6f863-3347-4af7-acf0-83e8fba746a6
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2,14|SC_speednode_0049
+  network: ws
+  port: 8880
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇭🇰2 |  4.9MB/s
-  password: e393f59c-9cd0-33ec-8a2f-235c5b30a220
-  port: 20279
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 2|🇭🇰2 |  5.7MB/s
+  password: eba56086-1813-33c9-86e6-33e3e89f62e7
+  port: 28678
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z279.hongkongnode.top
+  sni: z143.hongkongnode.top
   type: trojan
   udp: true
-- name: 1|🇭🇰4 |  6.3MB/s
-  password: e393f59c-9cd0-33ec-8a2f-235c5b30a220
-  port: 20294
+- name: 2|🇭🇰4 |  2.0MB/s
+  password: eba56086-1813-33c9-86e6-33e3e89f62e7
+  port: 22741
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z294.hongkongnode.top
+  sni: dufu.hongkongnode.top
   type: trojan
   udp: true
-- name: 1|🇭🇰5 |  6.3MB/s
-  password: e393f59c-9cd0-33ec-8a2f-235c5b30a220
-  port: 20309
-  server: gyl.58n.net
-  skip-cert-verify: true
-  sni: z309.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇭🇰6 |  6.3MB/s
+- name: 2|🇭🇰5 |  2.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -58,7 +66,31 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 10|香港🇭🇰 HY2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇭🇰6 |  1.2MB/s
+  network: ws
+  port: 80
+  server: 156.238.18.156
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: Telegram🇨🇳 @WangCai2
+- name: 2|🇭🇰7 |  6.2MB/s
+  password: eba56086-1813-33c9-86e6-33e3e89f62e7
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
   server: fast.yxmm.xyz
@@ -68,7 +100,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   password: SQIDT5H25BVNZXZE
   port: 15007
   server: qh62onjn.slashdevslashnetslashtun.net
@@ -76,7 +108,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: Q3PP7TUVTV756YSB
   port: 15008
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -85,7 +117,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 40102
   server: 120.232.153.63
   skip-cert-verify: false
@@ -95,7 +127,7 @@ proxies:
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港4|@ripaojiedian
+  name: 12|🇭🇰 香港4|@ripaojiedian
   password: 53HVTBHCBNKKC66Q
   port: 15014
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -103,14 +135,14 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港5|@ripaojiedian
+  name: 12|🇭🇰 香港5|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.16.212
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 11,12|香港6|@ripaojiedian
+  name: 12,13|香港6|@ripaojiedian
   network: tcp
   password: VMhGp5wEIyCDf90T
   port: 42303
@@ -121,7 +153,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港7|@ripaojiedian
+  name: 12|🇭🇰 香港7|@ripaojiedian
   port: 51182
   server: 120.232.153.40
   skip-cert-verify: false
@@ -131,7 +163,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '40102'
   server: 120.232.153.63
@@ -141,7 +173,7 @@ proxies:
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
-  name: 12|香港7|@ripaojiedian
+  name: 13|香港7|@ripaojiedian
   network: tcp
   port: '51182'
   server: 120.232.153.40
@@ -151,7 +183,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|香港A|@ripaojiedian
+  name: 13|香港A|@ripaojiedian
   network: kcp
   port: '26706'
   server: 47.239.242.136
@@ -159,17 +191,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 02 | 1x HK
-  password: cc240562-e69e-49d2-91b0-fa943645563c
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港家宽 03 | 1x HK
-  password: cc240562-e69e-49d2-91b0-fa943645563c
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
