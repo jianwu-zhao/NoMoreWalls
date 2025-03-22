@@ -1,79 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 4d1eb626-4c14-4a2f-b06b-229164fe4f46
+  password: cd8732c8-fe30-425d-a9f6-2c52d7330d63
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: eb3ca24e-968b-4cb2-921d-cec5541533b3
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇩🇪1 |  5.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: _Ae3dodQ-4UmdxPu_1p6hu3w-am3t_GFDD-AIxQ2RC8
-    short-id: '06'
-  server: 91.107.148.11
-  servername: tgju.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 29507260-966c-4bff-947f-eb9722586e1a
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪2 |  4.7MB/s
+  name: 1|🇩🇪1 |  5.4MB/s
   network: ws
-  port: 2095
-  server: 156.238.18.60
-  servername: ''
+  port: 2052
+  server: 156.238.18.165
+  skip-cert-verify: false
   tls: false
   type: vless
-  udp: false
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- auth: afdaf0d8-1f8d-4449-afb6-e234c8aad9bd
-  client-fingerprint: chrome
-  down: 100
-  name: 2|🇩🇪3 |  1.8MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: afdaf0d8-1f8d-4449-afb6-e234c8aad9bd
-  port: 32008
-  server: 5.39.252.72
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  5.8MB/s
-  network: ws
-  port: 80
-  server: 156.238.18.124
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 10|(@VmessProtocol)برای خرید و ات...
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- name: 9|(@VmessProtocol)برای خرید و ات...
   password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
   port: 443
   server: 107.167.18.123
@@ -81,7 +27,7 @@ proxies:
   sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -90,3 +36,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: cc240562-e69e-49d2-91b0-fa943645563c
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
