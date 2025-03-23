@@ -1,22 +1,22 @@
 proxies:
-- name: 0|🇨🇦1 |  1.8MB/s
-  network: ws
-  port: 443
-  server: 104.18.46.81
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: e6fbcfc1-2497-4423-a3a9-28ace6aa8e34
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: d9a35271-ea2a-4288-99f4-51f69d4e05e0
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - auth: 1540237c-ce3e-4bff-bbb3-e3a33ba5d831
   client-fingerprint: chrome
   down: 100
-  name: 0|🇨🇦2 |  4.1MB/s
+  name: 2|🇨🇦1 |  1.7MB/s
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   password: 1540237c-ce3e-4bff-bbb3-e3a33ba5d831
@@ -26,17 +26,19 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 75c91963-e865-4f2e-b171-51ffd1d11b90
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: fb70ce3c-9632-4cd1-9bb0-4e3471a97842
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇨🇦2 |  5.4MB/s
+  network: ws
+  port: 443
+  server: iplocation.io
+  servername: nl.ylkszy.eu.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: nl.ylkszy.eu.org
+    path: /?ed=2560security=tls

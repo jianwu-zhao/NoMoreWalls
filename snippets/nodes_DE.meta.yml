@@ -1,8 +1,74 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: e6fbcfc1-2497-4423-a3a9-28ace6aa8e34
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: d9a35271-ea2a-4288-99f4-51f69d4e05e0
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪1 |  5.6MB/s
+  name: 2|🇩🇪1 |  5.6MB/s
+  network: ws
+  port: 22222
+  server: 18.198.30.114
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  udp: false
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪2 |  5.4MB/s
+  network: ws
+  port: 8443
+  server: 104.17.147.22
+  servername: ZenhariB1.PersonApps.info
+  tls: true
+  type: vless
+  udp: false
+  uuid: 95267673-3bee-486b-b591-59baa689bb7e
+  ws-opts:
+    headers:
+      Host: ZenhariB1.PersonApps.info
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  grpc-opts:
+    grpc-service-name: TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet
+  mode: gun
+  name: 2|🇩🇪3 |  3.1MB/s
+  network: grpc
+  port: 12685
+  server: V2rayNG.SPDNet.online
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 187eaa76-c30f-4a6c-840a-a6519d0ee6b5
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪4 |  2.8MB/s
+  password: 11955ffa5b58cae3
+  port: 26268
+  server: 45.10.154.245
+  type: ss
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪5 |  3.2MB/s
   network: ws
   port: 2082
   server: 104.17.147.22
@@ -17,22 +83,22 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - client-fingerprint: ''
   flow: ''
-  grpc-opts:
-    grpc-service-name: TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet
   mode: ''
-  name: 0|🇩🇪2 |  5.7MB/s
-  network: grpc
-  port: 12685
-  server: 142.132.185.23
+  name: 2|🇩🇪6 |  4.4MB/s
+  network: ws
+  port: 3092
+  server: pre-de.hmray.pro
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 187eaa76-c30f-4a6c-840a-a6519d0ee6b5
+  uuid: 7c598d05-6b60-4ba4-b326-52cca83adc95
+  ws-opts:
+    path: /
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪3 |  3.7MB/s
+  name: 2|🇩🇪7 |  4.1MB/s
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -41,55 +107,10 @@ proxies:
   type: vless
   udp: false
   uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
-- client-fingerprint: chrome
-  name: 0|🇩🇪4 |  5.0MB/s
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪5 |  5.5MB/s
-  network: ws
-  port: 2082
-  server: 104.17.148.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 38467d75-fe67-4950-c84d-ce5eb3fbe2ae
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪6 |  4.0MB/s
-  network: ws
-  port: 80
-  server: zmaoz.faculty.ucdavis.edu
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 252456af-eeaf-41a4-f4f2-d18a2d234301
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪7 |  3.4MB/s
+  name: 2|🇩🇪8 |  5.3MB/s
   network: tcp
   port: 443
   server: yrtuio.890604.filegear-sg.me
@@ -98,58 +119,7 @@ proxies:
   type: vless
   udp: false
   uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪8 |  5.8MB/s
-  network: tcp
-  port: 4810
-  server: 5.75.140.123
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 60be7572-d2e4-4336-b776-5b44c7d2411a
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪9 |  4.9MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.208
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪10 |  4.3MB/s
-  network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: ZenhariB1.PersonApps.info
-  tls: true
-  type: vless
-  udp: false
-  uuid: 95267673-3bee-486b-b591-59baa689bb7e
-  ws-opts:
-    headers:
-      Host: ZenhariB1.PersonApps.info
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 75c91963-e865-4f2e-b171-51ffd1d11b90
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
   port: 443
   server: 107.167.18.123
@@ -157,7 +127,7 @@ proxies:
   sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 9|@meli_proxyyسرورایبیشتر
+- name: 10|@meli_proxyyسرورایبیشتر
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy38.zqjc.cloud
@@ -165,7 +135,7 @@ proxies:
   sni: shy38.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 9|@meli_proxyyسرورای‌بیشتر
+- name: 10|@meli_proxyyسرورای‌بیشتر
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy42.zqjc.cloud
@@ -173,7 +143,7 @@ proxies:
   sni: shy42.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -182,24 +152,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@meli_proxyyسرورای‌بیشتر #1'
+- name: '10|@meli_proxyyسرورای‌بیشتر #1'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-lu.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|@meli_proxyyسرورای‌بیشتر #2'
+- name: '10|@meli_proxyyسرورای‌بیشتر #2'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-nl.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: fb70ce3c-9632-4cd1-9bb0-4e3471a97842
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
