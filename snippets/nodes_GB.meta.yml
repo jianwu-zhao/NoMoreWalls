@@ -1,15 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 7b9b5ee9-041e-4898-a540-85973b21e273
+  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
   port: 31271
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇬🇧1 |  5.8MB/s
+  name: 2|🇬🇧1 |  5.7MB/s
+  network: ws
+  port: 2096
+  server: whatismyipaddress.com
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: a41c5712-9ee8-4199-bf94-207521f3c304
+  ws-opts:
+    headers:
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
+    path: ''
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧2 |  5.7MB/s
   network: ws
   port: 2096
   server: 104.19.222.79
@@ -22,53 +59,51 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
     path: ''
-- client-fingerprint: ''
+- client-fingerprint: random
   flow: ''
   mode: ''
-  name: 1|🇬🇧2 |  1.6MB/s
+  name: 2|🇬🇧3 |  2.6MB/s
   network: ws
-  port: 2095
-  server: 156.238.18.208
-  servername: ''
-  tls: false
+  port: 2053
+  server: 172.67.202.155
+  servername: support.onetwothree123.ir
+  tls: true
   type: vless
   udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: 1170aa26-94b0-4ea5-c7c2-bc51f2c30a3a
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1|🇬🇧3 |  4.3MB/s
-  network: ws
-  port: 2083
-  server: Support.onetwothree123.ir
-  servername: support.onetwothree123.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2ca1bdb5-41aa-4ecb-a779-de43825dda5a
-  ws-opts:
-    headers:
-      HOST: support.onetwothree123.ir
+      Host: support.onetwothree123.ir
     path: /🆔@M3HDIO1
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: 8850680f-5d82-4eb7-a727-8f98150f158b
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇬🇧4 |  5.0MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 8850680f-5d82-4eb7-a727-8f98150f158b
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+  uuid: da96c362-b8b5-31af-9be6-26cdb48368be
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- allowInsecure: ''
+  name: 2|🇬🇧5 |  2.7MB/s
+  network: ws
+  password: 4PbOjiMDLh
+  port: 2096
+  server: 104.21.44.185
+  skip-cert-verify: false
+  sni: support.onetwothree123.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.onetwothree123.ir
+    path: /🆔@M3HDIO1
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
