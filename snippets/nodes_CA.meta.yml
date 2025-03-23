@@ -1,8 +1,15 @@
 proxies:
-- name: 0|🇨🇦1 |  2.0MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 6fb56b2b-7e34-48b1-bebb-4f517f28acc4
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1|🇨🇦1 |  5.2MB/s
   network: ws
   port: 443
-  server: 130.250.137.19
+  server: www.whatismyip.com
   servername: nl.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -11,12 +18,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: nl.ylkszy.eu.org
+      Host: nl.ylkszy.eu.org
     path: /?ed=2560
-- name: 0|🇨🇦2 |  2.5MB/s
+- name: 1|🇨🇦2 |  4.4MB/s
   network: ws
   port: 443
-  server: 212.183.88.200
+  server: 217.163.76.102
   servername: nl.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -25,12 +32,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: nl.ylkszy.eu.org
+      Host: nl.ylkszy.eu.org
     path: /?ed=2560
-- name: 0|🇨🇦3 |  1.5MB/s
+- name: 1|🇨🇦3 |  5.7MB/s
   network: ws
   port: 443
-  server: tasteatlas.com
+  server: 185.133.35.237
   servername: nl.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -39,12 +46,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: nl.ylkszy.eu.org
+      Host: nl.ylkszy.eu.org
     path: /?ed=2560
-- name: 0|🇨🇦4 |  2.5MB/s
+- name: 1|🇨🇦4 |  3.7MB/s
   network: ws
   port: 443
-  server: 162.159.36.104
+  server: www.udemy.com
   servername: nl.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -53,12 +60,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: nl.ylkszy.eu.org
+      Host: nl.ylkszy.eu.org
     path: /?ed=2560
-- name: 0|🇨🇦5 |  6.0MB/s
+- name: 1|🇨🇦5 |  4.3MB/s
   network: ws
   port: 443
-  server: rustam.ns.cloudflare.com
+  server: moura.ns.cloudflare.com
   servername: nl.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -67,9 +74,65 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: nl.ylkszy.eu.org
+      Host: nl.ylkszy.eu.org
     path: /?ed=2560
-- name: 0|🇨🇦6 |  2.9MB/s
+- name: 1|🇨🇦6 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 104.18.46.81
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇨🇦7 |  5.3MB/s
+  network: ws
+  port: 443
+  server: www.digitalocean.com
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇨🇦8 |  3.8MB/s
+  network: ws
+  port: 443
+  server: 104.16.144.216
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇨🇦9 |  5.5MB/s
+  network: ws
+  port: 443
+  server: 160.79.105.99
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇨🇦10 |  2.7MB/s
   network: ws
   port: 443
   server: 104.16.152.163
@@ -81,116 +144,11 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇨🇦7 |  6.2MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.94
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇨🇦8 |  2.1MB/s
-  network: ws
-  port: 443
-  server: www.4chan.org
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇨🇦9 |  5.4MB/s
-  network: ws
-  port: 443
-  server: 172.67.181.209
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇨🇦10 |  2.0MB/s
-  network: ws
-  port: 443
-  server: www.wto.org
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇨🇦11 |  4.4MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.120
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇨🇦12 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 202.37.33.80
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 0|🇨🇦13 |  1.9MB/s
-  network: ws
-  port: 443
-  server: benedict.ns.cloudflare.com
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylkszy.eu.org
+      Host: nl.ylkszy.eu.org
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: fc1006ab-82ac-40f2-a338-b98379e614a4
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: a9fcbfe2-3dda-41a0-a24e-ef2fa93b8b4b
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 422d2acd-3e6a-4c77-8f80-346f190e67d2
   port: 36441
   server: free.2weradf.xyz
   type: ss
