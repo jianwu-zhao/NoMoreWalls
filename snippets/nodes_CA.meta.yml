@@ -1,82 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 6fb56b2b-7e34-48b1-bebb-4f517f28acc4
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1|🇨🇦1 |  5.2MB/s
-  network: ws
-  port: 443
-  server: www.whatismyip.com
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦2 |  4.4MB/s
-  network: ws
-  port: 443
-  server: 217.163.76.102
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦3 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.237
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦4 |  3.7MB/s
-  network: ws
-  port: 443
-  server: www.udemy.com
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦5 |  4.3MB/s
-  network: ws
-  port: 443
-  server: moura.ns.cloudflare.com
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦6 |  5.4MB/s
+- name: 0|🇨🇦1 |  1.8MB/s
   network: ws
   port: 443
   server: 104.18.46.81
@@ -90,66 +13,30 @@ proxies:
     headers:
       Host: nl.ylkszy.eu.org
     path: /?ed=2560
-- name: 1|🇨🇦7 |  5.3MB/s
-  network: ws
-  port: 443
-  server: www.digitalocean.com
-  servername: nl.ylkszy.eu.org
+- auth: 1540237c-ce3e-4bff-bbb3-e3a33ba5d831
+  client-fingerprint: chrome
+  down: 100
+  name: 0|🇨🇦2 |  4.1MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 1540237c-ce3e-4bff-bbb3-e3a33ba5d831
+  port: 30009
+  server: 141.195.112.53
   skip-cert-verify: true
-  tls: true
-  type: vless
+  type: hysteria2
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦8 |  3.8MB/s
-  network: ws
-  port: 443
-  server: 104.16.144.216
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦9 |  5.5MB/s
-  network: ws
-  port: 443
-  server: 160.79.105.99
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦10 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 104.16.152.163
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
+  up: 100
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 422d2acd-3e6a-4c77-8f80-346f190e67d2
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 75c91963-e865-4f2e-b171-51ffd1d11b90
   port: 36441
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦加拿大 01 | 1x CA
+  password: fb70ce3c-9632-4cd1-9bb0-4e3471a97842
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

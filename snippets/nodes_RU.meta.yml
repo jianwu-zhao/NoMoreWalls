@@ -1,16 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 6fb56b2b-7e34-48b1-bebb-4f517f28acc4
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - auth: dongtaiwang.com
-  name: 1|🇷🇺1 |  1.2MB/s
+  name: 0|🇷🇺1 |  5.6MB/s
   password: dongtaiwang.com
   port: 18626
   server: 46.29.163.171
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- auth: dongtaiwang.com
+  name: 0|🇷🇺2 |  1.3MB/s
+  password: dongtaiwang.com
+  port: 37481
+  server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
@@ -18,21 +19,39 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 1|🇷🇺2 |  2.6MB/s
+  name: 0|🇷🇺3 |  3.7MB/s
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 1000 Mbps
-- auth: dongtaiwang.com
-  name: 1|🇷🇺3 |  1.1MB/s
-  password: dongtaiwang.com
-  port: 37481
-  server: 46.17.41.217
+- cipher: aes-128-gcm
+  name: 0|🇷🇺4 |  2.8MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 0|🇷🇺5 |  6.1MB/s
+  port: 10469
+  protocol: udp
+  server: 46.17.41.174
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  sni: apple.com
+  type: hysteria
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺 俄罗斯 01 | 1x RU
+  password: 75c91963-e865-4f2e-b171-51ffd1d11b90
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 13|RU_speednode_0046
   network: ws
   port: 80
@@ -76,9 +95,9 @@ proxies:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺 俄罗斯 01 | 1x RU
-  password: 422d2acd-3e6a-4c77-8f80-346f190e67d2
-  port: 36511
-  server: free.2weradf.xyz
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: fb70ce3c-9632-4cd1-9bb0-4e3471a97842
+  port: 31511
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
