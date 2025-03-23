@@ -1,23 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
   port: 31271
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
-  port: 36141
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -27,10 +13,25 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 2|🇬🇧1 |  5.1MB/s
+  network: ws
+  port: 23605
+  server: 5.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 966476e3-5c3e-39a8-b91d-ba6a66b70115
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧1 |  5.7MB/s
+  name: 2|🇬🇧2 |  4.4MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
@@ -46,7 +47,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧2 |  5.7MB/s
+  name: 2|🇬🇧3 |  1.3MB/s
   network: ws
   port: 2096
   server: 104.19.222.79
@@ -59,25 +60,9 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
     path: ''
-- client-fingerprint: random
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧3 |  2.6MB/s
-  network: ws
-  port: 2053
-  server: 172.67.202.155
-  servername: support.onetwothree123.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 1170aa26-94b0-4ea5-c7c2-bc51f2c30a3a
-  ws-opts:
-    headers:
-      Host: support.onetwothree123.ir
-    path: /🆔@M3HDIO1
 - alterId: 2
   cipher: auto
-  name: 2|🇬🇧4 |  5.0MB/s
+  name: 2|🇬🇧4 |  4.9MB/s
   network: ws
   port: 23613
   server: 13.mamamajd.site
@@ -85,25 +70,27 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: da96c362-b8b5-31af-9be6-26cdb48368be
+  uuid: 966476e3-5c3e-39a8-b91d-ba6a66b70115
   ws-opts:
     headers:
       Host: 13.mamamajd.site
     path: /
-- allowInsecure: ''
-  name: 2|🇬🇧5 |  2.7MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧5 |  5.8MB/s
   network: ws
-  password: 4PbOjiMDLh
   port: 2096
-  server: 104.21.44.185
-  skip-cert-verify: false
-  sni: support.onetwothree123.ir
+  server: 104.19.223.79
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
   tls: true
-  type: trojan
+  type: vless
+  udp: false
+  uuid: a41c5712-9ee8-4199-bf94-207521f3c304
   ws-opts:
     headers:
-      Host: support.onetwothree123.ir
-    path: /🆔@M3HDIO1
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
+    path: ''
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443

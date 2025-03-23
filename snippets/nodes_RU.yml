@@ -14,7 +14,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 2|🇷🇺2 |  3.1MB/s
+  name: 2|🇷🇺2 |  2.8MB/s
   password: VMhGp5wEIyCDf90T
   port: 56226
   server: bsuqian01.dynu.net
