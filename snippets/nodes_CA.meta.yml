@@ -1,56 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: cdb620ea-e8a2-4079-9e39-e2efe6361db8
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: ecae5ea0-c8a4-4934-9333-993a8b64ddca
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 7b9b5ee9-041e-4898-a540-85973b21e273
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.109
-  servername: vx.dbbn2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vx.dbbn2024.us.kg
-    path: /?ed=2560
-- name: 2|🇨🇦2 |  1.4MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.125
-  servername: vx.dbbn2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vx.dbbn2024.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
+- auth: f8a25a9c-8b1f-422e-abb7-19576de21a62
   client-fingerprint: chrome
-  name: 2|🇨🇦3 |  5.6MB/s
-  network: ws
-  port: 20023
+  down: 100
+  name: 1|🇨🇦1 |  5.1MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: f8a25a9c-8b1f-422e-abb7-19576de21a62
+  port: 30009
   server: 141.195.112.53
-  tls: false
-  type: vmess
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: b7274fbe-2377-4413-8b3b-22e72539178e
+  up: 100
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇨🇦2 |  4.8MB/s
+  network: ws
+  port: 2086
+  server: 45.131.5.244
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: f366e744-abcd-4b5b-bd5e-2bd97b6443bf
   ws-opts:
-    path: /
+    headers:
+      Host: fva64rbmjfkfznnptk6imz6sihrno35m4csom83admge5tfxniwduyuyt954fdh.ks3om.workers.Dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: 8850680f-5d82-4eb7-a727-8f98150f158b
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
