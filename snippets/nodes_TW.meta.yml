@@ -1,47 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇹🇼1 |  5.9MB/s
+- name: 0|🇹🇼1 |  5.9MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: tw1-cdn-route.couldflare-cdn.com
@@ -50,7 +8,7 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 2|🇹🇼2 |  1.4MB/s
+- name: 0|🇹🇼2 |  1.4MB/s
   network: ws
   port: 2087
   server: 108.165.152.98
@@ -64,7 +22,7 @@ proxies:
     headers:
       host: agedgl.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼3 |  6.2MB/s
+- name: 0|🇹🇼3 |  6.2MB/s
   password: 33003801-8cb0-32da-af43-032cd5e944fa
   port: 36821
   server: gy.58n.net
@@ -72,7 +30,7 @@ proxies:
   sni: z262.hongkongnode.top
   type: trojan
   udp: true
-- name: 2|🇹🇼4 |  2.6MB/s
+- name: 0|🇹🇼4 |  2.6MB/s
   network: ws
   port: 443
   server: 43.129.171.137
@@ -86,7 +44,7 @@ proxies:
     headers:
       host: agedgj.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼5 |  6.3MB/s
+- name: 0|🇹🇼5 |  6.3MB/s
   network: ws
   port: 27194
   server: 131.186.20.178
@@ -100,7 +58,7 @@ proxies:
     headers:
       host: agedgl.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼6 |  6.9MB/s
+- name: 0|🇹🇼6 |  6.9MB/s
   network: ws
   port: 50000
   server: 211.38.168.1
@@ -114,7 +72,7 @@ proxies:
     headers:
       host: agedgj.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼7 |  6.7MB/s
+- name: 0|🇹🇼7 |  6.7MB/s
   network: ws
   port: 31444
   server: 14.52.18.105
@@ -128,6 +86,48 @@ proxies:
     headers:
       host: agedgj.ambercc.filegear-sg.me
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: fc1006ab-82ac-40f2-a338-b98379e614a4
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: fc1006ab-82ac-40f2-a338-b98379e614a4
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: fc1006ab-82ac-40f2-a338-b98379e614a4
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 01 | 1x TW
+  password: a9fcbfe2-3dda-41a0-a24e-ef2fa93b8b4b
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: a9fcbfe2-3dda-41a0-a24e-ef2fa93b8b4b
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: a9fcbfe2-3dda-41a0-a24e-ef2fa93b8b4b
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian

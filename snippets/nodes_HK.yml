@@ -1,35 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰3 |  5.8MB/s
+  name: 0|🇭🇰3 |  5.8MB/s
   network: tcp
   port: 55754
   server: 183.236.51.38
@@ -40,7 +12,7 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- name: 2|🇭🇰4 |  6.0MB/s
+- name: 0|🇭🇰4 |  6.0MB/s
   password: 33003801-8cb0-32da-af43-032cd5e944fa
   port: 20294
   server: gy.58n.net
@@ -48,7 +20,7 @@ proxies:
   sni: z294.hongkongnode.top
   type: trojan
   udp: true
-- name: 2|🇭🇰5 |  6.3MB/s
+- name: 0|🇭🇰5 |  6.3MB/s
   password: 33003801-8cb0-32da-af43-032cd5e944fa
   port: 20279
   server: gy.58n.net
@@ -58,7 +30,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰9 |  1.5MB/s
+  name: 0|🇭🇰9 |  1.5MB/s
   network: tcp
   port: 34093
   server: 120.198.71.214
@@ -69,6 +41,34 @@ proxies:
   ws-headers:
     Host: 120.198.71.214
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: fc1006ab-82ac-40f2-a338-b98379e614a4
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: fc1006ab-82ac-40f2-a338-b98379e614a4
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: a9fcbfe2-3dda-41a0-a24e-ef2fa93b8b4b
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: a9fcbfe2-3dda-41a0-a24e-ef2fa93b8b4b
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian

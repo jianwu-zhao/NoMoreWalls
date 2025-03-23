@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇩🇪1 |  4.9MB/s
+  name: 0|🇩🇪1 |  4.9MB/s
   network: ws
   port: 23618
   server: 18.mamamajd.site
@@ -31,7 +17,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.3MB/s
+  name: 0|🇩🇪2 |  5.3MB/s
   network: ws
   port: 2053
   server: 173.245.59.132
@@ -47,7 +33,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪3 |  2.9MB/s
+  name: 0|🇩🇪3 |  2.9MB/s
   network: ws
   port: 2082
   server: 104.17.148.22
@@ -63,7 +49,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  5.7MB/s
+  name: 0|🇩🇪4 |  5.7MB/s
   network: ws
   port: 2082
   server: 104.17.147.22
@@ -79,7 +65,7 @@ proxies:
 - auth: 8408ac03-4774-4807-aa10-c21a5474757f
   client-fingerprint: chrome
   down: 100
-  name: 2|🇩🇪5 |  5.9MB/s
+  name: 0|🇩🇪5 |  5.9MB/s
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   password: 8408ac03-4774-4807-aa10-c21a5474757f
@@ -89,6 +75,20 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: fc1006ab-82ac-40f2-a338-b98379e614a4
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: a9fcbfe2-3dda-41a0-a24e-ef2fa93b8b4b
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
