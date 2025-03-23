@@ -1,27 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: d78a0849-f363-4200-a523-c7c04410ee34
+  password: cdb620ea-e8a2-4079-9e39-e2efe6361db8
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: d78a0849-f363-4200-a523-c7c04410ee34
+  password: cdb620ea-e8a2-4079-9e39-e2efe6361db8
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: ecae5ea0-c8a4-4934-9333-993a8b64ddca
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 2b917485-b24b-4c0f-bad3-b97baad4df61
+  password: ecae5ea0-c8a4-4934-9333-993a8b64ddca
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - allowInsecure: ''
-  name: 2|🇬🇧1 |  5.2MB/s
+  name: 2|🇬🇧1 |  4.2MB/s
   network: ws
   password: 4PbOjiMDLh
   port: 2096
@@ -33,4 +40,21 @@ proxies:
   ws-opts:
     headers:
       Host: support.onetwothree123.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇬🇧3 |  5.4MB/s
+  network: ws
+  port: 8443
+  server: Support.onetwothree123.ir
+  servername: support.onetwothree123.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 001ad3c0-18b2-4f2d-ab44-194066e345f8
+  ws-opts:
+    headers:
+      HOST: support.onetwothree123.ir
     path: /🆔@M3HDIO1

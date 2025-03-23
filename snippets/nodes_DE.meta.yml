@@ -1,23 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: d78a0849-f363-4200-a523-c7c04410ee34
+  password: cdb620ea-e8a2-4079-9e39-e2efe6361db8
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 2b917485-b24b-4c0f-bad3-b97baad4df61
+  password: ecae5ea0-c8a4-4934-9333-993a8b64ddca
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 2|🇩🇪1 |  1.9MB/s
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+  mode: ''
+  name: 2|🇩🇪1 |  5.8MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 0JBrLAhqlbIWkAH1VAFno9w-XpAhjGhhWPG4qw7vlQw
+    short-id: d656c301bc0904
+  server: kamyar2.vact.ir
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 42166000-e840-4afb-8dc6-220744e980a7
+- name: 2|🇩🇪2 |  2.6MB/s
   network: ws
-  port: 8880
-  server: 154.83.2.228
+  port: 2095
+  server: 156.238.18.28
   skip-cert-verify: false
   tls: false
   type: vless
@@ -26,10 +42,24 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /
+- name: 2|🇩🇪3 |  1.9MB/s
+  network: ws
+  port: 2086
+  server: 104.21.4.189
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
+  ws-opts:
+    headers:
+      Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /DdAtLiofda1FCcda?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  2.7MB/s
+  name: 2|🇩🇪4 |  4.9MB/s
   network: ws
   port: 80
   server: 156.238.18.124
@@ -42,45 +72,36 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪3 |  4.8MB/s
-  network: ws
-  port: 80
-  server: 151.101.130.219
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c59f7aeb-57fb-47ab-c420-03edd569b405
-  ws-opts:
-    headers:
-      Host: retete3.ir
-    path: /telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city?ed=2048
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  flow: ''
+  grpc-opts:
+    grpc-service-name: fdvsdv
   mode: ''
-  name: 2|🇩🇪4 |  4.9MB/s
-  network: tcp
-  port: 443
+  name: 2|🇩🇪5 |  3.1MB/s
+  network: grpc
+  port: 2097
   reality-opts:
-    public-key: mg27CNAYLf_Ur6787uTVq_RVfKuiM5MVwbReFVDg5ks
-    short-id: 190d32b118caf07f
-  server: 45.135.193.201
-  servername: mdundo.com
+    public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
+    short-id: 2665af94c7b25f90
+  server: 188.245.242.20
+  servername: sourceforge.net
   tls: true
   type: vless
   udp: false
-  uuid: 9e284c20-d147-48f4-a4cd-dd72903d7407
-- name: 10|(@VmessProtocol)برای خرید و ات...
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
+  uuid: de3e121a-8405-4888-98ec-8914c1850a2d
+- auth: f8a25a9c-8b1f-422e-abb7-19576de21a62
+  client-fingerprint: chrome
+  down: 100
+  name: 2|🇩🇪6 |  2.9MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: f8a25a9c-8b1f-422e-abb7-19576de21a62
+  port: 32008
+  server: 5.39.252.72
   skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  tls: false
   type: hysteria2
+  udp: true
+  up: 100
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
