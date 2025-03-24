@@ -1,30 +1,62 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: e39bd72d-dd14-4740-b2f4-412bdbfaf15b
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: fbbe816d-f9dc-4679-9d54-d669be8664ea
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: e3e1fb45-6329-450a-a548-369f47cc579f
   port: 31145
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1|🇭🇰3 |  5.8MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 1|🇭🇰6 |  6.1MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 28678
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z143.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 1|🇭🇰8 |  6.3MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 1|🇭🇰14 |  1.6MB/s
+  password: 02d12d30-3d79-3c88-afe1-688b867d005f
+  port: 20309
+  server: gyl.58n.net
+  skip-cert-verify: true
+  sni: z309.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: 892ee409-c176-4ac9-b2ac-782d1b239342
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 892ee409-c176-4ac9-b2ac-782d1b239342
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
