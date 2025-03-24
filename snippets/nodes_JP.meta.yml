@@ -1,163 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: 2a414476-443b-44a1-aacd-43e0d920fe83
+  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: 2a414476-443b-44a1-aacd-43e0d920fe83
+  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: 2a414476-443b-44a1-aacd-43e0d920fe83
+  password: 25cadf19-a372-4b64-9cfb-8104b11e8969
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇯🇵1 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.248.66.29
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  port: 36111
+  server: free.2weradf.xyz
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵2 |  6.2MB/s
-  network: tcp
-  port: 25768
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇯🇵3 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: random
-  ip-version: dual
-  name: 1|🇯🇵4 |  1.5MB/s
-  network: ws
-  port: 2052
-  server: 45.149.12.183
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 1|🇯🇵5 |  5.8MB/s
-  network: ws
-  port: '8880'
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵6 |  6.2MB/s
-  network: tcp
-  port: 14548
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇯🇵7 |  4.3MB/s
-  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
-  port: 443
-  server: 154.31.114.12
-  skip-cert-verify: true
-  sni: visual.superpokemon.com
-  tfo: false
-  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: 6962a290-398c-45fc-8801-1f369acabb8b
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵8 |  5.2MB/s
-  network: tcp
-  port: 31735
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  name: 1|🇯🇵9 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.142.42
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵10 |  4.0MB/s
-  network: tcp
-  port: 16497
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵11 |  3.5MB/s
-  network: tcp
-  port: 11839
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf
-  name: 1|🇯🇵12 |  2.2MB/s
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
-  type: ss
-- name: 1,14|SC_speednode_0050
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵14 |  6.1MB/s
+  name: 2|🇯🇵1 |  6.1MB/s
   network: tcp
   port: 48121
   reality-opts:
@@ -169,7 +55,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵15 |  6.1MB/s
+  name: 2|🇯🇵2 |  6.2MB/s
+  network: tcp
+  port: 14548
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇯🇵3 |  3.6MB/s
   network: tcp
   port: 13989
   reality-opts:
@@ -179,43 +77,65 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇯🇵16 |  2.4MB/s
-  network: ws
-  port: 8880
-  server: 45.149.12.67
-  servername: ''
-  tls: false
+- cipher: aes-256-cfb
+  name: 2|🇯🇵4 |  4.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.71.139
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇯🇵5 |  6.1MB/s
+  network: tcp
+  port: 25768
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
   type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 01 | 1x JP
-  password: 78342185-23b7-401a-8059-07bbb04f3361
-  port: 36111
-  server: free.2weradf.xyz
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇯🇵6 |  6.1MB/s
+  password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
+  port: 28713
+  server: nbae7a7.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇯🇵7 |  6.2MB/s
+  network: tcp
+  port: 31735
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  name: 2|🇯🇵8 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.142.42
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 02 | 1x JP
-  password: 78342185-23b7-401a-8059-07bbb04f3361
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 03 | 1x JP
-  password: 78342185-23b7-401a-8059-07bbb04f3361
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- name: 2|🇯🇵9 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 2|🇯🇵10 |  6.1MB/s
+  password: 67ed20d4-e1a4-46bb-97ca-d721f19a4291
+  port: 46307
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
