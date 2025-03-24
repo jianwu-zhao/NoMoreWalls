@@ -1,126 +1,93 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: e3e1fb45-6329-450a-a548-369f47cc579f
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: e3e1fb45-6329-450a-a548-369f47cc579f
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: e3e1fb45-6329-450a-a548-369f47cc579f
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 1,12|🇹🇼 台湾|@ripaojiedian
-  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
-  port: 41705
-  server: zf1.10101251.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸4 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.191.187.21
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸5 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.190.61.46
-  type: ss
-- name: 1|🇺🇸6 |  5.8MB/s
-  password: 02d12d30-3d79-3c88-afe1-688b867d005f
-  port: 20288
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z288.hongkongnode.top
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: i8oL7PsxV002zYFTmiIeg
-  name: 1|🇺🇸8 |  1.2MB/s
-  network: grpc
-  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-  port: 443
-  server: 192.3.130.103
-  sni: us10-01zl.huangshang.filegear-sg.me
-  type: trojan
-  udp: true
-- name: 1|🇺🇸16 |  4.4MB/s
-  password: 02d12d30-3d79-3c88-afe1-688b867d005f
-  port: 11215
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z268.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|🇺🇸19 |  1.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.200.106.206
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸21 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.185.253.219
-  type: ss
-- name: 1|🇺🇸22 |  5.5MB/s
-  password: 02d12d30-3d79-3c88-afe1-688b867d005f
-  port: 20308
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z308.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇺🇸29 |  5.2MB/s
-  password: 02d12d30-3d79-3c88-afe1-688b867d005f
-  port: 20306
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z306.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 1|🇺🇸30 |  5.6MB/s
-  password: 02d12d30-3d79-3c88-afe1-688b867d005f
-  port: 20303
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z303.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 892ee409-c176-4ac9-b2ac-782d1b239342
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 892ee409-c176-4ac9-b2ac-782d1b239342
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 892ee409-c176-4ac9-b2ac-782d1b239342
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
   port: 36215
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇺🇸3 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.27.128.220
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇺🇸5 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.71.217.123
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇺🇸24 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.185.253.219
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇺🇸29 |  3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.161.163.245
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇺🇸31 |  4.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.209.89.4
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 1|🇺🇸32 |  1.5MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
