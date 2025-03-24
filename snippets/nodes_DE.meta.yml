@@ -1,84 +1,34 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪1 |  5.7MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.95
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- name: 1,14|SC_speednode_0050
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  1.5MB/s
-  network: ws
-  port: 3092
-  server: pre-de.hmray.pro
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 7c598d05-6b60-4ba4-b326-52cca83adc95
-  ws-opts:
-    path: /
-- auth: cbd1af4d-73db-4a63-8e26-04a581cc9e82
-  client-fingerprint: chrome
-  down: 100
-  name: 1|🇩🇪4 |  5.3MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: cbd1af4d-73db-4a63-8e26-04a581cc9e82
-  port: 32008
-  server: 5.39.252.72
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪5 |  5.2MB/s
-  network: ws
-  port: 8080
-  server: 104.19.54.50
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: b8c59cae-73a8-4f44-88f9-4e40a7b94058
-  ws-opts:
-    headers:
-      Host: VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.
-    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: da9b8774-5af4-400a-bc9a-774b0874ab48
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 5abef6d2-ebd6-4d56-89ca-6fa46a776618
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 21bf98a9-a4c3-4eab-b43e-45ac99aab0ea
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪1 |  5.1MB/s
+  network: ws
+  port: 80
+  server: 151.101.194.228
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 54cf82ae-7e94-4826-f713-459072381ff6
+  ws-opts:
+    headers:
+      Host: foffmelo.com
+    path: /olem/ws?ed=1024
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
   port: 443
