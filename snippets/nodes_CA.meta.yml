@@ -1,26 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇨🇦1 |  5.6MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
   name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  password: da9b8774-5af4-400a-bc9a-774b0874ab48
   port: 31441
   server: free.2apzhfa.xyz
   type: ss

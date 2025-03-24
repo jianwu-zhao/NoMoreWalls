@@ -1,80 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
-  port: 36171
-  server: free.2weradf.xyz
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 1|🇸🇬1 |  1.5MB/s
+  password: 583ec169-707f-4123-8a62-0b91ff39c285
+  port: 21876
+  server: 120.232.204.74
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.103.201
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇸🇬2 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.179.97.253
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇸🇬3 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.5.197
-  type: ss
-- name: 1|🇸🇬4 |  2.3MB/s
-  network: ws
-  port: 2096
-  server: 141.193.213.21
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: /
-- cipher: aes-256-cfb
-  name: 1|🇸🇬5 |  2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.61.224
-  type: ss
-- allowInsecure: '1'
-  name: 1|🇸🇬6 |  4.6MB/s
-  network: tcp
-  password: 86920f59-7e5e-4272-abec-271bb931121c
-  port: 443
-  server: 52.220.214.215
+- name: 1|🇸🇬2 |  3.0MB/s
+  password: b86e8900-f2cb-37fb-83a6-f43fd068db49
+  port: 20129
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: sg.lyyyds.club
-  tls: true
+  sni: x129.flybar.work
   type: trojan
-- cipher: aes-256-cfb
-  name: 1|🇸🇬7 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.138.225
-  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇸🇬8 |  5.3MB/s
+  name: 1|🇸🇬3 |  5.9MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -84,45 +27,43 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: none
-  mode: ''
-  name: 1|🇸🇬9 |  2.9MB/s
-  network: ws
-  port: 2096
-  server: 141.193.213.20
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
+- name: 1|🇸🇬4 |  1.4MB/s
+  password: b86e8900-f2cb-37fb-83a6-f43fd068db49
+  port: 30712
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x83.flybar.work
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 1|🇸🇬10 |  6.2MB/s
+  name: 1|🇸🇬5 |  6.2MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.216.120
+  server: 54.169.138.225
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇸🇬6 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.245.70
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  password: da9b8774-5af4-400a-bc9a-774b0874ab48
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  password: da9b8774-5af4-400a-bc9a-774b0874ab48
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  password: da9b8774-5af4-400a-bc9a-774b0874ab48
   port: 31175
   server: free.2apzhfa.xyz
   type: ss

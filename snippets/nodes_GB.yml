@@ -1,36 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 0ffd6a6c-8dc6-4312-9217-0771006fb2f1
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇬🇧2 |  4.5MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f0257b2-0469-39e6-bb5c-ccc21f0211b9
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港 01 | 1x HK
-  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  password: da9b8774-5af4-400a-bc9a-774b0874ab48
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 7828b2ea-4715-427c-80f7-4296670d79be
+  password: da9b8774-5af4-400a-bc9a-774b0874ab48
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
