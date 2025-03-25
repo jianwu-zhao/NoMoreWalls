@@ -1,64 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 8fbd32ee-a40e-4cfe-9af2-2043c77a879f
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 8fbd32ee-a40e-4cfe-9af2-2043c77a879f
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 8fbd32ee-a40e-4cfe-9af2-2043c77a879f
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: bc3c3bc9-4c2f-497f-a2ce-c8047eb3d805
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: bc3c3bc9-4c2f-497f-a2ce-c8047eb3d805
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: bc3c3bc9-4c2f-497f-a2ce-c8047eb3d805
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇹🇼1 |  5.8MB/s
+- name: 0|🇹🇼1 |  1.1MB/s
   network: ws
-  port: 12509
-  server: 220.125.141.121
-  servername: agedgm.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgm.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 2|🇹🇼2 |  2.1MB/s
-  network: ws
-  port: 21698
-  server: 156.251.180.181
+  port: 16005
+  server: 14.198.149.124
   servername: agedgm.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -71,47 +15,31 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼3 |  6.3MB/s
+  name: 0|🇹🇼2 |  4.7MB/s
   network: tcp
-  port: 16704
+  port: 37809
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
+  server: shenzhou05.mysynology.net
   servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇹🇼4 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 176.105.253.98
-  servername: agedgm.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgm.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 2|🇹🇼5 |  2.5MB/s
-  network: ws
-  port: 443
-  server: pranab.ns.cloudflare.com
-  servername: agedgm.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgm.ambercc.filegear-sg.me
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼6 |  5.5MB/s
+  name: 0|🇹🇼3 |  1.5MB/s
+  network: tcp
+  port: 12477
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gy01.hunheiydd.xyz
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇹🇼4 |  5.7MB/s
   network: tcp
   port: 50126
   reality-opts:
@@ -121,7 +49,110 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇹🇼7 |  2.7MB/s
+- name: 0|🇹🇼5 |  2.8MB/s
+  network: ws
+  port: 443
+  server: arvind.ns.cloudflare.com
+  servername: agedgm.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: agedgm.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 0|🇹🇼6 |  6.3MB/s
+  network: ws
+  port: 16044
+  server: 211.219.39.209
+  servername: agedgm.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: agedgm.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇹🇼7 |  6.3MB/s
+  network: tcp
+  port: 13263
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇹🇼8 |  6.0MB/s
+  network: ws
+  port: 50000
+  server: 121.134.175.190
+  servername: agedgm.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: agedgm.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇹🇼9 |  6.1MB/s
+  network: tcp
+  port: 15823
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gy01.hunheiydd.xyz
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇹🇼10 |  5.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 0|🇹🇼11 |  2.7MB/s
+  network: ws
+  port: 2053
+  server: 108.165.152.67
+  servername: agedgm.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: agedgm.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 0|🇹🇼12 |  3.4MB/s
+  network: ws
+  port: 443
+  server: 185.188.147.79
+  servername: agedgm.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: agedgm.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 0|🇹🇼13 |  5.7MB/s
   network: ws
   port: 12136
   server: 220.92.22.170
@@ -135,62 +166,22 @@ proxies:
     headers:
       host: agedgm.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼8 |  5.0MB/s
-  network: ws
-  port: 443
-  server: 8.219.114.109
-  servername: agedgm.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgm.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 2|🇹🇼9 |  1.6MB/s
-  network: ws
-  port: 587
-  server: 47.238.66.74
-  servername: agedgm.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgm.ambercc.filegear-sg.me
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼10 |  5.8MB/s
+  name: 0|🇹🇼14 |  6.2MB/s
   network: tcp
-  port: 15700
+  port: 47531
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇹🇼11 |  5.9MB/s
-  network: tcp
-  port: 13263
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
+  server: bsuqian01.dynu.net
   servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇹🇼12 |  5.8MB/s
+- name: 0|🇹🇼15 |  2.4MB/s
   network: ws
   port: 443
-  server: 43.129.171.137
+  server: 158.179.184.1
   servername: agedgm.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -199,12 +190,12 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: agedgm.ambercc.filegear-sg.me
+      Host: agedgm.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼13 |  1.5MB/s
+- name: 0|🇹🇼16 |  3.2MB/s
   network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
+  port: 21233
+  server: 121.155.61.102
   servername: agedgm.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -215,10 +206,10 @@ proxies:
     headers:
       host: agedgm.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼14 |  1.6MB/s
+- name: 0|🇹🇼17 |  1.1MB/s
   network: ws
-  port: 2083
-  server: 192.0.54.221
+  port: 37322
+  server: 118.42.188.118
   servername: agedgm.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -229,22 +220,24 @@ proxies:
     headers:
       host: agedgm.ambercc.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇹🇼15 |  5.7MB/s
-  network: tcp
-  port: 37809
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇹🇼16 |  1.2MB/s
+- name: 0|🇹🇼18 |  1.7MB/s
   network: ws
-  port: 443
-  server: kip.ns.cloudflare.com
+  port: 8443
+  server: 103.137.212.47
+  servername: agedgm.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: agedgm.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 0|🇹🇼19 |  6.0MB/s
+  network: ws
+  port: 50000
+  server: 121.190.81.4
   servername: agedgm.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -255,19 +248,7 @@ proxies:
     headers:
       host: agedgm.ambercc.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇹🇼17 |  6.2MB/s
-  network: tcp
-  port: 34313
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇹🇼18 |  4.4MB/s
+- name: 0|🇹🇼20 |  5.8MB/s
   network: ws
   port: 27017
   server: 221.156.244.42
@@ -281,10 +262,10 @@ proxies:
     headers:
       host: agedgm.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼19 |  1.6MB/s
+- name: 0|🇹🇼21 |  2.5MB/s
   network: ws
   port: 443
-  server: thaddeus.ns.cloudflare.com
+  server: 103.103.245.183
   servername: agedgm.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -293,32 +274,39 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: agedgm.ambercc.filegear-sg.me
+      Host: agedgm.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼20 |  5.6MB/s
-  network: ws
-  port: 16000
-  server: 125.136.162.84
-  servername: agedgm.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: d241a064-ecc9-497f-881b-0ea4cc197341
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgm.ambercc.filegear-sg.me
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: d241a064-ecc9-497f-881b-0ea4cc197341
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: d241a064-ecc9-497f-881b-0ea4cc197341
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
   port: 41705
   server: zf1.10101251.xyz
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|台湾2|@ripaojiedian
+  name: 11,12|台湾2|@ripaojiedian
   network: tcp
   password: d7d8a8cd-239b-4b4e-93d9-dc3d89332ac9
   port: 42765
@@ -328,9 +316,30 @@ proxies:
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾3|@ripaojiedian
+  name: 11|🇹🇼 台湾3|@ripaojiedian
   password: RLPW44KAFL6K2LNA
   port: 21005
   server: 150.116.11.9
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 01 | 1x TW
+  password: 9c24533c-a0e2-48c3-96a2-bf0be333d6e4
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 02 | 1x TW
+  password: 9c24533c-a0e2-48c3-96a2-bf0be333d6e4
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 03 | 1x TW
+  password: 9c24533c-a0e2-48c3-96a2-bf0be333d6e4
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
