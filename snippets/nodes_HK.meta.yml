@@ -1,35 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 917c1c6c-92ef-468b-8cf8-80adead8d9ab
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 917c1c6c-92ef-468b-8cf8-80adead8d9ab
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 8bb2f76d-9f65-43fa-b635-2272a78da39b
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 8bb2f76d-9f65-43fa-b635-2272a78da39b
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 2|🇭🇰1 |  6.2MB/s
+  password: b1bddf1f-a663-3bf1-b7c0-7b4e65f4c116
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇭🇰2 |  6.2MB/s
+  password: b1bddf1f-a663-3bf1-b7c0-7b4e65f4c116
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇭🇰3 |  6.3MB/s
+  password: b1bddf1f-a663-3bf1-b7c0-7b4e65f4c116
+  port: 20294
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z294.hongkongnode.top
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰1 |  6.1MB/s
+  name: 2|🇭🇰4 |  6.3MB/s
   network: tcp
-  port: 31800
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰2 |  6.1MB/s
-  network: tcp
-  port: 24318
+  port: 10860
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: test123.zlqhdns.top
@@ -37,20 +63,35 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇭🇰3 |  4.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰4 |  1.1MB/s
+  name: 2|🇭🇰5 |  6.1MB/s
   network: tcp
-  port: 54220
+  port: 11555
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰6 |  3.5MB/s
+  network: tcp
+  port: 40387
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰7 |  6.1MB/s
+  network: tcp
+  port: 35853
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
@@ -58,9 +99,17 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇭🇰8 |  5.9MB/s
+  password: b1bddf1f-a663-3bf1-b7c0-7b4e65f4c116
+  port: 28678
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z143.hongkongnode.top
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰5 |  6.2MB/s
+  name: 2|🇭🇰9 |  6.2MB/s
   network: tcp
   port: 46716
   reality-opts:
@@ -70,20 +119,31 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: e196bff1-9e1f-4600-aa46-c801c2157adb
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: e196bff1-9e1f-4600-aa46-c801c2157adb
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 2|🇭🇰10 |  3.2MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2021
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 2|🇭🇰11 |  1.4MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2000
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- name: 2|🇭🇰12 |  6.0MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443

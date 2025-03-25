@@ -1,40 +1,93 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 917c1c6c-92ef-468b-8cf8-80adead8d9ab
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 917c1c6c-92ef-468b-8cf8-80adead8d9ab
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 917c1c6c-92ef-468b-8cf8-80adead8d9ab
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 8bb2f76d-9f65-43fa-b635-2272a78da39b
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 8bb2f76d-9f65-43fa-b635-2272a78da39b
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 8bb2f76d-9f65-43fa-b635-2272a78da39b
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇹🇼1 |  5.6MB/s
+  name: 2|🇹🇼1 |  5.6MB/s
   network: tcp
-  port: 37809
+  port: 34313
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼2 |  1.0MB/s
+  network: tcp
+  port: 13391
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇹🇼3 |  6.2MB/s
+  password: b1bddf1f-a663-3bf1-b7c0-7b4e65f4c116
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼4 |  4.2MB/s
+  network: tcp
+  port: 50126
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: 141.11.86.24
   servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇹🇼2 |  6.2MB/s
+  name: 2|🇹🇼5 |  5.7MB/s
   network: tcp
   port: 13263
   reality-opts:
@@ -44,36 +97,34 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇹🇼3 |  3.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
+- name: 2|🇹🇼6 |  6.0MB/s
+  password: b1bddf1f-a663-3bf1-b7c0-7b4e65f4c116
+  port: 36821
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z262.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇹🇼7 |  6.0MB/s
+  password: b1bddf1f-a663-3bf1-b7c0-7b4e65f4c116
+  port: 59021
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x100.flybar.work
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼8 |  4.6MB/s
+  network: tcp
+  port: 16704
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.yahoo.com
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: e196bff1-9e1f-4600-aa46-c801c2157adb
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: e196bff1-9e1f-4600-aa46-c801c2157adb
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: e196bff1-9e1f-4600-aa46-c801c2157adb
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
