@@ -1,96 +1,50 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 917c1c6c-92ef-468b-8cf8-80adead8d9ab
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 8bb2f76d-9f65-43fa-b635-2272a78da39b
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 2|🇩🇪1 |  3.8MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e3d5e3d6-9ee7-3571-9dda-05d298a40f1b
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪2 |  5.0MB/s
-  network: ws
-  port: 8880
-  server: 45.149.12.75
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪3 |  5.6MB/s
+  name: 0|🇩🇪1 |  5.8MB/s
   network: tcp
-  port: 4810
-  server: 5.75.140.123
+  port: 56635
+  raw:
+    add: 185.231.59.202
+    aid: null
+    alpn: ''
+    fp: ''
+    host: ''
+    id: dd9a594a-0572-4365-84da-e6dc8022c05a
+    net: tcp
+    path: ''
+    port: 56635
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: none
+    type: none
+    v: '2'
+  server: 185.231.59.202
   servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: d697e738-c105-42d0-916a-191b2e3074fd
-- alterId: 2
-  cipher: auto
-  name: 2|🇩🇪4 |  5.1MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: e3d5e3d6-9ee7-3571-9dda-05d298a40f1b
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
+  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪5 |  4.9MB/s
+  name: 0|🇩🇪2 |  2.3MB/s
   network: ws
-  port: 8880
-  server: 45.149.12.217
+  port: 80
+  server: 156.238.18.51
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: photographipictureai.ir
-    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
+      Host: redw.pooriam.ir
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪6 |  2.4MB/s
+  name: 0|🇩🇪3 |  5.2MB/s
   network: ws
   port: 8880
   server: 45.149.12.152
@@ -106,7 +60,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪7 |  4.9MB/s
+  name: 0|🇩🇪4 |  2.5MB/s
   network: ws
   port: 80
   server: zmaoz.faculty.ucdavis.edu
@@ -119,51 +73,7 @@ proxies:
     headers:
       Host: foffmelo.com
     path: /olem/ws?ed=1024
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇩🇪8 |  1.3MB/s
-  network: tcp
-  port: 443
-  server: 204.10.194.78
-  servername: yfnl1.xn--4gq62f52gppi29k.com
-  tls: true
-  type: vless
-  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪9 |  5.5MB/s
-  network: tcp
-  port: 4810
-  server: d6.vixsm.ir
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: d697e738-c105-42d0-916a-191b2e3074fd
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪10 |  5.6MB/s
-  network: tcp
-  port: 48460
-  server: 116.203.184.248
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 6c7a591f-10ee-474f-bbc8-00f893a084ef
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 2|🇩🇪11 |  1.1MB/s
-  network: tcp
-  port: 443
-  server: yrtuio.890604.filegear-sg.me
-  servername: yfnl1.xn--4gq62f52gppi29k.com
-  tls: true
-  type: vless
-  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
-- name: 10|ا رر رایان@vmesc
+- name: 9|ا رر رایان@vmesc
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy38.zqjc.cloud
@@ -171,7 +81,7 @@ proxies:
   sni: shy38.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 10|کانفیگ پرسرعت رایگان🌋@vmesc
+- name: 9|کانفیگ پرسرعت رایگان🌋@vmesc
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy42.zqjc.cloud
@@ -179,7 +89,7 @@ proxies:
   sni: shy42.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -188,17 +98,24 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #2'
+- name: '9|(@VmessProtocol)برای خرید و ات... #2'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-lu.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|کانفیگ پرسرعت رایگان🌋@vmesc #1'
+- name: '9|کانفیگ پرسرعت رایگان🌋@vmesc #1'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-nl.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 0b4f844b-d73c-458a-a85a-728d66826f7b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
