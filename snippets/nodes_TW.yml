@@ -1,62 +1,73 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 5abef6d2-ebd6-4d56-89ca-6fa46a776618
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 5abef6d2-ebd6-4d56-89ca-6fa46a776618
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 5abef6d2-ebd6-4d56-89ca-6fa46a776618
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 21bf98a9-a4c3-4eab-b43e-45ac99aab0ea
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: eff8571c-9f2a-4861-9fe1-25bdd61b3497
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 21bf98a9-a4c3-4eab-b43e-45ac99aab0ea
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: eff8571c-9f2a-4861-9fe1-25bdd61b3497
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 21bf98a9-a4c3-4eab-b43e-45ac99aab0ea
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: eff8571c-9f2a-4861-9fe1-25bdd61b3497
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 2|🇹🇼5 |  1.0MB/s
+  name: 1|🇹🇼5 |  1.2MB/s
   password: VMhGp5wEIyCDf90T
   port: 15375
   server: bsuqian01.dynu.net
   type: ss
-- cipher: aes-128-gcm
-  name: 2|🇹🇼9 |  6.9MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: a38320ed-8856-4197-97c9-0f859afc5a64
+  port: 31241
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: a38320ed-8856-4197-97c9-0f859afc5a64
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: a38320ed-8856-4197-97c9-0f859afc5a64
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
-  password: YY1SVLAEC2CXXGRW
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 12,13|台湾2|@ripaojiedian
+  network: tcp
+  password: d7d8a8cd-239b-4b4e-93d9-dc3d89332ac9
+  port: 42765
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾3|@ripaojiedian
+  password: RLPW44KAFL6K2LNA
   port: 21005
   server: 150.116.11.9
   tfo: false

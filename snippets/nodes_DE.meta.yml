@@ -1,42 +1,97 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 5abef6d2-ebd6-4d56-89ca-6fa46a776618
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 21bf98a9-a4c3-4eab-b43e-45ac99aab0ea
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: eff8571c-9f2a-4861-9fe1-25bdd61b3497
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Join---MTMVPN-Join---MTMVPN-Join---MTMVPN-Join---MTMVPN
+  mode: ''
+  name: 1|🇩🇪1 |  5.8MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: euMUHS3boiZ0500KTjnU9l_RTX1RP9VFOGEo82gFUyE
+    short-id: ce1be0
+  server: 91.107.183.103
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 26a95673-e692-4f90-bca3-dac0a63a4224
+- auth: 71f3646f-5db0-4313-b741-a1271095d7cf
+  client-fingerprint: chrome
+  down: 100
+  name: 1|🇩🇪2 |  5.8MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 71f3646f-5db0-4313-b741-a1271095d7cf
+  port: 32008
+  server: 5.39.252.72
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇩🇪3 |  1.2MB/s
+  network: tcp
+  port: 443
+  server: 204.10.194.78
+  servername: yfnl1.xn--4gq62f52gppi29k.com
+  tls: true
+  type: vless
+  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
+- name: 1|🇩🇪4 |  5.6MB/s
+  password: d041d96a-09a5-405f-ba3d-f56e3b444fb9
+  port: 43583
+  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  5.1MB/s
+  name: 1|🇩🇪5 |  1.1MB/s
   network: ws
-  port: 80
-  server: 151.101.194.228
+  port: 8880
+  server: 45.149.12.152
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 54cf82ae-7e94-4826-f713-459072381ff6
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
   ws-opts:
     headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
-- name: 10|(@VmessProtocol)برای خرید و ات...
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
+      Host: photographipictureai.ir
+    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+  mode: ''
+  name: 1|🇩🇪6 |  1.8MB/s
+  network: grpc
   port: 443
-  server: 107.167.18.123
-  skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  tls: false
-  type: hysteria2
+  reality-opts:
+    public-key: 0JBrLAhqlbIWkAH1VAFno9w-XpAhjGhhWPG4qw7vlQw
+    short-id: d656c301bc0904
+  server: kamyar2.vact.ir
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 40fea82d-23f7-4390-a617-223c73d34b25
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: a38320ed-8856-4197-97c9-0f859afc5a64
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 10|@meli_proxyyسرورایبیشتر
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
