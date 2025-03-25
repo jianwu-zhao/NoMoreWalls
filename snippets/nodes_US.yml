@@ -1,99 +1,64 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d1308c82-564c-4393-86b1-3080342e7892
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d1308c82-564c-4393-86b1-3080342e7892
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d1308c82-564c-4393-86b1-3080342e7892
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 82f01735-9ad6-4b86-847c-815b43a8a74b
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 82f01735-9ad6-4b86-847c-815b43a8a74b
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 82f01735-9ad6-4b86-847c-815b43a8a74b
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 74d96924-8ff6-49d1-b328-c4a51b4175e3
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇺🇸6 |  3.6MB/s
-  password: b746399a-2169-330a-a824-e0a24bd2b526
-  port: 20288
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z288.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸7 |  5.6MB/s
-  password: amazonskr05
+- allowInsecure: ''
+  name: 1|🇺🇸2 |  3.7MB/s
+  network: tcp
+  password: '!!str 74260704627805900'
   port: 443
-  server: 52.27.128.220
+  server: positive-treefrog.shiner427.skin
+  skip-cert-verify: false
+  tls: true
+  type: trojan
+- allowInsecure: '1'
+  name: 1|🇺🇸17 |  2.5MB/s
+  network: tcp
+  password: '!!str 74260704627805900'
+  port: 443
+  server: 95.85.93.167
+  skip-cert-verify: true
+  sni: positive-treefrog.shiner427.skin
+  tls: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: e196bff1-9e1f-4600-aa46-c801c2157adb
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸12 |  2.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: e90ac031-5434-3fd4-ac18-8c75b17bd63d
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- name: 2|🇺🇸18 |  1.1MB/s
-  password: b746399a-2169-330a-a824-e0a24bd2b526
-  port: 20305
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z305.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: e196bff1-9e1f-4600-aa46-c801c2157adb
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- name: 2|🇺🇸21 |  3.4MB/s
-  password: b746399a-2169-330a-a824-e0a24bd2b526
-  port: 16895
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x40.flybar.work
-  type: trojan
-  udp: true
-- name: 2|🇺🇸31 |  1.8MB/s
-  password: b746399a-2169-330a-a824-e0a24bd2b526
-  port: 20296
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z296.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: e196bff1-9e1f-4600-aa46-c801c2157adb
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
