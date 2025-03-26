@@ -1,59 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇹🇼1 |  3.6MB/s
-  network: tcp
-  port: 13263
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
+- name: 2|🇹🇼1 |  1.5MB/s
+  network: ws
+  port: 443
+  server: 150.230.216.172
+  servername: agedgv.ambercc.filegear-sg.me
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇹🇼2 |  3.9MB/s
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: agedgv.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 2|🇹🇼2 |  2.3MB/s
   network: ws
   port: 14407
   server: 125.136.51.42
@@ -69,20 +71,46 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼3 |  3.3MB/s
+  name: 2|🇹🇼3 |  1.0MB/s
   network: tcp
-  port: 50126
+  port: 37809
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: 141.11.86.24
+  server: shenzhou05.mysynology.net
   servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇹🇼4 |  2.4MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼4 |  6.6MB/s
+  network: tcp
+  port: 47531
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇹🇼5 |  1.6MB/s
   network: ws
-  port: 491
-  server: 8.219.126.137
+  port: 81
+  server: 210.61.97.241
+  servername: agedgv.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: agedgv.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 2|🇹🇼6 |  1.3MB/s
+  network: ws
+  port: 443
+  server: 219.76.13.166
   servername: agedgv.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true

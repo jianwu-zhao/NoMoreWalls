@@ -1,76 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸15 |  3.3MB/s
-  network: ws
-  port: 443
-  raw:
-    add: bazar.ir
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: us1.vmessvh.site
-    id: 50c4cdaf-33cd-4bb7-91d1-a400652ca39e
-    net: ws
-    path: /vmess
-    port: '443'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: none
-    sni: us1.vmessvh.site
-    tls: tls
-    type: ''
-    v: '2'
-  server: bazar.ir
-  servername: us1.vmessvh.site
-  tls: true
-  type: vmess
-  uuid: 50c4cdaf-33cd-4bb7-91d1-a400652ca39e
-  ws-opts:
-    headers:
-      Host: us1.vmessvh.site
-    path: /vmess
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian

@@ -1,56 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  6.3MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
+- cipher: aes-256-cfb
+  name: 2|🇸🇬1 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.134.156
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇸🇬2 |  9.1MB/s
+  name: 2|🇸🇬2 |  6.1MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -62,25 +61,27 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: '0'
   cipher: auto
-  name: 2|🇸🇬5 |  4.2MB/s
+  name: 2|🇸🇬3 |  1.2MB/s
   network: tcp
   port: '56901'
   server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
+- name: 2|🇸🇬4 |  6.2MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇸🇬4 |  4.7MB/s
+  name: 2|🇸🇬5 |  3.7MB/s
   network: tcp
-  port: 10778
+  port: 44003
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
+  server: csuzhou01.1cooldns.com
   servername: www.nvidia.com
   tls: true
   type: vless

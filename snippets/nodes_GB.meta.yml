@@ -1,44 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
+  password: 3355902b-a0c3-4f23-be2e-087ac345f811
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 8a610d76-c421-4a9e-8786-462cadc630ae
+  password: ef76bcfd-fc44-4c15-8d94-74c03399ee22
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  4.4MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.208
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧2 |  4.7MB/s
+  name: 2|🇬🇧1 |  5.2MB/s
+  network: tcp
+  port: 32055
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧2 |  5.2MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -48,31 +51,27 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧3 |  5.2MB/s
-  network: ws
-  port: 8880
-  server: 185.170.166.242
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧4 |  5.2MB/s
+  name: 2|🇬🇧3 |  5.3MB/s
   network: tcp
   port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: beiyong.dynuddns.net
   servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧4 |  5.2MB/s
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
