@@ -1,42 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 8b7350f5-b6f3-4cba-b5c4-b950a175f05e
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 8b7350f5-b6f3-4cba-b5c4-b950a175f05e
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 8b731696-e067-4883-b682-026777353918
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 3e62cfbf-2be1-4bdd-9b9f-9cc14862a960
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 8b731696-e067-4883-b682-026777353918
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 3e62cfbf-2be1-4bdd-9b9f-9cc14862a960
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  4.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.203.206.73
-  type: ss
-- name: 2|🇰🇷2 |  5.1MB/s
+- name: 1|🇰🇷1 |  1.0MB/s
   network: ws
   port: 443
-  server: dnschecker.org
+  server: 217.163.76.102
   servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -47,30 +27,10 @@ proxies:
     headers:
       host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.92.181
-  type: ss
-- name: 2|🇰🇷4 |  2.6MB/s
+- name: 1|🇰🇷2 |  2.5MB/s
   network: ws
   port: 443
-  server: toy-people.com
-  servername: ll.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ll.ylkszy.eu.org
-    path: /?ed=2560
-- name: 2|🇰🇷5 |  4.8MB/s
-  network: ws
-  port: 443
-  server: 104.16.152.163
+  server: ashton.ns.cloudflare.com
   servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -81,10 +41,10 @@ proxies:
     headers:
       host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇰🇷6 |  2.9MB/s
+- name: 1|🇰🇷3 |  3.7MB/s
   network: ws
   port: 443
-  server: 104.18.47.177
+  server: 170.39.66.154
   servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -95,52 +55,10 @@ proxies:
     headers:
       host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇰🇷7 |  5.7MB/s
+- name: 1|🇰🇷4 |  3.6MB/s
   network: ws
   port: 443
-  server: trevor.ns.cloudflare.com
-  servername: ll.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ll.ylkszy.eu.org
-    path: /?ed=2560
-- name: 2|🇰🇷8 |  1.2MB/s
-  network: ws
-  port: 443
-  server: tasteatlas.com
-  servername: ll.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ll.ylkszy.eu.org
-    path: /?ed=2560
-- name: 2|🇰🇷9 |  5.5MB/s
-  network: ws
-  port: 443
-  server: 162.159.153.217
-  servername: ll.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ll.ylkszy.eu.org
-    path: /?ed=2560
-- name: 2|🇰🇷10 |  4.5MB/s
-  network: ws
-  port: 443
-  server: 104.16.195.32
+  server: www.ipchicken.com
   servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -151,24 +69,24 @@ proxies:
     headers:
       host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇰🇷11 |  5.0MB/s
-  network: ws
-  port: 443
-  server: 172.67.79.211
-  servername: ll.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ll.ylkszy.eu.org
-    path: /?ed=2560
-- name: 2|🇰🇷12 |  1.9MB/s
+- name: 1|🇰🇷5 |  2.8MB/s
   network: ws
   port: 443
   server: otto.ns.cloudflare.com
+  servername: an.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: an.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 1|🇰🇷6 |  4.5MB/s
+  network: ws
+  port: 443
+  server: huxley.ns.cloudflare.com
   servername: ll.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -179,9 +97,37 @@ proxies:
     headers:
       host: ll.ylkszy.eu.org
     path: /?ed=2560
+- name: 1|🇰🇷7 |  4.5MB/s
+  network: ws
+  port: 443
+  server: craig.ns.cloudflare.com
+  servername: ll.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ll.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇰🇷8 |  1.1MB/s
+  network: ws
+  port: 443
+  server: uriah.ns.cloudflare.com
+  servername: an.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: an.youlingkais.filegear-sg.me
+    path: /?ed=2560
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: dfc78593808d4f68
   port: 19111
   server: 45.130.147.138
@@ -189,7 +135,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.140.70.168
