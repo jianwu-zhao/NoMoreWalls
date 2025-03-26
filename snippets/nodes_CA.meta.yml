@@ -1,7 +1,30 @@
 proxies:
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇨🇦1 |  1.4MB/s
+  network: ws
+  port: 2096
+  server: whatismyipaddress.com
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s33.elitemizban.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: a41c5712-9ee8-4199-bf94-207521f3c304
+  ws-opts:
+    headers:
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s33.elitemizban.ir
+    path: ''
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 94de0cd0-14f0-4fc6-ba12-eb064ed1cc3d
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 0b4f844b-d73c-458a-a85a-728d66826f7b
+  password: d150d628-54eb-450b-908f-97c88f07ca9d
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
