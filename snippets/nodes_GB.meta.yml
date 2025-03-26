@@ -1,34 +1,35 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 0|🇬🇧1 |  2.3MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: b151a721-7cab-4789-a067-34df9c94bfa3
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 11e9f815-3aed-39c2-805f-e17fb3aa7291
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: b151a721-7cab-4789-a067-34df9c94bfa3
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 35cb73cc-bf49-4543-9435-ffc6ef61111d
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 35cb73cc-bf49-4543-9435-ffc6ef61111d
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧2 |  1.2MB/s
-  network: tcp
-  port: 47151
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧3 |  1.2MB/s
+  name: 2|🇬🇧1 |  4.1MB/s
   network: tcp
   port: 49699
   reality-opts:
@@ -40,31 +41,61 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧4 |  5.2MB/s
+  name: 2|🇬🇧2 |  1.1MB/s
   network: tcp
-  port: 32055
+  port: 47151
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: shenzhou02.mysynology.net
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 94de0cd0-14f0-4fc6-ba12-eb064ed1cc3d
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 94de0cd0-14f0-4fc6-ba12-eb064ed1cc3d
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧3 |  1.9MB/s
+  network: ws
+  port: 80
+  server: 151.101.192.155
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 46132f43-5cb2-4f3f-9400-a4f114e31014
+  ws-opts:
+    headers:
+      Host: Zix95.net
+    path: Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧4 |  5.9MB/s
+  network: ws
+  port: 80
+  server: 156.238.18.234
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: Telegram @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧5 |  6.2MB/s
+  network: tcp
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -72,7 +103,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 13|GB_speednode_0009
+- name: 14|GB_speednode_0009
   network: ws
   port: 443
   server: 31.22.116.38
@@ -86,17 +117,3 @@ proxies:
     headers:
       Host: usd.kobtty.me
     path: /bing
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: d150d628-54eb-450b-908f-97c88f07ca9d
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: d150d628-54eb-450b-908f-97c88f07ca9d
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
