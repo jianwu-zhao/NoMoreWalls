@@ -1,61 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: b151a721-7cab-4789-a067-34df9c94bfa3
+  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: b151a721-7cab-4789-a067-34df9c94bfa3
+  password: f04eaa92-bd79-4287-9683-1f8a2888bb42
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: 35cb73cc-bf49-4543-9435-ffc6ef61111d
+  password: 8a610d76-c421-4a9e-8786-462cadc630ae
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 35cb73cc-bf49-4543-9435-ffc6ef61111d
+  password: 8a610d76-c421-4a9e-8786-462cadc630ae
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 2,12|🇺🇸 美国5|@ripaojiedian
-  password: d8285a86cdb003de
-  port: 16112
-  server: 46.17.40.113
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇭🇰15 |  1.5MB/s
-  network: ws
-  port: 22030
-  server: 212.192.12.73
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 148c90c0-b259-4f75-aaa3-1b3feb98f78f
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰16 |  2.2MB/s
-  port: 55754
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
