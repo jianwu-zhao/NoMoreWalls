@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🌀5-CN |  5.5MB/s
+  name: 1|🌀3-CN |  4.2MB/s
   network: tcp
   port: 28680
   reality-opts:
@@ -11,3 +11,16 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: f24997a2-ce10-4096-a619-1ae6dc818ef1
+  client-fingerprint: chrome
+  down: 100
+  name: 1|🌀22-CN |  4.4MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: f24997a2-ce10-4096-a619-1ae6dc818ef1
+  port: 31003
+  server: 212.192.12.56
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100

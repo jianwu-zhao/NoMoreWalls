@@ -1,15 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 3e62cfbf-2be1-4bdd-9b9f-9cc14862a960
+  password: 5771399e-0082-43c1-a281-4939691d7395
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇨🇦1 |  4.0MB/s
+- name: 1|🇨🇦1 |  3.1MB/s
   network: ws
   port: 443
-  server: lewis.ns.cloudflare.com
+  server: ashton.ns.cloudflare.com
   servername: ll.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -20,35 +20,7 @@ proxies:
     headers:
       host: ll.ylkszy.eu.org
     path: /?ed=2560
-- name: 1|🇨🇦2 |  2.8MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.177
-  servername: ll.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ll.ylkszy.eu.org
-    path: /?ed=2560
-- name: 1|🇨🇦4 |  2.1MB/s
-  network: ws
-  port: 443
-  server: www.pcmag.com
-  servername: an.youlingkais.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: an.youlingkais.filegear-sg.me
-    path: /?ed=2560
-- name: 1|🇨🇦5 |  3.9MB/s
+- name: 1|🇨🇦2 |  1.2MB/s
   network: ws
   port: 443
   server: julio.ns.cloudflare.com
@@ -62,22 +34,10 @@ proxies:
     headers:
       host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇨🇦6 |  4.2MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇨🇦7 |  5.9MB/s
+- name: 1|🇨🇦3 |  1.3MB/s
   network: ws
   port: 443
-  server: benedict.ns.cloudflare.com
+  server: 212.183.88.200
   servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -88,3 +48,10 @@ proxies:
     headers:
       host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: 88ee5fd6-4da7-4591-bd3e-b2eda1c13da8
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
