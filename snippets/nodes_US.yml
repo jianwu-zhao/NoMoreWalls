@@ -1,55 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: ea4bcd6f-30e8-4900-99e7-4780feacb265
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: ea4bcd6f-30e8-4900-99e7-4780feacb265
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: ea4bcd6f-30e8-4900-99e7-4780feacb265
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 361dc721-e37e-4656-9fdf-90229a75f6ec
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: ebd58efa-b86f-4f1a-9e8b-48497aa1b2ea
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 361dc721-e37e-4656-9fdf-90229a75f6ec
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: ebd58efa-b86f-4f1a-9e8b-48497aa1b2ea
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 361dc721-e37e-4656-9fdf-90229a75f6ec
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: ebd58efa-b86f-4f1a-9e8b-48497aa1b2ea
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 2|🇺🇸10 |  1.6MB/s
-  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
-  port: 41705
-  server: zf1.10101251.xyz
-  type: ss
+- allowInsecure: ''
+  name: 1|🇺🇸7 |  2.6MB/s
+  network: tcp
+  password: '!!str 74260704627805900'
+  port: 443
+  server: factual-snake.shiner427.skin
+  skip-cert-verify: false
+  tls: true
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -61,7 +43,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -73,7 +55,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: W6FN1QTMR6UNWXQS
   port: 17003
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -81,7 +63,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   password: SE9CD8DTF7E35MFG
   port: 17006
   server: ti3hyra4.slashdevslashnetslashtun.net
