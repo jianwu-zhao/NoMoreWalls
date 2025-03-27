@@ -1,10 +1,41 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: a4c341f0-cef2-457e-bf1f-c38dad43db1d
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: d25e3620-40b4-4e6e-b8a2-b11e78bb4df3
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+  mode: ''
+  name: 2|🇩🇪1 |  4.2MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: 0JBrLAhqlbIWkAH1VAFno9w-XpAhjGhhWPG4qw7vlQw
+    short-id: d656c301bc0904
+  server: 91.107.166.17
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: ecb9539f-7183-43ed-b484-b961fbf7578a
 - client-fingerprint: chrome
   flow: ''
   grpc-opts:
     grpc-service-name: Join---MTMVPN-Join---MTMVPN-Join---MTMVPN-Join---MTMVPN
   mode: ''
-  name: 0|🇩🇪1 |  5.7MB/s
+  name: 2|🇩🇪2 |  4.0MB/s
   network: grpc
   port: 443
   reality-opts:
@@ -16,24 +47,10 @@ proxies:
   type: vless
   udp: false
   uuid: 3a98dee0-8d9f-4f17-a1b0-706b72bcab11
-- alterId: 0
-  cipher: auto
-  name: 0|🇩🇪2 |  5.5MB/s
-  network: ws
-  port: 443
-  server: 172.67.71.217
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
-  ws-opts:
-    headers:
-      Host: 1t3chx0.zed23.web1337.net
-    path: /fixedfloati.cfd/linkwsd
 - auth: d36b88e2-c741-49e7-b847-3745aad62eff
   client-fingerprint: chrome
   down: 100
-  name: 0|🇩🇪3 |  4.2MB/s
+  name: 2|🇩🇪3 |  1.7MB/s
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   password: d36b88e2-c741-49e7-b847-3745aad62eff
@@ -43,44 +60,79 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪5 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 172.67.71.217
+  servername: 1t3chx0.zed23.web1337.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: 1t3chx0.zed23.web1337.net
+    path: /fixedfloati.cfd/linkwsd
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  name: 2|🇩🇪6 |  5.2MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: dg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: dg1.gywanglug.xyz
+  type: hysteria2
+- client-fingerprint: ''
+  flow: ''
   mode: ''
-  name: 0|🇩🇪4 |  5.2MB/s
-  network: tcp
+  name: 2|🇩🇪7 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 151.101.2.228
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 391c94b0-30b4-46d2-8d26-f9a005b33dfe
+  ws-opts:
+    headers:
+      Host: joinxvproxybedee.ir
+    path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪8 |  3.7MB/s
+  network: ws
+  port: 8080
+  server: soft98.ir.p31download.com
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 762e148f-39f7-4ef3-a348-c3584bf436d2
+  ws-opts:
+    headers:
+      Host: sNaPp.MaStErSrV.ir.
+    path: ?ed=8080
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+  mode: ''
+  name: 2|🇩🇪9 |  1.7MB/s
+  network: grpc
   port: 443
   reality-opts:
-    public-key: 3vUR24mjjFpGWH1SXOye4ByKlKzQOEDjCHEH5gSoZFw
-    short-id: 0afdc08e9f7d
-  server: cellone.moon-night.ir
-  servername: khanacademy.org
+    public-key: 0JBrLAhqlbIWkAH1VAFno9w-XpAhjGhhWPG4qw7vlQw
+    short-id: d656c301bc0904
+  server: kamyar2.vact.ir
+  servername: www.cdn77.com
   tls: true
   type: vless
   udp: false
-  uuid: bc197c34-6f69-4d81-ab2e-bc942f750c44
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇩🇪5 |  2.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 3vUR24mjjFpGWH1SXOye4ByKlKzQOEDjCHEH5gSoZFw
-    short-id: 0afdc08e9f7d
-  server: 91.107.249.105
-  servername: khanacademy.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: bc197c34-6f69-4d81-ab2e-bc942f750c44
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 286087e4-227a-4289-bae8-e8a3c2a6ebe1
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 9|(@VmessProtocol)برای خرید و ات...
+  uuid: ecb9539f-7183-43ed-b484-b961fbf7578a
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy38.zqjc.cloud
@@ -88,7 +140,7 @@ proxies:
   sni: shy38.zqjc.cloud
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #1'
+- name: '10|(@VmessProtocol)برای خرید و ات... #1'
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy42.zqjc.cloud
@@ -96,7 +148,7 @@ proxies:
   sni: shy42.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -105,24 +157,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #2'
+- name: '10|(@VmessProtocol)برای خرید و ات... #2'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-lu.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #3'
+- name: '10|(@VmessProtocol)برای خرید و ات... #3'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-nl.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 1b6caaf8-8cc9-48af-b7f6-6bd923322337
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

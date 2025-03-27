@@ -1,7 +1,21 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: a4c341f0-cef2-457e-bf1f-c38dad43db1d
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: d25e3620-40b4-4e6e-b8a2-b11e78bb4df3
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇨🇦1 |  5.3MB/s
+  name: 2|🇨🇦1 |  5.5MB/s
   network: tcp
   port: 16011
   reality-opts:
@@ -11,17 +25,11 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 286087e4-227a-4289-bae8-e8a3c2a6ebe1
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 1b6caaf8-8cc9-48af-b7f6-6bd923322337
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  name: 2|🇨🇦2 |  4.7MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: jnd1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: jnd1.gywanglug.xyz
+  type: hysteria2
