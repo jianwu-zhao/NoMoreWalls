@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇨🇭1 |  4.3MB/s
+  name: 2|🇨🇭1 |  5.9MB/s
   network: tcp
   port: 80
   reality-opts:

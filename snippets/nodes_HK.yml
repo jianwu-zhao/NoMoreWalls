@@ -1,30 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 59489916-5c1a-4534-ae36-83b5d805de6c
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 59489916-5c1a-4534-ae36-83b5d805de6c
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: 97d5622c-e590-4dec-a396-663acbcd8b94
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 23d71dbe-b000-45b0-a4ba-83db445e9317
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 97d5622c-e590-4dec-a396-663acbcd8b94
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 23d71dbe-b000-45b0-a4ba-83db445e9317
   port: 36145
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: e4385dc3-40d0-4ff5-a238-7e8b0a9cbe3f
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: e4385dc3-40d0-4ff5-a238-7e8b0a9cbe3f
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0

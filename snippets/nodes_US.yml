@@ -1,46 +1,54 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 59489916-5c1a-4534-ae36-83b5d805de6c
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 59489916-5c1a-4534-ae36-83b5d805de6c
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 59489916-5c1a-4534-ae36-83b5d805de6c
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 97d5622c-e590-4dec-a396-663acbcd8b94
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 23d71dbe-b000-45b0-a4ba-83db445e9317
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 97d5622c-e590-4dec-a396-663acbcd8b94
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 23d71dbe-b000-45b0-a4ba-83db445e9317
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 97d5622c-e590-4dec-a396-663acbcd8b94
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 23d71dbe-b000-45b0-a4ba-83db445e9317
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: e4385dc3-40d0-4ff5-a238-7e8b0a9cbe3f
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: e4385dc3-40d0-4ff5-a238-7e8b0a9cbe3f
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: e4385dc3-40d0-4ff5-a238-7e8b0a9cbe3f
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸6 |  5.3MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 35.93.21.189
+  type: ssr
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
