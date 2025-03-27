@@ -1,74 +1,19 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: a4c341f0-cef2-457e-bf1f-c38dad43db1d
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: a4c341f0-cef2-457e-bf1f-c38dad43db1d
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: a4c341f0-cef2-457e-bf1f-c38dad43db1d
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: d25e3620-40b4-4e6e-b8a2-b11e78bb4df3
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: d25e3620-40b4-4e6e-b8a2-b11e78bb4df3
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: d25e3620-40b4-4e6e-b8a2-b11e78bb4df3
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 2|🇸🇬1 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.250.106.255
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇸🇬2 |  4.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.103.201
-  type: ss
-- name: 2|🇸🇬3 |  6.2MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- cipher: aes-256-cfb
-  name: 2|🇸🇬4 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.51.201
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇸🇬5 |  6.5MB/s
+  name: 0|🇸🇬1 |  6.3MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇸🇬2 |  4.8MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -79,14 +24,21 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
-  name: 2|🇸🇬6 |  5.4MB/s
+  name: 0|🇸🇬3 |  4.6MB/s
   password: amazonskr05
   port: 443
-  server: 52.76.22.133
+  server: 54.169.64.23
   type: ss
+- name: 0|🇸🇬4 |  5.7MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇸🇬7 |  2.8MB/s
+  name: 0|🇸🇬5 |  6.1MB/s
   network: tcp
   port: 44003
   reality-opts:
@@ -96,19 +48,40 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬8 |  5.9MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 11|Hysteria 🇸🇬 @v2meowcf
+- cipher: aes-256-cfb
+  name: 0|🇸🇬6 |  3.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.38.96
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬7 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.73.58
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: f0cacdc9-3c44-4465-ab19-ec25ddc15c72
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: f0cacdc9-3c44-4465-ab19-ec25ddc15c72
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: f0cacdc9-3c44-4465-ab19-ec25ddc15c72
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -116,7 +89,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -126,7 +99,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian
+  name: 11|🇸🇬 新加坡|@ripaojiedian
   password: S5ZLLTXS1F1311MW
   port: 16001
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -134,7 +107,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   password: H2CI8UUZ8RERM0T8
   port: 16010
   server: w72tapyb.slashdevslashnetslashtun.net
@@ -142,7 +115,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
   port: 11008
   server: 120.232.150.248
@@ -150,9 +123,30 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 57.180.35.64
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 01 | 1x SG
+  password: 97a5c7f3-c54e-42e0-89f0-d57cf346359f
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 02 | 1x SG
+  password: 97a5c7f3-c54e-42e0-89f0-d57cf346359f
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 03 | 1x SG
+  password: 97a5c7f3-c54e-42e0-89f0-d57cf346359f
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
