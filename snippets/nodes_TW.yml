@@ -1,34 +1,77 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: ebd58efa-b86f-4f1a-9e8b-48497aa1b2ea
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 59489916-5c1a-4534-ae36-83b5d805de6c
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 59489916-5c1a-4534-ae36-83b5d805de6c
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 59489916-5c1a-4534-ae36-83b5d805de6c
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- allowInsecure: ''
+  name: 1|🇹🇼2 |  1.5MB/s
+  network: ws
+  password: Aimer
+  port: 27149
+  server: 23.94.213.132
+  skip-cert-verify: false
+  sni: agepn.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepn.ambercc.filegear-sg.me
+    path: /?ed=2560
+- allowInsecure: ''
+  name: 1|🇹🇼4 |  5.8MB/s
+  network: ws
+  password: Aimer
+  port: 443
+  server: 124.156.202.172
+  skip-cert-verify: false
+  sni: agepn.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepn.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 01 | 1x TW
+  password: 97d5622c-e590-4dec-a396-663acbcd8b94
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: ebd58efa-b86f-4f1a-9e8b-48497aa1b2ea
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: 97d5622c-e590-4dec-a396-663acbcd8b94
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: ebd58efa-b86f-4f1a-9e8b-48497aa1b2ea
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: 97d5622c-e590-4dec-a396-663acbcd8b94
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 1|🇹🇼5 |  6.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   password: JWK22ZOMOBYNN125
   port: 21007
   server: 150.116.11.11
@@ -36,7 +79,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
+  name: 12|🇹🇼 台湾2|@ripaojiedian
   password: 4SQDULUG1L5LS1OI
   port: 21002
   server: ti3hyra4.slashdevslashnetslashtun.net
