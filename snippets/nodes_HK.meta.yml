@@ -1,53 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 23d71dbe-b000-45b0-a4ba-83db445e9317
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 23d71dbe-b000-45b0-a4ba-83db445e9317
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: e4385dc3-40d0-4ff5-a238-7e8b0a9cbe3f
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: e4385dc3-40d0-4ff5-a238-7e8b0a9cbe3f
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇭🇰1 |  4.7MB/s
-  network: tcp
-  port: 24318
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 2|🇭🇰2 |  2.0MB/s
+  name: 0|🇭🇰1 |  5.2MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2000
   server: tw3.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
   type: hysteria2
-- name: 2|🇭🇰3 |  6.2MB/s
+- name: 0|🇭🇰2 |  5.9MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -56,6 +16,34 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
