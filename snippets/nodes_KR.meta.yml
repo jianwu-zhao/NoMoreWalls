@@ -1,8 +1,22 @@
 proxies:
-- name: 0|🇰🇷1 |  4.6MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: e683f77f-06d1-4cdd-9968-8360ed4b1f3f
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: e683f77f-06d1-4cdd-9968-8360ed4b1f3f
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 1|🇰🇷1 |  1.7MB/s
   network: ws
   port: 443
-  server: 192.0.54.18
+  server: 192.200.160.99
   servername: vv.dong2025.cfd
   skip-cert-verify: true
   tls: true
@@ -11,60 +25,31 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vv.dong2025.cfd
+      Host: vv.dong2025.cfd
     path: /?ed=2560
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 0|🇰🇷2 |  5.5MB/s
-  network: tcp
-  port: 23333
-  reality-opts:
-    public-key: LGcYLmLcvwtfKuk_Qa_dy0N6YNz4szWReWug5fxAwh0
-    short-id: 15f7
-  server: 193.123.248.228
-  servername: www.yahoo.co.jp
-  tls: true
-  type: vless
-  uuid: 30f85233-d41e-4297-97c1-cfac047a948b
-- name: 0|🇰🇷3 |  2.2MB/s
-  network: ws
+- cipher: aes-256-cfb
+  name: 1|🇰🇷2 |  1.6MB/s
+  password: amazonskr05
   port: 443
-  server: 212.183.88.162
-  servername: vv.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  server: 3.36.26.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 04ca5878-b4b1-4da5-a718-c6968f88d842
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vv.dong2025.cfd
-    path: /?ed=2560
-- auth: a8ae2e27-1326-4ba0-b1f7-276eb37b57ed
-  name: 0|🇰🇷4 |  5.4MB/s
-  password: a8ae2e27-1326-4ba0-b1f7-276eb37b57ed
-  port: 62641
-  server: sub-kr.yangxiansheng.online
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 0|🇰🇷5 |  2.4MB/s
-  network: ws
-  port: 443
-  server: 104.17.146.152
-  servername: vv.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 04ca5878-b4b1-4da5-a718-c6968f88d842
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vv.dong2025.cfd
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 10|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: MLaACjeZTu0EcTWKaIMyrM
   port: 49539
   server: 61.72.28.169
@@ -72,37 +57,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 10|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.203.249.105
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇰🇷韩国 01 | 1x KR
-  password: 2389973d-db9e-4b2b-b1fb-7e54f7804858
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇰🇷韩国 02 | 1x KR
-  password: 2389973d-db9e-4b2b-b1fb-7e54f7804858
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: a55f977e-f817-4125-a405-fab5397e2ce7
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: a55f977e-f817-4125-a405-fab5397e2ce7
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
