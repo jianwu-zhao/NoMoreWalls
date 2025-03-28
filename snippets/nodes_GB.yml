@@ -1,51 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 30d45dd6-76d5-44b4-935e-b637baed573c
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 30d45dd6-76d5-44b4-935e-b637baed573c
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 06568f3f-034e-4304-a1f3-0419ada957a5
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 12|🇬🇧 英国|@ripaojiedian
-  password: '!!str 74260704627805900'
+- name: 2|🇬🇧1 |  5.3MB/s
+  password: 2cba4104747d49d18319e5ade1b93ab5
   port: 443
-  server: many-macaque.shiner427.skin
-  skip-cert-verify: false
-  sni: many-macaque.shiner427.skin
+  server: yourjobnavigator.online
+  skip-cert-verify: true
+  sni: yourjobnavigator.online
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇬🇧 英国2|@ripaojiedian
-  password: ZO1QJ521XRQLT9T1
-  port: 19011
-  server: 206.245.211.21
-  tfo: false
-  type: ss
-- name: 13|英国|@ripaojiedian
-  network: tcp
-  password: '!!str 74260704627805900'
+- name: 2|🇬🇧2 |  3.7MB/s
+  password: 2cba4104747d49d18319e5ade1b93ab5
   port: 443
-  server: many-macaque.shiner427.skin
+  server: 161.35.34.48
+  skip-cert-verify: true
+  sni: yourjobnavigator.online
   type: trojan

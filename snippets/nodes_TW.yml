@@ -1,6 +1,71 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 30d45dd6-76d5-44b4-935e-b637baed573c
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 30d45dd6-76d5-44b4-935e-b637baed573c
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 30d45dd6-76d5-44b4-935e-b637baed573c
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 06568f3f-034e-4304-a1f3-0419ada957a5
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 06568f3f-034e-4304-a1f3-0419ada957a5
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 06568f3f-034e-4304-a1f3-0419ada957a5
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - allowInsecure: ''
-  name: 0|🇹🇼1 |  5.9MB/s
+  client-fingerprint: chrome
+  name: 2|🇹🇼1 |  2.9MB/s
+  network: ws
+  password: Aimer
+  port: 20080
+  server: 192.210.207.89
+  skip-cert-verify: false
+  sni: agepn.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepn.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 2,12,13|台湾2|@ripaojiedian
+  network: tcp
+  password: 6e8b9913-5277-4627-95b0-86766ae65ad6
+  port: 42765
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- allowInsecure: ''
+  name: 2|🇹🇼4 |  2.2MB/s
   network: ws
   password: Aimer
   port: 2087
@@ -14,88 +79,37 @@ proxies:
       Host: agepm.ambercc.filegear-sg.me
     path: /?ed=2560
 - allowInsecure: ''
-  name: 0|🇹🇼2 |  6.6MB/s
+  name: 2|🇹🇼5 |  1.2MB/s
   network: ws
   password: Aimer
-  port: 27149
-  server: 23.94.213.132
+  port: 2083
+  server: 154.83.2.88
   skip-cert-verify: false
-  sni: agepn.ambercc.filegear-sg.me
+  sni: agepm.ambercc.filegear-sg.me
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: agepn.ambercc.filegear-sg.me
+      Host: agepm.ambercc.filegear-sg.me
     path: /?ed=2560
-- allowInsecure: ''
-  name: 0|🇹🇼5 |  4.0MB/s
-  network: ws
-  password: Aimer
-  port: 20080
-  server: 192.210.207.89
-  skip-cert-verify: false
-  sni: agepn.ambercc.filegear-sg.me
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepn.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
-  password: JWK22ZOMOBYNN125
-  port: 21007
-  server: 150.116.11.11
+  port: 31919
+  server: 183.236.51.38
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
-  password: 4SQDULUG1L5LS1OI
-  port: 21002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|台湾|@ripaojiedian
+  network: tcp
+  port: '31919'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

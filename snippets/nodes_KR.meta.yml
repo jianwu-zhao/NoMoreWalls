@@ -1,69 +1,84 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.92.181
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷2 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.34.253.95
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷3 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.67.225
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷4 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.36.72.86
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷5 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.125.231.170
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 30d45dd6-76d5-44b4-935e-b637baed573c
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: c6a2f4a1-2b4b-4619-8ca6-394a2b1667ac
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 30d45dd6-76d5-44b4-935e-b637baed573c
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 06568f3f-034e-4304-a1f3-0419ada957a5
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 02 | 1x KR
-  password: 70489bd4-1d86-48b9-86a5-eaa971ce384d
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 06568f3f-034e-4304-a1f3-0419ada957a5
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 2|🇰🇷1 |  5.8MB/s
+  network: tcp
+  port: 23333
+  reality-opts:
+    public-key: LGcYLmLcvwtfKuk_Qa_dy0N6YNz4szWReWug5fxAwh0
+    short-id: 15f7
+  server: 193.123.248.228
+  servername: www.yahoo.co.jp
+  tls: true
+  type: vless
+  uuid: 30f85233-d41e-4297-97c1-cfac047a948b
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇰🇷2 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.124.229.107
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇰🇷3 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.67.225
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇰🇷4 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.36.72.86
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇰🇷5 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.36.26.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  password: MLaACjeZTu0EcTWKaIMyrM
+  port: 49539
+  server: 61.72.28.169
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.140.70.168
+  server: 43.203.249.105
   tfo: false
   type: ss
