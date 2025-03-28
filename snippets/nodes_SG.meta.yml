@@ -1,57 +1,62 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: d18db58f-efc0-4578-a553-48326236045e
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: d18db58f-efc0-4578-a553-48326236045e
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: d18db58f-efc0-4578-a553-48326236045e
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: e98d740f-2d63-40a7-a8ca-9dbc016ca7d4
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 80290226-6b94-4268-8e96-1b898d7545df
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: e98d740f-2d63-40a7-a8ca-9dbc016ca7d4
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 80290226-6b94-4268-8e96-1b898d7545df
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: e98d740f-2d63-40a7-a8ca-9dbc016ca7d4
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 80290226-6b94-4268-8e96-1b898d7545df
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇸🇬1 |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.128.245.70
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 5fde10d0-92a2-4c1a-b9b5-7ce3ca05a9b6
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 5fde10d0-92a2-4c1a-b9b5-7ce3ca05a9b6
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 5fde10d0-92a2-4c1a-b9b5-7ce3ca05a9b6
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 2|🇸🇬2 |  5.4MB/s
+  name: 2,13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
+  password: uiACqrIr
+  port: '56138'
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬2 |  5.7MB/s
   password: amazonskr05
   port: 443
-  server: 13.213.69.248
+  server: 54.169.188.214
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -60,22 +65,6 @@ proxies:
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
   port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  name: 2|🇸🇬4 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.250.106.255
-  type: ss
-- cipher: aes-256-cfb
-  name: 2,13|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: c2cyLWNkbi1yb3V0ZS5jb3VsZGZsYXJlLWNkbi5jb20
-  password: uiACqrIr
-  port: '56138'
   protocol: origin
   protocol-param: ''
   server: cm2.xcone.xyz
