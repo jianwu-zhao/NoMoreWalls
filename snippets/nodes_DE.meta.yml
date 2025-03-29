@@ -1,30 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 82a0ed52-ac8e-49d9-b833-4bddad020ba0
+  password: c24f1481-6d27-4901-98e9-dd3d01c895dd
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪1 |  1.3MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.254
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram@WangCai2/?ed
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 00b4105a-ccf8-48e8-9fed-51168ec12b70
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪2 |  3.4MB/s
+  name: 2|🇩🇪1 |  5.1MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -34,14 +25,14 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 9|(@VmessProtocol)برای خرید و ات...
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 8ef3a266-3d98-4311-aa79-34c44b2b5931
   port: 20701
   server: us.tuanzi.xyz
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -50,14 +41,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|(@VmessProtocol)برای خرید و ات... #1'
+- name: '10|(@VmessProtocol)برای خرید و ات... #1'
   password: a73e6402-a66f-4b68-9910-071604aec882
   port: 443
   server: ru1.node.crosswall.org
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|@meli_proxyy
+- name: 10|@meli_proxyy
   password: b099dc75-799b-4c23-b241-48a797259359
   port: 443
   server: 146.56.102.76

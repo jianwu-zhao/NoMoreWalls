@@ -1,28 +1,108 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: 82a0ed52-ac8e-49d9-b833-4bddad020ba0
+  password: c24f1481-6d27-4901-98e9-dd3d01c895dd
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: 82a0ed52-ac8e-49d9-b833-4bddad020ba0
+  password: c24f1481-6d27-4901-98e9-dd3d01c895dd
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: 82a0ed52-ac8e-49d9-b833-4bddad020ba0
+  password: c24f1481-6d27-4901-98e9-dd3d01c895dd
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 00b4105a-ccf8-48e8-9fed-51168ec12b70
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 00b4105a-ccf8-48e8-9fed-51168ec12b70
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 00b4105a-ccf8-48e8-9fed-51168ec12b70
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇯🇵1 |  4.1MB/s
+  port: 30325
+  server: sz.sf1.pw
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+- cipher: aes-256-gcm
+  name: 2|🇯🇵2 |  6.3MB/s
+  password: 46d0c7e4-b94e-414b-810c-d281190c9535
+  port: 16876
+  server: ttsh.xissyun.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇯🇵3 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.157.253
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2|🇯🇵5 |  5.7MB/s
+  port: 52327
+  server: gdcm.ffzjv.cn
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+- alterId: 0
+  cipher: auto
+  name: 2|🇯🇵7 |  5.7MB/s
+  port: 23516
+  server: gdcm.ffzjv.cn
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+- cipher: aes-256-cfb
+  name: 2|🇯🇵9 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.178.177.97
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2|🇯🇵10 |  6.2MB/s
+  port: 56309
+  server: qqb12.198139.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -34,7 +114,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -45,7 +125,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: '!!str 74260702287384200'
   port: 443
   server: quality-kite.shiner427.skin
@@ -54,13 +134,13 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.203.206.73
   tfo: false
   type: ss
-- name: 12|日本3|@ripaojiedian
+- name: 13|日本3|@ripaojiedian
   network: tcp
   password: '!!str 74260702287384200'
   port: 443
@@ -68,7 +148,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|日本A|@ripaojiedian
+  name: 13|日本A|@ripaojiedian
   network: kcp
   port: '58490'
   server: 8.209.203.88
