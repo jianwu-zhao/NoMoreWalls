@@ -1,85 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 65102c31-2191-4f38-bb89-d3a7050fe608
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 65102c31-2191-4f38-bb89-d3a7050fe608
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 65102c31-2191-4f38-bb89-d3a7050fe608
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: e9489c6e-fa57-4159-8334-8780261545fa
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 36de96e9-3591-4f9a-8a8e-3cf4a2c24fe5
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: e9489c6e-fa57-4159-8334-8780261545fa
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 36de96e9-3591-4f9a-8a8e-3cf4a2c24fe5
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: e9489c6e-fa57-4159-8334-8780261545fa
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 36de96e9-3591-4f9a-8a8e-3cf4a2c24fe5
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2,14|US_speednode_0046
-  network: ws
-  port: 443
-  server: arvind.ns.cloudflare.com
-  servername: edfgv.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: c76c4cf5-5e54-4a3d-8eaf-339bdb805856
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgv.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇹🇼2 |  2.2MB/s
-  network: ws
-  port: 443
-  server: 172.64.35.127
-  servername: edfgv.aimercc.filegear-sg.me
-  tls: true
-  type: vless
-  udp: false
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgv.aimercc.filegear-sg.me
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: c76c4cf5-5e54-4a3d-8eaf-339bdb805856
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: c76c4cf5-5e54-4a3d-8eaf-339bdb805856
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼3 |  5.4MB/s
+  name: 2|🇹🇼1 |  3.8MB/s
   network: tcp
-  port: 37809
+  port: 15700
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
@@ -97,7 +67,125 @@ proxies:
     headers:
       Host: edfgv.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇹🇼5 |  5.2MB/s
+- client-fingerprint: chrome
+  name: 2|🇹🇼3 |  5.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼4 |  3.9MB/s
+  network: tcp
+  port: 16704
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2,14|SG_speednode_0030
+  network: ws
+  port: 8443
+  server: 92.243.74.2
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼6 |  6.0MB/s
+  network: tcp
+  port: 13263
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2,14|US_speednode_0046
+  network: ws
+  port: 443
+  server: arvind.ns.cloudflare.com
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇹🇼8 |  5.5MB/s
+  network: ws
+  port: 443
+  server: 172.64.35.127
+  servername: edfgv.aimercc.filegear-sg.me
+  tls: true
+  type: vless
+  udp: false
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 2,14|KR_speednode_0023
+  network: ws
+  port: 17774
+  server: 220.116.147.73
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼10 |  6.1MB/s
+  network: tcp
+  port: 37809
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2,14|US_speednode_0034
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 2|🇹🇼12 |  4.3MB/s
   network: ws
   port: 443
   server: thaddeus.ns.cloudflare.com
@@ -111,32 +199,47 @@ proxies:
     headers:
       host: edfgv.aimercc.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 2|🇹🇼6 |  5.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇹🇼7 |  1.5MB/s
-  network: tcp
-  port: 16704
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 2,14|US_speednode_0040
   network: ws
   port: 443
   server: theo.ns.cloudflare.com
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 2,14|SG_speednode_0031
+  network: ws
+  port: 8443
+  server: 27.50.49.177
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  client-fingerprint: chrome
+  name: 2|🇹🇼15 |  1.2MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 30001
+  server: tw.akebi.cc
+  skip-cert-verify: false
+  sni: tw.akebi.cc
+  type: hysteria2
+- name: 2,14|KR_speednode_0019
+  network: ws
+  port: 21291
+  server: 211.185.2.191
   servername: edfgv.aimercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
