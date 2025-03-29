@@ -1,51 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: ec510d77-2084-42e7-acd9-28d5ebf57304
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: ec510d77-2084-42e7-acd9-28d5ebf57304
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 8a86a8bc-45f5-41d6-bfc0-7c5e4673a4b5
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 8a86a8bc-45f5-41d6-bfc0-7c5e4673a4b5
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇰🇷1 |  1.5MB/s
-  network: ws
-  port: 39271
-  server: 221.153.42.212
-  servername: vv.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vv.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇰🇷2 |  1.2MB/s
+- name: 1|🌀7- |  5.6MB/s
   network: ws
   port: 443
-  server: 192.0.54.18
-  servername: vv.dong2025.cfd
+  server: 130.250.137.19
+  servername: in.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -53,7 +11,161 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vv.dong2025.cfd
+      host: in.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 1|🇰🇷6 |  1.9MB/s
+  network: ws
+  port: 443
+  server: 63.141.128.177
+  servername: il.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: il.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇰🇷3 |  2.0MB/s
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: in.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: in.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 1|🇰🇷4 |  2.5MB/s
+  network: ws
+  port: 443
+  server: ip.sb
+  servername: il.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: il.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇰🇷14 |  2.7MB/s
+  network: ws
+  port: 443
+  server: steamdb.info
+  servername: il.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: il.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇰🇷7 |  2.1MB/s
+  network: ws
+  port: 443
+  server: 162.159.36.104
+  servername: in.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: in.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 1|🇰🇷8 |  1.2MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.137
+  servername: in.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: in.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 1|🇰🇷9 |  1.0MB/s
+  network: ws
+  port: 443
+  server: toy-people.com
+  servername: in.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: in.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 1|🇰🇷10 |  1.0MB/s
+  network: ws
+  port: 443
+  server: nikon.ns.cloudflare.com
+  servername: in.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: in.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 1|🇰🇷11 |  1.4MB/s
+  network: ws
+  port: 443
+  server: 104.17.142.12
+  servername: il.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: il.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇰🇷12 |  4.8MB/s
+  network: ws
+  port: 443
+  server: 162.159.153.190
+  servername: il.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: il.ylkszy.eu.org
+    path: /?ed=2560
+- name: 1|🇰🇷13 |  5.5MB/s
+  network: ws
+  port: 443
+  server: 104.17.161.203
+  servername: in.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: in.youlingkais.filegear-sg.me
     path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
