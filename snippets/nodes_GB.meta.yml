@@ -1,50 +1,68 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 36de96e9-3591-4f9a-8a8e-3cf4a2c24fe5
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 36de96e9-3591-4f9a-8a8e-3cf4a2c24fe5
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: c76c4cf5-5e54-4a3d-8eaf-339bdb805856
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: ec4644c9-a7c3-49f8-b31c-def37b63a822
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c76c4cf5-5e54-4a3d-8eaf-339bdb805856
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: ec4644c9-a7c3-49f8-b31c-def37b63a822
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  5.8MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.154
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram@WangCai2/?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧2 |  1.8MB/s
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 77d7cf84-599a-47cf-a99d-895c9db85adb
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 77d7cf84-599a-47cf-a99d-895c9db85adb
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0009
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 597dc9ce-5ce8-4ff5-833b-76cd4e5789e1
+  name: 2|🇬🇧2 |  5.0MB/s
+  password: 597dc9ce-5ce8-4ff5-833b-76cd4e5789e1
+  port: 8443
+  server: yg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: yg1.gywanglug.xyz
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧3 |  5.5MB/s
+  network: tcp
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧4 |  1.9MB/s
   password: ee19fceb-cedc-4832-b460-fccf24fdc8be
   port: 12364
   server: 183.240.255.75

@@ -1,22 +1,66 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 36de96e9-3591-4f9a-8a8e-3cf4a2c24fe5
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: c76c4cf5-5e54-4a3d-8eaf-339bdb805856
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: ec4644c9-a7c3-49f8-b31c-def37b63a822
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 77d7cf84-599a-47cf-a99d-895c9db85adb
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Telegram-channel-MTMVPN-Telegram-channel-MTMVPN
+  mode: ''
+  name: 2|🇩🇪1 |  1.9MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vLtM7H2Bbmzw5-Tevlxh2soD0WML7GJNeAg6gdhsCzo
+    short-id: ba66
+  server: mehdi21.vact.ir
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+- auth: f5653e48-26f9-4d0a-822e-5ab64b8fcdab
+  client-fingerprint: chrome
+  down: 100
+  name: 2|🇩🇪2 |  3.2MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: f5653e48-26f9-4d0a-822e-5ab64b8fcdab
+  port: 32008
+  server: 5.39.252.72
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- name: 2,14|NL_speednode_0026
+  network: ws
+  port: 8080
+  server: 45.131.4.33
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  1.1MB/s
+  name: 2|🇩🇪4 |  2.6MB/s
   network: tcp
   port: 2096
   server: 64.225.108.157
