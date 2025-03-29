@@ -1,65 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 202c5c6f-305e-4ed2-a3b6-0aba6a0ef0bd
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 202c5c6f-305e-4ed2-a3b6-0aba6a0ef0bd
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: d7a25543-5c17-447c-9dff-13e3e00bb3f4
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: b0156bf7-caa2-4778-b416-9fc82fb85309
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: d7a25543-5c17-447c-9dff-13e3e00bb3f4
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: b0156bf7-caa2-4778-b416-9fc82fb85309
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 2|🇰🇷2 |  5.7MB/s
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 31778
-  server: xm.miloli.cc
-  tfo: false
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: f4caf8e6-236c-4993-94f1-04f8bcbee852
+  port: 31311
+  server: free.2apzhfa.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  2.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.34.253.95
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷4 |  2.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.36.26.148
-  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
-  password: MLaACjeZTu0EcTWKaIMyrM
-  port: 49539
-  server: 61.72.28.169
-  tfo: false
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: f4caf8e6-236c-4993-94f1-04f8bcbee852
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇰🇷1 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.67.225
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.203.249.105
+  server: 47.129.51.201
   tfo: false
   type: ss
