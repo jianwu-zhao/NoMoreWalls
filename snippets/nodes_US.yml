@@ -1,44 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: a877ee85-5afc-4ba0-9699-bb8ee3319ad6
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: ed41e3e4-e635-4893-8c97-6c89e33d6568
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: a877ee85-5afc-4ba0-9699-bb8ee3319ad6
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: ed41e3e4-e635-4893-8c97-6c89e33d6568
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: a877ee85-5afc-4ba0-9699-bb8ee3319ad6
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: ed41e3e4-e635-4893-8c97-6c89e33d6568
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5f400c30-9a63-4ec7-9fa6-12085dd4159f
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 2|🇺🇸1 |  5.3MB/s
+  password: 8976138b-a30a-3ae0-8b6b-9edeec734a00
+  port: 16895
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x40.flybar.work
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5f400c30-9a63-4ec7-9fa6-12085dd4159f
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 2|🇺🇸3 |  6.1MB/s
+  password: 8976138b-a30a-3ae0-8b6b-9edeec734a00
+  port: 20308
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z308.hongkongnode.top
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 5f400c30-9a63-4ec7-9fa6-12085dd4159f
-  port: 31215
-  server: free.2apzhfa.xyz
+- alterId: '0'
+  cipher: auto
+  name: 2|🇺🇸6 |  1.5MB/s
+  network: ws
+  port: '443'
+  server: us10-04.852224.ggff.net
+  tls: true
+  type: vmess
+  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  ws-opts:
+    headers:
+      host: us10-04.852224.ggff.net
+    path: /SNwNdunw28lVztopw90eoXel
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 2|🇺🇸13 |  1.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.222.2.112
   type: ss
   udp: true
 - cipher: rc4-md5
