@@ -1,59 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: b7c636ec-39b6-40f0-9373-952b61a9e1b7
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: b7c636ec-39b6-40f0-9373-952b61a9e1b7
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: b7c636ec-39b6-40f0-9373-952b61a9e1b7
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 0ceded3c-037e-42af-a7ba-c7f7106def54
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: de1c9ef4-e56f-407e-b15f-576a8afa20a7
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 0ceded3c-037e-42af-a7ba-c7f7106def54
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: de1c9ef4-e56f-407e-b15f-576a8afa20a7
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 0ceded3c-037e-42af-a7ba-c7f7106def54
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: de1c9ef4-e56f-407e-b15f-576a8afa20a7
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬1 |  1.9MB/s
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2,14|US_speednode_0060
+- name: 1,14|US_speednode_0060
   network: ws
   port: 80
   server: support.zoom.us
@@ -67,19 +34,43 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬2 |  4.2MB/s
+  network: ws
+  port: 25245
+  server: sg1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-headers:
+    Host: sg1.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬3 |  6.0MB/s
+  network: ws
+  port: 25243
+  server: sg1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-headers:
+    Host: sg1.awslcn.info
+  ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0012
+  name: 1|🇸🇬4 |  6.2MB/s
   network: tcp
-  port: 44003
+  port: 56127
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
@@ -121,3 +112,45 @@ proxies:
   server: 52.76.22.133
   tfo: false
   type: ss
+- name: 14|SG_speednode_0051
+  network: ws
+  port: 8443
+  server: 92.243.74.2
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 14|SG_speednode_0052
+  network: ws
+  port: 8443
+  server: 27.50.49.230
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 14|SG_speednode_0053
+  network: ws
+  port: 8443
+  server: 27.50.49.177
+  servername: edfgv.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgv.aimercc.filegear-sg.me
+    path: /?ed=2560
