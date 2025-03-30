@@ -1,14 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 458584b0-c9be-4155-b9af-2106d856062a
+  password: a877ee85-5afc-4ba0-9699-bb8ee3319ad6
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 5f400c30-9a63-4ec7-9fa6-12085dd4159f
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇨🇦1 |  5.4MB/s
+  name: 2|🇨🇦1 |  5.2MB/s
   network: tcp
   port: 16011
   reality-opts:
@@ -18,10 +25,3 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: c3ebd9fd-8cb3-418b-a9f4-c24849072c80
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

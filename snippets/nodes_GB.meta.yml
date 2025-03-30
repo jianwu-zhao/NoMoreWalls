@@ -1,74 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 458584b0-c9be-4155-b9af-2106d856062a
+  password: a877ee85-5afc-4ba0-9699-bb8ee3319ad6
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 458584b0-c9be-4155-b9af-2106d856062a
+  password: a877ee85-5afc-4ba0-9699-bb8ee3319ad6
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 1|🇬🇧1 |  2.0MB/s
-  network: ws
-  port: '443'
-  server: 188.114.99.134
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      host: linde06.indiavideo.sbs
-    path: /linkws
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 5f400c30-9a63-4ec7-9fa6-12085dd4159f
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 5f400c30-9a63-4ec7-9fa6-12085dd4159f
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  4.3MB/s
-  network: tcp
-  port: 32055
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇬🇧3 |  5.1MB/s
-  network: ws
-  port: 443
-  server: 188.114.97.79
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: '0'
-  cipher: auto
-  name: 1|🇬🇧4 |  2.6MB/s
-  network: ws
-  port: '443'
-  server: 188.114.97.7
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      host: linde06.indiavideo.sbs
-    path: /linkws
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0219
+  name: 2,14|CN_speednode_0020
   network: tcp
   port: 65053
   reality-opts:
@@ -80,14 +41,33 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧6 |  2.5MB/s
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11006
-  server: 183.232.229.164
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧2 |  4.3MB/s
+  network: tcp
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0032
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -96,7 +76,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 13|GB_speednode_0237
+  name: 14|GB_speednode_0034
   port: 80
   reality-opts:
     public-key: DZzAtolzThTEwEjUnyLN5lzhvzMtKPOAvPA8K8luAhE
@@ -108,17 +88,3 @@ proxies:
   type: vless
   udp: true
   uuid: 98d8274c-3159-7718-4042-19544c9d2ff6
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: c3ebd9fd-8cb3-418b-a9f4-c24849072c80
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: c3ebd9fd-8cb3-418b-a9f4-c24849072c80
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
