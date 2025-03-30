@@ -1,59 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 01 | 1x JP
-  password: ed41e3e4-e635-4893-8c97-6c89e33d6568
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: b7c636ec-39b6-40f0-9373-952b61a9e1b7
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 02 | 1x JP
-  password: ed41e3e4-e635-4893-8c97-6c89e33d6568
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: b7c636ec-39b6-40f0-9373-952b61a9e1b7
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 03 | 1x JP
-  password: ed41e3e4-e635-4893-8c97-6c89e33d6568
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: b7c636ec-39b6-40f0-9373-952b61a9e1b7
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇯🇵1 |  6.2MB/s
-  password: 8976138b-a30a-3ae0-8b6b-9edeec734a00
-  port: 20140
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z140.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 0ceded3c-037e-42af-a7ba-c7f7106def54
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇯🇵3 |  6.0MB/s
-  network: ws
-  port: 25277
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cu.awslcn.info
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇯🇵7 |  6.1MB/s
-  network: ws
-  port: 25279
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: cu.awslcn.info
-  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 0ceded3c-037e-42af-a7ba-c7f7106def54
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 0ceded3c-037e-42af-a7ba-c7f7106def54
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian

@@ -1,52 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: ed41e3e4-e635-4893-8c97-6c89e33d6568
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: b7c636ec-39b6-40f0-9373-952b61a9e1b7
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇩🇪1 |  4.3MB/s
-  network: tcp
-  port: 58031
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪2 |  5.6MB/s
-  network: ws
-  port: 8443
-  server: 185.146.173.37
-  servername: NkG27c9Gl1.MySpDmMeTi.CoM
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: NkG27c9Gl1.MySpDmMeTi.CoM
-    path: /
-- auth: 6ed47616-95aa-4512-8c44-8cd5ba292149
-  client-fingerprint: chrome
-  down: 100
-  name: 2|🇩🇪3 |  2.8MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: 6ed47616-95aa-4512-8c44-8cd5ba292149
-  port: 32008
-  server: 5.39.252.72
-  skip-cert-verify: true
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 0ceded3c-037e-42af-a7ba-c7f7106def54
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  up: 100
 - name: 2,14|LT_speednode_0045
   network: ws
   port: 8080
