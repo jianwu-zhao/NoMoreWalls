@@ -1,8 +1,24 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 7767b6fa-1fde-46f3-a359-c2c9feddbe8c
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: cefcd8fb-c8ac-4cc6-957c-4390b2c758e1
   port: 31441
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  ip-version: dual
+  name: 1|🇨🇦2 |  2.2MB/s
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12355
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: 18df94f3-f69f-4ae4-ac2d-e1329f22ace2
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
