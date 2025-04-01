@@ -1,73 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 2044143b-38bf-4204-bb5a-6df713593585
+  password: d93c5a8f-8c5c-4933-a049-767a910bf94a
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 2044143b-38bf-4204-bb5a-6df713593585
+  password: d93c5a8f-8c5c-4933-a049-767a910bf94a
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 2044143b-38bf-4204-bb5a-6df713593585
+  password: d93c5a8f-8c5c-4933-a049-767a910bf94a
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 1|🇹🇼2 |  2.6MB/s
+  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+  port: 20024
+  server: 4.qzhm8l42g1.xyz
+  skip-cert-verify: true
+  sni: 4.qzhm8l42g1.xyz
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  name: 14|🇹🇼台湾 01 | 1x TW
+  password: 7bf46192-0fac-4f8c-9355-e2ec66beb3dc
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  name: 14|🇹🇼台湾 02 | 1x TW
+  password: 7bf46192-0fac-4f8c-9355-e2ec66beb3dc
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  name: 14|🇹🇼台湾 03 | 1x TW
+  password: 7bf46192-0fac-4f8c-9355-e2ec66beb3dc
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  2.8MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20028
-  server: 8.qzhm8l42g1.xyz
-  skip-cert-verify: true
-  sni: 8.qzhm8l42g1.xyz
-  type: trojan
-- name: 2|🇹🇼4 |  1.7MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20023
-  server: 3.qzhm8l42g1.xyz
-  skip-cert-verify: true
-  sni: 3.qzhm8l42g1.xyz
-  type: trojan
-- name: 2|🇹🇼6 |  2.7MB/s
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20022
-  server: 2.qzhm8l42g1.xyz
-  skip-cert-verify: true
-  sni: 2.qzhm8l42g1.xyz
-  type: trojan
-- client-fingerprint: chrome
-  name: 2,12,13|台湾|@ripaojiedian
-  network: tcp
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20027
-  server: 7.qzhm8l42g1.xyz
-  skip-cert-verify: true
-  sni: 7.qzhm8l42g1.xyz
-  type: trojan

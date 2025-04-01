@@ -1,105 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 2044143b-38bf-4204-bb5a-6df713593585
+  password: d93c5a8f-8c5c-4933-a049-767a910bf94a
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 2044143b-38bf-4204-bb5a-6df713593585
+  password: d93c5a8f-8c5c-4933-a049-767a910bf94a
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 2044143b-38bf-4204-bb5a-6df713593585
+  password: d93c5a8f-8c5c-4933-a049-767a910bf94a
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- country: 🇺🇸US
-  delay: 1205
-  name: 2|🇺🇸2 |  2.7MB/s
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: 2|🇺🇸7 |  4.4MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.208.31.71
-  type: ssr
-- cipher: aes-256-cfb
-  name: 2|🇺🇸10 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.217.15.41
-  type: ss
-- cipher: aes-256-cfb
-  delay: 975
-  name: 2|🇺🇸14 |  3.0MB/s
-  obfs: plain
-  obfs-param: ''
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 34.220.99.226
-  type: ssr
-- cipher: aes-256-cfb
-  name: 2|🇺🇸16 |  2.2MB/s
+  name: 1|🇺🇸5 |  5.8MB/s
   password: amazonskr05
   port: 443
   server: 52.37.220.218
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 2|🇺🇸18 |  1.9MB/s
-  network: tcp
-  port: 35001
-  server: 120.198.71.216
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2,12|🇯🇵 日本特殊|@ripaojiedian
+  name: 1|🇺🇸8 |  3.8MB/s
   password: amazonskr05
   port: 443
-  server: 44.247.247.209
-  tfo: false
+  server: 34.208.203.47
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇺🇸16 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.69.221.160
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -111,7 +52,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -121,11 +62,32 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 14|US_speednode_0051
+- name: 13|US_speednode_0051
   password: ypDt8RkT7J
   port: 43118
   server: 89.187.181.172
   skip-cert-verify: true
   sni: 89.187.181.172
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 7bf46192-0fac-4f8c-9355-e2ec66beb3dc
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 7bf46192-0fac-4f8c-9355-e2ec66beb3dc
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 7bf46192-0fac-4f8c-9355-e2ec66beb3dc
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
