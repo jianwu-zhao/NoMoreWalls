@@ -1,52 +1,104 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: d8b920ca-b2e2-41d8-9ac9-a02d9a56270c
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: d8b920ca-b2e2-41d8-9ac9-a02d9a56270c
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|🇰🇷1 |  4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.36.72.86
-  type: ss
-- client-fingerprint: random
-  name: 1|🇰🇷2 |  2.3MB/s
-  network: ws
-  port: 8880
-  server: 216.24.57.130
-  servername: mohsenfitshr.wibibin259.workers.dev
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: 1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa
-  ws-opts:
-    headers:
-      host: mohsenfitshr.wibibin259.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: f5cc151e-539a-4821-abd5-fbec271d12d2
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 2044143b-38bf-4204-bb5a-6df713593585
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 02 | 1x KR
-  password: f5cc151e-539a-4821-abd5-fbec271d12d2
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 2044143b-38bf-4204-bb5a-6df713593585
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇰🇷1 |  4.7MB/s
+  network: ws
+  port: 443
+  server: 172.82.16.99
+  servername: mn.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: mn.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 2|🇰🇷2 |  1.2MB/s
+  network: ws
+  port: 443
+  server: 162.159.153.217
+  servername: ml.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: ml.ylkszy.eu.org
+    path: /?ed=2560
+- name: 2|🇰🇷3 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 172.67.95.24
+  servername: ml.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: ml.ylkszy.eu.org
+    path: /?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇰🇷4 |  2.2MB/s
+  network: ws
+  port: 8080
+  server: 45.131.4.33
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /
+- name: 2|🇰🇷5 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 172.67.110.232
+  servername: ml.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: ml.ylkszy.eu.org
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

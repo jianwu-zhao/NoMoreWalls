@@ -1,46 +1,81 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: d8b920ca-b2e2-41d8-9ac9-a02d9a56270c
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: d8b920ca-b2e2-41d8-9ac9-a02d9a56270c
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: d8b920ca-b2e2-41d8-9ac9-a02d9a56270c
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: f5cc151e-539a-4821-abd5-fbec271d12d2
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 2044143b-38bf-4204-bb5a-6df713593585
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: f5cc151e-539a-4821-abd5-fbec271d12d2
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 2044143b-38bf-4204-bb5a-6df713593585
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: f5cc151e-539a-4821-abd5-fbec271d12d2
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 2044143b-38bf-4204-bb5a-6df713593585
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 7fc55eff-f0ab-4e24-9493-83d3289600cf
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬3 |  1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.140.70.168
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬4 |  1.8MB/s
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬5 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.214
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: 🇺🇸 US
+  delay: 944
+  name: 2,12|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.213.69.248
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
