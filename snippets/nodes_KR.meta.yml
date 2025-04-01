@@ -1,55 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 70f0901a-f99e-4a1a-82ec-6ddd393b321d
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 70f0901a-f99e-4a1a-82ec-6ddd393b321d
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1|🇰🇷1 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 135.84.76.115
-  servername: ml.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: ml.ylkszy.eu.org
-    path: /?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇰🇷2 |  4.4MB/s
-  network: ws
-  port: 443
-  server: 172.82.16.99
-  servername: mn.youlingkais.filegear-sg.me
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: mn.youlingkais.filegear-sg.me
-    path: /?ed=2560security=tls
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇰🇷3 |  4.4MB/s
+  name: 0|🇰🇷1 |  4.0MB/s
   network: ws
   port: 80
-  server: 45.131.4.115
+  server: 104.18.35.30
   servername: ''
   tls: false
   type: vless
@@ -58,11 +14,45 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: ''
+    path: /Telegram@JOKERRVPNJoin_Bade_Channel@JOKERRVPN/?ed=2550
+- cipher: aes-256-cfb
+  name: 0|🇰🇷2 |  3.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.67.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: c5eceef2-541a-4346-80f6-f542513d06ee
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: c5eceef2-541a-4346-80f6-f542513d06ee
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 8937acc3-8554-4a8b-b3ba-69bc6dcebf06
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: 8937acc3-8554-4a8b-b3ba-69bc6dcebf06
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: ws
   port: '443'
   server: kr.ttcc.tech
@@ -78,23 +68,9 @@ proxies:
     path: /41cfbd9d-d2da-4300-a142-b49068f7ad3d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.201.54.89
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 01 | 1x KR
-  password: d73ea07e-39c0-4dc9-ac33-d7c1ffbfde95
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 02 | 1x KR
-  password: d73ea07e-39c0-4dc9-ac33-d7c1ffbfde95
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
