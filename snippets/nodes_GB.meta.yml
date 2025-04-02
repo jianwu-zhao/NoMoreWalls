@@ -1,46 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: cc197ca0-61ab-44b4-a6c8-0861fe4d8bb0
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1,13|US_speednode_0077
-  network: ws
-  port: 80
-  server: 172.64.152.226
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: cc197ca0-61ab-44b4-a6c8-0861fe4d8bb0
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram@sinavm/?ed=2550
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  2.6MB/s
+  name: 2|🇬🇧1 |  5.0MB/s
   network: tcp
-  port: 14659
+  port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,13|NL_speednode_0064
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧2 |  4.8MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: FuIjBvQa.rIcKtMoUsE.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: FuIjBvQa.rIcKtMoUsE.InFo
+    path: /
+- name: 2|🇬🇧3 |  5.0MB/s
   network: ws
   port: 80
-  server: 45.131.4.33
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: false
+  server: 45.131.4.113
   tls: false
   type: vless
   udp: true
@@ -48,10 +52,10 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /
+    path: Telegram🇨🇳@WangCai2/?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0031
+  name: 2,14|CN_speednode_0031
   network: tcp
   port: 65053
   reality-opts:
@@ -65,7 +69,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧6 |  4.5MB/s
+  name: 2|🇬🇧5 |  3.5MB/s
   network: tcp
   port: 32055
   reality-opts:
@@ -75,7 +79,7 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84

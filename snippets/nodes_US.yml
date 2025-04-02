@@ -1,88 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: cc197ca0-61ab-44b4-a6c8-0861fe4d8bb0
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: cc197ca0-61ab-44b4-a6c8-0861fe4d8bb0
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: cc197ca0-61ab-44b4-a6c8-0861fe4d8bb0
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸1 |  2.6MB/s
-  network: ws
-  port: 22440
-  server: 198.23.184.195
-  servername: ny.likelike.ddns-ip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
-  ws-opts:
-    headers:
-      Host: ny.likelike.ddns-ip.net
-    path: /
-- cipher: aes-256-gcm
-  name: 1|🇺🇸10 |  5.2MB/s
-  password: 3dfP6PjGUCzvML7n
-  port: 16339
-  server: 97.64.23.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸27 |  2.8MB/s
-  network: ws
-  port: 22440
-  server: 198.23.184.195
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
-  ws-headers:
-    Host: ny.likelike.ddns-ip.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸38 |  2.3MB/s
-  network: tcp
-  port: 32246
-  raw:
-    add: 38.209.65.51
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 3ded5f28-0704-4369-c011-68309fd94cd0
-    net: tcp
-    path: /
-    port: 32246
-    ps: 🇺🇸 US_323
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 38.209.65.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ded5f28-0704-4369-c011-68309fd94cd0
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -94,7 +34,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -107,7 +47,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
   port: '2053'
   server: usa.visa.com
