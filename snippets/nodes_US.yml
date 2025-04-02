@@ -1,25 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: e8f04e7c-cf24-478d-9ff8-75a596eec805
+  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: e8f04e7c-cf24-478d-9ff8-75a596eec805
+  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: e8f04e7c-cf24-478d-9ff8-75a596eec805
+  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸24 |  3.3MB/s
+  network: tcp
+  port: '34013'
+  server: v2-us2-zx.netcar.live
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
+  ws-headers:
+    Host: v2-us2-zx.netcar.live
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -37,31 +50,30 @@ proxies:
     headers:
       Host: hax.hy.cloudns.ch
     path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸27 |  5.9MB/s
-  port: 34013
-  server: v2-us2-zx.netcar.live
-  tls: false
-  type: vmess
-  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸31 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.222.2.112
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: f6b8811f-5ca6-44c6-95eb-4de001036a34
+  password: c5fef495-f7f6-4193-8945-709c622f058c
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: f6b8811f-5ca6-44c6-95eb-4de001036a34
+  password: c5fef495-f7f6-4193-8945-709c622f058c
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: f6b8811f-5ca6-44c6-95eb-4de001036a34
+  password: c5fef495-f7f6-4193-8945-709c622f058c
   port: 36215
   server: free.2weradf.xyz
   type: ss
