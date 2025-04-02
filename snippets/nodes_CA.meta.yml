@@ -1,34 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 79b635a9-fbf5-43bf-a02b-4ea52fd07daa
+  password: e8f04e7c-cf24-478d-9ff8-75a596eec805
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇨🇦1 |  4.0MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  name: 1|🇨🇦2 |  3.8MB/s
+  name: 1|🇨🇦1 |  5.2MB/s
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 37407
   server: 155.248.219.197
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇨🇦2 |  5.6MB/s
+  network: tcp
+  port: 16700
+  reality-opts:
+    public-key: K48zvmrLwQOoceMpDYbkMrZl8BwTV_8t_7WLXKO8NRs
+    short-id: 3356374f
+  server: 155.248.219.197
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
 - cipher: chacha20-ietf-poly1305
   name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: f05a810c-5ae0-4da4-aed9-55996525fc32
+  password: f6b8811f-5ca6-44c6-95eb-4de001036a34
   port: 36441
   server: free.2weradf.xyz
   type: ss
