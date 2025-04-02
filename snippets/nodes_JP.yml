@@ -1,70 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: a954a929-b6a7-4e44-a009-96ce5ff78e7b
+  password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: a954a929-b6a7-4e44-a009-96ce5ff78e7b
+  password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: a954a929-b6a7-4e44-a009-96ce5ff78e7b
+  password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇯🇵1 |  1.2MB/s
-  network: ws
-  port: 443
-  server: ip4-jp1.vp1000.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 926028df-ece0-42b1-9aaf-d43093ba4a0c
-  ws-opts:
-    headers:
-      Host: ip4-jp1.vp1000.net
-    path: /pulicpaylfastpDisney
-- cipher: aes-256-cfb
-  name: 1|🇯🇵4 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 01 | 1x JP
-  password: a46e4a35-224c-4442-b772-d8533853fa6a
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 02 | 1x JP
-  password: a46e4a35-224c-4442-b772-d8533853fa6a
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 03 | 1x JP
-  password: a46e4a35-224c-4442-b772-d8533853fa6a
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -76,7 +34,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 11|🇯🇵 日本2|@ripaojiedian
   password: 9X6HM83GN02K8GDR
   port: 18005
   server: 156.231.104.15
@@ -84,7 +42,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   password: DXLMD9TRFJID5RBE
   port: 18003
   server: 156.231.104.13
@@ -92,7 +50,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 11|🇯🇵 日本4|@ripaojiedian
   password: c33861aa-18ce-4436-a3f5-81ff8f3c6e25
   port: 48150
   server: rk2.nynode0.cc
@@ -100,7 +58,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本5|@ripaojiedian
+  name: 11|🇯🇵 日本5|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -112,7 +70,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.207.150.238
