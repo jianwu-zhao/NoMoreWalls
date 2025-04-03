@@ -1,57 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 542ebf21-0875-4ac1-bb37-e50f74d7598c
+  password: d2b87515-4d85-4b70-8879-41ac1f85b2e5
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 542ebf21-0875-4ac1-bb37-e50f74d7598c
+  password: d2b87515-4d85-4b70-8879-41ac1f85b2e5
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 542ebf21-0875-4ac1-bb37-e50f74d7598c
+  password: d2b87515-4d85-4b70-8879-41ac1f85b2e5
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 4a07a5ec-b329-455c-a8b0-19eda083674a
+  name: 2|🇹🇼 台湾 01 | 1x TW
+  password: d7deda38-3e1b-4349-aa44-38d88b02ac02
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 4a07a5ec-b329-455c-a8b0-19eda083674a
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: d7deda38-3e1b-4349-aa44-38d88b02ac02
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 4a07a5ec-b329-455c-a8b0-19eda083674a
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: d7deda38-3e1b-4349-aa44-38d88b02ac02
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 2|🇹🇼1 |  1.9MB/s
-  password: 79739832-b888-415a-a454-8b53911c944a
-  port: 30332
-  server: 111.247.40.56
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 2|🇹🇼23 |  3.5MB/s
-  password: f203200f-f6a4-49d8-893e-6559804d79ae
-  port: 50204
-  server: bgp-xdd.blue-bgp.xyz
+  name: 12,13|台湾|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 104.17.137.127
+  servername: tw.niskakowski.ggff.net
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
+  ws-opts:
+    headers:
+      Host: tw.niskakowski.ggff.net
+    path: /aa
