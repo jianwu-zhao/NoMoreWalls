@@ -1,58 +1,155 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 63b77fd2-8972-479a-b9b7-8ca36ec04411
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 63b77fd2-8972-479a-b9b7-8ca36ec04411
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 63b77fd2-8972-479a-b9b7-8ca36ec04411
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵1 |  6.3MB/s
+  network: tcp
+  port: 25768
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇯🇵2 |  5.8MB/s
+  password: 4657d049-1039-3c48-a194-a520909fe268
+  port: 20071
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x71.flybar.work
+  type: trojan
   udp: true
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵3 |  6.2MB/s
+  network: tcp
+  port: 17278
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇯🇵4 |  6.3MB/s
+  password: 4657d049-1039-3c48-a194-a520909fe268
+  port: 20142
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z142.hongkongnode.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵5 |  3.2MB/s
+  network: tcp
+  port: 11839
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇯🇵6 |  4.3MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.178
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
+- name: 0|🇯🇵7 |  3.1MB/s
+  password: 4657d049-1039-3c48-a194-a520909fe268
+  port: 20059
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x59.flybar.work
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵8 |  6.2MB/s
+  network: tcp
+  port: 31735
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇯🇵9 |  6.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵10 |  1.0MB/s
+  network: tcp
+  port: 40125
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵11 |  6.9MB/s
+  network: tcp
+  port: 11839
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gy01.hunheiydd.xyz
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,13|CN_speednode_0023
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇯🇵1 |  4.7MB/s
+  name: 0|🇯🇵13 |  3.6MB/s
   network: ws
-  port: 8443
-  server: 188.114.96.3
-  servername: GOzaRGAh.vALidBv7996.Ir
-  tls: true
+  port: 80
+  server: 45.131.4.131
+  servername: ''
+  tls: false
   type: vless
   udp: false
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: Telegram@V2ray_Alpha/?ed=2560
-- client-fingerprint: chrome
-  name: 2|🇯🇵2 |  4.3MB/s
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  servername: GOZArgAH.vaLIDbV7996.IR
-  tls: true
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: GOZArgAH.vaLIDbV7996.IR
-    path: /oiBBYyE4WkprI2wD?ed=2560
+    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇯🇵3 |  1.0MB/s
+  name: 0|🇯🇵14 |  2.2MB/s
   network: ws
   port: 80
   server: 45.131.4.188
@@ -65,37 +162,9 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇯🇵4 |  1.4MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.245
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram@ShadowProxy66
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵5 |  1.4MB/s
-  network: tcp
-  port: 16497
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵6 |  5.6MB/s
+  name: 0|🇯🇵15 |  5.6MB/s
   network: tcp
   port: 13989
   reality-opts:
@@ -105,62 +174,56 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇯🇵16 |  5.8MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.179
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵7 |  1.0MB/s
+  name: 0|🇯🇵17 |  6.1MB/s
   network: tcp
-  port: 11839
+  port: 48121
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: beiyong.dynuddns.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇯🇵8 |  2.3MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.35
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇯🇵9 |  2.4MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.164
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: ''
-- name: 2|🇯🇵10 |  1.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -173,7 +236,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|日本2|@ripaojiedian
+  name: 11,12|日本2|@ripaojiedian
   network: ws
   port: '443'
   server: u2.huvicloud.com
@@ -188,7 +251,7 @@ proxies:
       Host: u2.huvicloud.com
     path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
 - client-fingerprint: chrome
-  name: 12,14|GB_speednode_0050
+  name: 11,13|GB_speednode_0050
   password: '!!str 74260700211203800'
   port: 443
   server: powerful-grackle.shiner427.skin
@@ -198,7 +261,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 11|🇯🇵 日本4|@ripaojiedian
   password: 9d1ca3a4-fe0f-4afc-ab10-66a0476093cc
   port: 22094
   server: rk2.nynode0.cc
@@ -206,7 +269,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本5|@ripaojiedian
+  name: 11|🇯🇵 日本5|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -218,13 +281,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.48.116
   tfo: false
   type: ss
-- name: 13,14|GB_speednode_0051
+- name: 12,13|GB_speednode_0051
   network: tcp
   password: '!!str 74260700211203800'
   port: 443

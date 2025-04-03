@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: 63b77fd2-8972-479a-b9b7-8ca36ec04411
+  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: 63b77fd2-8972-479a-b9b7-8ca36ec04411
+  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.62.168
@@ -23,13 +23,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 47.129.230.32
   tfo: false
   type: ss
-- name: 14|KR_speednode_0055
+- name: 13|KR_speednode_0055
   network: ws
   port: 12205
   server: 121.135.67.36
@@ -43,7 +43,7 @@ proxies:
     headers:
       Host: edccw.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 14|KR_speednode_0056
+- name: 13|KR_speednode_0056
   network: ws
   port: 30019
   server: 59.15.182.92
@@ -57,7 +57,7 @@ proxies:
     headers:
       Host: edccw.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 14|KR_speednode_0057
+- name: 13|KR_speednode_0057
   network: ws
   port: 12222
   server: 59.25.31.189
@@ -71,7 +71,7 @@ proxies:
     headers:
       Host: edccw.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 14|KR_speednode_0058
+- name: 13|KR_speednode_0058
   network: ws
   port: 18012
   server: 218.152.153.20
