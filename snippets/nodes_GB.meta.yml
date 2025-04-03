@@ -1,56 +1,54 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 864f7ca4-5ebe-4e2c-bb93-b245c31f14ae
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 15252fe5-fb83-4aba-9fc5-1621c80fc419
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 864f7ca4-5ebe-4e2c-bb93-b245c31f14ae
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: c836a80f-0ac1-41fe-b034-760b7fd05877
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 15252fe5-fb83-4aba-9fc5-1621c80fc419
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  5.0MB/s
-  network: tcp
-  port: 5785
-  server: 79.127.70.68
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: fe1de076-c9a8-4e62-b9d1-e834cdc7f25f
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧2 |  4.6MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: FuIjBvQa.rIcKtMoUsE.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: FuIjBvQa.rIcKtMoUsE.InFo
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 4720c30b-49d8-4ddb-9a20-2479e68164b0
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧3 |  2.8MB/s
+  name: 2,14|CN_speednode_0012
+  network: tcp
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧2 |  4.6MB/s
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧3 |  5.6MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -60,31 +58,6 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇬🇧4 |  5.5MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.200
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed
-- name: 2,14|NL_speednode_0055
-  network: ws
-  port: 80
-  server: 45.131.5.151
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
