@@ -1,57 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 4b00101f-e41b-4edc-b36c-bd2b5ffa8a8a
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: afb8d0bf-97ef-4b21-ad2d-020c99fe4ef0
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 4b00101f-e41b-4edc-b36c-bd2b5ffa8a8a
-  port: 36271
-  server: free.2weradf.xyz
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: afb8d0bf-97ef-4b21-ad2d-020c99fe4ef0
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇬🇧1 |  2.2MB/s
-  network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  1.4MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇬🇧3 |  3.8MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧1 |  1.1MB/s
   network: ws
-  port: 443
-  server: m2-1cm.pages.dev
-  servername: M2-1CM.paGes.DeV
-  tls: true
+  port: 8080
+  server: 45.131.4.33
+  servername: ''
+  tls: false
   type: vless
-  uuid: 0ef0630e-544c-4ed0-a4de-861f14695f37
+  udp: false
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
-      Host: M2-1CM.paGes.DeV
-    path: /ognicwivyrkxih6r
+      Host: gozargah.validbv7996.ir
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧4 |  5.1MB/s
+  name: 1|🇬🇧2 |  5.5MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -61,7 +41,21 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: bb68fac8-ce35-4778-af9d-8b77dfbc2d2a
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: bb68fac8-ce35-4778-af9d-8b77dfbc2d2a
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
