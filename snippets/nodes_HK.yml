@@ -1,65 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 15252fe5-fb83-4aba-9fc5-1621c80fc419
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 15252fe5-fb83-4aba-9fc5-1621c80fc419
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 4720c30b-49d8-4ddb-9a20-2479e68164b0
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 4b00101f-e41b-4edc-b36c-bd2b5ffa8a8a
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 4720c30b-49d8-4ddb-9a20-2479e68164b0
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 4b00101f-e41b-4edc-b36c-bd2b5ffa8a8a
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰1 |  3.5MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.67.133.111
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: whk.357567.xyz
-    id: c2723c0e-b601-475b-9058-dc89332e9813
-    net: ws
-    path: /c2723c0e-b601-475b-9058-dc89332e9813
-    port: '443'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: whk.357567.xyz
-    tls: tls
-    type: '---'
-    v: '2'
-  server: 172.67.133.111
-  servername: whk.357567.xyz
-  tls: true
-  type: vmess
-  uuid: c2723c0e-b601-475b-9058-dc89332e9813
-  ws-opts:
-    headers:
-      Host: whk.357567.xyz
-    path: /c2723c0e-b601-475b-9058-dc89332e9813
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   password: 9b0ea2c9-c013-4b13-9ba6-fceae06e69f4
   port: 19873
   server: rk1.nynode0.cc
@@ -68,7 +24,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 11|🇭🇰 香港2|@ripaojiedian
   port: 18279
   server: 103.30.76.96
   skip-cert-verify: false
@@ -78,7 +34,7 @@ proxies:
   uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港3|@ripaojiedian
+  name: 11|🇭🇰 香港3|@ripaojiedian
   password: f203200f-f6a4-49d8-893e-6559804d79ae
   port: 50103
   server: bgp-xdd.blue-bgp.xyz
@@ -87,7 +43,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港5|@ripaojiedian
+  name: 11|🇭🇰 香港5|@ripaojiedian
   port: 41002
   server: 120.232.153.40
   skip-cert-verify: false
@@ -97,7 +53,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|香港2|@ripaojiedian
+  name: 12|香港2|@ripaojiedian
   network: tcp
   port: '18279'
   server: 103.30.76.96
@@ -107,7 +63,7 @@ proxies:
   uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
 - alterId: 0
   cipher: auto
-  name: 13|香港5|@ripaojiedian
+  name: 12|香港5|@ripaojiedian
   network: tcp
   port: '41002'
   server: 120.232.153.40
