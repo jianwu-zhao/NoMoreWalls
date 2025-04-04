@@ -1,81 +1,78 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: 1001cbc7-5c58-41e4-9f31-ebefe0889ad4
+  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: 1001cbc7-5c58-41e4-9f31-ebefe0889ad4
+  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: 1001cbc7-5c58-41e4-9f31-ebefe0889ad4
+  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 2208aa78-bbb8-471e-a601-9187b558b1a7
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 2208aa78-bbb8-471e-a601-9187b558b1a7
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 2208aa78-bbb8-471e-a601-9187b558b1a7
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 880
-  name: 2|🇯🇵1 |  1.5MB/s
+  name: 1|🇯🇵2 |  5.5MB/s
   password: amazonskr05
   port: 443
-  server: 13.112.73.126
+  server: 52.198.238.20
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 2|🇯🇵2 |  2.4MB/s
-  network: ws
-  port: 422
-  server: 9c9ed1dd-submo0-sy5h80-37m3.tky02.east.189ti.com
+  name: 1|🇯🇵4 |  3.7MB/s
+  port: 3684
+  server: 886a7309-submo0-svbnjs-c618.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
-  ws-opts:
-    headers:
-      Host: webrtcpunch.video.qq.com
-    path: /
+  uuid: 1e0f519c-da50-11ef-baa9-f23c93141fad
 - cipher: aes-256-cfb
-  name: 2|🇯🇵4 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.199.237.27
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇯🇵11 |  3.3MB/s
+  name: 1|🇯🇵5 |  6.1MB/s
   password: amazonskr05
   port: 443
   server: 54.199.167.92
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|🇯🇵6 |  1.5MB/s
+  port: 4151
+  server: 1e34b97e-submo0-sv7alj-ctxx.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
+- cipher: aes-256-cfb
+  name: 1|🇯🇵7 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.209.247
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|🇯🇵12 |  4.3MB/s
+  port: 4151
+  server: 6bfe8cbd-submo0-sy5h80-37m3.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 1|🇯🇵15 |  1.3MB/s
+  port: 4151
+  server: e569ecc3-submo0-sudpdj-d5nv.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: a93ae9ba-091d-11f0-8d46-f23c9313b177
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -88,7 +85,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|日本2|@ripaojiedian
+  name: 11,12|日本2|@ripaojiedian
   network: ws
   port: '10390'
   server: 222.104.240.250
@@ -104,7 +101,7 @@ proxies:
     path: /123
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   password: LC0JUMZIUL16S24B
   port: 18012
   server: 156.231.104.22
@@ -113,7 +110,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 11|🇯🇵 日本4|@ripaojiedian
   port: 28588
   server: pqcaqxvt.xn--fiqs8sjz2bull.com
   skip-cert-verify: false
@@ -123,7 +120,7 @@ proxies:
   uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本5|@ripaojiedian
+  name: 11|🇯🇵 日本5|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -135,7 +132,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.210.217
@@ -143,7 +140,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本4|@ripaojiedian
+  name: 12|日本4|@ripaojiedian
   network: tcp
   port: '28588'
   server: pqcaqxvt.xn--fiqs8sjz2bull.com
@@ -151,3 +148,24 @@ proxies:
   tls: false
   type: vmess
   uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 01 | 1x JP
+  password: 8d0bbe14-7268-4e30-9dea-d083e6789d46
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 02 | 1x JP
+  password: 8d0bbe14-7268-4e30-9dea-d083e6789d46
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 03 | 1x JP
+  password: 8d0bbe14-7268-4e30-9dea-d083e6789d46
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
