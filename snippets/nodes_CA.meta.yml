@@ -1,19 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 9100b53b-7d4f-470b-985b-85a5d2d158c5
+  password: 1001cbc7-5c58-41e4-9f31-ebefe0889ad4
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 48e325de-ed8e-4bd6-9438-4b63150bb369
+  password: 2208aa78-bbb8-471e-a601-9187b558b1a7
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  3.1MB/s
+- auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  name: 2|🇨🇦1 |  4.4MB/s
+  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  port: 30300
+  server: 132.145.105.88
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 2|🇨🇦2 |  5.9MB/s
   network: ws
   port: 443
   server: 8.222.157.20
@@ -27,20 +35,18 @@ proxies:
     headers:
       Host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦2 |  4.1MB/s
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇨🇦3 |  1.1MB/s
+  network: tcp
+  port: 16011
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
   tls: true
   type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0001
