@@ -1,51 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 442c4bcc-f242-48d4-bd3c-b8a5551f66e9
+  password: 5e7de13d-85d4-4e2e-a022-4fe9471d5be1
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 442c4bcc-f242-48d4-bd3c-b8a5551f66e9
+  password: 5e7de13d-85d4-4e2e-a022-4fe9471d5be1
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 442c4bcc-f242-48d4-bd3c-b8a5551f66e9
+  password: 5e7de13d-85d4-4e2e-a022-4fe9471d5be1
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
-  password: IR5ONQ6V2RB5AAPW
-  port: 21005
-  server: 150.116.11.9
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: fdd35439-8775-4d2a-984b-463e31498c97
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 7af9f3fd-f608-4874-abee-ce77821a1cc3
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: fdd35439-8775-4d2a-984b-463e31498c97
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 7af9f3fd-f608-4874-abee-ce77821a1cc3
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: fdd35439-8775-4d2a-984b-463e31498c97
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 7af9f3fd-f608-4874-abee-ce77821a1cc3
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 2|🇹🇼5 |  1.9MB/s
+  password: 32b598e2-2bf7-4af1-8d17-306f839dde74
+  port: 27201
+  server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: IR5ONQ6V2RB5AAPW
+  port: 21005
+  server: 150.116.11.9
+  tfo: false
+  type: ss

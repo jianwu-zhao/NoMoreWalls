@@ -1,14 +1,69 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 442c4bcc-f242-48d4-bd3c-b8a5551f66e9
+  password: 5e7de13d-85d4-4e2e-a022-4fe9471d5be1
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 7af9f3fd-f608-4874-abee-ce77821a1cc3
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧1 |  4.0MB/s
+  network: ws
+  port: 8443
+  server: 188.114.96.3
+  servername: GOzaRGAh.vALidBv7996.Ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: Telegram@V2ray_Alpha/?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧2 |  1.0MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.27
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧3 |  4.0MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: FuIjBvQa.rIcKtMoUsE.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: FuIjBvQa.rIcKtMoUsE.InFo
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧1 |  1.1MB/s
+  name: 2|🇬🇧4 |  4.8MB/s
   network: tcp
   port: 49699
   reality-opts:
@@ -18,21 +73,20 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  1.0MB/s
-  network: tcp
-  port: 47151
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.amazon.com
-  tls: true
+- name: 2|🇬🇧5 |  1.8MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.164
+  tls: false
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0023
+  name: 2,14|CN_speednode_0023
   network: tcp
   port: 65053
   reality-opts:
@@ -44,39 +98,7 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧4 |  2.3MB/s
-  network: tcp
-  port: 22069
-  server: 109.107.159.69
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 361427b1-5cf9-4ae6-bd1b-5dbf99a21b61
-  ws-opts:
-    headers:
-      Host: '---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net'
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧5 |  2.4MB/s
-  network: ws
-  port: 80
-  server: 104.18.35.30
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram@JOKERRVPNJoin_Bade_Channel@JOKERRVPN
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -86,7 +108,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇬🇧 英国|@ripaojiedian
+  name: 12|🇬🇧 英国|@ripaojiedian
   password: QIXWUPZT9O5EUEWK
   port: 19014
   server: 206.245.211.24
@@ -94,16 +116,9 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇬🇧 英国2|@ripaojiedian
+  name: 12|🇬🇧 英国2|@ripaojiedian
   password: 5U3COGGRJPO2DQNF
   port: 19001
   server: 206.245.211.11
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: fdd35439-8775-4d2a-984b-463e31498c97
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
