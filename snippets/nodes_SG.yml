@@ -1,65 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
+  password: 9100b53b-7d4f-470b-985b-85a5d2d158c5
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
+  password: 9100b53b-7d4f-470b-985b-85a5d2d158c5
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
+  password: 9100b53b-7d4f-470b-985b-85a5d2d158c5
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
+  password: 48e325de-ed8e-4bd6-9438-4b63150bb369
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
+  password: 48e325de-ed8e-4bd6-9438-4b63150bb369
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
+  password: 48e325de-ed8e-4bd6-9438-4b63150bb369
   port: 31175
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬1 |  2.2MB/s
-  network: tcp
-  port: 3683
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
-  ws-headers:
-    Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  ws-path: /
-- cipher: aes-256-cfb
-  delay: 522
-  name: 2|🇸🇬5 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.77.19
   type: ss
   udp: true
 - cipher: aes-256-gcm

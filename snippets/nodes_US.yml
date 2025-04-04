@@ -1,60 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
+  password: 9100b53b-7d4f-470b-985b-85a5d2d158c5
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
+  password: 9100b53b-7d4f-470b-985b-85a5d2d158c5
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
+  password: 9100b53b-7d4f-470b-985b-85a5d2d158c5
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
+  password: 48e325de-ed8e-4bd6-9438-4b63150bb369
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
+  password: 48e325de-ed8e-4bd6-9438-4b63150bb369
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
+  password: 48e325de-ed8e-4bd6-9438-4b63150bb369
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- allowInsecure: '1'
-  name: 2|🇺🇸8 |  5.1MB/s
-  network: ws
-  password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
-  port: 443
-  server: 107.173.87.40
-  skip-cert-verify: true
-  sni: golinkwuxian.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 111.golinkwuxian.top
-    path: /apple
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
