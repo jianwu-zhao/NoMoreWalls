@@ -1,130 +1,224 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 72ca78b8-a49d-49d7-a585-4b3fd822503b
+  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 72ca78b8-a49d-49d7-a585-4b3fd822503b
+  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇰🇷1 |  3.0MB/s
-  network: ws
-  port: 443
-  server: 152.70.57.182
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷2 |  2.1MB/s
-  network: ws
-  port: 443
-  server: 8.222.157.20
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷3 |  4.7MB/s
-  network: ws
-  port: 30012
-  server: 211.218.223.130
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷4 |  5.0MB/s
-  network: ws
-  port: 443
-  server: toy-people.com
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷5 |  5.0MB/s
-  network: ws
-  port: 443
-  server: 8.219.68.154
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷6 |  1.9MB/s
-  network: ws
-  port: 443
-  server: otto.ns.cloudflare.com
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷7 |  4.0MB/s
-  network: ws
-  port: 443
-  server: 8.220.218.105
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylka.dpdns.org
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 3d903a9e-6b31-4166-9413-902f631dd8ac
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 3d903a9e-6b31-4166-9413-902f631dd8ac
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇰🇷1 |  4.0MB/s
+  network: ws
+  port: 8443
+  server: 152.69.199.70
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷2 |  5.1MB/s
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  servername: GOZArgAH.vaLIDbV7996.IR
+  tls: true
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: GOZArgAH.vaLIDbV7996.IR
+    path: /oiBBYyE4WkprI2wD?ed=2560
+- name: 2|🇰🇷3 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 150.230.216.107
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷4 |  5.6MB/s
+  network: ws
+  port: 443
+  server: damien.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷5 |  1.1MB/s
+  network: ws
+  port: 443
+  server: sullivan.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷6 |  5.3MB/s
+  network: ws
+  port: 444
+  server: 45.154.98.230
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷7 |  1.2MB/s
+  network: ws
+  port: 443
+  server: wilson.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷8 |  1.7MB/s
+  network: ws
+  port: 443
+  server: time.is
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷9 |  3.3MB/s
+  network: ws
+  port: 443
+  server: 198.62.62.4
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷10 |  5.8MB/s
+  network: ws
+  port: 443
+  server: dylan.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷11 |  3.2MB/s
+  network: ws
+  port: 443
+  server: 192.9.139.160
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷12 |  6.1MB/s
+  network: ws
+  port: 443
+  server: nikon.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷13 |  3.5MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.27
+  servername: gozargah.validbv7996.ir
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
+- name: 2|🇰🇷14 |  5.5MB/s
+  network: ws
+  port: 443
+  server: braden.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian

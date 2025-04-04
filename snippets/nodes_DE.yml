@@ -1,18 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 72ca78b8-a49d-49d7-a585-4b3fd822503b
+  password: bcc77e5b-1031-40bf-b58b-2ea9edb77a93
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 3d903a9e-6b31-4166-9413-902f631dd8ac
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 22eaf7eb-3aa8-493d-87f7-785d4aa2f915
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪2 |  5.7MB/s
+  network: ws
+  port: 2096
+  raw:
+    add: 104.21.48.1
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: frank1-sub.890699.xyz
+    id: f94d4633-b815-4d22-d3ab-117c60bcbfad
+    net: ws
+    path: /frank1-sub.890699.xyz
+    port: '2096'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: frank1-sub.890699.xyz
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.48.1
+  servername: frank1-sub.890699.xyz
+  tls: true
+  type: vmess
+  uuid: f94d4633-b815-4d22-d3ab-117c60bcbfad
+  ws-opts:
+    headers:
+      Host: frank1-sub.890699.xyz
+    path: /frank1-sub.890699.xyz
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇩🇪 德国|@ripaojiedian
