@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 1051055a-4e3d-487e-ad2e-01082dda6c89
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 3dd06512-f31f-48b9-921f-8da7f0cc183b
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 1051055a-4e3d-487e-ad2e-01082dda6c89
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 3dd06512-f31f-48b9-921f-8da7f0cc183b
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 1051055a-4e3d-487e-ad2e-01082dda6c89
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 3dd06512-f31f-48b9-921f-8da7f0cc183b
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -34,7 +34,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -45,7 +45,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   network: ws
   password: c97cf46e-1554-36cb-8b36-c3556b883dc4
   port: 443
@@ -58,7 +58,7 @@ proxies:
       Host: us2a.88888007.xyz
     path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
 - client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   network: ws
   password: c97cf46e-1554-36cb-8b36-c3556b883dc4
   port: 443
@@ -71,7 +71,7 @@ proxies:
       Host: us3a.88888007.xyz
     path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
 - client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
+  name: 11,12|美国5|@ripaojiedian
   network: tcp
   password: 3ffa664f-364a-4937-a314-1d9f02ad8458
   port: 32001
@@ -80,7 +80,7 @@ proxies:
   sni: pull-flv-t11.douyincdn.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12|🇺🇸 美国6|@ripaojiedian
+  name: 11|🇺🇸 美国6|@ripaojiedian
   network: ws
   password: c97cf46e-1554-36cb-8b36-c3556b883dc4
   port: 443
@@ -92,7 +92,7 @@ proxies:
     headers:
       Host: us4a.88888007.xyz
     path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
-- name: 13|美国3|@ripaojiedian
+- name: 12|美国3|@ripaojiedian
   network: ws
   password: c97cf46e-1554-36cb-8b36-c3556b883dc4
   port: 443
@@ -100,7 +100,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F92024db4-eadf-4cd1-b7e5-87d047d353f0'
-- name: 13|美国4|@ripaojiedian
+- name: 12|美国4|@ripaojiedian
   network: ws
   password: c97cf46e-1554-36cb-8b36-c3556b883dc4
   port: 443
@@ -108,7 +108,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F92024db4-eadf-4cd1-b7e5-87d047d353f0'
-- name: 13|美国6|@ripaojiedian
+- name: 12|美国6|@ripaojiedian
   network: ws
   password: c97cf46e-1554-36cb-8b36-c3556b883dc4
   port: 443
@@ -116,3 +116,24 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F92024db4-eadf-4cd1-b7e5-87d047d353f0'
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: b2336a9b-f641-4817-aa88-3874046adf25
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: b2336a9b-f641-4817-aa88-3874046adf25
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: b2336a9b-f641-4817-aa88-3874046adf25
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
