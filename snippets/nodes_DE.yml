@@ -1,33 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- allowInsecure: ''
-  name: 1|🇩🇪1 |  4.4MB/s
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.156.49.184
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇩🇪 德国|@ripaojiedian
-  password: B4SLT7LEQF46Y6Z6
-  port: 20030
-  server: 45.154.207.246
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 8d0bbe14-7268-4e30-9dea-d083e6789d46
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: a8041f1c-3505-43ba-866e-bb982f31b3f4
   port: 31471
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 64b3c755-943c-4a2f-b81d-dd4e6486b1bf
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true

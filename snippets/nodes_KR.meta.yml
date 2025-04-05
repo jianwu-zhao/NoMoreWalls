@@ -1,72 +1,54 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: d39f3dbd-5b04-4354-ad2a-60d64fbe9936
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1|🇰🇷1 |  2.8MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.188
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇰🇷2 |  4.4MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.35
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.129.51.201
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 01 | 1x KR
-  password: 8d0bbe14-7268-4e30-9dea-d083e6789d46
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: a8041f1c-3505-43ba-866e-bb982f31b3f4
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 02 | 1x KR
-  password: 8d0bbe14-7268-4e30-9dea-d083e6789d46
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: a8041f1c-3505-43ba-866e-bb982f31b3f4
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 64b3c755-943c-4a2f-b81d-dd4e6486b1bf
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 64b3c755-943c-4a2f-b81d-dd4e6486b1bf
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 733
+  name: 2|🇰🇷1 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.67.225
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|韩国|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: v28.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
