@@ -1,109 +1,73 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: c4addf0e-ac7c-422b-b355-03953d0401d7
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 0|🇩🇪1 |  5.7MB/s
+  network: ws
+  port: 2053
+  server: zula.ir
+  servername: all22.kikforwindows.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 78905d87-0266-4825-868d-3069e88d1201
+  ws-opts:
+    headers:
+      Host: all22.kikforwindows.com
+    path: /containers/de
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 0|🇩🇪2 |  5.6MB/s
+  network: tcp
+  port: 577
+  reality-opts:
+    public-key: AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8
+    short-id: 9b28132c703433
+  server: 162.55.36.107
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: bf4631cc-27eb-4b8e-ab85-5db1ddab6125
+- name: 0|🇩🇪3 |  5.1MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.214
+  servername: gozargah.validbv7996.ir
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇩🇪4 |  5.3MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 9593888c-df23-4060-bed5-5a787e5832c7
+  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪1 |  1.0MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.99
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪2 |  1.5MB/s
-  network: ws
-  port: 18010
-  server: 2.188.233.149
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 1b9dabd6-b893-4cb2-99c9-9400f4f4881f
-- name: 2|🇩🇪3 |  4.4MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.164
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  1.2MB/s
-  network: ws
-  port: 8880
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 6a7e6175-21e3-4c9f-b1bd-bd17046d3696
-  ws-opts:
-    headers:
-      Host: VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.
-    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  1.9MB/s
-  network: ws
-  port: 18010
-  server: 2.188.233.150
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 1b9dabd6-b893-4cb2-99c9-9400f4f4881f
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪6 |  2.2MB/s
-  network: ws
-  port: 18010
-  server: 2.188.233.148
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 1b9dabd6-b893-4cb2-99c9-9400f4f4881f
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇩🇪7 |  3.0MB/s
-  network: ''
-  port: 443
-  server: 204.10.194.78
-  servername: yfnl1.xn--4gq62f52gppi29k.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT

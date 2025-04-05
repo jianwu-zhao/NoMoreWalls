@@ -1,61 +1,76 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: c4addf0e-ac7c-422b-b355-03953d0401d7
-  port: 36171
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.179.52.175
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: c4addf0e-ac7c-422b-b355-03953d0401d7
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: c4addf0e-ac7c-422b-b355-03953d0401d7
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬3 |  1.6MB/s
+  port: 3681
+  server: a38c20dc-sudhc0-svm3vt-czv5.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬6 |  6.0MB/s
+  port: 4135
+  server: 884b8b44-sudhc0-svm3vt-czv5.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬8 |  3.0MB/s
+  port: 4137
+  server: 77ccebe9-sudhc0-syoixd-bm0y.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: fb8812ae-dcb5-11ef-a57d-f23c9313b177
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 9593888c-df23-4060-bed5-5a787e5832c7
+  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 9593888c-df23-4060-bed5-5a787e5832c7
+  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 9593888c-df23-4060-bed5-5a787e5832c7
+  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇸🇬2 |  3.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.0.50.161
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 557
-  name: 2|🇸🇬3 |  3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.48.116
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
