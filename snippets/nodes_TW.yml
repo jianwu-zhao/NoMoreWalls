@@ -1,59 +1,59 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇼4 |  4.8MB/s
-  port: 3690
-  server: 6ec77a24-sudhc0-sv0ksy-1l5c.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 4aecd339-9094-11ef-96ff-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇼7 |  6.2MB/s
-  port: 3690
-  server: 727846db-sudhc0-svm3vt-czv5.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 6ace6009-586a-4062-8337-6c49a01e3e08
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 6ace6009-586a-4062-8337-6c49a01e3e08
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 6ace6009-586a-4062-8337-6c49a01e3e08
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 6acd33b2-ec62-4bb1-8cdb-19067281e1e5
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 6acd33b2-ec62-4bb1-8cdb-19067281e1e5
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 6acd33b2-ec62-4bb1-8cdb-19067281e1e5
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇹🇼6 |  1.4MB/s
+  port: 3690
+  server: 6ec77a24-sudhc0-sv0ksy-1l5c.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 4aecd339-9094-11ef-96ff-f23c9313b177
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: D9EOTB2JHFUCARRA
+  port: 21005
+  server: 150.116.11.9
+  tfo: false
+  type: ss

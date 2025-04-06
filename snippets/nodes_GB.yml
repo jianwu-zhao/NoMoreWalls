@@ -1,22 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 6ace6009-586a-4062-8337-6c49a01e3e08
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 5e82568c-f733-47f0-b84e-05985ed4e64b
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 6acd33b2-ec62-4bb1-8cdb-19067281e1e5
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇬🇧 英国|@ripaojiedian
+  password: 65ZLPN9MI8OTH07C
+  port: 19005
+  server: 206.245.211.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇬🇧 英国2|@ripaojiedian
+  password: HW9RL3ZGBLLSO16R
+  port: 19002
+  server: 206.245.211.12
+  tfo: false
+  type: ss
