@@ -1,71 +1,66 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 484a69eb-4f5f-4290-bd94-6fe4989843a0
+  password: b9249f3f-485c-49c4-a9b7-da942f11555a
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 484a69eb-4f5f-4290-bd94-6fe4989843a0
+  password: b9249f3f-485c-49c4-a9b7-da942f11555a
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 1|🇭🇰5 |  1.2MB/s
+  name: 1|🇭🇰4 |  1.5MB/s
   network: ws
-  port: 23000
+  port: 80
   raw:
-    add: 103.136.150.2
-    aid: '0'
+    add: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
+    aid: '2'
     alpn: ''
     fp: ''
-    host: ''
-    id: 391eee01-bdef-4c94-b2de-99d90af8b069
+    host: broadcastlv.chat.bilibili.com
+    id: ca506e08-ce3d-5e5a-c128-6358caca15e5
     net: ws
     path: /
-    port: '23000'
-    ps: 🇭🇰 --001-1C
+    port: 80
+    ps: 🇭🇰 HK_154
     scy: ''
     sni: ''
     tls: ''
-    type: none
+    type: ''
     v: '2'
-  server: 103.136.150.2
+  server: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 391eee01-bdef-4c94-b2de-99d90af8b069
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 1|🇭🇰7 |  2.9MB/s
-  network: ws
-  port: 80
-  server: 4ac87188-suk9s0-t7qex7-1supq.hk3.p5pv.com
-  servername: 🇭🇰HK-1.65.208.163-5585 | 5.237MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
   ws-opts:
     headers:
-      Host: 4ac87188-suk9s0-t7qex7-1supq.hk3.p5pv.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰6 |  2.1MB/s
+  port: 4138
+  server: 1e42c0d0-sudhc0-svtnto-ckzn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: cbb15894-f6ad-11ef-afd8-f23c9313b177
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰 香港 02 | 1x HK
-  password: fc65235e-3741-43e1-8efb-0651a29c995b
+  password: aafab873-0fbe-4735-9196-f27631698fad
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: fc65235e-3741-43e1-8efb-0651a29c995b
+  password: aafab873-0fbe-4735-9196-f27631698fad
   port: 36145
   server: free.2weradf.xyz
   type: ss
