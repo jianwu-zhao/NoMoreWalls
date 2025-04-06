@@ -1,70 +1,78 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: b9249f3f-485c-49c4-a9b7-da942f11555a
+  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: b9249f3f-485c-49c4-a9b7-da942f11555a
+  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇭🇰4 |  1.5MB/s
-  network: ws
-  port: 80
-  raw:
-    add: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: ca506e08-ce3d-5e5a-c128-6358caca15e5
-    net: ws
-    path: /
-    port: 80
-    ps: 🇭🇰 HK_154
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰6 |  2.1MB/s
-  port: 4138
-  server: 1e42c0d0-sudhc0-svtnto-ckzn.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: cbb15894-f6ad-11ef-afd8-f23c9313b177
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: aafab873-0fbe-4735-9196-f27631698fad
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: fbf636cc-9511-43a7-939d-410b8f866371
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: aafab873-0fbe-4735-9196-f27631698fad
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: fbf636cc-9511-43a7-939d-410b8f866371
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 2|🇭🇰2 |  3.0MB/s
+  password: 5a148b6f-8535-3a98-96b5-5ff133934266
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇭🇰3 |  3.0MB/s
+  password: 5a148b6f-8535-3a98-96b5-5ff133934266
+  port: 20309
+  server: gyl.58n.net
+  skip-cert-verify: true
+  sni: z309.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰9 |  3.2MB/s
+  network: ws
+  port: 80
+  raw:
+    add: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: 3035b36e-679f-11ed-87fd-f23c9164ca5d
+    net: ws
+    path: /
+    port: 80
+    ps: 🇭🇰 HK_148
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3035b36e-679f-11ed-87fd-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian

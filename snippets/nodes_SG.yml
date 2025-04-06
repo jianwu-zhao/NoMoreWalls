@@ -1,78 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: b9249f3f-485c-49c4-a9b7-da942f11555a
+  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: b9249f3f-485c-49c4-a9b7-da942f11555a
+  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: b9249f3f-485c-49c4-a9b7-da942f11555a
+  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 1|🇸🇬4 |  6.1MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 1|🇸🇬5 |  4.0MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬9 |  3.7MB/s
-  port: 4135
-  server: 637b7bc9-sudhc0-svibx4-1s4a.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬10 |  1.4MB/s
-  port: 4137
-  server: fd89b2da-sudhc0-svibx4-1s4a.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
-- cipher: aes-256-cfb
-  name: 1|🇸🇬11 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.179.52.175
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: aafab873-0fbe-4735-9196-f27631698fad
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: fbf636cc-9511-43a7-939d-410b8f866371
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: aafab873-0fbe-4735-9196-f27631698fad
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: fbf636cc-9511-43a7-939d-410b8f866371
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: aafab873-0fbe-4735-9196-f27631698fad
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: fbf636cc-9511-43a7-939d-410b8f866371
   port: 36175
   server: free.2weradf.xyz
   type: ss
