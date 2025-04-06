@@ -1,54 +1,62 @@
 proxies:
-- name: 0|🇺🇸2 |  5.6MB/s
-  password: ef23ddd0-14c5-39c2-9880-af55ce892363
-  port: 64047
-  server: t18.qifei.app
-  skip-cert-verify: true
-  type: trojan
-- alpn:
-  - http%2F1.1
-  client-fingerprint: chrome
-  name: 0|🇺🇸6 |  1.4MB/s
-  network: ws
-  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-  port: 443
-  server: 172.67.135.23
-  sni: uS6-16.890601.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uS6-16.890601.xyz
-    path: /ILLcisbMYUd6MQzxVoMQ
-- name: 0|🇺🇸12 |  4.9MB/s
-  password: ef23ddd0-14c5-39c2-9880-af55ce892363
-  port: 52492
-  server: t28.qifei.app
-  skip-cert-verify: false
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 484a69eb-4f5f-4290-bd94-6fe4989843a0
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 484a69eb-4f5f-4290-bd94-6fe4989843a0
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 484a69eb-4f5f-4290-bd94-6fe4989843a0
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸7 |  5.3MB/s
+  network: tcp
+  port: 5228
+  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  ws-headers:
+    Host: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 93ec36c7-c601-4be7-9971-6c0654c2cd9a
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: fc65235e-3741-43e1-8efb-0651a29c995b
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -60,7 +68,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -73,7 +81,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -87,24 +95,3 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 32b7726a-ef37-4f5a-9e23-1514a06f59a9
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 32b7726a-ef37-4f5a-9e23-1514a06f59a9
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 32b7726a-ef37-4f5a-9e23-1514a06f59a9
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
