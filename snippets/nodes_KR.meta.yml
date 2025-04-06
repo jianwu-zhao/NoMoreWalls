@@ -1,102 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
+  password: 9eba9fb6-ce14-4bb9-86ee-69fd0832a2b4
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
+  password: 9eba9fb6-ce14-4bb9-86ee-69fd0832a2b4
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 01 | 1x KR
-  password: fbf636cc-9511-43a7-939d-410b8f866371
+  password: 37230b88-664a-48bc-bf57-de45554b9abc
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 02 | 1x KR
-  password: fbf636cc-9511-43a7-939d-410b8f866371
+  password: 37230b88-664a-48bc-bf57-de45554b9abc
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  1.2MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.162
-  servername: cb.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cb.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇰🇷2 |  4.8MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.242
-  servername: cb.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cb.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇰🇷3 |  5.9MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.132
-  servername: cb.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cb.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇰🇷4 |  2.0MB/s
-  network: ws
-  port: 443
-  server: 45.67.215.0
-  servername: cb.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cb.dong2025.cfd
-    path: /?ed=2560
-- name: 2,14|NL_speednode_0028
-  network: ws
-  port: 80
-  server: 45.131.5.35
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,41 +1,88 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
+  password: 9eba9fb6-ce14-4bb9-86ee-69fd0832a2b4
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
+  password: 9eba9fb6-ce14-4bb9-86ee-69fd0832a2b4
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: fbf636cc-9511-43a7-939d-410b8f866371
+  password: 37230b88-664a-48bc-bf57-de45554b9abc
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: fbf636cc-9511-43a7-939d-410b8f866371
+  password: 37230b88-664a-48bc-bf57-de45554b9abc
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧1 |  3.2MB/s
+  name: 2|🇬🇧1 |  4.7MB/s
   network: tcp
   port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: shenzhou02.mysynology.net
   servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧2 |  2.9MB/s
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇬🇧3 |  2.0MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.194
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧4 |  4.3MB/s
+  network: tcp
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧5 |  3.9MB/s
+  network: tcp
+  port: 32055
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45

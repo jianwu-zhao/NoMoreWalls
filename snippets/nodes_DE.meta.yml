@@ -1,72 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 48a74a75-c594-4b9f-80a8-6e1180f9e38f
+  password: 9eba9fb6-ce14-4bb9-86ee-69fd0832a2b4
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: fbf636cc-9511-43a7-939d-410b8f866371
+  password: 37230b88-664a-48bc-bf57-de45554b9abc
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇩🇪1 |  3.1MB/s
+- client-fingerprint: chrome
+  name: 2|🇩🇪1 |  2.1MB/s
   network: ws
   port: 80
-  server: 45.131.4.113
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- auth: 18463200c271aa6d
-  name: 2|🇩🇪2 |  2.8MB/s
-  obfs: salamander
-  obfs-password: 6c80ade6
-  password: 18463200c271aa6d
-  port: 443
-  server: 45.63.116.113
-  skip-cert-verify: true
-  sni: vkvd127.mycdn.me
-  type: hysteria2
-- name: 2,14|NL_speednode_0035
-  network: ws
-  port: 80
-  server: 45.131.4.73
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2?ed=2560
-- name: 2,14|NL_speednode_0043
-  network: ws
-  port: 80
-  server: 45.131.5.151
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: 2|🇩🇪5 |  5.8MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.194
+  server: 45.131.5.119
   tls: false
   type: vless
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -74,44 +25,22 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
-- name: 2,14|US_speednode_0076
-  network: ws
-  port: 80
-  server: 104.18.42.197
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪7 |  1.5MB/s
+  name: 2|🇩🇪2 |  1.3MB/s
   network: ws
-  port: 80
-  server: 104.18.30.60
+  port: 8880
+  server: 104.17.147.22
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  uuid: ada6d0f5-9820-41d2-b098-f0513fcd171a
   ws-opts:
     headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- auth: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  name: 2|🇩🇪8 |  3.7MB/s
-  password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-  port: 443
-  server: alipay-api-nl-a-2.testred.xyz
-  skip-cert-verify: true
-  sni: alipay-api-nl-a-2.testred.xyz
-  type: hysteria2
+      Host: VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.
+    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
