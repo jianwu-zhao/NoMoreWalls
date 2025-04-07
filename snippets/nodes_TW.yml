@@ -1,50 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: d07fe4ef-fa1e-46d2-a81a-5e4287d992d9
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: d07fe4ef-fa1e-46d2-a81a-5e4287d992d9
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: d07fe4ef-fa1e-46d2-a81a-5e4287d992d9
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 10836127-2639-408d-ad75-e35bfda7d659
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 42bc583c-3971-4373-a8de-039f58524348
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 10836127-2639-408d-ad75-e35bfda7d659
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 42bc583c-3971-4373-a8de-039f58524348
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 10836127-2639-408d-ad75-e35bfda7d659
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 42bc583c-3971-4373-a8de-039f58524348
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 60430237-969c-41d5-abf0-cddccd964aa3
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 60430237-969c-41d5-abf0-cddccd964aa3
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 60430237-969c-41d5-abf0-cddccd964aa3
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 2|🇹🇼7 |  5.8MB/s
+  password: z6D4Jf
+  port: 25245
+  server: 118.184.136.138
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2,12|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   port: 3690
   server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com
   skip-cert-verify: false
