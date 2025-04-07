@@ -1,52 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 719b3056-126a-43fd-b45b-e4a205e54512
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 719b3056-126a-43fd-b45b-e4a205e54512
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 719b3056-126a-43fd-b45b-e4a205e54512
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 822f94de-3cb2-4e61-97ce-695f335e1a4d
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 822f94de-3cb2-4e61-97ce-695f335e1a4d
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 822f94de-3cb2-4e61-97ce-695f335e1a4d
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 2|🇸🇬6 |  6.0MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 19a92edc-dd7a-438f-99d3-467e4925c437
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 19a92edc-dd7a-438f-99d3-467e4925c437
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 19a92edc-dd7a-438f-99d3-467e4925c437
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian

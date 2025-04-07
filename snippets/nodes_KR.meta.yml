@@ -1,43 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 719b3056-126a-43fd-b45b-e4a205e54512
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 719b3056-126a-43fd-b45b-e4a205e54512
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 822f94de-3cb2-4e61-97ce-695f335e1a4d
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 822f94de-3cb2-4e61-97ce-695f335e1a4d
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  1.6MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.119
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 19a92edc-dd7a-438f-99d3-467e4925c437
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 19a92edc-dd7a-438f-99d3-467e4925c437
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
