@@ -1,15 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 42bc583c-3971-4373-a8de-039f58524348
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 60430237-969c-41d5-abf0-cddccd964aa3
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: c0240d93-3519-47bc-8b60-8b5dd0f4f190
   port: 36471
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- allowInsecure: '1'
+  name: 1|🇩🇪6 |  4.0MB/s
+  network: tcp
+  password: NPpPQZoTPt
+  port: 30015
+  server: 130.61.160.153
+  skip-cert-verify: true
+  sni: ge1986a.iamback.top
+  tls: true
+  type: trojan
+- allowInsecure: '1'
+  name: 1|🇩🇪7 |  4.7MB/s
+  network: tcp
+  password: NPpPQZoTPt
+  port: 30015
+  server: ge1986a.iamback.top
+  skip-cert-verify: true
+  sni: ge1986a.iamback.top
+  tls: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: d682a050-ef07-44fd-a85e-07335f926c7c
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

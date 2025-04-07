@@ -1,67 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 42bc583c-3971-4373-a8de-039f58524348
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 42bc583c-3971-4373-a8de-039f58524348
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 42bc583c-3971-4373-a8de-039f58524348
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 60430237-969c-41d5-abf0-cddccd964aa3
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: c0240d93-3519-47bc-8b60-8b5dd0f4f190
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 60430237-969c-41d5-abf0-cddccd964aa3
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: c0240d93-3519-47bc-8b60-8b5dd0f4f190
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 60430237-969c-41d5-abf0-cddccd964aa3
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: c0240d93-3519-47bc-8b60-8b5dd0f4f190
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0010
-  network: tcp
-  port: 44003
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
+  flow: none
   mode: ''
-  name: 2|🇸🇬2 |  5.9MB/s
+  name: 1|🇸🇬1 |  5.1MB/s
   network: ws
   port: 2096
-  server: 141.193.213.20
+  server: 141.193.213.21
   servername: premium.vkehi.shop
   tls: true
   type: vless
@@ -70,7 +35,56 @@ proxies:
   ws-opts:
     headers:
       Host: premium.vkehi.shop
-    path: /
+    path: '%2F'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 1,14|SG_speednode_0083
+  port: 443
+  server: 47.129.154.91
+  servername: android.google.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e752cca9-18aa-4eaf-a6f6-79c375eee55d
+- cipher: aes-256-cfb
+  name: 1|🇸🇬3 |  6.0MB/s
+  password: wiaimihu22
+  port: 80
+  server: 54.169.248.170
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇸🇬4 |  5.0MB/s
+  password: 25612qazwsx
+  port: 25612
+  server: 18.140.63.226
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: d682a050-ef07-44fd-a85e-07335f926c7c
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: d682a050-ef07-44fd-a85e-07335f926c7c
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: d682a050-ef07-44fd-a85e-07335f926c7c
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -103,17 +117,3 @@ proxies:
   server: 13.212.241.11
   tfo: false
   type: ss
-- name: 14|SG_speednode_0069
-  network: ws
-  port: 443
-  server: 40.65.164.247
-  servername: sgp.bashabo.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b594ac9-7e1c-4bcc-9fa5-797a7a58211d
-  ws-opts:
-    headers:
-      Host: sgp.bashabo.me
-    path: /bing
