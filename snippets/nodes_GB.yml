@@ -1,53 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: b7baf451-4b91-4a72-ac4a-574106f81750
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 6e26e0d8-ce80-4675-ab08-4ea298c7d746
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: b7baf451-4b91-4a72-ac4a-574106f81750
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 6e26e0d8-ce80-4675-ab08-4ea298c7d746
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: cdfb0fb4-322c-4795-99ca-d6efe3f9dc8a
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇬🇧 英国|@ripaojiedian
-  password: c46ba905-31de-4090-8153-ec7d2e063079
-  port: 30004
-  server: 156.229.162.50
+  name: 12|🇬🇧 英国|@ripaojiedian
+  password: MK8DFM50KMBSIWDX
+  port: 19016
+  server: 206.245.211.26
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇬🇧 英国2|@ripaojiedian
-  password: 95821db5-66eb-4b5f-a854-f129093e6d47
-  port: 30004
-  server: 156.229.162.50
-  tfo: false
-  type: ss
-- name: 13|GB_speednode_0008
+- name: 14|GB_speednode_0008
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10200
   server: www.ak-hk.top
   skip-cert-verify: true
   sni: www.ak-hk.top
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: 3573f806-1075-468c-8ac0-744d098b5bdb
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: 3573f806-1075-468c-8ac0-744d098b5bdb
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
   udp: true

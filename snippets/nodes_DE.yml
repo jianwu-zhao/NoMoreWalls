@@ -1,45 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: b7baf451-4b91-4a72-ac4a-574106f81750
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇩🇪8 |  3.8MB/s
-  network: ws
-  port: 2053
-  raw:
-    add: 104.21.73.150
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: frank1-dash.931.pp.ua
-    id: 0e4c8497-749c-4cac-ebd1-4266b2ad9c75
-    net: ws
-    path: /frank1-dash.931.pp.ua
-    port: '2053'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: frank1-dash.931.pp.ua
-    tls: tls
-    type: ''
-    v: '2'
-  server: 104.21.73.150
-  servername: frank1-dash.931.pp.ua
-  tls: true
-  type: vmess
-  uuid: 0e4c8497-749c-4cac-ebd1-4266b2ad9c75
-  ws-opts:
-    headers:
-      Host: frank1-dash.931.pp.ua
-    path: /frank1-dash.931.pp.ua
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 3573f806-1075-468c-8ac0-744d098b5bdb
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 6e26e0d8-ce80-4675-ab08-4ea298c7d746
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: cdfb0fb4-322c-4795-99ca-d6efe3f9dc8a
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇩🇪 德国|@ripaojiedian
+  password: 95821db5-66eb-4b5f-a854-f129093e6d47
+  port: 30004
+  server: 156.226.174.40
+  tfo: false
+  type: ss
