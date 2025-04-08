@@ -1,22 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: c27eb47b-a7a7-4b1d-9ff8-e586de688376
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: c27eb47b-a7a7-4b1d-9ff8-e586de688376
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1,13|NL_speednode_0036
+- name: 0,14|NL_speednode_0064
   network: ws
   port: 80
-  server: 45.131.4.248
+  server: 45.131.4.187
   servername: gozargah.validbv7996.ir
   skip-cert-verify: true
   tls: false
@@ -27,19 +13,61 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /
+- name: 0,14|NL_speednode_0014
+  network: ws
+  port: 80
+  server: 45.131.5.119
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  2.9MB/s
+  name: 0|🇬🇧3 |  1.2MB/s
   network: tcp
-  port: 49699
+  port: 47151
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: shenzhou02.mysynology.net
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 6f411881-272d-4bc3-b7dd-072263b05643
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 6f411881-272d-4bc3-b7dd-072263b05643
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: a3999a4c-7f06-4521-83ea-1202ea1c37ab
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: a3999a4c-7f06-4521-83ea-1202ea1c37ab
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -49,23 +77,9 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇬🇧 英国|@ripaojiedian
+  name: 12|🇬🇧 英国|@ripaojiedian
   password: MK8DFM50KMBSIWDX
   port: 19016
   server: 206.245.211.26
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: c4589446-0a0e-49ea-88a9-dfc0c2b6b472
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c4589446-0a0e-49ea-88a9-dfc0c2b6b472
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
