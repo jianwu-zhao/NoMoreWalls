@@ -4,16 +4,6 @@ proxies:
   network: tcp
   password: '!!str 74260698218909400'
   port: 443
-  server: smooth-imp.shiner427.skin
-  skip-cert-verify: false
-  sni: smooth-imp.shiner427.skin
-  tls: true
-  type: trojan
-- allowInsecure: ''
-  name: 1|🇯🇵6 |  5.8MB/s
-  network: tcp
-  password: '!!str 74260698218909400'
-  port: 443
   server: 85.234.83.133
   skip-cert-verify: false
   sni: smooth-imp.shiner427.skin
