@@ -1,51 +1,84 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 474b0248-8ffa-4e49-a415-49d907171fc6
+  password: feb24292-6d5f-4a79-a5a9-09c7e9919209
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇨🇦1 |  4.1MB/s
-  network: tcp
-  port: 42557
-  reality-opts:
-    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-    short-id: f430927d
-  server: 155.248.219.28
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  client-fingerprint: chrome
-  name: 1|🇨🇦2 |  1.1MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 192.18.145.7
+- name: 1|🇨🇦1 |  4.4MB/s
+  network: ws
+  port: 443
+  server: ip.gs
+  servername: nx.ylka.dpdns.org
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,14|CA_speednode_0001
-  network: tcp
-  port: 26113
-  reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
-  server: 192.18.145.7
-  servername: www.yahoo.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦2 |  4.5MB/s
+  network: ws
+  port: 443
+  server: 152.67.125.161
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦3 |  5.5MB/s
+  network: ws
+  port: 443
+  server: nikon.ns.cloudflare.com
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦4 |  4.1MB/s
+  network: ws
+  port: 30012
+  server: 211.218.223.130
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦5 |  5.3MB/s
+  network: ws
+  port: 1010
+  server: 45.154.98.99
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 2|🇨🇦加拿大 01 | 1x CA
-  password: d57fefbc-c4cb-4d82-9452-ef2c31cfb005
+  password: 4417b702-5aef-4023-b980-98b94da8ae8d
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
