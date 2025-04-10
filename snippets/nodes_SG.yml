@@ -1,29 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: e1093a25-9ead-4d92-bd47-e48119dca6e2
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 75dd07af-edc1-4978-ab40-ac4485973bfb
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: e1093a25-9ead-4d92-bd47-e48119dca6e2
-  port: 31173
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 75dd07af-edc1-4978-ab40-ac4485973bfb
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: e1093a25-9ead-4d92-bd47-e48119dca6e2
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 75dd07af-edc1-4978-ab40-ac4485973bfb
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬4 |  5.2MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    headers:
+      host: sg02s.de15-5483-d16b.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 1|🇸🇬6 |  2.3MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian
+  name: 11|🇸🇬 新加坡|@ripaojiedian
   port: 3681
   server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
   skip-cert-verify: false
@@ -33,7 +52,7 @@ proxies:
   uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.78.247.197
@@ -41,7 +60,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|新加坡|@ripaojiedian
+  name: 12|新加坡|@ripaojiedian
   network: tcp
   port: '3681'
   server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
@@ -49,3 +68,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 7a4afc42-245e-4505-a3cc-3e5c86186708
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 7a4afc42-245e-4505-a3cc-3e5c86186708
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 7a4afc42-245e-4505-a3cc-3e5c86186708
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
