@@ -1,56 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 75dd07af-edc1-4978-ab40-ac4485973bfb
-  port: 36441
-  server: free.2weradf.xyz
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: c985b6ad-f77b-4aa6-ab35-b1ddf0ec6b84
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇨🇦1 |  5.9MB/s
-  network: ws
-  port: 443
-  server: toy-people.com
-  servername: nx.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nx.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇨🇦2 |  1.2MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.29
-  servername: nx.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nx.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇨🇦3 |  2.5MB/s
-  network: ws
-  port: 443
-  server: 192.18.143.57
-  servername: nx.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nx.ylka.dpdns.org
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇨🇦4 |  3.9MB/s
+  name: 1|🇨🇦1 |  1.5MB/s
+  network: tcp
+  port: 59303
+  reality-opts:
+    public-key: FHm9vc9hi1aK9jz8CqCjhJvT0bxzsD470FvOyubB6EA
+    short-id: bbe06294
+  server: 192.18.145.207
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇨🇦2 |  3.3MB/s
   network: tcp
   port: 42557
   reality-opts:
@@ -61,7 +32,49 @@ proxies:
   tls: true
   type: vless
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-- name: 1|🇨🇦5 |  1.4MB/s
+- name: 1|🇨🇦3 |  2.6MB/s
+  network: ws
+  port: 54063
+  server: 104.168.43.27
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦4 |  1.4MB/s
+  network: ws
+  port: 443
+  server: ipinfo.in
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦5 |  3.2MB/s
+  network: ws
+  port: 443
+  server: 152.67.125.161
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦6 |  5.8MB/s
   network: ws
   port: 443
   server: tasteatlas.com
@@ -75,10 +88,10 @@ proxies:
     headers:
       Host: nx.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇨🇦6 |  1.0MB/s
+- name: 1|🇨🇦7 |  4.3MB/s
   network: ws
   port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  server: benedict.ns.cloudflare.com
   servername: nx.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -87,26 +100,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: nx.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇨🇦7 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 160.79.104.195
-  servername: nx.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nx.ylka.dpdns.org
+      host: nx.ylka.dpdns.org
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 7a4afc42-245e-4505-a3cc-3e5c86186708
-  port: 31441
-  server: free.2apzhfa.xyz
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 8320c587-8b31-4693-9f79-f81903a13bc6
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
