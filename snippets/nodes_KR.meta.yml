@@ -1,18 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 399da0dd-e6ce-4666-b9d4-da9bfc32afbb
-  port: 31311
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 399da0dd-e6ce-4666-b9d4-da9bfc32afbb
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1,13|GB_speednode_0056
+  network: ws
+  port: 8880
+  server: 31.22.116.154
+  servername: redfree8.pooriashop.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: /Telegram@V2ray_Alpha
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -104,16 +121,16 @@ proxies:
       Host: nx.ylka.dpdns.org
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 21b3d799-577e-4b58-b6bc-812b15c00089
-  port: 36311
-  server: free.2weradf.xyz
+  name: 14|🇰🇷韩国 01 | 1x KR
+  password: a2d5643a-f11a-4523-acff-9ce04da16418
+  port: 31311
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: 21b3d799-577e-4b58-b6bc-812b15c00089
-  port: 36313
-  server: free.2weradf.xyz
+  name: 14|🇰🇷韩国 02 | 1x KR
+  password: a2d5643a-f11a-4523-acff-9ce04da16418
+  port: 31313
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

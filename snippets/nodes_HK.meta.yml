@@ -1,49 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 399da0dd-e6ce-4666-b9d4-da9bfc32afbb
-  port: 31143
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  port: 36143
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 399da0dd-e6ce-4666-b9d4-da9bfc32afbb
-  port: 31145
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0007
-  network: tcp
-  port: 27631
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0024
-  network: tcp
-  port: 54220
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰3 |  3.9MB/s
+  name: 1|🇭🇰1 |  6.2MB/s
   network: tcp
   port: 24318
   reality-opts:
@@ -53,6 +25,12 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf
+  name: 1|🇭🇰2 |  1.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.61
+  type: ss
 - name: 10|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
@@ -144,16 +122,16 @@ proxies:
       Host: edccr.aimercc.filegear-sg.me
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 02 | 1x HK
-  password: 21b3d799-577e-4b58-b6bc-812b15c00089
-  port: 36143
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港 02 | 1x HK
+  password: a2d5643a-f11a-4523-acff-9ce04da16418
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 21b3d799-577e-4b58-b6bc-812b15c00089
-  port: 36145
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港家宽 03 | 1x HK
+  password: a2d5643a-f11a-4523-acff-9ce04da16418
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
