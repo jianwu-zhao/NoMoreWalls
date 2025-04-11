@@ -1,21 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: e209cc44-b0a8-4dd5-a114-dbb9d20a0304
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: e8bfdb47-78ca-423f-bd89-ccd23d95b09c
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: e8bfdb47-78ca-423f-bd89-ccd23d95b09c
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 5e84e3ef-b326-44c7-ad3f-fac527724a5a
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: e209cc44-b0a8-4dd5-a114-dbb9d20a0304
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 5e84e3ef-b326-44c7-ad3f-fac527724a5a
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2,12|🇰🇷 韩国2|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 43.203.237.206
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇰🇷6 |  5.2MB/s
+  name: 2|🇰🇷7 |  5.4MB/s
   network: tcp
   port: 17232
   server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
@@ -26,20 +48,14 @@ proxies:
   ws-headers:
     Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 2a83806b-49a5-4105-91ff-26f6ac75a31a
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 2a83806b-49a5-4105-91ff-26f6ac75a31a
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇰🇷8 |  1.8MB/s
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -57,14 +73,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 43.203.237.206
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国3|@ripaojiedian
