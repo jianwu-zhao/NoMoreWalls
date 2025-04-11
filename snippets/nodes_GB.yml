@@ -1,56 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: dc75f9e1-b9f8-4c9f-a9d4-17590e7dc6c3
+  password: 00747e0d-ff47-4a94-9287-c64e1330918e
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: dc75f9e1-b9f8-4c9f-a9d4-17590e7dc6c3
+  password: 00747e0d-ff47-4a94-9287-c64e1330918e
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇬🇧1 |  3.2MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: 8084d5de-362d-4818-9b73-71d3e5c28c37
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: db4d9556-5b73-3038-a11e-b9d9307a5fd2
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇬🇧4 |  4.8MB/s
-  network: tcp
-  port: 33940
-  raw:
-    add: 37.221.125.159
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 353e0787-71bc-442d-9c9d-902f90359eb5
-    net: tcp
-    path: ''
-    port: '33940'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 37.221.125.159
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 353e0787-71bc-442d-9c9d-902f90359eb5
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 8084d5de-362d-4818-9b73-71d3e5c28c37
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
