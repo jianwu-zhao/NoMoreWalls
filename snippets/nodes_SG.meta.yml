@@ -1,47 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 4fabaabf-4fdb-48b2-8f8e-f044a511b6be
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 5ea25a1a-b9e3-4d60-a044-4da6f6a292a2
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 4fabaabf-4fdb-48b2-8f8e-f044a511b6be
-  port: 31173
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 5ea25a1a-b9e3-4d60-a044-4da6f6a292a2
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 4fabaabf-4fdb-48b2-8f8e-f044a511b6be
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 5ea25a1a-b9e3-4d60-a044-4da6f6a292a2
+  port: 36175
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  6.2MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: true
-  sni: hk39.work.gd
-  type: trojan
-- client-fingerprint: chrome
-  delay: 2679
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0013
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
+- client-fingerprint: ''
+  flow: none
+  mode: ''
+  name: 1|🇸🇬1 |  5.8MB/s
+  network: ws
+  port: 80
+  server: support.zoom.us
+  servername: ''
+  tls: false
   type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
+  ws-opts:
+    headers:
+      Host: free.server.techsonicpremium.shop
+    path: '%2Ffree.server.techsonicpremium.shop'
 - name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -104,23 +98,23 @@ proxies:
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 3de7142f-f691-4224-ae3e-1a7145596592
-  port: 36171
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 123f60a1-8453-4641-b2b8-80191ac8d9c8
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 3de7142f-f691-4224-ae3e-1a7145596592
-  port: 36173
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 123f60a1-8453-4641-b2b8-80191ac8d9c8
+  port: 31173
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 3de7142f-f691-4224-ae3e-1a7145596592
-  port: 36175
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 123f60a1-8453-4641-b2b8-80191ac8d9c8
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
