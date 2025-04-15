@@ -1,14 +1,22 @@
 proxies:
+- name: 0|🇭🇰2 |  6.0MB/s
+  password: fd9043ea-e72a-3efa-be8e-ed500d9328f8
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 5ea25a1a-b9e3-4d60-a044-4da6f6a292a2
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 5ea25a1a-b9e3-4d60-a044-4da6f6a292a2
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
   port: 36145
   server: free.2weradf.xyz
   type: ss
@@ -124,14 +132,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰香港 02 | 1x HK
-  password: 123f60a1-8453-4641-b2b8-80191ac8d9c8
+  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰香港家宽 03 | 1x HK
-  password: 123f60a1-8453-4641-b2b8-80191ac8d9c8
+  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
