@@ -1,436 +1,194 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇵🇭菲律宾 01 | 1x PH
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31341
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇭泰国01  | 1x TH
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31741
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇲🇾马来西亚01 | 1x MY
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31721
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇲🇾马来西亚02 | 1x MY
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31722
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇮🇳印度 01 | 1x IN
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31371
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇦🇺澳大利亚 01 | 1x AU
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31411
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇷土耳其 01 | 1x TR
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31571
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇦乌克兰 01 | 1x UA
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31611
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇻🇳越南 01 | 1x VN
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31641
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇧🇷巴西 01 | 1x BR
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31671
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇮🇩印度尼西亚 01 | 1x ID
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31677
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|🇰🇷1 |  5.6MB/s
-  password: qwerREWQ@@
-  port: 11389
-  server: 221.150.109.89
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.151.174.99
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸5 |  4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.88.231.199
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🌀2- |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.78.119.98
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸6 |  5.7MB/s
-  network: tcp
-  port: 5229
-  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+- name: 2|🇹🇼1 |  4.3MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.36
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
-  ws-path: /
-- name: 1,13|CN_speednode_0021
-  password: 78d4625c-4221-4496-ab62-729f0d05fa2c
-  port: 43497
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  sni: epcca.ambercc.filegear-sg.me
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 1|🇯🇵3 |  3.5MB/s
-  password: amazonskr05
-  port: 80
-  server: 54.178.235.65
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰3 |  3.7MB/s
-  network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  ws-headers:
-    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  ws-path: /
-- alterId: '2'
-  cipher: auto
-  name: 1|🇺🇸16 |  1.3MB/s
-  network: ws
-  port: '30808'
-  server: v8.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: baidu.com
-    path: /oooo
-- alterId: 0
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-cfb
+  name: 2|🇺🇸5 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.244.175.56
+  type: ss
+- cipher: aes-256-gcm
+  name: 2|🇺🇸6 |  5.5MB/s
+  password: amazonskr05
+  port: 80
+  server: 54.213.250.116
+  type: ss
+- alterId: 2
   cipher: auto
-  name: 1|🇺🇸17 |  5.5MB/s
-  network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰4 |  1.3MB/s
-  port: 15229
-  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇺🇸7 |  4.5MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
-  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- name: 2|🇸🇬1 |  6.1MB/s
+  password: 616F5C28-A1B2-D7C7-2F5D-46AC56436130
+  port: 8306
+  server: bldgz.linkcubecloud.dev
+  skip-cert-verify: true
+  sni: cos.ap-guangzhou.myqcloud.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 2|🇬🇧1 |  4.8MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+  uuid: da80ce7a-5657-3901-944c-ab566995723b
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
 - cipher: aes-256-cfb
-  name: 1|🇯🇵4 |  6.0MB/s
+  name: 2|🇺🇸14 |  5.6MB/s
   password: amazonskr05
   port: 443
-  server: 13.231.142.217
+  server: 35.162.248.36
   type: ss
 - cipher: aes-256-cfb
-  name: 1|🇰🇷3 |  5.8MB/s
+  name: 2|🇰🇷3 |  1.7MB/s
   password: qwerREWQ@@
   port: 15098
-  server: 125.141.31.72
+  server: p222.panda001.net
+  tfo: true
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,12|新加坡3|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸21 |  5.9MB/s
+  name: 2|🇺🇸17 |  5.6MB/s
   network: ws
-  port: 22642
+  port: 22643
   server: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-headers:
-    Host: zxjp-b.tkong.cc
+    Host: zxjp-c.tkong.cc
   ws-path: /
-- allowInsecure: ''
-  name: 1|🇯🇵5 |  3.9MB/s
-  network: ws
-  password: redfree8
+- cipher: aes-256-cfb
+  name: 2|🇯🇵1 |  5.5MB/s
+  password: amazonskr05
   port: 443
-  server: 104.17.147.22
-  skip-cert-verify: false
-  sni: ipsychO.SUEx12.Ir
+  server: 54.248.169.169
+  type: ss
+- name: 2|🇹🇼2 |  2.7MB/s
+  network: ws
+  password: Aimer
+  port: 3306
+  server: 107.172.180.73
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ipsycho.suex12.ir
-    path: /trre5IzbZ9IZZMddtw?ed=2560
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼3 |  5.8MB/s
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 161.145.150.29
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-cfb
+  name: 2|🇰🇷4 |  5.5MB/s
+  password: qwerREWQ@@
+  port: 58487
+  server: p230.panda004.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇺🇸19 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.188.119.78
+  type: ss
+- name: 2|🇹🇼5 |  5.3MB/s
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 154.211.8.227
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-cfb
+  name: 2|🇰🇷5 |  5.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.125.214.134
+  type: ss
+- name: 2|🇹🇼6 |  1.3MB/s
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 154.197.64.219
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-gcm
-  name: 1|🇯🇵6 |  6.0MB/s
+  name: 2|🇯🇵3 |  6.1MB/s
   password: amazonskr05
   port: 80
-  server: 13.115.230.171
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸27 |  5.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.213.33.205
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇺🇸29 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.162.248.36
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸30 |  3.1MB/s
-  network: ws
-  port: 30808
-  server: v8.heduian.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v8.heduian.link
-    path: /oooo
-- alterId: '2'
-  cipher: auto
-  name: 1|🇨🇦2 |  1.3MB/s
-  network: ws
-  port: '30825'
-  server: v25.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /oooo
-- cipher: aes-256-gcm
-  name: 1|🇺🇸36 |  3.2MB/s
-  password: amazongreatvpn
-  port: 443
-  server: 34.219.82.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇯🇵11 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.77.95.94
+  server: 54.249.215.97
   type: ss
 - cipher: aes-256-gcm
-  name: 1|🇺🇸40 |  5.2MB/s
+  name: 2|🇺🇸23 |  4.0MB/s
   password: amazongreatvpn
   port: 443
   server: 44.204.173.8
   type: ss
+- cipher: aes-256-cfb
+  name: 2|🇰🇷6 |  5.9MB/s
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
 - allowInsecure: ''
-  name: 1|🇹🇼3 |  4.8MB/s
+  name: 2|🇹🇼8 |  3.1MB/s
   network: ws
   password: Aimer
   port: 8443
@@ -443,139 +201,121 @@ proxies:
     headers:
       Host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸26 |  3.0MB/s
+  network: tcp
+  port: 5229
+  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  ws-headers:
+    Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  ws-path: /
+- cipher: aes-256-gcm
+  name: 2|🇺🇸28 |  5.2MB/s
+  password: amazongreatvpn
+  port: 443
+  server: 34.219.82.5
+  type: ss
 - cipher: aes-256-cfb
-  name: 1|🇰🇷5 |  6.0MB/s
+  name: 2|🇰🇷7 |  5.2MB/s
   password: amazonskr05
   port: 443
   server: 3.36.59.64
   type: ss
-- cipher: aes-256-cfb
-  name: 1|🌀13-VN |  2.3MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.31
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 1|🇺🇸44 |  5.9MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
+  name: 2|🇺🇸33 |  3.7MB/s
+  network: tcp
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - cipher: aes-256-cfb
-  name: 1|🇰🇷8 |  1.3MB/s
+  name: 2|🇺🇸34 |  5.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.208.211.153
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇸🇬3 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 46.137.234.250
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇰🇷8 |  5.1MB/s
   password: qwerREWQ@@
-  port: 11389
-  server: p231.panda004.net
+  port: 8772
+  server: p235.panda004.net
   tfo: true
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 1|🇸🇬3 |  5.9MB/s
+  name: 2|🇳🇱1 |  3.0MB/s
+  password: XaAIkJjp
+  port: 11359
+  server: 85.234.65.100
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 2|🇯🇵9 |  4.8MB/s
   password: amazonskr05
   port: 80
-  server: 54.151.141.90
+  server: 54.178.235.65
   type: ss
-- name: 1|🇸🇬4 |  5.2MB/s
-  password: 616F5C28-A1B2-D7C7-2F5D-46AC56436130
-  port: 8306
-  server: bldgz.linkcubecloud.dev
-  skip-cert-verify: true
-  sni: cos.ap-guangzhou.myqcloud.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸46 |  3.9MB/s
+- cipher: aes-256-gcm
+  name: 2|🇺🇸39 |  4.9MB/s
+  password: amazonskr05
+  port: 80
+  server: 52.12.84.118
+  type: ss
+- name: 2|🇹🇼11 |  5.9MB/s
   network: ws
-  port: 443
-  raw:
-    add: 45.194.53.81
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: 3sdfgvcxxx.938.pp.ua
-    id: 0212fab5-e93c-4904-b7a8-187fd535f354
-    net: ws
-    path: /P879mtCoHQqaWO67qEaMINZ1
-    port: 443
-    ps: V2CROSS.COM
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 45.194.53.81
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  password: Aimer
+  port: 2083
+  server: 45.67.214.41
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 3sdfgvcxxx.938.pp.ua
-    path: /P879mtCoHQqaWO67qEaMINZ1
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-cfb
-  name: 1|🌀16-VN |  1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.29
+  name: 2|🇸🇬7 |  1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.151.174.99
+  type: ss
+- cipher: aes-256-cfb
+  name: 2|🇰🇷9 |  1.1MB/s
+  password: qwerREWQ@@
+  port: 4857
+  server: p227.panda004.net
   tfo: true
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 1|🇯🇵12 |  6.2MB/s
+  name: 2|🇯🇵11 |  6.2MB/s
   password: amazonskr05
   port: 443
-  server: 52.198.28.59
+  server: 13.231.142.217
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🌀17-ID |  1.7MB/s
-  network: tcp
-  port: 17234
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
 - cipher: aes-256-cfb
-  name: 1|🇺🇸51 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.236.86.242
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸52 |  5.8MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  name: 11|tg频道:@ripaojiedian
+  name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.207.170.102
   tfo: false
   type: ss
-- name: 11|🇭🇰 香港|@ripaojiedian
+- name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -588,7 +328,7 @@ proxies:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
 - cipher: chacha20-ietf-poly1305
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -604,7 +344,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 57888
   server: 47.83.137.220
   skip-cert-verify: false
@@ -612,7 +352,7 @@ proxies:
   tls: false
   type: vmess
   uuid: b68f8c35-935e-444f-8944-291bf15a56a5
-- name: 11,12|香港4|@ripaojiedian
+- name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
@@ -622,7 +362,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 11|🇭🇰 香港5|@ripaojiedian
+  name: 12|🇭🇰 香港5|@ripaojiedian
   port: 41291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -632,7 +372,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|🇭🇰 香港6|@ripaojiedian
+  name: 12|🇭🇰 香港6|@ripaojiedian
   port: 43674
   server: 120.234.102.229
   skip-cert-verify: false
@@ -642,7 +382,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|🇭🇰 香港7|@ripaojiedian
+  name: 12|🇭🇰 香港7|@ripaojiedian
   port: 42375
   server: 120.198.71.214
   skip-cert-verify: false
@@ -650,7 +390,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 11,12|台湾|@ripaojiedian
+- name: 12,13|台湾|@ripaojiedian
   network: tcp
   password: ff832dd3-18a9-441f-bae0-24e8b98dc96b
   port: 27201
@@ -659,7 +399,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - cipher: rc4-md5
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -670,7 +410,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 9befc9a342e2
   plugin: v2ray-plugin
   plugin-opts:
@@ -686,7 +426,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   port: 28976
   server: 116.206.92.184
   skip-cert-verify: false
@@ -696,7 +436,7 @@ proxies:
   uuid: d1f1022b-cd43-49e4-b736-7744d1e11a79
 - alterId: 2
   cipher: auto
-  name: 11,12|日本4|@ripaojiedian
+  name: 12,13|日本4|@ripaojiedian
   network: ws
   port: '30806'
   server: v6.heduian.link
@@ -712,7 +452,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,12|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: ws
   port: '443'
   server: cg1c15.waimaoglobaldirect.cc
@@ -728,7 +468,7 @@ proxies:
     path: /api/v1/graphql
 - alterId: 2
   cipher: auto
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -744,7 +484,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,12|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: ws
   port: '16618'
   server: t.cnmjcn.cyou
@@ -760,7 +500,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
   port: 17231
   server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
   skip-cert-verify: false
@@ -770,7 +510,7 @@ proxies:
   uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬 新加坡4|@ripaojiedian
+  name: 12|🇸🇬 新加坡4|@ripaojiedian
   port: 4135
   server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
   skip-cert-verify: false
@@ -780,7 +520,7 @@ proxies:
   uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -789,7 +529,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -801,7 +541,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 11,12|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -816,27 +556,27 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - cipher: aes-256-cfb
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.231.81.63
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 44.247.228.17
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.212.103
   tfo: false
   type: ss
-- name: 12|香港|@ripaojiedian
+- name: 13|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -849,7 +589,7 @@ proxies:
     path: '%2Fdl_media'
 - alterId: 0
   cipher: auto
-  name: 12|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '57888'
   server: 47.83.137.220
@@ -859,7 +599,7 @@ proxies:
   uuid: b68f8c35-935e-444f-8944-291bf15a56a5
 - alterId: 0
   cipher: auto
-  name: 12|香港5|@ripaojiedian
+  name: 13|香港5|@ripaojiedian
   network: tcp
   port: '41291'
   server: 183.236.51.38
@@ -869,7 +609,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|香港6|@ripaojiedian
+  name: 13|香港6|@ripaojiedian
   network: tcp
   port: '43674'
   server: 120.234.102.229
@@ -879,7 +619,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|香港7|@ripaojiedian
+  name: 13|香港7|@ripaojiedian
   network: tcp
   port: '42375'
   server: 120.198.71.214
@@ -889,7 +629,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|香港8|@ripaojiedian
+  name: 13|香港8|@ripaojiedian
   network: kcp
   port: '52059'
   server: 8.218.228.45
@@ -899,7 +639,7 @@ proxies:
   uuid: 888ce5e9-6e3a-4b5c-bcb7-ce1125c02d79
 - alterId: 0
   cipher: auto
-  name: 12|日本3|@ripaojiedian
+  name: 13|日本3|@ripaojiedian
   network: tcp
   port: '28976'
   server: 116.206.92.184
@@ -909,7 +649,7 @@ proxies:
   uuid: d1f1022b-cd43-49e4-b736-7744d1e11a79
 - alterId: 0
   cipher: auto
-  name: 12|日本5|@ripaojiedian
+  name: 13|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -919,7 +659,17 @@ proxies:
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - alterId: 0
   cipher: auto
-  name: 12|新加坡4|@ripaojiedian
+  name: 13|新加坡3|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡4|@ripaojiedian
   network: tcp
   port: '4135'
   server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
@@ -929,7 +679,7 @@ proxies:
   uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 12|美国|@ripaojiedian
+  name: 13|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -937,3 +687,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 14|CN_speednode_0021
+  password: 78d4625c-4221-4496-ab62-729f0d05fa2c
+  port: 43497
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
