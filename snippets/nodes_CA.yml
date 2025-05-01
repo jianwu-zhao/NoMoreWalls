@@ -1,15 +1,29 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|🇨🇦1 |  1.9MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: b9a7b7af-2588-432a-b89e-4d3aeab6928b
-  port: 36441
-  server: free.2weradf.xyz
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 6c0cfc95-7c29-4c83-8c97-fa97f575b32f
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: eaff9743-9753-4aa5-ad8d-6df85ddb8b95
-  port: 31441
-  server: free.2apzhfa.xyz
+  name: 2|🇨🇦 加拿大 01 | 1x CA
+  password: d3126284-06ad-4826-ab0a-348b219453b0
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
