@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: fe8cec4b-3a63-4caa-accc-96ea8946c2a1
+  password: 0b75a6f0-7db5-4df0-9efe-6808d6734245
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: fe8cec4b-3a63-4caa-accc-96ea8946c2a1
+  password: 0b75a6f0-7db5-4df0-9efe-6808d6734245
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: fe8cec4b-3a63-4caa-accc-96ea8946c2a1
+  password: 0b75a6f0-7db5-4df0-9efe-6808d6734245
   port: 36245
   server: free.2weradf.xyz
   type: ss
@@ -34,10 +34,11 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 1|🇹🇼2 |  5.1MB/s
+  name: 1,12|台湾2|@ripaojiedian
   network: tcp
-  port: 3687
+  port: '3687'
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -99,6 +100,17 @@ proxies:
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾2|@ripaojiedian
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- alterId: 0
+  cipher: auto
   name: 12|台湾|@ripaojiedian
   network: tcp
   port: '14100'
@@ -124,21 +136,21 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 01 | 1x TW
-  password: 7f4c4ca2-c863-4c46-a660-be36a203f2bb
+  password: 88c5a273-2cb5-4667-9af3-9a49f58f9065
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 02 | 1x TW
-  password: 7f4c4ca2-c863-4c46-a660-be36a203f2bb
+  password: 88c5a273-2cb5-4667-9af3-9a49f58f9065
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 03 | 1x TW
-  password: 7f4c4ca2-c863-4c46-a660-be36a203f2bb
+  password: 88c5a273-2cb5-4667-9af3-9a49f58f9065
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
