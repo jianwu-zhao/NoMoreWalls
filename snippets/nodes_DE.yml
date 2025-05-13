@@ -1,26 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 3e12b66b-b0bd-492b-92ec-41da3db9b137
+  password: 841e0479-8348-40a6-97fc-06ce7132ad2f
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇩🇪4 |  5.4MB/s|31%|Disney|Open...
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 104.26.4.60
-  skip-cert-verify: false
-  sni: zamim340.ggff.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zamim340.ggff.net
-    path: /tr?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 30e78d61-2763-4b43-9828-6825e949ecb6
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 4570a0a3-9186-4b39-b8e6-6284eeaad0cd
   port: 36471
   server: free.2weradf.xyz
   type: ss
