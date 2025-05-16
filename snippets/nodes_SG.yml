@@ -1,71 +1,31 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 0,12|🇸🇬 新加坡2|@ripaojiedian
-  password: UAO72K511KYT7NM7
-  port: 16003
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇸🇬5 |  1.7MB/s|Youtube|Openai|...
-  port: 30028
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 61b159b3-860b-460b-a2e2-3c4ad3a42a23
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇸🇬6 |  2.5MB/s|Netflix|Disney|...
-  port: 20015
-  server: i.needss.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 61b159b3-860b-460b-a2e2-3c4ad3a42a23
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 827aa6ac-42c3-4f58-86ff-8ddb043c6d2f
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: f5c178ef-cfcb-4af2-a43f-de4b4f519bed
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 827aa6ac-42c3-4f58-86ff-8ddb043c6d2f
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: f5c178ef-cfcb-4af2-a43f-de4b4f519bed
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: b56d3624-35ef-4ca7-b1a7-7e0928aae4a7
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: b56d3624-35ef-4ca7-b1a7-7e0928aae4a7
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: b56d3624-35ef-4ca7-b1a7-7e0928aae4a7
-  port: 31175
-  server: free.2apzhfa.xyz
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 1,11|🇸🇬 新加坡2|@ripaojiedian
+  password: UAO72K511KYT7NM7
+  port: 16003
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
