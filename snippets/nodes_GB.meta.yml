@@ -1,4 +1,66 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 91078b3f-52c6-4745-9151-8e4470883976
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 91078b3f-52c6-4745-9151-8e4470883976
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 7667e214-4c89-47e3-8a4e-ca88da24e0c3
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 7667e214-4c89-47e3-8a4e-ca88da24e0c3
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇬🇧1 |  1.6MB/s|33%|Openai
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: xN9xmYjM5o_W7IpLQnKNPd2TZbtCZhGFjtvHg0XP9hU
+    short-id: 67dcdbd6ed95f729
+  server: G1.misaghreserve.ir
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84ce5157-4867-4bea-8ae9-f1d7afe3b0ed
+  xudp: true
+- client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - /Join_Bade_Channel@JOKERRVPN
+    path:
+    - /
+  name: 2|🇬🇧2 |  1.8MB/s|33%|Openai
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: xN9xmYjM5o_W7IpLQnKNPd2TZbtCZhGFjtvHg0XP9hU
+    short-id: 67dcdbd6ed95f729
+  server: 77.110.101.46
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84ce5157-4867-4bea-8ae9-f1d7afe3b0ed
+  xudp: true
 - alpn:
   - h3
   name: 10|🇬🇧@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام

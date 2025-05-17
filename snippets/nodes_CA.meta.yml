@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 91078b3f-52c6-4745-9151-8e4470883976
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 7667e214-4c89-47e3-8a4e-ca88da24e0c3
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0022
