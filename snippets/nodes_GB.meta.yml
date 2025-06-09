@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：abluecloud.xyz
-  password: 90744e69-b869-4805-b320-b9ac71ab2ca2
+  name: 0|5🇭🇰香港|官网：蓝色海洋.xyz
+  password: 6f7be94a-1368-4291-9e0c-750e36ce254e
   port: 36141
   server: freea.glyphara.com
   type: ss
