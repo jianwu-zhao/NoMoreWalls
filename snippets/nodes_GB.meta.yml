@@ -1,28 +1,20 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|5🇭🇰香港|官网：a5b3cloud.pro
-  password: 4c78bb23-1fa3-4517-ba44-2dc13dbb1b8f
+  password: fea74fe9-7521-4d9e-892f-137c0b6b4705
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
-- name: '8,10|Channel id: @ShadowProxy66🇬🇧 #1'
+- name: '9,11|Channel id: @ShadowProxy66🇬🇧 #1'
   password: e48d6377dda26840
   port: 42353
   server: 185.184.70.120
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇬🇧 #2'
-  password: nfsn666
-  port: 8888
-  server: 130.162.182.250
-  skip-cert-verify: true
-  sni: ld-arm.nfsn666.gq
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: 13|GB_speednode_0015
+  name: 14|GB_speednode_0015
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
