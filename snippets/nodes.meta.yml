@@ -1866,7 +1866,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9,10|@warp_city #2'
+- name: '9|Channel id: @ShadowProxy66🇷'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -2062,16 +2062,6 @@ proxies:
   sni: all-v4.dgi000.store
   tls: false
   type: hysteria2
-- name: 10|@warp_city
-  obfs: salamander
-  obfs-password: '@warp_city'
-  password: '@warp_city'
-  port: 35000
-  server: jnir-5.pichondan.com
-  skip-cert-verify: false
-  sni: pichondan.com
-  tls: false
-  type: hysteria2
 - name: 10|🇱telegram  @v2rayNG_Matsuri
   password: AZrgUfcGknbd6Q6LHkzMT0ODVk
   port: 32089
@@ -2133,16 +2123,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@warp_city #1'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35000
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
 - name: 10|کاا  ا  و مل  prox@
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -2197,7 +2177,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|ه 🇷🇺 @V2xay
+- name: 10| 🇺 @V2xay
   password: dongtaiwang.com
   port: 30033
   server: 46.17.41.217
