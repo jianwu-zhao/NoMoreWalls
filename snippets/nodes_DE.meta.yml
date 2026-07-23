@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 7,8|@KAFING_2
+- name: 7| - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -15,83 +15,5 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 8|@V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 5NLxoNSwj0
-  port: 40837
-  server: 162.19.181.176
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: '8|🇩🇪@V2RayyNGvpn ا  '
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 73x493S1pE
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: RSGabzHJGl
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: ZkWtnfGK6h
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 8|20@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8443
-  server: 172.86.94.97
-  sni: de5-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: 8|9@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8433
-  server: 172.86.95.17
-  sni: de1-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: 8|42@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8433
-  server: de1-hy2.veilvpn.life
-  sni: de1-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: 8|55@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8443
-  server: de5-hy2.veilvpn.life
-  sni: de5-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: '8|Telegram=V2RayyNGvpn🇩🇪 #1'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: fGc3qPlaQk
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
   tls: false
   type: hysteria2
