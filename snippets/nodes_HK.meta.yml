@@ -1,5 +1,5 @@
 proxies:
-- name: 9|🇰|HK|@wxgqlfx|222
+- name: 9|🇭🇰|HK|@wxgqlfx|222
   password: d325f389-7bc9-4d6a-8a2b-7dd4f7ab6e9f
   port: 443
   server: ru.h.topbelka.ru
@@ -50,3 +50,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 13|HK_speednode_0012
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 13|HK_speednode_0013
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
