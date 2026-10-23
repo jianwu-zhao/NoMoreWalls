@@ -15,7 +15,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9|@Shh_Proxy-New¹
+- name: 9|@V2rayng_mar_ket
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
   password: 35d26d53bc
@@ -144,16 +144,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 9|🇷198624 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: 3mVEvYnmg5a4U6_66TQgh1W8
-  password: L5h99fyPz7ER5yxTks4tjDjHQa5Sk96s
-  port: 443
-  server: ir1.wufpel.ir
-  skip-cert-verify: false
-  sni: b2ab2c3a2670d4b2.wufpel.ir
   tls: false
   type: hysteria2
 - name: 9|@meliproxyy
@@ -306,7 +296,7 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
-- name: 9|@V2rayng_mar_ket
+- name: '9|@V2rayng_mar_ket #1'
   obfs: salamander
   obfs-password: ec66908dbc46e6920143d9b684adf277
   password: ca78f919e6
